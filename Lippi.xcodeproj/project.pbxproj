@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4548E06E1D22E56700257BDC /* ShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E06D1D22E56700257BDC /* ShadeViewController.swift */; };
+		4548E0721D22E88C00257BDC /* SelectShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */; };
+		4548E0741D22E97700257BDC /* SelectProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E0731D22E97700257BDC /* SelectProductViewController.swift */; };
 		454C60FD1D1F5CDE0053B661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C60FC1D1F5CDE0053B661 /* AppDelegate.swift */; };
-		454C60FF1D1F5CDE0053B661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C60FE1D1F5CDE0053B661 /* ViewController.swift */; };
 		454C61021D1F5CDE0053B661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454C61001D1F5CDE0053B661 /* Main.storyboard */; };
 		454C61041D1F5CDE0053B661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454C61031D1F5CDE0053B661 /* Assets.xcassets */; };
 		454C61071D1F5CDE0053B661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */; };
+		454C610F1D1FB09B0053B661 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */; };
+		454C61111D1FB0D80053B661 /* SpecificShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */; };
+		45A881081D2448EE001E1EAD /* SpecificShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A881071D2448EE001E1EAD /* SpecificShade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		454C60F91D1F5CDE0053B661 /* makeupselector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeupselector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4548E06D1D22E56700257BDC /* ShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadeViewController.swift; sourceTree = "<group>"; };
+		4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectShadeViewController.swift; sourceTree = "<group>"; };
+		4548E0731D22E97700257BDC /* SelectProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectProductViewController.swift; sourceTree = "<group>"; };
+		454C60F91D1F5CDE0053B661 /* Lippi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lippi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454C60FC1D1F5CDE0053B661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		454C60FE1D1F5CDE0053B661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		454C61011D1F5CDE0053B661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		454C61031D1F5CDE0053B661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454C61061D1F5CDE0053B661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454C61081D1F5CDE0053B661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShadeViewController.swift; sourceTree = "<group>"; };
+		45A881071D2448EE001E1EAD /* SpecificShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +56,7 @@
 		454C60FA1D1F5CDE0053B661 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				454C60F91D1F5CDE0053B661 /* makeupselector.app */,
+				454C60F91D1F5CDE0053B661 /* Lippi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				454C60FC1D1F5CDE0053B661 /* AppDelegate.swift */,
-				454C60FE1D1F5CDE0053B661 /* ViewController.swift */,
+				45A881061D2448D5001E1EAD /* Models */,
+				4548E06D1D22E56700257BDC /* ShadeViewController.swift */,
+				454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */,
+				454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */,
 				454C61001D1F5CDE0053B661 /* Main.storyboard */,
+				4548E0731D22E97700257BDC /* SelectProductViewController.swift */,
+				4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */,
 				454C61031D1F5CDE0053B661 /* Assets.xcassets */,
 				454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */,
 				454C61081D1F5CDE0053B661 /* Info.plist */,
@@ -64,12 +79,20 @@
 			path = makeupselector;
 			sourceTree = "<group>";
 		};
+		45A881061D2448D5001E1EAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45A881071D2448EE001E1EAD /* SpecificShade.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		454C60F81D1F5CDE0053B661 /* makeupselector */ = {
+		454C60F81D1F5CDE0053B661 /* Lippi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 454C610B1D1F5CDE0053B661 /* Build configuration list for PBXNativeTarget "makeupselector" */;
+			buildConfigurationList = 454C610B1D1F5CDE0053B661 /* Build configuration list for PBXNativeTarget "Lippi" */;
 			buildPhases = (
 				454C60F51D1F5CDE0053B661 /* Sources */,
 				454C60F61D1F5CDE0053B661 /* Frameworks */,
@@ -79,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = makeupselector;
+			name = Lippi;
 			productName = makeupselector;
-			productReference = 454C60F91D1F5CDE0053B661 /* makeupselector.app */;
+			productReference = 454C60F91D1F5CDE0053B661 /* Lippi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 454C60F41D1F5CDE0053B661 /* Build configuration list for PBXProject "makeupselector" */;
+			buildConfigurationList = 454C60F41D1F5CDE0053B661 /* Build configuration list for PBXProject "Lippi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				454C60F81D1F5CDE0053B661 /* makeupselector */,
+				454C60F81D1F5CDE0053B661 /* Lippi */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454C60FF1D1F5CDE0053B661 /* ViewController.swift in Sources */,
+				45A881081D2448EE001E1EAD /* SpecificShade.swift in Sources */,
+				4548E06E1D22E56700257BDC /* ShadeViewController.swift in Sources */,
+				4548E0721D22E88C00257BDC /* SelectShadeViewController.swift in Sources */,
 				454C60FD1D1F5CDE0053B661 /* AppDelegate.swift in Sources */,
+				454C610F1D1FB09B0053B661 /* CollectionViewCell.swift in Sources */,
+				4548E0741D22E97700257BDC /* SelectProductViewController.swift in Sources */,
+				454C61111D1FB0D80053B661 /* SpecificShadeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +278,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = makeupselector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.makeuppicker.makeupselector;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.makeupselector;
+				PRODUCT_NAME = Lippi;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -261,16 +291,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = makeupselector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.makeuppicker.makeupselector;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.makeupselector;
+				PRODUCT_NAME = Lippi;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		454C60F41D1F5CDE0053B661 /* Build configuration list for PBXProject "makeupselector" */ = {
+		454C60F41D1F5CDE0053B661 /* Build configuration list for PBXProject "Lippi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454C61091D1F5CDE0053B661 /* Debug */,
@@ -279,13 +311,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		454C610B1D1F5CDE0053B661 /* Build configuration list for PBXNativeTarget "makeupselector" */ = {
+		454C610B1D1F5CDE0053B661 /* Build configuration list for PBXNativeTarget "Lippi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454C610C1D1F5CDE0053B661 /* Debug */,
 				454C610D1D1F5CDE0053B661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
