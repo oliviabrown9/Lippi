@@ -5,7 +5,7 @@ import UIKit
         
         @IBOutlet weak var collectionView: UICollectionView!
         
-        let numberOfCases = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z", "aa", "bb", "cc"]
+//        let numberOfCases = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z", "aa", "bb", "cc"]
         
         let imageArray = [UIImage(named: "biteAmuseBoucheCayenneLipstick"), UIImage(named: "biteAmuseBouchePersimmonLipstick"), UIImage(named: "katVonDStuddedKissArchangelLipstick"), UIImage(named: "katVonDStuddedKissBacheloretteLipstick"), UIImage(named: "katVonDStuddedKissHellbentLipstick"), UIImage(named: "katVonDStuddedKissHexagramLipstick-1"), UIImage(named: "katVonDStuddedKissUnderageRedLipstick"), UIImage(named: "narsFireDownBelowLipstick"), UIImage(named: "narsJungleRedLipstick"), UIImage(named: "narsRedLizardLipstick"), UIImage(named: "narsShanghaiExpressLipstick"), UIImage(named: "sephoraRougeMatteWantedLipstick"), UIImage(named: "urbanDecayViceBadBloodLipstick"), UIImage(named: "urbanDecayViceHexLipstick"), UIImage(named: "urbanDecayViceSheerFBombLipstick"), UIImage(named: "urbanDecayViceZealotLipstick"), UIImage(named: "givenchyLeRougeCarminEscarpinLipstick"), UIImage(named: "givenchyLeRougeRougeEgerieLipstick"), UIImage(named: "givenchyRougeInterditVinylRougeRebelleLipstick"), UIImage(named: "louboutinVelvetMatteDivaLipstick"), UIImage(named: "narsAudaciousRitaLipstick"), UIImage(named: "narsAudaciousAnnabellaLipstick"), UIImage(named: "smashboxBeLegendaryBingLipstick"), UIImage(named: "smashboxBeLegendaryUnzippedLipstick"), UIImage(named: "makeUpForEverRougeArtistRed"), UIImage(named: "makeUpForEverRougeArtistRedBrick"), UIImage(named: "smashboxBeLegendaryMadeItLipstick"), UIImage(named: "bobbiBrownLipRedLipstick")]
         
@@ -22,7 +22,7 @@ import UIKit
         
         func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
             
-            return self.numberOfCases.count
+            return self.imageArray.count
         }
         
         func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -32,9 +32,11 @@ import UIKit
             
             cell.imageView?.image = self.imageArray[indexPath.row]
             
-            cell.titleLabel?.text = self.numberOfCases[indexPath.row]
+
             
             return cell
+            
+            //            cell.titleLabel?.text = self.numberOfCases[indexPath.row]
             
         }
         
@@ -52,7 +54,7 @@ import UIKit
                 let vc = segue.destinationViewController as! SpecificShadeViewController
                 
                 vc.image = self.imageArray[indexPath.row]!
-                vc.title = self.numberOfCases[indexPath.row]
+//                vc.title = self.numberOfCases[indexPath.row]
             }
         }
         @IBAction func unwindToShadeViewController(segue: UIStoryboardSegue) {

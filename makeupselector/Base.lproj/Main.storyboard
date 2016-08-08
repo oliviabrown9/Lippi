@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qMB-kT-EnU">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -314,8 +314,20 @@
                                             <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n5h-Tg-TTm">
-                                                    <rect key="frame" x="5" y="5" width="100" height="100"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n5h-Tg-TTm">
+                                                    <rect key="frame" x="-108" y="-99" width="320" height="311"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="320" id="0ob-FB-74f"/>
+                                                        <constraint firstAttribute="width" constant="320" id="DYT-Lm-CL3"/>
+                                                        <constraint firstAttribute="height" constant="311" id="YVH-yr-Y8I"/>
+                                                        <constraint firstAttribute="height" constant="311" id="jXb-Kx-Mde"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="0ob-FB-74f"/>
+                                                            <exclude reference="jXb-Kx-Mde"/>
+                                                        </mask>
+                                                    </variation>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -324,8 +336,22 @@
                                             <constraint firstItem="n5h-Tg-TTm" firstAttribute="top" secondItem="VXl-X7-BJN" secondAttribute="top" id="18H-dc-E9d"/>
                                             <constraint firstItem="n5h-Tg-TTm" firstAttribute="leading" secondItem="VXl-X7-BJN" secondAttribute="leading" id="7lq-TX-FAF"/>
                                             <constraint firstAttribute="trailing" secondItem="n5h-Tg-TTm" secondAttribute="trailing" id="8FS-6u-fxD"/>
+                                            <constraint firstItem="n5h-Tg-TTm" firstAttribute="top" secondItem="VXl-X7-BJN" secondAttribute="topMargin" constant="-107" id="CU9-BZ-mej"/>
+                                            <constraint firstItem="n5h-Tg-TTm" firstAttribute="leading" secondItem="VXl-X7-BJN" secondAttribute="leadingMargin" constant="-116" id="T6z-Zr-020"/>
                                             <constraint firstAttribute="bottom" secondItem="n5h-Tg-TTm" secondAttribute="bottom" id="UNN-7A-anL"/>
+                                            <constraint firstItem="n5h-Tg-TTm" firstAttribute="leading" secondItem="VXl-X7-BJN" secondAttribute="leadingMargin" constant="-116" id="VCs-Mv-uod"/>
+                                            <constraint firstItem="n5h-Tg-TTm" firstAttribute="top" secondItem="VXl-X7-BJN" secondAttribute="topMargin" constant="-107" id="reD-7L-Zgj"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="18H-dc-E9d"/>
+                                                <exclude reference="7lq-TX-FAF"/>
+                                                <exclude reference="8FS-6u-fxD"/>
+                                                <exclude reference="CU9-BZ-mej"/>
+                                                <exclude reference="UNN-7A-anL"/>
+                                                <exclude reference="VCs-Mv-uod"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <outlet property="imageView" destination="n5h-Tg-TTm" id="j6E-0z-bwq"/>
                                         </connections>
@@ -363,7 +389,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoR-QA-j02" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Qpa-Zm-Ts0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2277" y="974"/>
+            <point key="canvasLocation" x="2276.5" y="973.5"/>
         </scene>
         <!--Specific Shade View Controller-->
         <scene sceneID="PXm-lo-1ys">
@@ -377,10 +403,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ml-HD-vlk">
-                                <rect key="frame" x="56" y="120" width="130" height="86"/>
-                                <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Bite Beauty" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E3W-UZ-Gbf">
                                 <rect key="frame" x="229" y="135" width="97" height="33"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
@@ -463,14 +485,40 @@
                                 <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EdO-Kc-NOd">
+                                <rect key="frame" x="62" y="134" width="130" height="130"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ml-HD-vlk">
+                                        <rect key="frame" x="-170" y="-146" width="471" height="421"/>
+                                        <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="471" id="2bi-cK-sOP"/>
+                                            <constraint firstAttribute="height" constant="421" id="f20-wq-6XB"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="3ml-HD-vlk" firstAttribute="top" secondItem="EdO-Kc-NOd" secondAttribute="top" constant="-146" id="3mC-rj-ea1"/>
+                                    <constraint firstItem="3ml-HD-vlk" firstAttribute="top" secondItem="EdO-Kc-NOd" secondAttribute="top" constant="-94" id="4XH-MM-l5h"/>
+                                    <constraint firstAttribute="width" constant="130" id="8II-Zu-Q3L"/>
+                                    <constraint firstItem="3ml-HD-vlk" firstAttribute="leading" secondItem="EdO-Kc-NOd" secondAttribute="leading" constant="-170" id="b88-el-Cjb"/>
+                                    <constraint firstAttribute="height" constant="130" id="odZ-87-8CI"/>
+                                    <constraint firstItem="3ml-HD-vlk" firstAttribute="leading" secondItem="EdO-Kc-NOd" secondAttribute="leading" constant="-77" id="xia-Nf-yGq"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4XH-MM-l5h"/>
+                                        <exclude reference="xia-Nf-yGq"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.97906650641025639" green="0.97906650641025639" blue="0.97906650641025639" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="3ml-HD-vlk" secondAttribute="trailing" constant="189" id="ZW1-Ya-gew"/>
+                            <constraint firstItem="EdO-Kc-NOd" firstAttribute="leading" secondItem="pSz-sm-xgZ" secondAttribute="leadingMargin" constant="42" id="AjL-bu-qGY"/>
+                            <constraint firstItem="EdO-Kc-NOd" firstAttribute="top" secondItem="c6a-0X-hWk" secondAttribute="bottom" constant="32" id="UEF-nO-c65"/>
                             <constraint firstItem="c6a-0X-hWk" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="dE1-fK-NBj"/>
-                            <constraint firstItem="3ml-HD-vlk" firstAttribute="top" secondItem="pSz-sm-xgZ" secondAttribute="top" constant="120" id="fDI-1J-Q8D"/>
-                            <constraint firstItem="3ml-HD-vlk" firstAttribute="leading" secondItem="pSz-sm-xgZ" secondAttribute="leading" constant="56" id="fKB-xd-R6r"/>
-                            <constraint firstItem="3ml-HD-vlk" firstAttribute="bottom" secondItem="6Fa-uI-SLB" secondAttribute="top" constant="-417" id="iLP-Qg-CUy"/>
                             <constraint firstItem="c6a-0X-hWk" firstAttribute="top" secondItem="HQi-RF-tkX" secondAttribute="bottom" constant="41" id="zYA-Ig-YLi"/>
                         </constraints>
                     </view>
@@ -485,7 +533,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XFX-Nm-LIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="TA3-8X-EGG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2912.5" y="973.5"/>
+            <point key="canvasLocation" x="2697.5" y="973.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1Fq-iU-NFg">
