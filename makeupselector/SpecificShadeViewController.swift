@@ -11,12 +11,32 @@ import UIKit
 class SpecificShadeViewController: UIViewController {
     
     var image = UIImage()
-
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var buyNowButton: UIButton!
-    
     @IBOutlet weak var unwindToShadeViewController: UIBarButtonItem!
     var webLink: NSURL!
+    
+    @IBOutlet weak var title1: UITextView!
+    
+    @IBOutlet weak var title2: UITextView!
+    
+    @IBOutlet weak var title3: UITextView!
+    
+    @IBOutlet weak var price: UITextView!
+    
+    @IBOutlet weak var whatitis: UITextView!
+    
+    @IBOutlet weak var whatitdoes: UITextView!
+    
+    var weblink_values: String = String()
+    var title1_value: String = String()
+    var title2_value: String = String()
+    var title3_value:String = String()
+    var price_value: String = String()
+    var whatitis_value: String = String()
+    var whatitdoes_value: String = String()
+    
     
     override func viewDidLoad()
     {
@@ -24,10 +44,18 @@ class SpecificShadeViewController: UIViewController {
         
         self.imageView.image = self.image
         
-        webLink = NSURL(string: "http://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796879&icid2=D%3Dc6%3Aproducts%20grid%3Ap405057")
+        //        webLink = NSURL(string: "http://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796879&icid2=D%3Dc6%3Aproducts%20grid%3Ap405057")
+        webLink = NSURL(string: self.weblink_values)
+        
+        self.title1.text = self.title1_value
+        self.title2.text = self.title2_value
+        self.title3.text = self.title3_value
+        self.price.text = self.price_value
+        self.whatitis.text = self.whatitis_value
+        self.whatitdoes.text = self.whatitdoes_value
         
     }
-
+    
     @IBAction func buyNowButton(sender: AnyObject)
     {
         UIApplication.sharedApplication().openURL(webLink)
@@ -38,15 +66,15 @@ class SpecificShadeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

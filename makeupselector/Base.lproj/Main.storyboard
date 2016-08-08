@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qMB-kT-EnU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UrY-7W-lzt">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -193,16 +193,6 @@
                                     <segue destination="qMB-kT-EnU" kind="show" id="udd-fB-yGu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the shade of..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBV-XI-hut">
-                                <rect key="frame" x="56" y="130" width="263" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="5fF-EF-PkB"/>
-                                    <constraint firstAttribute="width" constant="263" id="Upy-8F-cPG"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
-                                <color key="textColor" red="0.4534254808" green="0.4534254808" blue="0.4534254808" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKZ-0T-Umc">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="backgroundColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -238,6 +228,16 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for lipstick in the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBV-XI-hut">
+                                <rect key="frame" x="7" y="107" width="361" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="5fF-EF-PkB"/>
+                                    <constraint firstAttribute="width" constant="361" id="Upy-8F-cPG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                <color key="textColor" red="0.4534254808" green="0.4534254808" blue="0.4534254808" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -245,13 +245,13 @@
                             <constraint firstItem="e45-la-tUH" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="6hv-Q6-Gdx"/>
                             <constraint firstItem="BGL-gA-Vs7" firstAttribute="top" secondItem="olU-br-oMQ" secondAttribute="bottom" constant="16" id="CSV-Aw-i9F"/>
                             <constraint firstItem="aC1-Dc-xdZ" firstAttribute="top" secondItem="BgL-Jl-hYu" secondAttribute="bottom" constant="17" id="Qbf-nK-ctd"/>
-                            <constraint firstItem="CBV-XI-hut" firstAttribute="top" secondItem="yTx-eP-ClF" secondAttribute="bottom" constant="31" id="Qpt-Hq-o0m"/>
+                            <constraint firstItem="CBV-XI-hut" firstAttribute="top" secondItem="yTx-eP-ClF" secondAttribute="bottom" constant="8" id="Qpt-Hq-o0m"/>
                             <constraint firstItem="aC1-Dc-xdZ" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="Uc6-Fq-deP"/>
                             <constraint firstItem="BGL-gA-Vs7" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="VLM-ro-jWf"/>
                             <constraint firstItem="BgL-Jl-hYu" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="b8O-fk-Tah"/>
                             <constraint firstItem="olU-br-oMQ" firstAttribute="top" secondItem="aC1-Dc-xdZ" secondAttribute="bottom" constant="16" id="fin-dz-T7f"/>
                             <constraint firstItem="X9w-86-Kif" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="hC7-zd-Egt"/>
-                            <constraint firstItem="BgL-Jl-hYu" firstAttribute="top" secondItem="CBV-XI-hut" secondAttribute="bottom" constant="52" id="hWx-Vr-Plx"/>
+                            <constraint firstItem="BgL-Jl-hYu" firstAttribute="top" secondItem="CBV-XI-hut" secondAttribute="bottom" constant="14" id="hWx-Vr-Plx"/>
                             <constraint firstItem="e45-la-tUH" firstAttribute="top" secondItem="BGL-gA-Vs7" secondAttribute="bottom" constant="28" id="jpW-oz-5iW"/>
                             <constraint firstItem="yTx-eP-ClF" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="kb1-gt-ItE"/>
                             <constraint firstItem="CBV-XI-hut" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="rpi-dc-2fD"/>

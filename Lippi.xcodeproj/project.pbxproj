@@ -17,6 +17,7 @@
 		454C610F1D1FB09B0053B661 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */; };
 		454C61111D1FB0D80053B661 /* SpecificShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */; };
 		45A881081D2448EE001E1EAD /* SpecificShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A881071D2448EE001E1EAD /* SpecificShade.swift */; };
+		45BD136F1D58FEE000CEFBE5 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD136E1D58FEE000CEFBE5 /* DetailData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShadeViewController.swift; sourceTree = "<group>"; };
 		45A881071D2448EE001E1EAD /* SpecificShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShade.swift; sourceTree = "<group>"; };
+		45BD136E1D58FEE000CEFBE5 /* DetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				454C61031D1F5CDE0053B661 /* Assets.xcassets */,
 				454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */,
 				454C61081D1F5CDE0053B661 /* Info.plist */,
+				45BD136E1D58FEE000CEFBE5 /* DetailData.swift */,
 			);
 			path = makeupselector;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BD136F1D58FEE000CEFBE5 /* DetailData.swift in Sources */,
 				45A881081D2448EE001E1EAD /* SpecificShade.swift in Sources */,
 				4548E06E1D22E56700257BDC /* ShadeViewController.swift in Sources */,
 				4548E0721D22E88C00257BDC /* SelectShadeViewController.swift in Sources */,
