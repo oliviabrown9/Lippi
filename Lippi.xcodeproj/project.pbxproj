@@ -16,8 +16,13 @@
 		454C61071D1F5CDE0053B661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */; };
 		454C610F1D1FB09B0053B661 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */; };
 		454C61111D1FB0D80053B661 /* SpecificShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */; };
+<<<<<<< HEAD
 		9935F03F51BA512DCF57B966 /* Pods_Lippi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FB3E243D601957CD7E2F49 /* Pods_Lippi.framework */; };
 		EB5685B21D2538E5004E4D51 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5685B11D2538E5004E4D51 /* DetailData.swift */; };
+=======
+		45A881081D2448EE001E1EAD /* SpecificShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A881071D2448EE001E1EAD /* SpecificShade.swift */; };
+		45BD136F1D58FEE000CEFBE5 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD136E1D58FEE000CEFBE5 /* DetailData.swift */; };
+>>>>>>> origin/master
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +39,13 @@
 		454C61081D1F5CDE0053B661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShadeViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		4F3D131DFBA6C12CFA5D7F93 /* Pods-Lippi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lippi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lippi/Pods-Lippi.release.xcconfig"; sourceTree = "<group>"; };
 		EB5685B11D2538E5004E4D51 /* DetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
+=======
+		45A881071D2448EE001E1EAD /* SpecificShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShade.swift; sourceTree = "<group>"; };
+		45BD136E1D58FEE000CEFBE5 /* DetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
+>>>>>>> origin/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +101,11 @@
 				454C61031D1F5CDE0053B661 /* Assets.xcassets */,
 				454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */,
 				454C61081D1F5CDE0053B661 /* Info.plist */,
+<<<<<<< HEAD
 				EB5685B11D2538E5004E4D51 /* DetailData.swift */,
+=======
+				45BD136E1D58FEE000CEFBE5 /* DetailData.swift */,
+>>>>>>> origin/master
 			);
 			path = makeupselector;
 			sourceTree = "<group>";
@@ -234,7 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				EB5685B21D2538E5004E4D51 /* DetailData.swift in Sources */,
+=======
+				45BD136F1D58FEE000CEFBE5 /* DetailData.swift in Sources */,
+				45A881081D2448EE001E1EAD /* SpecificShade.swift in Sources */,
+>>>>>>> origin/master
 				4548E06E1D22E56700257BDC /* ShadeViewController.swift in Sources */,
 				4548E0721D22E88C00257BDC /* SelectShadeViewController.swift in Sources */,
 				454C60FD1D1F5CDE0053B661 /* AppDelegate.swift in Sources */,
