@@ -248,7 +248,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXo-fV-dvv">
-                                <rect key="frame" x="221" y="629" width="149" height="30"/>
+                                <rect key="frame" x="113" y="629" width="149" height="30"/>
                                 <state key="normal" title="Talk to Team Lippi"/>
                             </button>
                         </subviews>
