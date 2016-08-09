@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>215361238638-oabhjdfcq9hgpddc91m0qc0d4opdmmkg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.215361238638-oabhjdfcq9hgpddc91m0qc0d4opdmmkg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_JH6HDSK6hKGYuWhNodAks82bsqD2sdk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>215361238638</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.okitsolivia.makeupselector</string>
+	<key>PROJECT_ID</key>
+	<string>lippi-3f009</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lippi-3f009.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:215361238638:ios:299a3204e5122e2f</string>
+	<key>DATABASE_URL</key>
+	<string>https://lippi-3f009.firebaseio.com</string>
+</dict>
+</plist>

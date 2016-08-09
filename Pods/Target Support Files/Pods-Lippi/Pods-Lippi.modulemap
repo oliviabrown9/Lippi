@@ -1,0 +1,6 @@
+framework module Pods_Lippi {
+  umbrella header "Pods-Lippi-umbrella.h"
+
+  export *
+  module * { export * }
+}
