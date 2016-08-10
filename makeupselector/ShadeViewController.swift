@@ -44,9 +44,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         }else if self.button_number == 5 {
             cell.imageView?.image = UIImage(named: detaildata.imageArray_nude[indexPath.row])
         }
-        
         return cell
-        
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
