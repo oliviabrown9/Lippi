@@ -53,11 +53,11 @@ class SelectShadeViewController: UIViewController {
         performSegueWithIdentifier("Identifier", sender: sender)
     }
     
-    
-    @IBAction func Anything_Btn(sender: AnyObject) {
-        self.button_sort = 6
-        performSegueWithIdentifier("Identifier", sender: sender)
-    }
+//    
+//    @IBAction func Anything_Btn(sender: AnyObject) {
+//        self.button_sort = 6
+//        performSegueWithIdentifier("Identifier", sender: sender)
+//    }
     
     
     

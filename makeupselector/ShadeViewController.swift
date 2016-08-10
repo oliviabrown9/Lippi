@@ -38,9 +38,10 @@ import UIKit
                 cell.imageView?.image = UIImage(named: detaildata.imageArray_coral[indexPath.row])
             }else if self.button_number == 5 {
                 cell.imageView?.image = UIImage(named: detaildata.imageArray_nude[indexPath.row])
-            }else if self.button_number == 6 {
-                cell.imageView?.image = UIImage(named: detaildata.imageArray_anything[indexPath.row])
             }
+//            else if self.button_number == 6 {
+//                cell.imageView?.image = UIImage(named: detaildata.imageArray_anything[indexPath.row])
+//            }
             
             
             return cell
@@ -110,17 +111,18 @@ import UIKit
                     vc.whatitis_value = detaildata.whatitis_array_nude[indexPath.row]
                     vc.whatitdoes_value = detaildata.whatitdoes_array_nude[indexPath.row]
                     vc.weblink_values = detaildata.weblink_array_nude[indexPath.row]
-                }else if self.button_number == 6 {
-                    vc.image = UIImage(named: detaildata.imageArray_anything[indexPath.row])!
-                    vc.title = self.numberOfCases[indexPath.row]
-                    vc.title1_value = detaildata.title1_array_anything[indexPath.row]
-                    vc.title2_value = detaildata.title2_array_anything[indexPath.row]
-                    vc.title3_value = detaildata.title3_array_anything[indexPath.row]
-                    vc.price_value = detaildata.price_array_anything[indexPath.row]
-                    vc.whatitis_value = detaildata.whatitis_array_anything[indexPath.row]
-                    vc.whatitdoes_value = detaildata.whatitdoes_array_anything[indexPath.row]
-                    vc.weblink_values = detaildata.weblink_array_anything[indexPath.row]
                 }
+//                    else if self.button_number == 6 {
+//                    vc.image = UIImage(named: detaildata.imageArray_anything[indexPath.row])!
+//                    vc.title = self.numberOfCases[indexPath.row]
+//                    vc.title1_value = detaildata.title1_array_anything[indexPath.row]
+//                    vc.title2_value = detaildata.title2_array_anything[indexPath.row]
+//                    vc.title3_value = detaildata.title3_array_anything[indexPath.row]
+//                    vc.price_value = detaildata.price_array_anything[indexPath.row]
+//                    vc.whatitis_value = detaildata.whatitis_array_anything[indexPath.row]
+//                    vc.whatitdoes_value = detaildata.whatitdoes_array_anything[indexPath.row]
+//                    vc.weblink_values = detaildata.weblink_array_anything[indexPath.row]
+//                }
 
             }
         }
