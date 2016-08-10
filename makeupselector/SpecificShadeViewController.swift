@@ -11,34 +11,9 @@ import Firebase
 
 class SpecificShadeViewController: UIViewController {
     
+    //Class Variables
     var image = UIImage()
-    
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var buyNowButton: UIButton!
-    @IBAction func clickedBuyNowButton(sender: AnyObject) {
-        FIRAnalytics.logEventWithName(kFIREventSelectContent, parameters: [
-            kFIRParameterContentType:"cont",
-            kFIRParameterItemID:"1"
-            ])
-    }
-    
-    @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
-        // defining method
-    }
     var webLink: NSURL!
-
-    @IBOutlet weak var title1: UITextView!
-    
-    @IBOutlet weak var title2: UITextView!
-    
-    @IBOutlet weak var title3: UITextView!
-    
-    @IBOutlet weak var price: UITextView!
-    
-    @IBOutlet weak var whatitis: UITextView!
-    
-    @IBOutlet weak var whatitdoes: UITextView!
-    
     var weblink_values: String = String()
     var title1_value: String = String()
     var title2_value: String = String()
@@ -47,13 +22,34 @@ class SpecificShadeViewController: UIViewController {
     var whatitis_value: String = String()
     var whatitdoes_value: String = String()
     
-    override func viewDidLoad()
-    {
+    //IBOutlets
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var buyNowButton: UIButton!
+    @IBOutlet weak var title1: UITextView!
+    @IBOutlet weak var title2: UITextView!
+    @IBOutlet weak var title3: UITextView!
+    @IBOutlet weak var price: UITextView!
+    @IBOutlet weak var whatitis: UITextView!
+    @IBOutlet weak var whatitdoes: UITextView!
+    
+    //IBActions
+    @IBAction func clickedBuyNowButton(sender: AnyObject) {
+        FIRAnalytics.logEventWithName(kFIREventSelectContent, parameters: [
+            kFIRParameterContentType:"cont",
+            kFIRParameterItemID:"1"
+            ])}
+    @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
+        // defining method
+    }
+    @IBAction func buyNowButton(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(webLink)
+    }
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Setting Text Fields to Value from Array
         self.imageView.image = self.image
-        
-//        webLink = NSURL(string: "http://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796879&icid2=D%3Dc6%3Aproducts%20grid%3Ap405057")
         webLink = NSURL(string: self.weblink_values)
         self.title1.text = self.title1_value
         self.title2.text = self.title2_value
@@ -61,11 +57,6 @@ class SpecificShadeViewController: UIViewController {
         self.price.text = self.price_value
         self.whatitis.text = self.whatitis_value
         self.whatitdoes.text = self.whatitdoes_value
-    }
-
-    @IBAction func buyNowButton(sender: AnyObject)
-    {
-        UIApplication.sharedApplication().openURL(webLink)
     }
     
     override func didReceiveMemoryWarning() {
