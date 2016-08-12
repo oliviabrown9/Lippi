@@ -13,7 +13,7 @@ let textMessageRecipients = ["1-417-501-6709"]
 
 class MessageComposer: NSObject, MFMessageComposeViewControllerDelegate {
     
-    // A wrapper function to indicate whether or not a text message can be sent from the user's device
+    // Checks if a text message can be sent from the user's device
     func canSendText() -> Bool {
         return MFMessageComposeViewController.canSendText()
     }
@@ -25,7 +25,7 @@ class MessageComposer: NSObject, MFMessageComposeViewControllerDelegate {
         messageComposeVC.body = "Hey Team Lippi! I have some feedback for you about the app: "
         return messageComposeVC
     }
-    // MFMessageComposeViewControllerDelegate callback - dismisses the view controller when the user is finished with it
+    // Dismisses the view controller when the user is finished with it
     func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
         controller.dismissViewControllerAnimated(true, completion: nil)
     }

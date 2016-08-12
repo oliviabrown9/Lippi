@@ -23,16 +23,14 @@ class SelectShadeViewController: UIViewController {
             let messageComposeVC = messageComposer.configuredMessageComposeViewController()
             presentViewController(messageComposeVC, animated: true, completion: nil)
         } else {
-            let errorAlert = UIAlertView(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", delegate: self, cancelButtonTitle: "OK")
-            errorAlert.show()
+            let errorAlert = UIAlertController(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", preferredStyle: .Alert)
+            errorAlert.addAction(UIAlertAction(title: "OK", style: .Default) { _ in })
+            self.presentViewController(errorAlert, animated: true){}
         }
     }
     
     @IBAction func unwindSelectShadeViewController(segue: UIStoryboardSegue) {
         // defining method
-    }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
     @IBAction func Red_Btn(sender: AnyObject) {
         self.button_sort = 1

@@ -65,11 +65,5 @@ class SpecificShadeViewController: UIViewController {
         self.price.text = self.price_value
         self.whatitis.text = self.whatitis_value
         self.whatitdoes.text = self.whatitdoes_value
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+    }    
 }
