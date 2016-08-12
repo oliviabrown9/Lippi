@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4jd-CR-gTt">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -288,7 +289,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Znb-zU-sn3">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Znb-zU-sn3">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="400" id="4sm-Gi-84k"/>
@@ -321,9 +322,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
                                 <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="157" y="44" width="84" height="41"/>
-                                </variation>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rhc-X2-KCC">
                                 <rect key="frame" x="0.0" y="113" width="599" height="443"/>
@@ -414,15 +412,15 @@
                                 <exclude reference="SLe-t9-GNi"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ZYI-hV-oyL"/>
-                                <exclude reference="fNH-Lv-zQO"/>
-                                <exclude reference="pEG-7R-Xer"/>
                                 <exclude reference="7aX-iZ-tt8"/>
                                 <exclude reference="ELt-DD-Vjr"/>
                                 <exclude reference="tYo-ZL-zCE"/>
                                 <exclude reference="aDo-2D-mq2"/>
                                 <exclude reference="ccV-h3-z7d"/>
                                 <exclude reference="teC-BS-uBI"/>
+                                <exclude reference="ZYI-hV-oyL"/>
+                                <exclude reference="fNH-Lv-zQO"/>
+                                <exclude reference="pEG-7R-Xer"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -432,15 +430,15 @@
                                 <include reference="SLe-t9-GNi"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ZYI-hV-oyL"/>
-                                <include reference="fNH-Lv-zQO"/>
-                                <include reference="pEG-7R-Xer"/>
                                 <include reference="7aX-iZ-tt8"/>
                                 <include reference="ELt-DD-Vjr"/>
                                 <include reference="tYo-ZL-zCE"/>
                                 <include reference="aDo-2D-mq2"/>
                                 <include reference="ccV-h3-z7d"/>
                                 <include reference="teC-BS-uBI"/>
+                                <include reference="ZYI-hV-oyL"/>
+                                <include reference="fNH-Lv-zQO"/>
+                                <include reference="pEG-7R-Xer"/>
                             </mask>
                         </variation>
                     </view>
@@ -467,7 +465,7 @@
                         <viewControllerLayoutGuide type="bottom" id="6Fa-uI-SLB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pSz-sm-xgZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LHf-lh-hUF">
@@ -483,7 +481,7 @@
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Amuse Bouche" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RwJ-SZ-6sB">
-                                <rect key="frame" x="160" y="153" width="221" height="33"/>
+                                <rect key="frame" x="164" y="153" width="438" height="33"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="K5N-6L-6sy"/>
@@ -500,7 +498,7 @@
                                 </variation>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Bite Beauty" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="E3W-UZ-Gbf">
-                                <rect key="frame" x="154" y="131" width="225" height="33"/>
+                                <rect key="frame" x="158" y="131" width="442" height="33"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="188" id="Hf6-d7-HeX"/>
@@ -515,7 +513,7 @@
                                 </variation>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="$26" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YEn-EN-4Wq">
-                                <rect key="frame" x="163" y="184" width="203" height="29"/>
+                                <rect key="frame" x="167" y="184" width="420" height="29"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="188" id="3ip-Id-yvT"/>
@@ -534,7 +532,7 @@
                                 </variation>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Shade: Cayenne" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FO4-GG-J2e">
-                                <rect key="frame" x="154" y="107" width="229" height="31"/>
+                                <rect key="frame" x="158" y="107" width="446" height="31"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="Gpe-cF-h4S"/>
@@ -550,7 +548,7 @@
                                 </variation>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="What it is: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5kF-Th-7Cf">
-                                <rect key="frame" x="16" y="260" width="98" height="35.5"/>
+                                <rect key="frame" x="20" y="260" width="98" height="35.5"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="98" id="BoB-d1-nH3"/>
@@ -561,7 +559,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="What it does: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hrX-M3-7kW">
-                                <rect key="frame" x="16" y="374" width="113" height="33"/>
+                                <rect key="frame" x="20" y="374" width="113" height="33"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="NMB-Do-A4t"/>
@@ -571,17 +569,14 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6a-0X-hWk">
-                                <rect key="frame" x="145" y="52" width="84" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6a-0X-hWk">
+                                <rect key="frame" x="257" y="52" width="84" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
                                 <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="157" y="52" width="84" height="41"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWp-6h-Mqf">
-                                <rect key="frame" x="163" y="218" width="204" height="30"/>
+                                <rect key="frame" x="167" y="218" width="421" height="30"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Hmz-eh-ufs"/>
@@ -600,13 +595,9 @@
                                         <exclude reference="i0w-a7-7qt"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="buyNowButton:" destination="MFo-3v-kZm" eventType="touchUpInside" id="xcF-aB-1EQ"/>
-                                    <action selector="clickedBuyNowButton:" destination="MFo-3v-kZm" eventType="touchUpInside" id="unX-jY-wMs"/>
-                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ki7-YR-r91">
-                                <rect key="frame" x="16" y="290" width="332" height="81"/>
+                                <rect key="frame" x="20" y="290" width="549" height="81"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="81" id="aye-dk-4u4"/>
@@ -622,14 +613,14 @@
                                 </variation>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DV7-zO-5OI">
-                                <rect key="frame" x="16" y="402" width="343" height="245"/>
+                                <rect key="frame" x="20" y="402" width="560" height="178"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Swipe on bold, creamy lip color with Bite Beauty’s Amuse Bouche. Created and crafted by hand, Bite’s small batch, low-heat process preserves a balanced blend of lip-quenching nutrients, vitamins, and omega oils that are essential for achieving healthy-looking lips. Made with 12 edible oils and triple milled pigments, this lipstick provides saturated lip color with weightless coverage and a citrus flavor made from fresh pressed fruit. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqR-m4-edk">
-                                <rect key="frame" x="43" y="122" width="130" height="130"/>
+                                <rect key="frame" x="47" y="122" width="130" height="130"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ml-HD-vlk">
                                         <rect key="frame" x="-219" y="-222" width="568" height="574"/>

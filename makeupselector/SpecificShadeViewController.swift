@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Firebase
 
 class SpecificShadeViewController: UIViewController {
     
@@ -33,11 +32,6 @@ class SpecificShadeViewController: UIViewController {
     @IBOutlet weak var whatitdoes: UITextView!
     
     //IBActions
-    @IBAction func clickedBuyNowButton(sender: AnyObject) {
-        FIRAnalytics.logEventWithName(kFIREventSelectContent, parameters: [
-            kFIRParameterContentType:"cont",
-            kFIRParameterItemID:"1"
-            ])}
     @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
         // defining method
     }
