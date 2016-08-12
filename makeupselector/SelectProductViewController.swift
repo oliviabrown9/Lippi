@@ -11,7 +11,6 @@ import UIKit
 class SelectProductViewController: UIViewController {
     
     @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
-        // defining method
+        // defining unwind method
     }
-    
 }

@@ -64,7 +64,7 @@
 		454C60F01D1F5CDE0053B661 = {
 			isa = PBXGroup;
 			children = (
-				454C60FB1D1F5CDE0053B661 /* makeupselector */,
+				454C60FB1D1F5CDE0053B661 /* Lippi */,
 				454C60FA1D1F5CDE0053B661 /* Products */,
 				0B00284E539D80B1FBC7499D /* Pods */,
 				9BD693020845707B0A4CEB65 /* Frameworks */,
@@ -79,7 +79,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		454C60FB1D1F5CDE0053B661 /* makeupselector */ = {
+		454C60FB1D1F5CDE0053B661 /* Lippi */ = {
 			isa = PBXGroup;
 			children = (
 				454C61001D1F5CDE0053B661 /* Main.storyboard */,
@@ -89,6 +89,7 @@
 				454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */,
 				454C61081D1F5CDE0053B661 /* Info.plist */,
 			);
+			name = Lippi;
 			path = makeupselector;
 			sourceTree = "<group>";
 		};

@@ -56,7 +56,6 @@ class SpecificShadeViewController: UIViewController {
         recognizer.direction = .Right
         self.view .addGestureRecognizer(recognizer)
         
-        //Setting Text Fields to Value from Array
         self.imageView.image = self.image
         webLink = NSURL(string: self.weblink_values)
         self.title1.text = self.title1_value
@@ -65,5 +64,5 @@ class SpecificShadeViewController: UIViewController {
         self.price.text = self.price_value
         self.whatitis.text = self.whatitis_value
         self.whatitdoes.text = self.whatitdoes_value
-    }    
+    }
 }

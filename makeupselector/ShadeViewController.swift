@@ -7,9 +7,16 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     @IBAction func unwindShadeViewController(segue: UIStoryboardSegue) {
         // defining method
     }
+    @IBOutlet weak var slider: UISlider!
     
+    @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     
+    @IBAction func sliderValueChanged(sender: UISlider) {
+        let selectedValue = Int(sender.value)
+        
+        sliderLabel.text = String("$ \(selectedValue)")
+    }
     let numberOfCases = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y"]
     
     var detaildata: DetailData = DetailData()
