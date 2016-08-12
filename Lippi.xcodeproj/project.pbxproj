@@ -97,8 +97,8 @@
 			children = (
 				4548E0731D22E97700257BDC /* SelectProductViewController.swift */,
 				458DB97C1D5BE9DF005A2104 /* Select Shade View Controller */,
-				458DB97B1D5BE9BE005A2104 /* Specific Shade View Controller */,
 				458DB97A1D5BE97A005A2104 /* Shade View Controller */,
+				458DB97B1D5BE9BE005A2104 /* Specific Shade View Controller */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";

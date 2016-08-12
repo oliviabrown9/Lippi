@@ -102,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588.5" y="161.5"/>
+            <point key="canvasLocation" x="1564.5" y="105.5"/>
         </scene>
         <!--Select Shade View Controller-->
         <scene sceneID="fs1-fG-1LW">
@@ -116,8 +116,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
-                                <rect key="frame" x="87" y="268" width="200" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
+                                <rect key="frame" x="199" y="268" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="IME-Br-Xhk"/>
                                     <constraint firstAttribute="width" constant="200" id="aWk-Wm-XTr"/>
@@ -130,8 +130,8 @@
                                     <action selector="Pink_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="RlP-5N-8gF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
-                                <rect key="frame" x="87" y="320" width="200" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
+                                <rect key="frame" x="199" y="320" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="C20-Km-eVO"/>
                                     <constraint firstAttribute="height" constant="44" id="eX7-Ip-55T"/>
@@ -144,8 +144,8 @@
                                     <action selector="Berry_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="eX1-YT-by6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
-                                <rect key="frame" x="87" y="377" width="200" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
+                                <rect key="frame" x="199" y="377" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="dg7-c7-AB0"/>
                                     <constraint firstAttribute="width" constant="200" id="phb-m0-kg8"/>
@@ -158,8 +158,8 @@
                                     <action selector="Coral_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="BHk-gf-LpM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
-                                <rect key="frame" x="87" y="223" width="200" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
+                                <rect key="frame" x="199" y="223" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="iN1-Kv-oL0"/>
                                     <constraint firstAttribute="width" constant="200" id="to6-9Z-Qxo"/>
@@ -184,8 +184,8 @@
                                     <navigationItem id="S7c-F3-Jc0"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-eP-ClF">
-                                <rect key="frame" x="37" y="34" width="301" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-eP-ClF">
+                                <rect key="frame" x="36" y="34" width="301" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="301" id="D2C-ml-IQT"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="Hli-NU-71W"/>
@@ -200,8 +200,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
-                                <rect key="frame" x="87" y="437" width="200" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
+                                <rect key="frame" x="199" y="437" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="DCO-07-2Sg"/>
                                     <constraint firstAttribute="width" constant="200" id="NU4-jA-w5b"/>
@@ -220,8 +220,8 @@
                                     <action selector="Nude_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="PD7-B9-d1w"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for lipstick in the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBV-XI-hut">
-                                <rect key="frame" x="29" y="94" width="317" height="110"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I am looking for lipstick in the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBV-XI-hut">
+                                <rect key="frame" x="28" y="94" width="317" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="5fF-EF-PkB"/>
                                     <constraint firstAttribute="width" constant="317" id="Upy-8F-cPG"/>
@@ -314,8 +314,8 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUV-7J-K2f">
-                                <rect key="frame" x="145" y="44" width="84" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUV-7J-K2f">
+                                <rect key="frame" x="257" y="44" width="84" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
                                 <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -378,12 +378,13 @@
                     <connections>
                         <outlet property="collectionView" destination="Rhc-X2-KCC" id="G5c-Cy-VP7"/>
                         <segue destination="MFo-3v-kZm" kind="show" identifier="showImage" id="jIE-x7-c2N"/>
+                        <segue destination="UrY-7W-lzt" kind="show" identifier="swipeToSelectShade" id="c2u-m3-aiD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoR-QA-j02" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Qpa-Zm-Ts0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3152.5" y="172.5"/>
+            <point key="canvasLocation" x="3400" y="172"/>
         </scene>
         <!--Specific Shade View Controller-->
         <scene sceneID="PXm-lo-1ys">
@@ -731,11 +732,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybb-Gw-Sqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="932" y="162"/>
+            <point key="canvasLocation" x="992" y="106"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9iv-Uk-k43"/>
+        <segue reference="j9D-FF-I9j"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
 </document>
