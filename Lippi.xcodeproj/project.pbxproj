@@ -82,8 +82,8 @@
 		454C60FB1D1F5CDE0053B661 /* makeupselector */ = {
 			isa = PBXGroup;
 			children = (
-				454C60FC1D1F5CDE0053B661 /* AppDelegate.swift */,
 				454C61001D1F5CDE0053B661 /* Main.storyboard */,
+				454C60FC1D1F5CDE0053B661 /* AppDelegate.swift */,
 				458DB9791D5BE865005A2104 /* View Controllers */,
 				454C61031D1F5CDE0053B661 /* Assets.xcassets */,
 				454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */,

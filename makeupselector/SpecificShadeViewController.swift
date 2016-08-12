@@ -45,8 +45,16 @@ class SpecificShadeViewController: UIViewController {
         UIApplication.sharedApplication().openURL(webLink)
     }
     
+    func swipeRight(recognizer : UISwipeGestureRecognizer) {
+        self.performSegueWithIdentifier("swipeToShade", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
+        recognizer.direction = .Right
+        self.view .addGestureRecognizer(recognizer)
         
         //Setting Text Fields to Value from Array
         self.imageView.image = self.image

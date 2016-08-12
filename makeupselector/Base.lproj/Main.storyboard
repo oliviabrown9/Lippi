@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UrY-7W-lzt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4jd-CR-gTt">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -21,41 +21,26 @@
                                 <rect key="frame" x="136" y="207" width="103" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lipstick"/>
-                                <connections>
-                                    <segue destination="UrY-7W-lzt" kind="show" id="qnv-bQ-m31"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ut0-UC-235">
                                 <rect key="frame" x="91" y="269" width="192" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Liquid Lipstick"/>
-                                <connections>
-                                    <segue destination="UrY-7W-lzt" kind="show" id="fLn-AJ-54o"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XR-Al-eHU">
                                 <rect key="frame" x="116" y="337" width="143" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lip Crayon"/>
-                                <connections>
-                                    <segue destination="UrY-7W-lzt" kind="show" id="j9D-FF-I9j"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soY-Cz-p5Q">
                                 <rect key="frame" x="130" y="405" width="115" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lip Stain"/>
-                                <connections>
-                                    <segue destination="UrY-7W-lzt" kind="show" id="f12-C5-ZPO"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ph7-4m-6Z4">
                                 <rect key="frame" x="131" y="467" width="114" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lip Liner"/>
-                                <connections>
-                                    <segue destination="UrY-7W-lzt" kind="show" id="9iv-Uk-k43"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="751" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9P-us-jKJ">
                                 <rect key="frame" x="137" y="47" width="101" height="49"/>
@@ -102,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1564.5" y="105.5"/>
+            <point key="canvasLocation" x="1552.5" y="65.5"/>
         </scene>
         <!--Select Shade View Controller-->
         <scene sceneID="fs1-fG-1LW">
@@ -113,11 +98,11 @@
                         <viewControllerLayoutGuide type="bottom" id="hTW-u3-e81"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tMw-Qy-ClW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
-                                <rect key="frame" x="199" y="268" width="200" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
+                                <rect key="frame" x="200" y="268" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="IME-Br-Xhk"/>
                                     <constraint firstAttribute="width" constant="200" id="aWk-Wm-XTr"/>
@@ -130,8 +115,8 @@
                                     <action selector="Pink_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="RlP-5N-8gF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
-                                <rect key="frame" x="199" y="320" width="200" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
+                                <rect key="frame" x="200" y="320" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="C20-Km-eVO"/>
                                     <constraint firstAttribute="height" constant="44" id="eX7-Ip-55T"/>
@@ -144,8 +129,8 @@
                                     <action selector="Berry_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="eX1-YT-by6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
-                                <rect key="frame" x="199" y="377" width="200" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
+                                <rect key="frame" x="200" y="377" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="dg7-c7-AB0"/>
                                     <constraint firstAttribute="width" constant="200" id="phb-m0-kg8"/>
@@ -158,8 +143,8 @@
                                     <action selector="Coral_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="BHk-gf-LpM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
-                                <rect key="frame" x="199" y="223" width="200" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
+                                <rect key="frame" x="200" y="223" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="iN1-Kv-oL0"/>
                                     <constraint firstAttribute="width" constant="200" id="to6-9Z-Qxo"/>
@@ -173,7 +158,7 @@
                                 </connections>
                             </button>
                             <navigationBar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKZ-0T-Umc">
-                                <rect key="frame" x="-4" y="20" width="383" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <color key="backgroundColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -184,8 +169,8 @@
                                     <navigationItem id="S7c-F3-Jc0"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-eP-ClF">
-                                <rect key="frame" x="36" y="34" width="301" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-eP-ClF">
+                                <rect key="frame" x="149.5" y="34" width="301" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="301" id="D2C-ml-IQT"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="Hli-NU-71W"/>
@@ -200,8 +185,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
-                                <rect key="frame" x="199" y="437" width="200" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
+                                <rect key="frame" x="200" y="437" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="DCO-07-2Sg"/>
                                     <constraint firstAttribute="width" constant="200" id="NU4-jA-w5b"/>
@@ -220,8 +205,8 @@
                                     <action selector="Nude_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="PD7-B9-d1w"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I am looking for lipstick in the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBV-XI-hut">
-                                <rect key="frame" x="28" y="94" width="317" height="110"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for lipstick in the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBV-XI-hut">
+                                <rect key="frame" x="141" y="94" width="317" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="5fF-EF-PkB"/>
                                     <constraint firstAttribute="width" constant="317" id="Upy-8F-cPG"/>
@@ -231,7 +216,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nch-3L-m8y">
-                                <rect key="frame" x="282" y="629" width="77" height="30"/>
+                                <rect key="frame" x="503" y="562" width="77" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="L6l-M6-oMb"/>
                                     <constraint firstAttribute="width" constant="77" id="fdW-Yc-ifg"/>
@@ -282,13 +267,14 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="krW-hx-VCZ"/>
                     <connections>
                         <segue destination="qMB-kT-EnU" kind="show" identifier="Identifier" id="zP7-81-Xpg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwb-Xt-QfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2738.5" y="172.5"/>
+            <point key="canvasLocation" x="2870" y="246"/>
         </scene>
         <!--Shade View Controller-->
         <scene sceneID="5wh-sy-VVA">
@@ -299,7 +285,7 @@
                         <viewControllerLayoutGuide type="bottom" id="WKN-Qe-RRU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9L2-eb-4Na">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Znb-zU-sn3">
@@ -308,20 +294,20 @@
                                     <navigationItem id="XJi-TT-idY">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="cct-MQ-dMb">
                                             <connections>
-                                                <segue destination="Qpa-Zm-Ts0" kind="unwind" unwindAction="unwindSelectShadeViewController:" id="4ye-rc-xct"/>
+                                                <segue destination="Qpa-Zm-Ts0" kind="unwind" identifier="swipeToSelectShade" unwindAction="unwindSelectShadeViewController:" id="4ye-rc-xct"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUV-7J-K2f">
-                                <rect key="frame" x="257" y="44" width="84" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUV-7J-K2f">
+                                <rect key="frame" x="258" y="44" width="84" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
                                 <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rhc-X2-KCC">
-                                <rect key="frame" x="0.0" y="113" width="378" height="510"/>
+                                <rect key="frame" x="0.0" y="113" width="599" height="443"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UTj-oE-djF">
                                     <size key="itemSize" width="110" height="110"/>
@@ -378,13 +364,12 @@
                     <connections>
                         <outlet property="collectionView" destination="Rhc-X2-KCC" id="G5c-Cy-VP7"/>
                         <segue destination="MFo-3v-kZm" kind="show" identifier="showImage" id="jIE-x7-c2N"/>
-                        <segue destination="UrY-7W-lzt" kind="show" identifier="swipeToSelectShade" id="c2u-m3-aiD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoR-QA-j02" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Qpa-Zm-Ts0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3400" y="172"/>
+            <point key="canvasLocation" x="3862" y="200"/>
         </scene>
         <!--Specific Shade View Controller-->
         <scene sceneID="PXm-lo-1ys">
@@ -404,7 +389,7 @@
                                     <navigationItem id="g81-nH-B8R">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="tzI-xu-OzK">
                                             <connections>
-                                                <segue destination="TA3-8X-EGG" kind="unwind" unwindAction="unwindShadeViewController:" id="hFh-k8-hFW"/>
+                                                <segue destination="TA3-8X-EGG" kind="unwind" identifier="swipeToShade" unwindAction="unwindShadeViewController:" id="hFh-k8-hFW"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -713,7 +698,7 @@
                 <exit id="TA3-8X-EGG" userLabel="Exit" sceneMemberID="exit"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XFX-Nm-LIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3567.5" y="172.5"/>
+            <point key="canvasLocation" x="4569.5" y="190.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4VO-13-Ljz">
@@ -727,16 +712,13 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ViN-fA-H6L"/>
+                        <segue destination="UrY-7W-lzt" kind="relationship" relationship="rootViewController" id="zdu-nE-U6k"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybb-Gw-Sqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="992" y="106"/>
+            <point key="canvasLocation" x="2092" y="172"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="j9D-FF-I9j"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
 </document>

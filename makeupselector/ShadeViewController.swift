@@ -14,13 +14,13 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     var detaildata: DetailData = DetailData()
     
-    func swipeLeft(recognizer : UISwipeGestureRecognizer) {
+    func swipeRight(recognizer : UISwipeGestureRecognizer) {
         self.performSegueWithIdentifier("swipeToSelectShade", sender: self)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "swipeLeft:")
+        let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
         recognizer.direction = .Right
         self.view .addGestureRecognizer(recognizer)
     }
@@ -28,8 +28,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.numberOfCases.count
     }
-    
-
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         
