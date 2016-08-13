@@ -11,7 +11,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     
     @IBAction func unwindShadeViewController(segue: UIStoryboardSegue) {
-        // defining method
     }
     @IBOutlet weak var slider: UISlider!
     
@@ -22,8 +21,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         let selectedValue = Int(sender.value)
         
         sliderLabel.text = String("$ \(selectedValue)")
-        // self.Slider_selectedValue = selectedValue
-        
         
         self.temp_detaildata.imageArray.removeAll()
         
@@ -119,7 +116,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         
         if self.button_number == 1 {
             
-            var _index = Int()
             for _index in 1...self.detaildata.price_array.count {
                 
                 let new_index = _index  - 1
@@ -229,7 +225,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         }
         
         if self.button_number == 2 {
-            var _index = Int()
             for _index in 1...self.detaildata.price_array_pink.count {
                 let new_index = _index  - 1
                 
@@ -336,7 +331,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
         }
         if self.button_number == 3 {
-            var _index = Int()
             for _index in 1...self.detaildata.price_array_berry.count {
                 let new_index = _index  - 1
                 
@@ -443,7 +437,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
         }
         if self.button_number == 4 {
-            var _index = Int()
             for _index in 1...self.detaildata.price_array_coral.count {
                 let new_index = _index  - 1
                 
@@ -551,7 +544,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
         }
         if self.button_number == 5 {
-            var _index = Int()
             for _index in 1...self.detaildata.price_array_nude.count {
                 let new_index = _index  - 1
                 
@@ -718,22 +710,17 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             as! CollectionViewCell
         if self.button_number == 1 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray[indexPath.row])
-            //            cell.title.text = self.temp_detaildata.price_array[indexPath.row]
         }else if self.button_number == 2 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray_pink[indexPath.row])
-            //            cell.title.text = self.temp_detaildata.price_array_pink[indexPath.row]
             
         }else if self.button_number == 3 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray_berry[indexPath.row])
-            //            cell.title.text = self.temp_detaildata.price_array_berry[indexPath.row]
             
         }else if self.button_number == 4 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray_coral[indexPath.row])
-            //            cell.title.text = self.temp_detaildata.price_array_coral[indexPath.row]
             
         }else if self.button_number == 5 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray_nude[indexPath.row])
-            //            cell.title.text = self.temp_detaildata.price_array_nude[indexPath.row]
             
         }
         return cell
