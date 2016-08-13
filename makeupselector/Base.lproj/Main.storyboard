@@ -534,7 +534,7 @@
                                     </mask>
                                 </variation>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="$26" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YEn-EN-4Wq">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="26" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YEn-EN-4Wq">
                                 <rect key="frame" x="167" y="184" width="420" height="29"/>
                                 <color key="backgroundColor" white="0.97755872483221473" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>

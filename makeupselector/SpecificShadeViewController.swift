@@ -55,7 +55,7 @@ class SpecificShadeViewController: UIViewController {
         self.title1.text = self.title1_value
         self.title2.text = self.title2_value
         self.title3.text = self.title3_value
-        self.price.text = self.price_value
+        self.price.text = "$\(self.price_value)"
         self.whatitis.text = self.whatitis_value
         self.whatitdoes.text = self.whatitdoes_value
     }
