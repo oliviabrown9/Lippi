@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4jd-CR-gTt">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -427,10 +428,6 @@
                                 <exclude reference="SLe-t9-GNi"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ZYI-hV-oyL"/>
-                                <exclude reference="fNH-Lv-zQO"/>
-                                <exclude reference="pEG-7R-Xer"/>
-                                <exclude reference="imt-E7-vgj"/>
                                 <exclude reference="7aX-iZ-tt8"/>
                                 <exclude reference="ELt-DD-Vjr"/>
                                 <exclude reference="lBR-yf-IGJ"/>
@@ -439,6 +436,10 @@
                                 <exclude reference="YRG-TY-uRg"/>
                                 <exclude reference="ccV-h3-z7d"/>
                                 <exclude reference="teC-BS-uBI"/>
+                                <exclude reference="imt-E7-vgj"/>
+                                <exclude reference="ZYI-hV-oyL"/>
+                                <exclude reference="fNH-Lv-zQO"/>
+                                <exclude reference="pEG-7R-Xer"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -448,10 +449,6 @@
                                 <include reference="SLe-t9-GNi"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ZYI-hV-oyL"/>
-                                <include reference="fNH-Lv-zQO"/>
-                                <include reference="pEG-7R-Xer"/>
-                                <include reference="imt-E7-vgj"/>
                                 <include reference="7aX-iZ-tt8"/>
                                 <include reference="ELt-DD-Vjr"/>
                                 <include reference="lBR-yf-IGJ"/>
@@ -460,6 +457,10 @@
                                 <include reference="YRG-TY-uRg"/>
                                 <include reference="ccV-h3-z7d"/>
                                 <exclude reference="teC-BS-uBI"/>
+                                <include reference="imt-E7-vgj"/>
+                                <include reference="ZYI-hV-oyL"/>
+                                <include reference="fNH-Lv-zQO"/>
+                                <include reference="pEG-7R-Xer"/>
                             </mask>
                         </variation>
                     </view>
@@ -667,6 +668,9 @@
                                         <exclude reference="i0w-a7-7qt"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="buyNowButton:" destination="MFo-3v-kZm" eventType="touchUpInside" id="SuJ-tc-WWP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97906650641025639" green="0.97906650641025639" blue="0.97906650641025639" alpha="1" colorSpace="calibratedRGB"/>
