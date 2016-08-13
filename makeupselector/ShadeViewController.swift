@@ -9,8 +9,8 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     var detaildata: DetailData = DetailData()
     
-    
     @IBAction func unwindShadeViewController(segue: UIStoryboardSegue) {
+        // defining method
     }
     @IBOutlet weak var slider: UISlider!
     
@@ -215,9 +215,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
-                    
-                    
-                    
                 }
                 
             }
@@ -228,7 +225,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             for _index in 1...self.detaildata.price_array_pink.count {
                 let new_index = _index  - 1
                 
-                if selectedValue >= Int(self.detaildata.price_array_pink[new_index]) {
+                if Float(selectedValue) >= Float(self.detaildata.price_array_pink[new_index]) {
                     
                     
                     self.temp_detaildata.imageArray.append(self.detaildata.imageArray[new_index])
@@ -322,9 +319,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
-                    
-                    
-                    
                 }
                 
             }
@@ -334,7 +328,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             for _index in 1...self.detaildata.price_array_berry.count {
                 let new_index = _index  - 1
                 
-                if selectedValue >= Int(self.detaildata.price_array_berry[new_index]) {
+                if Float(selectedValue) >= Float(self.detaildata.price_array_berry[new_index]) {
                     
                     self.temp_detaildata.imageArray.append(self.detaildata.imageArray[new_index])
                     
@@ -427,10 +421,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
-                    
-                    
-                    
-                    
                 }
                 
             }
@@ -440,7 +430,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             for _index in 1...self.detaildata.price_array_coral.count {
                 let new_index = _index  - 1
                 
-                if selectedValue >= Int(self.detaildata.price_array_coral[new_index]) {
+                if Float(selectedValue) >= Float(self.detaildata.price_array_coral[new_index]) {
                     
                     
                     self.temp_detaildata.imageArray.append(self.detaildata.imageArray[new_index])
@@ -534,10 +524,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
-                    
-                    
-                    
-                    
                 }
                 
             }
@@ -547,7 +533,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             for _index in 1...self.detaildata.price_array_nude.count {
                 let new_index = _index  - 1
                 
-                if selectedValue >= Int(self.detaildata.price_array_nude[new_index]) {
+                if Float(selectedValue) >= Float(self.detaildata.price_array_nude[new_index]) {
                     
                     
                     self.temp_detaildata.imageArray.append(self.detaildata.imageArray[new_index])
@@ -629,9 +615,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     
                     self.temp_detaildata.whatitdoes_array_nude.append(self.detaildata.whatitdoes_array_nude[new_index])
                     
-                    
-                    
-                    
                     self.temp_detaildata.weblink_array.append(self.detaildata.weblink_array[new_index])
                     
                     self.temp_detaildata.weblink_array_pink.append(self.detaildata.weblink_array_pink[new_index])
@@ -641,9 +624,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
-                    
-                    
-                    
                 }
                 
             }
@@ -668,10 +648,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        
-        
-        
+  
         if self.button_number == 1 {
             return self.temp_detaildata.price_array.count
             
