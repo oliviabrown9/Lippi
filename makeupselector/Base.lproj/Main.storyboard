@@ -84,11 +84,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HSw-n6-qle"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1100.5" y="53.5"/>
+            <point key="canvasLocation" x="1285.5" y="30.75"/>
         </scene>
         <!--Select Shade View Controller-->
         <scene sceneID="fs1-fG-1LW">
