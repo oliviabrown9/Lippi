@@ -88,64 +88,14 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 if Float(selectedValue) >= Float(self.detaildata.priceArrayRedLipstick[new_index]) {
                     
                     self.temp_detaildata.imageArrayRedLipstick.append(self.detaildata.imageArrayRedLipstick[new_index])
-                    self.temp_detaildata.imageArrayPinkLipstick.append(self.detaildata.imageArrayPinkLipstick[new_index])
-                    self.temp_detaildata.imageArrayBerryLipstick.append(self.detaildata.imageArrayBerryLipstick[new_index])
-                    self.temp_detaildata.imageArrayCoralLipstick.append(self.detaildata.imageArrayCoralLipstick[new_index])
-                    self.temp_detaildata.imageArrayNudeLipstick.append(self.detaildata.imageArrayNudeLipstick[new_index])
-                    self.temp_detaildata.imageArrayRedLiquid.append(self.detaildata.imageArrayRedLiquid[new_index])
-                    
                     self.temp_detaildata.shadeArrayRedLipstick.append(self.detaildata.shadeArrayRedLipstick[new_index])
-                    self.temp_detaildata.shadeArrayPinkLipstick.append(self.detaildata.shadeArrayPinkLipstick[new_index])
-                    self.temp_detaildata.shadeArrayBerryLipstick.append(self.detaildata.shadeArrayBerryLipstick[new_index])
-                    self.temp_detaildata.shadeArrayCoralLipstick.append(self.detaildata.shadeArrayCoralLipstick[new_index])
-                    self.temp_detaildata.shadeArrayNudeLipstick.append(self.detaildata.shadeArrayNudeLipstick[new_index])
-                    self.temp_detaildata.shadeArrayRedLiquid.append(self.detaildata.shadeArrayRedLiquid[new_index])
-                    
                     self.temp_detaildata.brandArrayRedLipstick.append(self.detaildata.brandArrayRedLipstick[new_index])
-                    self.temp_detaildata.brandArrayPinkLipstick.append(self.detaildata.brandArrayPinkLipstick[new_index])
-                    self.temp_detaildata.brandArrayBerryLipstick.append(self.detaildata.brandArrayBerryLipstick[new_index])
-                    self.temp_detaildata.brandArrayCoralLipstick.append(self.detaildata.brandArrayCoralLipstick[new_index])
-                    self.temp_detaildata.brandArrayNudeLipstick.append(self.detaildata.brandArrayNudeLipstick[new_index])
-                    self.temp_detaildata.brandArrayRedLiquid.append(self.detaildata.brandArrayRedLiquid[new_index])
-                    
                     self.temp_detaildata.lineArrayRedLipstick.append(self.detaildata.lineArrayRedLipstick[new_index])
-                    self.temp_detaildata.lineArrayPinkLipstick.append(self.detaildata.lineArrayPinkLipstick[new_index])
-                    self.temp_detaildata.lineArrayBerryLipstick.append(self.detaildata.lineArrayBerryLipstick[new_index])
-                    self.temp_detaildata.lineArrayCoralLipstick.append(self.detaildata.lineArrayCoralLipstick[new_index])
-                    self.temp_detaildata.lineArrayNudeLipstick.append(self.detaildata.lineArrayNudeLipstick[new_index])
-                    self.temp_detaildata.lineArrayRedLiquid.append(self.detaildata.lineArrayRedLiquid[new_index])
-                    
                     self.temp_detaildata.priceArrayRedLipstick.append(self.detaildata.priceArrayRedLipstick[new_index])
-                    self.temp_detaildata.priceArrayPinkLipstick.append(self.detaildata.priceArrayPinkLipstick[new_index])
-                    self.temp_detaildata.priceArrayBerryLipstick.append(self.detaildata.priceArrayBerryLipstick[new_index])
-                    self.temp_detaildata.priceArrayCoralLipstick.append(self.detaildata.priceArrayCoralLipstick[new_index])
-                    self.temp_detaildata.priceArrayNudeLipstick.append(self.detaildata.priceArrayNudeLipstick[new_index])
-                    self.temp_detaildata.priceArrayRedLiquid.append(self.detaildata.priceArrayRedLiquid[new_index])
-                    
                     self.temp_detaildata.whatItIsArrayRedLipstick.append(self.detaildata.whatItIsArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayPinkLipstick.append(self.detaildata.whatItIsArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayBerryLipstick.append(self.detaildata.whatItIsArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayCoralLipstick.append(self.detaildata.whatItIsArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayNudeLipstick.append(self.detaildata.whatItIsArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayRedLiquid.append(self.detaildata.whatItIsArrayRedLiquid[new_index])
-                    
                     self.temp_detaildata.whatItDoesArrayRedLipstick.append(self.detaildata.whatItDoesArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayPinkLipstick.append(self.detaildata.whatItDoesArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayBerryLipstick.append(self.detaildata.whatItDoesArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayCoralLipstick.append(self.detaildata.whatItDoesArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayNudeLipstick.append(self.detaildata.whatItDoesArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayRedLiquid.append(self.detaildata.whatItDoesArrayRedLiquid[new_index])
-                    
-                    
-                    self.temp_detaildata.linkArrayRedLipstick.append(self.detaildata.linkArrayRedLipstick[new_index])
-                    self.temp_detaildata.linkArrayPinkLipstick.append(self.detaildata.linkArrayPinkLipstick[new_index])
-                    self.temp_detaildata.linkArrayBerryLipstick.append(self.detaildata.linkArrayBerryLipstick[new_index])
-                    self.temp_detaildata.linkArrayCoralLipstick.append(self.detaildata.linkArrayCoralLipstick[new_index])
-                    self.temp_detaildata.linkArrayNudeLipstick.append(self.detaildata.linkArrayNudeLipstick[new_index])
-                    self.temp_detaildata.linkArrayRedLiquid.append(self.detaildata.linkArrayRedLiquid[new_index])
-                }
-            }
-        }
+                    self.temp_detaildata.linkArrayRedLipstick.append(self.detaildata.linkArrayRedLipstick[new_index])}}}
+        
         
         if self.shadeButtonNumber == 1 && productButton == 2 {
             
@@ -155,62 +105,14 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 
                 if Float(selectedValue) >= Float(self.detaildata.priceArrayRedLiquid[new_index]) {
                     
-                    self.temp_detaildata.imageArrayRedLipstick.append(self.detaildata.imageArrayRedLipstick[new_index])
-                    self.temp_detaildata.imageArrayPinkLipstick.append(self.detaildata.imageArrayPinkLipstick[new_index])
-                    self.temp_detaildata.imageArrayBerryLipstick.append(self.detaildata.imageArrayBerryLipstick[new_index])
-                    self.temp_detaildata.imageArrayCoralLipstick.append(self.detaildata.imageArrayCoralLipstick[new_index])
-                    self.temp_detaildata.imageArrayNudeLipstick.append(self.detaildata.imageArrayNudeLipstick[new_index])
                     self.temp_detaildata.imageArrayRedLiquid.append(self.detaildata.imageArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.shadeArrayRedLipstick.append(self.detaildata.shadeArrayRedLipstick[new_index])
-                    self.temp_detaildata.shadeArrayPinkLipstick.append(self.detaildata.shadeArrayPinkLipstick[new_index])
-                    self.temp_detaildata.shadeArrayBerryLipstick.append(self.detaildata.shadeArrayBerryLipstick[new_index])
-                    self.temp_detaildata.shadeArrayCoralLipstick.append(self.detaildata.shadeArrayCoralLipstick[new_index])
-                    self.temp_detaildata.shadeArrayNudeLipstick.append(self.detaildata.shadeArrayNudeLipstick[new_index])
                     self.temp_detaildata.shadeArrayRedLiquid.append(self.detaildata.shadeArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.brandArrayRedLipstick.append(self.detaildata.brandArrayRedLipstick[new_index])
-                    self.temp_detaildata.brandArrayPinkLipstick.append(self.detaildata.brandArrayPinkLipstick[new_index])
-                    self.temp_detaildata.brandArrayBerryLipstick.append(self.detaildata.brandArrayBerryLipstick[new_index])
-                    self.temp_detaildata.brandArrayCoralLipstick.append(self.detaildata.brandArrayCoralLipstick[new_index])
-                    self.temp_detaildata.brandArrayNudeLipstick.append(self.detaildata.brandArrayNudeLipstick[new_index])
                     self.temp_detaildata.brandArrayRedLiquid.append(self.detaildata.brandArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.lineArrayRedLipstick.append(self.detaildata.lineArrayRedLipstick[new_index])
-                    self.temp_detaildata.lineArrayPinkLipstick.append(self.detaildata.lineArrayPinkLipstick[new_index])
-                    self.temp_detaildata.lineArrayBerryLipstick.append(self.detaildata.lineArrayBerryLipstick[new_index])
-                    self.temp_detaildata.lineArrayCoralLipstick.append(self.detaildata.lineArrayCoralLipstick[new_index])
-                    self.temp_detaildata.lineArrayNudeLipstick.append(self.detaildata.lineArrayNudeLipstick[new_index])
                     self.temp_detaildata.lineArrayRedLiquid.append(self.detaildata.lineArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.priceArrayRedLipstick.append(self.detaildata.priceArrayRedLipstick[new_index])
-                    self.temp_detaildata.priceArrayPinkLipstick.append(self.detaildata.priceArrayPinkLipstick[new_index])
-                    self.temp_detaildata.priceArrayBerryLipstick.append(self.detaildata.priceArrayBerryLipstick[new_index])
-                    self.temp_detaildata.priceArrayCoralLipstick.append(self.detaildata.priceArrayCoralLipstick[new_index])
-                    self.temp_detaildata.priceArrayNudeLipstick.append(self.detaildata.priceArrayNudeLipstick[new_index])
                     self.temp_detaildata.priceArrayRedLiquid.append(self.detaildata.priceArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItIsArrayRedLipstick.append(self.detaildata.whatItIsArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayPinkLipstick.append(self.detaildata.whatItIsArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayBerryLipstick.append(self.detaildata.whatItIsArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayCoralLipstick.append(self.detaildata.whatItIsArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayNudeLipstick.append(self.detaildata.whatItIsArrayNudeLipstick[new_index])
                     self.temp_detaildata.whatItIsArrayRedLiquid.append(self.detaildata.whatItIsArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItDoesArrayRedLipstick.append(self.detaildata.whatItDoesArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayPinkLipstick.append(self.detaildata.whatItDoesArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayBerryLipstick.append(self.detaildata.whatItDoesArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayCoralLipstick.append(self.detaildata.whatItDoesArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayNudeLipstick.append(self.detaildata.whatItDoesArrayNudeLipstick[new_index])
                     self.temp_detaildata.whatItDoesArrayRedLiquid.append(self.detaildata.whatItDoesArrayRedLiquid[new_index])
-                    
-                    
-                    self.temp_detaildata.linkArrayRedLipstick.append(self.detaildata.linkArrayRedLipstick[new_index])
-                    self.temp_detaildata.linkArrayPinkLipstick.append(self.detaildata.linkArrayPinkLipstick[new_index])
-                    self.temp_detaildata.linkArrayBerryLipstick.append(self.detaildata.linkArrayBerryLipstick[new_index])
-                    self.temp_detaildata.linkArrayCoralLipstick.append(self.detaildata.linkArrayCoralLipstick[new_index])
-                    self.temp_detaildata.linkArrayNudeLipstick.append(self.detaildata.linkArrayNudeLipstick[new_index])
-                    self.temp_detaildata.linkArrayRedLiquid.append(self.detaildata.linkArrayRedLiquid[new_index])                }
+                    self.temp_detaildata.linkArrayRedLiquid.append(self.detaildata.linkArrayRedLiquid[new_index])}
             }
         }
 
@@ -220,64 +122,15 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 let new_index = _index  - 1
                 
                 if Float(selectedValue) >= Float(self.detaildata.priceArrayPinkLipstick[new_index]) {
-                    
-                    self.temp_detaildata.imageArrayRedLipstick.append(self.detaildata.imageArrayRedLipstick[new_index])
-                    self.temp_detaildata.imageArrayPinkLipstick.append(self.detaildata.imageArrayPinkLipstick[new_index])
-                    self.temp_detaildata.imageArrayBerryLipstick.append(self.detaildata.imageArrayBerryLipstick[new_index])
-                    self.temp_detaildata.imageArrayCoralLipstick.append(self.detaildata.imageArrayCoralLipstick[new_index])
-                    self.temp_detaildata.imageArrayNudeLipstick.append(self.detaildata.imageArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.imageArrayRedLiquid.append(self.detaildata.imageArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.shadeArrayRedLipstick.append(self.detaildata.shadeArrayRedLipstick[new_index])
-                    self.temp_detaildata.shadeArrayPinkLipstick.append(self.detaildata.shadeArrayPinkLipstick[new_index])
-                    self.temp_detaildata.shadeArrayBerryLipstick.append(self.detaildata.shadeArrayBerryLipstick[new_index])
-                    self.temp_detaildata.shadeArrayCoralLipstick.append(self.detaildata.shadeArrayCoralLipstick[new_index])
-                    self.temp_detaildata.shadeArrayNudeLipstick.append(self.detaildata.shadeArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.shadeArrayRedLiquid.append(self.detaildata.shadeArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.brandArrayRedLipstick.append(self.detaildata.brandArrayRedLipstick[new_index])
-                    self.temp_detaildata.brandArrayPinkLipstick.append(self.detaildata.brandArrayPinkLipstick[new_index])
-                    self.temp_detaildata.brandArrayBerryLipstick.append(self.detaildata.brandArrayBerryLipstick[new_index])
-                    self.temp_detaildata.brandArrayCoralLipstick.append(self.detaildata.brandArrayCoralLipstick[new_index])
-                    self.temp_detaildata.brandArrayNudeLipstick.append(self.detaildata.brandArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.brandArrayRedLiquid.append(self.detaildata.brandArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.lineArrayRedLipstick.append(self.detaildata.lineArrayRedLipstick[new_index])
-                    self.temp_detaildata.lineArrayPinkLipstick.append(self.detaildata.lineArrayPinkLipstick[new_index])
-                    self.temp_detaildata.lineArrayBerryLipstick.append(self.detaildata.lineArrayBerryLipstick[new_index])
-                    self.temp_detaildata.lineArrayCoralLipstick.append(self.detaildata.lineArrayCoralLipstick[new_index])
-                    self.temp_detaildata.lineArrayNudeLipstick.append(self.detaildata.lineArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.lineArrayRedLiquid.append(self.detaildata.lineArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.priceArrayRedLipstick.append(self.detaildata.priceArrayRedLipstick[new_index])
-                    self.temp_detaildata.priceArrayPinkLipstick.append(self.detaildata.priceArrayPinkLipstick[new_index])
-                    self.temp_detaildata.priceArrayBerryLipstick.append(self.detaildata.priceArrayBerryLipstick[new_index])
-                    self.temp_detaildata.priceArrayCoralLipstick.append(self.detaildata.priceArrayCoralLipstick[new_index])
-                    self.temp_detaildata.priceArrayNudeLipstick.append(self.detaildata.priceArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.priceArrayRedLiquid.append(self.detaildata.priceArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItIsArrayRedLipstick.append(self.detaildata.whatItIsArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayPinkLipstick.append(self.detaildata.whatItIsArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayBerryLipstick.append(self.detaildata.whatItIsArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayCoralLipstick.append(self.detaildata.whatItIsArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayNudeLipstick.append(self.detaildata.whatItIsArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.whatItIsArrayRedLiquid.append(self.detaildata.whatItIsArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItDoesArrayRedLipstick.append(self.detaildata.whatItDoesArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayPinkLipstick.append(self.detaildata.whatItDoesArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayBerryLipstick.append(self.detaildata.whatItDoesArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayCoralLipstick.append(self.detaildata.whatItDoesArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayNudeLipstick.append(self.detaildata.whatItDoesArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.whatItDoesArrayRedLiquid.append(self.detaildata.whatItDoesArrayRedLiquid[new_index])
-                    
-                    
-                    self.temp_detaildata.linkArrayRedLipstick.append(self.detaildata.linkArrayRedLipstick[new_index])
-                    self.temp_detaildata.linkArrayPinkLipstick.append(self.detaildata.linkArrayPinkLipstick[new_index])
-                    self.temp_detaildata.linkArrayBerryLipstick.append(self.detaildata.linkArrayBerryLipstick[new_index])
-                    self.temp_detaildata.linkArrayCoralLipstick.append(self.detaildata.linkArrayCoralLipstick[new_index])
-                    self.temp_detaildata.linkArrayNudeLipstick.append(self.detaildata.linkArrayNudeLipstick[new_index])
-//                    self.temp_detaildata.linkArrayRedLiquid.append(self.detaildata.linkArrayRedLiquid[new_index])
 
+                    self.temp_detaildata.imageArrayPinkLipstick.append(self.detaildata.imageArrayPinkLipstick[new_index])
+                    self.temp_detaildata.shadeArrayPinkLipstick.append(self.detaildata.shadeArrayPinkLipstick[new_index])
+                    self.temp_detaildata.brandArrayPinkLipstick.append(self.detaildata.brandArrayPinkLipstick[new_index])
+                    self.temp_detaildata.lineArrayPinkLipstick.append(self.detaildata.lineArrayPinkLipstick[new_index])
+                    self.temp_detaildata.priceArrayPinkLipstick.append(self.detaildata.priceArrayPinkLipstick[new_index])
+                    self.temp_detaildata.whatItIsArrayPinkLipstick.append(self.detaildata.whatItIsArrayPinkLipstick[new_index])
+                    self.temp_detaildata.whatItDoesArrayPinkLipstick.append(self.detaildata.whatItDoesArrayPinkLipstick[new_index])
+                    self.temp_detaildata.linkArrayPinkLipstick.append(self.detaildata.linkArrayPinkLipstick[new_index])
                 }
             }
         }
@@ -286,64 +139,14 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 let new_index = _index  - 1
                 
                 if Float(selectedValue) >= Float(self.detaildata.priceArrayBerryLipstick[new_index]) {
-                    
-                    self.temp_detaildata.imageArrayRedLipstick.append(self.detaildata.imageArrayRedLipstick[new_index])
-                    self.temp_detaildata.imageArrayPinkLipstick.append(self.detaildata.imageArrayPinkLipstick[new_index])
                     self.temp_detaildata.imageArrayBerryLipstick.append(self.detaildata.imageArrayBerryLipstick[new_index])
-                    self.temp_detaildata.imageArrayCoralLipstick.append(self.detaildata.imageArrayCoralLipstick[new_index])
-                    self.temp_detaildata.imageArrayNudeLipstick.append(self.detaildata.imageArrayNudeLipstick[new_index])
-                    self.temp_detaildata.imageArrayRedLiquid.append(self.detaildata.imageArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.shadeArrayRedLipstick.append(self.detaildata.shadeArrayRedLipstick[new_index])
-                    self.temp_detaildata.shadeArrayPinkLipstick.append(self.detaildata.shadeArrayPinkLipstick[new_index])
-                    self.temp_detaildata.shadeArrayBerryLipstick.append(self.detaildata.shadeArrayBerryLipstick[new_index])
-                    self.temp_detaildata.shadeArrayCoralLipstick.append(self.detaildata.shadeArrayCoralLipstick[new_index])
-                    self.temp_detaildata.shadeArrayNudeLipstick.append(self.detaildata.shadeArrayNudeLipstick[new_index])
-                    self.temp_detaildata.shadeArrayRedLiquid.append(self.detaildata.shadeArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.brandArrayRedLipstick.append(self.detaildata.brandArrayRedLipstick[new_index])
-                    self.temp_detaildata.brandArrayPinkLipstick.append(self.detaildata.brandArrayPinkLipstick[new_index])
-                    self.temp_detaildata.brandArrayBerryLipstick.append(self.detaildata.brandArrayBerryLipstick[new_index])
-                    self.temp_detaildata.brandArrayCoralLipstick.append(self.detaildata.brandArrayCoralLipstick[new_index])
-                    self.temp_detaildata.brandArrayNudeLipstick.append(self.detaildata.brandArrayNudeLipstick[new_index])
-                    self.temp_detaildata.brandArrayRedLiquid.append(self.detaildata.brandArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.lineArrayRedLipstick.append(self.detaildata.lineArrayRedLipstick[new_index])
-                    self.temp_detaildata.lineArrayPinkLipstick.append(self.detaildata.lineArrayPinkLipstick[new_index])
-                    self.temp_detaildata.lineArrayBerryLipstick.append(self.detaildata.lineArrayBerryLipstick[new_index])
-                    self.temp_detaildata.lineArrayCoralLipstick.append(self.detaildata.lineArrayCoralLipstick[new_index])
-                    self.temp_detaildata.lineArrayNudeLipstick.append(self.detaildata.lineArrayNudeLipstick[new_index])
-                    self.temp_detaildata.lineArrayRedLiquid.append(self.detaildata.lineArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.priceArrayRedLipstick.append(self.detaildata.priceArrayRedLipstick[new_index])
-                    self.temp_detaildata.priceArrayPinkLipstick.append(self.detaildata.priceArrayPinkLipstick[new_index])
-                    self.temp_detaildata.priceArrayBerryLipstick.append(self.detaildata.priceArrayBerryLipstick[new_index])
-                    self.temp_detaildata.priceArrayCoralLipstick.append(self.detaildata.priceArrayCoralLipstick[new_index])
-                    self.temp_detaildata.priceArrayNudeLipstick.append(self.detaildata.priceArrayNudeLipstick[new_index])
-                    self.temp_detaildata.priceArrayRedLiquid.append(self.detaildata.priceArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItIsArrayRedLipstick.append(self.detaildata.whatItIsArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayPinkLipstick.append(self.detaildata.whatItIsArrayPinkLipstick[new_index])
+                        self.temp_detaildata.shadeArrayBerryLipstick.append(self.detaildata.shadeArrayBerryLipstick[new_index])
+                        self.temp_detaildata.brandArrayBerryLipstick.append(self.detaildata.brandArrayBerryLipstick[new_index])
+                        self.temp_detaildata.lineArrayBerryLipstick.append(self.detaildata.lineArrayBerryLipstick[new_index])
+                        self.temp_detaildata.priceArrayBerryLipstick.append(self.detaildata.priceArrayBerryLipstick[new_index])
                     self.temp_detaildata.whatItIsArrayBerryLipstick.append(self.detaildata.whatItIsArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayCoralLipstick.append(self.detaildata.whatItIsArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayNudeLipstick.append(self.detaildata.whatItIsArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayRedLiquid.append(self.detaildata.whatItIsArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItDoesArrayRedLipstick.append(self.detaildata.whatItDoesArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayPinkLipstick.append(self.detaildata.whatItDoesArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayBerryLipstick.append(self.detaildata.whatItDoesArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayCoralLipstick.append(self.detaildata.whatItDoesArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayNudeLipstick.append(self.detaildata.whatItDoesArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayRedLiquid.append(self.detaildata.whatItDoesArrayRedLiquid[new_index])
-                    
-                    
-                    self.temp_detaildata.linkArrayRedLipstick.append(self.detaildata.linkArrayRedLipstick[new_index])
-                    self.temp_detaildata.linkArrayPinkLipstick.append(self.detaildata.linkArrayPinkLipstick[new_index])
-                    self.temp_detaildata.linkArrayBerryLipstick.append(self.detaildata.linkArrayBerryLipstick[new_index])
-                    self.temp_detaildata.linkArrayCoralLipstick.append(self.detaildata.linkArrayCoralLipstick[new_index])
-                    self.temp_detaildata.linkArrayNudeLipstick.append(self.detaildata.linkArrayNudeLipstick[new_index])
-                    self.temp_detaildata.linkArrayRedLiquid.append(self.detaildata.linkArrayRedLiquid[new_index])
-
+                        self.temp_detaildata.whatItDoesArrayBerryLipstick.append(self.detaildata.whatItDoesArrayBerryLipstick[new_index])
+                        self.temp_detaildata.linkArrayBerryLipstick.append(self.detaildata.linkArrayBerryLipstick[new_index])
                 }
             }
         }
@@ -352,63 +155,15 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 let new_index = _index  - 1
                 
                 if Float(selectedValue) >= Float(self.detaildata.priceArrayCoralLipstick[new_index]) {
-                    
-                    self.temp_detaildata.imageArrayRedLipstick.append(self.detaildata.imageArrayRedLipstick[new_index])
-                    self.temp_detaildata.imageArrayPinkLipstick.append(self.detaildata.imageArrayPinkLipstick[new_index])
-                    self.temp_detaildata.imageArrayBerryLipstick.append(self.detaildata.imageArrayBerryLipstick[new_index])
                     self.temp_detaildata.imageArrayCoralLipstick.append(self.detaildata.imageArrayCoralLipstick[new_index])
-                    self.temp_detaildata.imageArrayNudeLipstick.append(self.detaildata.imageArrayNudeLipstick[new_index])
-                    self.temp_detaildata.imageArrayRedLiquid.append(self.detaildata.imageArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.shadeArrayRedLipstick.append(self.detaildata.shadeArrayRedLipstick[new_index])
-                    self.temp_detaildata.shadeArrayPinkLipstick.append(self.detaildata.shadeArrayPinkLipstick[new_index])
-                    self.temp_detaildata.shadeArrayBerryLipstick.append(self.detaildata.shadeArrayBerryLipstick[new_index])
-                    self.temp_detaildata.shadeArrayCoralLipstick.append(self.detaildata.shadeArrayCoralLipstick[new_index])
-                    self.temp_detaildata.shadeArrayNudeLipstick.append(self.detaildata.shadeArrayNudeLipstick[new_index])
-                    self.temp_detaildata.shadeArrayRedLiquid.append(self.detaildata.shadeArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.brandArrayRedLipstick.append(self.detaildata.brandArrayRedLipstick[new_index])
-                    self.temp_detaildata.brandArrayPinkLipstick.append(self.detaildata.brandArrayPinkLipstick[new_index])
-                    self.temp_detaildata.brandArrayBerryLipstick.append(self.detaildata.brandArrayBerryLipstick[new_index])
-                    self.temp_detaildata.brandArrayCoralLipstick.append(self.detaildata.brandArrayCoralLipstick[new_index])
-                    self.temp_detaildata.brandArrayNudeLipstick.append(self.detaildata.brandArrayNudeLipstick[new_index])
-                    self.temp_detaildata.brandArrayRedLiquid.append(self.detaildata.brandArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.lineArrayRedLipstick.append(self.detaildata.lineArrayRedLipstick[new_index])
-                    self.temp_detaildata.lineArrayPinkLipstick.append(self.detaildata.lineArrayPinkLipstick[new_index])
-                    self.temp_detaildata.lineArrayBerryLipstick.append(self.detaildata.lineArrayBerryLipstick[new_index])
-                    self.temp_detaildata.lineArrayCoralLipstick.append(self.detaildata.lineArrayCoralLipstick[new_index])
-                    self.temp_detaildata.lineArrayNudeLipstick.append(self.detaildata.lineArrayNudeLipstick[new_index])
-                    self.temp_detaildata.lineArrayRedLiquid.append(self.detaildata.lineArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.priceArrayRedLipstick.append(self.detaildata.priceArrayRedLipstick[new_index])
-                    self.temp_detaildata.priceArrayPinkLipstick.append(self.detaildata.priceArrayPinkLipstick[new_index])
-                    self.temp_detaildata.priceArrayBerryLipstick.append(self.detaildata.priceArrayBerryLipstick[new_index])
-                    self.temp_detaildata.priceArrayCoralLipstick.append(self.detaildata.priceArrayCoralLipstick[new_index])
-                    self.temp_detaildata.priceArrayNudeLipstick.append(self.detaildata.priceArrayNudeLipstick[new_index])
-                    self.temp_detaildata.priceArrayRedLiquid.append(self.detaildata.priceArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItIsArrayRedLipstick.append(self.detaildata.whatItIsArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayPinkLipstick.append(self.detaildata.whatItIsArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayBerryLipstick.append(self.detaildata.whatItIsArrayBerryLipstick[new_index])
+                        self.temp_detaildata.shadeArrayCoralLipstick.append(self.detaildata.shadeArrayCoralLipstick[new_index])
+                        self.temp_detaildata.brandArrayCoralLipstick.append(self.detaildata.brandArrayCoralLipstick[new_index])
+                        self.temp_detaildata.lineArrayCoralLipstick.append(self.detaildata.lineArrayCoralLipstick[new_index])
+                        self.temp_detaildata.priceArrayCoralLipstick.append(self.detaildata.priceArrayCoralLipstick[new_index])
                     self.temp_detaildata.whatItIsArrayCoralLipstick.append(self.detaildata.whatItIsArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayNudeLipstick.append(self.detaildata.whatItIsArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayRedLiquid.append(self.detaildata.whatItIsArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItDoesArrayRedLipstick.append(self.detaildata.whatItDoesArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayPinkLipstick.append(self.detaildata.whatItDoesArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayBerryLipstick.append(self.detaildata.whatItDoesArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayCoralLipstick.append(self.detaildata.whatItDoesArrayCoralLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayNudeLipstick.append(self.detaildata.whatItDoesArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayRedLiquid.append(self.detaildata.whatItDoesArrayRedLiquid[new_index])
-                    
-                    
-                    self.temp_detaildata.linkArrayRedLipstick.append(self.detaildata.linkArrayRedLipstick[new_index])
-                    self.temp_detaildata.linkArrayPinkLipstick.append(self.detaildata.linkArrayPinkLipstick[new_index])
-                    self.temp_detaildata.linkArrayBerryLipstick.append(self.detaildata.linkArrayBerryLipstick[new_index])
-                    self.temp_detaildata.linkArrayCoralLipstick.append(self.detaildata.linkArrayCoralLipstick[new_index])
-                    self.temp_detaildata.linkArrayNudeLipstick.append(self.detaildata.linkArrayNudeLipstick[new_index])
-                    self.temp_detaildata.linkArrayRedLiquid.append(self.detaildata.linkArrayRedLiquid[new_index])                }
+                        self.temp_detaildata.whatItDoesArrayCoralLipstick.append(self.detaildata.whatItDoesArrayCoralLipstick[new_index])
+                        self.temp_detaildata.linkArrayCoralLipstick.append(self.detaildata.linkArrayCoralLipstick[new_index])
+                }
             }
         }
         if self.shadeButtonNumber == 5 {
@@ -417,66 +172,18 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 
                 if Float(selectedValue) >= Float(self.detaildata.priceArrayNudeLipstick[new_index]) {
 
-                    self.temp_detaildata.imageArrayRedLipstick.append(self.detaildata.imageArrayRedLipstick[new_index])
-                    self.temp_detaildata.imageArrayPinkLipstick.append(self.detaildata.imageArrayPinkLipstick[new_index])
-                    self.temp_detaildata.imageArrayBerryLipstick.append(self.detaildata.imageArrayBerryLipstick[new_index])
-                    self.temp_detaildata.imageArrayCoralLipstick.append(self.detaildata.imageArrayCoralLipstick[new_index])
                     self.temp_detaildata.imageArrayNudeLipstick.append(self.detaildata.imageArrayNudeLipstick[new_index])
-                    self.temp_detaildata.imageArrayRedLiquid.append(self.detaildata.imageArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.shadeArrayRedLipstick.append(self.detaildata.shadeArrayRedLipstick[new_index])
-                    self.temp_detaildata.shadeArrayPinkLipstick.append(self.detaildata.shadeArrayPinkLipstick[new_index])
-                    self.temp_detaildata.shadeArrayBerryLipstick.append(self.detaildata.shadeArrayBerryLipstick[new_index])
-                    self.temp_detaildata.shadeArrayCoralLipstick.append(self.detaildata.shadeArrayCoralLipstick[new_index])
                     self.temp_detaildata.shadeArrayNudeLipstick.append(self.detaildata.shadeArrayNudeLipstick[new_index])
-                    self.temp_detaildata.shadeArrayRedLiquid.append(self.detaildata.shadeArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.brandArrayRedLipstick.append(self.detaildata.brandArrayRedLipstick[new_index])
-                    self.temp_detaildata.brandArrayPinkLipstick.append(self.detaildata.brandArrayPinkLipstick[new_index])
-                    self.temp_detaildata.brandArrayBerryLipstick.append(self.detaildata.brandArrayBerryLipstick[new_index])
-                    self.temp_detaildata.brandArrayCoralLipstick.append(self.detaildata.brandArrayCoralLipstick[new_index])
                     self.temp_detaildata.brandArrayNudeLipstick.append(self.detaildata.brandArrayNudeLipstick[new_index])
-                    self.temp_detaildata.brandArrayRedLiquid.append(self.detaildata.brandArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.lineArrayRedLipstick.append(self.detaildata.lineArrayRedLipstick[new_index])
-                    self.temp_detaildata.lineArrayPinkLipstick.append(self.detaildata.lineArrayPinkLipstick[new_index])
-                    self.temp_detaildata.lineArrayBerryLipstick.append(self.detaildata.lineArrayBerryLipstick[new_index])
-                    self.temp_detaildata.lineArrayCoralLipstick.append(self.detaildata.lineArrayCoralLipstick[new_index])
                     self.temp_detaildata.lineArrayNudeLipstick.append(self.detaildata.lineArrayNudeLipstick[new_index])
-                    self.temp_detaildata.lineArrayRedLiquid.append(self.detaildata.lineArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.priceArrayRedLipstick.append(self.detaildata.priceArrayRedLipstick[new_index])
-                    self.temp_detaildata.priceArrayPinkLipstick.append(self.detaildata.priceArrayPinkLipstick[new_index])
-                    self.temp_detaildata.priceArrayBerryLipstick.append(self.detaildata.priceArrayBerryLipstick[new_index])
-                    self.temp_detaildata.priceArrayCoralLipstick.append(self.detaildata.priceArrayCoralLipstick[new_index])
                     self.temp_detaildata.priceArrayNudeLipstick.append(self.detaildata.priceArrayNudeLipstick[new_index])
-                    self.temp_detaildata.priceArrayRedLiquid.append(self.detaildata.priceArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItIsArrayRedLipstick.append(self.detaildata.whatItIsArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayPinkLipstick.append(self.detaildata.whatItIsArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayBerryLipstick.append(self.detaildata.whatItIsArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayCoralLipstick.append(self.detaildata.whatItIsArrayCoralLipstick[new_index])
                     self.temp_detaildata.whatItIsArrayNudeLipstick.append(self.detaildata.whatItIsArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItIsArrayRedLiquid.append(self.detaildata.whatItIsArrayRedLiquid[new_index])
-                    
-                    self.temp_detaildata.whatItDoesArrayRedLipstick.append(self.detaildata.whatItDoesArrayRedLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayPinkLipstick.append(self.detaildata.whatItDoesArrayPinkLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayBerryLipstick.append(self.detaildata.whatItDoesArrayBerryLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayCoralLipstick.append(self.detaildata.whatItDoesArrayCoralLipstick[new_index])
                     self.temp_detaildata.whatItDoesArrayNudeLipstick.append(self.detaildata.whatItDoesArrayNudeLipstick[new_index])
-                    self.temp_detaildata.whatItDoesArrayRedLiquid.append(self.detaildata.whatItDoesArrayRedLiquid[new_index])
-                    
-                    
-                    self.temp_detaildata.linkArrayRedLipstick.append(self.detaildata.linkArrayRedLipstick[new_index])
-                    self.temp_detaildata.linkArrayPinkLipstick.append(self.detaildata.linkArrayPinkLipstick[new_index])
-                    self.temp_detaildata.linkArrayBerryLipstick.append(self.detaildata.linkArrayBerryLipstick[new_index])
-                    self.temp_detaildata.linkArrayCoralLipstick.append(self.detaildata.linkArrayCoralLipstick[new_index])
                     self.temp_detaildata.linkArrayNudeLipstick.append(self.detaildata.linkArrayNudeLipstick[new_index])
-                    self.temp_detaildata.linkArrayRedLiquid.append(self.detaildata.linkArrayRedLiquid[new_index])}
+                }
             }
         }
         self.collectionView.reloadData()
-        
     }
     
     func swipeRight(recognizer : UISwipeGestureRecognizer) {
@@ -491,7 +198,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         print(productButton)
         print(self.shadeButtonNumber)
     }
-    
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
   
@@ -543,7 +249,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
         }else if self.shadeButtonNumber == 5 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[indexPath.row])
-            
         }
         return cell
     }
@@ -558,7 +263,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         {
             let indexPaths = self.collectionView!.indexPathsForSelectedItems()!
             let indexPath = indexPaths[0] as NSIndexPath
-            
             let vc = segue.destinationViewController as! SpecificShadeViewController
             
             if self.shadeButtonNumber == 1 && productButton == 1 {
