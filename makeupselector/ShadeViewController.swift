@@ -14,13 +14,11 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         // defining method
     }
     @IBOutlet weak var slider: UISlider!
-    
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
-    
     @IBAction func sliderValueChanged(sender: UISlider) {
         let selectedValue = Int(sender.value)
-        
+
         sliderLabel.text = String("$ \(selectedValue)")
         
         self.temp_detaildata.imageArrayRedLipstick.removeAll()
@@ -267,65 +265,59 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
             if self.shadeButtonNumber == 1 && productButton == 1 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLipstick[indexPath.row])!
-                vc.title = self.temp_detaildata.priceArrayRedLipstick[indexPath.row]
-                vc.title1_value = self.temp_detaildata.shadeArrayRedLipstick[indexPath.row]
-                vc.title2_value = self.temp_detaildata.brandArrayRedLipstick[indexPath.row]
-                vc.title3_value = self.temp_detaildata.lineArrayRedLipstick[indexPath.row]
-                vc.price_value = self.temp_detaildata.priceArrayRedLipstick[indexPath.row]
-                vc.whatitis_value = self.temp_detaildata.whatItIsArrayRedLipstick[indexPath.row]
-                vc.whatitdoes_value = self.temp_detaildata.whatItDoesArrayRedLipstick[indexPath.row]
-                vc.weblink_values = self.temp_detaildata.linkArrayRedLipstick[indexPath.row]
+                vc.shadeValue = self.temp_detaildata.shadeArrayRedLipstick[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayRedLipstick[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayRedLipstick[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayRedLipstick[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLipstick[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayRedLipstick[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayRedLipstick[indexPath.row]
                 
             }else if self.shadeButtonNumber == 1 && productButton == 2 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLiquid[indexPath.row])!
-                vc.title = self.self.temp_detaildata.priceArrayRedLiquid[indexPath.row]
-                vc.title1_value = self.temp_detaildata.shadeArrayRedLiquid[indexPath.row]
-                vc.title2_value = self.temp_detaildata.brandArrayRedLiquid[indexPath.row]
-                vc.title3_value = self.temp_detaildata.lineArrayRedLiquid[indexPath.row]
-                vc.price_value = self.temp_detaildata.priceArrayRedLiquid[indexPath.row]
-                vc.whatitis_value = self.temp_detaildata.whatItIsArrayRedLiquid[indexPath.row]
-                vc.whatitdoes_value = self.temp_detaildata.whatItDoesArrayRedLiquid[indexPath.row]
-                vc.weblink_values = self.temp_detaildata.linkArrayRedLiquid[indexPath.row]
+                vc.shadeValue = self.temp_detaildata.shadeArrayRedLiquid[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayRedLiquid[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayRedLiquid[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayRedLiquid[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLiquid[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayRedLiquid[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayRedLiquid[indexPath.row]
             }else if self.shadeButtonNumber == 2 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLipstick[indexPath.row])!
-                vc.title = self.self.temp_detaildata.priceArrayPinkLipstick[indexPath.row]
-                vc.title1_value = self.temp_detaildata.shadeArrayPinkLipstick[indexPath.row]
-                vc.title2_value = self.temp_detaildata.brandArrayPinkLipstick[indexPath.row]
-                vc.title3_value = self.temp_detaildata.lineArrayPinkLipstick[indexPath.row]
-                vc.price_value = self.temp_detaildata.priceArrayPinkLipstick[indexPath.row]
-                vc.whatitis_value = self.temp_detaildata.whatItIsArrayPinkLipstick[indexPath.row]
-                vc.whatitdoes_value = self.temp_detaildata.whatItDoesArrayPinkLipstick[indexPath.row]
-                vc.weblink_values = self.temp_detaildata.linkArrayPinkLipstick[indexPath.row]
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLipstick[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkLipstick[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayPinkLipstick[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkLipstick[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLipstick[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayPinkLipstick[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkLipstick[indexPath.row]
             }else if self.shadeButtonNumber == 3 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLipstick[indexPath.row])!
-                vc.title = self.temp_detaildata.priceArrayBerryLipstick[indexPath.row]
-                vc.title1_value = self.temp_detaildata.shadeArrayBerryLipstick[indexPath.row]
-                vc.title2_value = self.temp_detaildata.brandArrayBerryLipstick[indexPath.row]
-                vc.title3_value = self.temp_detaildata.lineArrayBerryLipstick[indexPath.row]
-                vc.price_value = self.temp_detaildata.priceArrayBerryLipstick[indexPath.row]
-                vc.whatitis_value = self.temp_detaildata.whatItIsArrayBerryLipstick[indexPath.row]
-                vc.whatitdoes_value = self.temp_detaildata.whatItDoesArrayBerryLipstick[indexPath.row]
-                vc.weblink_values = self.temp_detaildata.linkArrayBerryLipstick[indexPath.row]
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLipstick[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryLipstick[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayBerryLipstick[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryLipstick[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLipstick[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayBerryLipstick[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryLipstick[indexPath.row]
             }else if self.shadeButtonNumber == 4 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLipstick[indexPath.row])!
-                vc.title = self.temp_detaildata.priceArrayCoralLipstick[indexPath.row]
-                vc.title1_value = self.temp_detaildata.shadeArrayCoralLipstick[indexPath.row]
-                vc.title2_value = self.temp_detaildata.brandArrayCoralLipstick[indexPath.row]
-                vc.title3_value = self.temp_detaildata.lineArrayCoralLipstick[indexPath.row]
-                vc.price_value = self.temp_detaildata.priceArrayCoralLipstick[indexPath.row]
-                vc.whatitis_value = self.temp_detaildata.whatItIsArrayCoralLipstick[indexPath.row]
-                vc.whatitdoes_value = self.temp_detaildata.whatItDoesArrayCoralLipstick[indexPath.row]
-                vc.weblink_values = self.temp_detaildata.linkArrayCoralLipstick[indexPath.row]
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLipstick[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralLipstick[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayCoralLipstick[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralLipstick[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLipstick[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayCoralLipstick[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralLipstick[indexPath.row]
             }else if self.shadeButtonNumber == 5 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[indexPath.row])!
-                vc.title = self.self.temp_detaildata.priceArrayNudeLipstick[indexPath.row]
-                vc.title1_value = self.temp_detaildata.shadeArrayNudeLipstick[indexPath.row]
-                vc.title2_value = self.temp_detaildata.brandArrayNudeLipstick[indexPath.row]
-                vc.title3_value = self.temp_detaildata.lineArrayNudeLipstick[indexPath.row]
-                vc.price_value = self.temp_detaildata.priceArrayNudeLipstick[indexPath.row]
-                vc.whatitis_value = self.temp_detaildata.whatItIsArrayNudeLipstick[indexPath.row]
-                vc.whatitdoes_value = self.temp_detaildata.whatItDoesArrayNudeLipstick[indexPath.row]
-                vc.weblink_values = self.temp_detaildata.linkArrayNudeLipstick[indexPath.row]
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLipstick[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeLipstick[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayNudeLipstick[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeLipstick[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLipstick[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayNudeLipstick[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeLipstick[indexPath.row]
             }
         }
     }

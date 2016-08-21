@@ -14,13 +14,13 @@ class SpecificShadeViewController: UIViewController {
     //Class Variables
     var image = UIImage()
     var webLink: NSURL!
-    var weblink_values: String = String()
-    var title1_value: String = String()
-    var title2_value: String = String()
-    var title3_value:String = String()
-    var price_value: String = String()
-    var whatitis_value: String = String()
-    var whatitdoes_value: String = String()
+    var linkValue: String = String()
+    var shadeValue: String = String()
+    var brandValue: String = String()
+    var lineValue:String = String()
+    var priceValue: String = String()
+    var whatItIsValue: String = String()
+    var whatItDoesValue: String = String()
     
     //IBOutlets
     @IBOutlet weak var imageView: UIImageView!
@@ -52,12 +52,12 @@ class SpecificShadeViewController: UIViewController {
         self.view .addGestureRecognizer(recognizer)
         
         self.imageView.image = self.image
-        webLink = NSURL(string: self.weblink_values)
-        self.title1.text = self.title1_value
-        self.title2.text = self.title2_value
-        self.title3.text = self.title3_value
-        self.price.text = "$\(self.price_value)"
-        self.whatitis.text = self.whatitis_value
-        self.whatitdoes.text = self.whatitdoes_value
+        webLink = NSURL(string: self.linkValue)
+        self.title1.text = self.shadeValue
+        self.title2.text = self.brandValue
+        self.title3.text = self.lineValue
+        self.price.text = "$\(self.priceValue)"
+        self.whatitis.text = self.whatItIsValue
+        self.whatitdoes.text = self.whatItDoesValue
     }
 }
