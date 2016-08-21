@@ -35,6 +35,7 @@ class SelectProductViewController: UIViewController {
         self.productButton = 5
         performSegueWithIdentifier("toSelectShade", sender: sender)
     }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "toSelectShade"{
             if let destinationVC = segue.destinationViewController as? ShadeViewController{
