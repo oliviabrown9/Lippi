@@ -29,6 +29,7 @@ class SelectShadeViewController: UIViewController {
     
     @IBAction func sendTextMessageButtonTapped(sender: UIButton) {
         if (messageComposer.canSendText()) {
+            
             // Obtain a configured MFMessageComposeViewController
             let messageComposeVC = messageComposer.configuredMessageComposeViewController()
             presentViewController(messageComposeVC, animated: true, completion: nil)
@@ -66,7 +67,6 @@ class SelectShadeViewController: UIViewController {
         if segue.identifier == "Identifier"{
             if let destinationVC = segue.destinationViewController as? ShadeViewController{
                 destinationVC.shadeButtonNumber = self.shadeButton
-//                destinationVC.productButtonNumber = self.productButton
             }
         }
     }
