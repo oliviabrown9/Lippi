@@ -11,6 +11,8 @@ import UIKit
 class SelectShadeViewController: UIViewController {
     
     let messageComposer = MessageComposer()
+    
+    var productButtonNumber: Int = Int()
     var shadeButton:Int = Int()
     
     func swipeRight(recognizer : UISwipeGestureRecognizer) {
@@ -22,6 +24,7 @@ class SelectShadeViewController: UIViewController {
         let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
         recognizer.direction = .Right
         self.view .addGestureRecognizer(recognizer)
+        print(productButton)
     }
     
     @IBAction func sendTextMessageButtonTapped(sender: UIButton) {
@@ -63,6 +66,7 @@ class SelectShadeViewController: UIViewController {
         if segue.identifier == "Identifier"{
             if let destinationVC = segue.destinationViewController as? ShadeViewController{
                 destinationVC.shadeButtonNumber = self.shadeButton
+//                destinationVC.productButtonNumber = self.productButton
             }
         }
     }

@@ -79,7 +79,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         self.temp_detaildata.weblink_array_nude.removeAll()
         self.temp_detaildata.weblink_array_please.removeAll()
         
-        if self.shadeButtonNumber == 1 && self.productButtonNumber == 1 {
+        if self.shadeButtonNumber == 1 && productButton == 1 {
             
             for _index in 1...self.detaildata.price_array.count {
                 
@@ -146,7 +146,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             }
         }
         
-        if self.shadeButtonNumber == 1 && self.productButtonNumber == 2 {
+        if self.shadeButtonNumber == 1 && productButton == 2 {
             
             for _index in 1...self.detaildata.price_array_please.count {
                 
@@ -159,48 +159,56 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.imageArray_berry.append(self.detaildata.imageArray_berry[new_index])
                     self.temp_detaildata.imageArray_coral.append(self.detaildata.imageArray_coral[new_index])
                     self.temp_detaildata.imageArray_nude.append(self.detaildata.imageArray_nude[new_index])
+                    self.temp_detaildata.imageArray_please.append(self.detaildata.imageArray_nude[new_index])
                     
                     self.temp_detaildata.title1_array.append(self.detaildata.title1_array[new_index])
                     self.temp_detaildata.title1_array_pink.append(self.detaildata.title1_array_pink[new_index])
                     self.temp_detaildata.title1_array_berry.append(self.detaildata.title1_array_berry[new_index])
                     self.temp_detaildata.title1_array_coral.append(self.detaildata.title1_array_coral[new_index])
                     self.temp_detaildata.title1_array_nude.append(self.detaildata.title1_array_nude[new_index])
+                    self.temp_detaildata.title1_array_please.append(self.detaildata.title1_array_nude[new_index])
                     
                     self.temp_detaildata.title2_array.append(self.detaildata.title2_array[new_index])
                     self.temp_detaildata.title2_array_pink.append(self.detaildata.title2_array_pink[new_index])
                     self.temp_detaildata.title2_array_berry.append(self.detaildata.title2_array_berry[new_index])
                     self.temp_detaildata.title2_array_coral.append(self.detaildata.title2_array_coral[new_index])
                     self.temp_detaildata.title2_array_nude.append(self.detaildata.title2_array_nude[new_index])
+                    self.temp_detaildata.title2_array_please.append(self.detaildata.title2_array_nude[new_index])
                     
                     self.temp_detaildata.title3_array.append(self.detaildata.title3_array[new_index])
                     self.temp_detaildata.title3_array_pink.append(self.detaildata.title3_array_pink[new_index])
                     self.temp_detaildata.title3_array_berry.append(self.detaildata.title3_array_berry[new_index])
                     self.temp_detaildata.title3_array_coral.append(self.detaildata.title3_array_coral[new_index])
                     self.temp_detaildata.title3_array_nude.append(self.detaildata.title3_array_nude[new_index])
+                    self.temp_detaildata.title3_array_please.append(self.detaildata.title3_array_nude[new_index])
                     
                     self.temp_detaildata.price_array.append(self.detaildata.price_array[new_index])
                     self.temp_detaildata.price_array_pink.append(self.detaildata.price_array_pink[new_index])
                     self.temp_detaildata.price_array_berry.append(self.detaildata.price_array_berry[new_index])
                     self.temp_detaildata.price_array_coral.append(self.detaildata.price_array_coral[new_index])
                     self.temp_detaildata.price_array_nude.append(self.detaildata.price_array_nude[new_index])
+                    self.temp_detaildata.price_array_please.append(self.detaildata.price_array_nude[new_index])
                     
                     self.temp_detaildata.whatitis_array.append(self.detaildata.whatitis_array[new_index])
                     self.temp_detaildata.whatitis_array_pink.append(self.detaildata.whatitis_array_pink[new_index])
                     self.temp_detaildata.whatitis_array_berry.append(self.detaildata.whatitis_array_berry[new_index])
                     self.temp_detaildata.whatitis_array_coral.append(self.detaildata.whatitis_array_coral[new_index])
                     self.temp_detaildata.whatitis_array_nude.append(self.detaildata.whatitis_array_nude[new_index])
+                    self.temp_detaildata.whatitis_array_please.append(self.detaildata.whatitis_array_nude[new_index])
                     
                     self.temp_detaildata.whatitdoes_array.append(self.detaildata.whatitdoes_array[new_index])
                     self.temp_detaildata.whatitdoes_array_pink.append(self.detaildata.whatitdoes_array_pink[new_index])
                     self.temp_detaildata.whatitdoes_array_berry.append(self.detaildata.whatitdoes_array_berry[new_index])
                     self.temp_detaildata.whatitdoes_array_coral.append(self.detaildata.whatitdoes_array_coral[new_index])
                     self.temp_detaildata.whatitdoes_array_nude.append(self.detaildata.whatitdoes_array_nude[new_index])
+                    self.temp_detaildata.whatitdoes_array_please.append(self.detaildata.whatitdoes_array_nude[new_index])
                     
                     self.temp_detaildata.weblink_array.append(self.detaildata.weblink_array[new_index])
                     self.temp_detaildata.weblink_array_pink.append(self.detaildata.weblink_array_pink[new_index])
                     self.temp_detaildata.weblink_array_berry.append(self.detaildata.weblink_array_berry[new_index])
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
+                    self.temp_detaildata.weblink_array_please.append(self.detaildata.weblink_array_nude[new_index])
                 }
             }
         }
@@ -217,48 +225,56 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.imageArray_berry.append(self.detaildata.imageArray_berry[new_index])
                     self.temp_detaildata.imageArray_coral.append(self.detaildata.imageArray_coral[new_index])
                     self.temp_detaildata.imageArray_nude.append(self.detaildata.imageArray_nude[new_index])
+                    self.temp_detaildata.imageArray_please.append(self.detaildata.imageArray_nude[new_index])
                     
                     self.temp_detaildata.title1_array.append(self.detaildata.title1_array[new_index])
                     self.temp_detaildata.title1_array_pink.append(self.detaildata.title1_array_pink[new_index])
                     self.temp_detaildata.title1_array_berry.append(self.detaildata.title1_array_berry[new_index])
                     self.temp_detaildata.title1_array_coral.append(self.detaildata.title1_array_coral[new_index])
                     self.temp_detaildata.title1_array_nude.append(self.detaildata.title1_array_nude[new_index])
+                    self.temp_detaildata.title1_array_please.append(self.detaildata.title1_array_nude[new_index])
                     
                     self.temp_detaildata.title2_array.append(self.detaildata.title2_array[new_index])
                     self.temp_detaildata.title2_array_pink.append(self.detaildata.title2_array_pink[new_index])
                     self.temp_detaildata.title2_array_berry.append(self.detaildata.title2_array_berry[new_index])
                     self.temp_detaildata.title2_array_coral.append(self.detaildata.title2_array_coral[new_index])
                     self.temp_detaildata.title2_array_nude.append(self.detaildata.title2_array_nude[new_index])
+                    self.temp_detaildata.title2_array_please.append(self.detaildata.title2_array_nude[new_index])
                     
                     self.temp_detaildata.title3_array.append(self.detaildata.title3_array[new_index])
                     self.temp_detaildata.title3_array_pink.append(self.detaildata.title3_array_pink[new_index])
                     self.temp_detaildata.title3_array_berry.append(self.detaildata.title3_array_berry[new_index])
                     self.temp_detaildata.title3_array_coral.append(self.detaildata.title3_array_coral[new_index])
                     self.temp_detaildata.title3_array_nude.append(self.detaildata.title3_array_nude[new_index])
+                    self.temp_detaildata.title3_array_please.append(self.detaildata.title3_array_nude[new_index])
                     
                     self.temp_detaildata.price_array.append(self.detaildata.price_array[new_index])
                     self.temp_detaildata.price_array_pink.append(self.detaildata.price_array_pink[new_index])
                     self.temp_detaildata.price_array_berry.append(self.detaildata.price_array_berry[new_index])
                     self.temp_detaildata.price_array_coral.append(self.detaildata.price_array_coral[new_index])
                     self.temp_detaildata.price_array_nude.append(self.detaildata.price_array_nude[new_index])
+                    self.temp_detaildata.price_array_please.append(self.detaildata.price_array_nude[new_index])
                     
                     self.temp_detaildata.whatitis_array.append(self.detaildata.whatitis_array[new_index])
                     self.temp_detaildata.whatitis_array_pink.append(self.detaildata.whatitis_array_pink[new_index])
                     self.temp_detaildata.whatitis_array_berry.append(self.detaildata.whatitis_array_berry[new_index])
                     self.temp_detaildata.whatitis_array_coral.append(self.detaildata.whatitis_array_coral[new_index])
                     self.temp_detaildata.whatitis_array_nude.append(self.detaildata.whatitis_array_nude[new_index])
+                    self.temp_detaildata.whatitis_array_please.append(self.detaildata.whatitis_array_nude[new_index])
                     
                     self.temp_detaildata.whatitdoes_array.append(self.detaildata.whatitdoes_array[new_index])
                     self.temp_detaildata.whatitdoes_array_pink.append(self.detaildata.whatitdoes_array_pink[new_index])
                     self.temp_detaildata.whatitdoes_array_berry.append(self.detaildata.whatitdoes_array_berry[new_index])
                     self.temp_detaildata.whatitdoes_array_coral.append(self.detaildata.whatitdoes_array_coral[new_index])
                     self.temp_detaildata.whatitdoes_array_nude.append(self.detaildata.whatitdoes_array_nude[new_index])
+                    self.temp_detaildata.whatitdoes_array_please.append(self.detaildata.whatitdoes_array_nude[new_index])
                     
                     self.temp_detaildata.weblink_array.append(self.detaildata.weblink_array[new_index])
                     self.temp_detaildata.weblink_array_pink.append(self.detaildata.weblink_array_pink[new_index])
                     self.temp_detaildata.weblink_array_berry.append(self.detaildata.weblink_array_berry[new_index])
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
+                    self.temp_detaildata.weblink_array_please.append(self.detaildata.weblink_array_nude[new_index])
                 }
             }
         }
@@ -273,48 +289,56 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.imageArray_berry.append(self.detaildata.imageArray_berry[new_index])
                     self.temp_detaildata.imageArray_coral.append(self.detaildata.imageArray_coral[new_index])
                     self.temp_detaildata.imageArray_nude.append(self.detaildata.imageArray_nude[new_index])
+                    self.temp_detaildata.imageArray_please.append(self.detaildata.imageArray_nude[new_index])
                     
                     self.temp_detaildata.title1_array.append(self.detaildata.title1_array[new_index])
                     self.temp_detaildata.title1_array_pink.append(self.detaildata.title1_array_pink[new_index])
                     self.temp_detaildata.title1_array_berry.append(self.detaildata.title1_array_berry[new_index])
                     self.temp_detaildata.title1_array_coral.append(self.detaildata.title1_array_coral[new_index])
                     self.temp_detaildata.title1_array_nude.append(self.detaildata.title1_array_nude[new_index])
+                    self.temp_detaildata.title1_array_please.append(self.detaildata.title1_array_nude[new_index])
                     
                     self.temp_detaildata.title2_array.append(self.detaildata.title2_array[new_index])
                     self.temp_detaildata.title2_array_pink.append(self.detaildata.title2_array_pink[new_index])
                     self.temp_detaildata.title2_array_berry.append(self.detaildata.title2_array_berry[new_index])
                     self.temp_detaildata.title2_array_coral.append(self.detaildata.title2_array_coral[new_index])
                     self.temp_detaildata.title2_array_nude.append(self.detaildata.title2_array_nude[new_index])
+                    self.temp_detaildata.title2_array_please.append(self.detaildata.title2_array_nude[new_index])
                     
                     self.temp_detaildata.title3_array.append(self.detaildata.title3_array[new_index])
                     self.temp_detaildata.title3_array_pink.append(self.detaildata.title3_array_pink[new_index])
                     self.temp_detaildata.title3_array_berry.append(self.detaildata.title3_array_berry[new_index])
                     self.temp_detaildata.title3_array_coral.append(self.detaildata.title3_array_coral[new_index])
                     self.temp_detaildata.title3_array_nude.append(self.detaildata.title3_array_nude[new_index])
-
+                    self.temp_detaildata.title3_array_please.append(self.detaildata.title3_array_nude[new_index])
+                    
                     self.temp_detaildata.price_array.append(self.detaildata.price_array[new_index])
                     self.temp_detaildata.price_array_pink.append(self.detaildata.price_array_pink[new_index])
                     self.temp_detaildata.price_array_berry.append(self.detaildata.price_array_berry[new_index])
                     self.temp_detaildata.price_array_coral.append(self.detaildata.price_array_coral[new_index])
                     self.temp_detaildata.price_array_nude.append(self.detaildata.price_array_nude[new_index])
+                    self.temp_detaildata.price_array_please.append(self.detaildata.price_array_nude[new_index])
                     
                     self.temp_detaildata.whatitis_array.append(self.detaildata.whatitis_array[new_index])
                     self.temp_detaildata.whatitis_array_pink.append(self.detaildata.whatitis_array_pink[new_index])
                     self.temp_detaildata.whatitis_array_berry.append(self.detaildata.whatitis_array_berry[new_index])
                     self.temp_detaildata.whatitis_array_coral.append(self.detaildata.whatitis_array_coral[new_index])
                     self.temp_detaildata.whatitis_array_nude.append(self.detaildata.whatitis_array_nude[new_index])
+                    self.temp_detaildata.whatitis_array_please.append(self.detaildata.whatitis_array_nude[new_index])
                     
                     self.temp_detaildata.whatitdoes_array.append(self.detaildata.whatitdoes_array[new_index])
                     self.temp_detaildata.whatitdoes_array_pink.append(self.detaildata.whatitdoes_array_pink[new_index])
                     self.temp_detaildata.whatitdoes_array_berry.append(self.detaildata.whatitdoes_array_berry[new_index])
                     self.temp_detaildata.whatitdoes_array_coral.append(self.detaildata.whatitdoes_array_coral[new_index])
                     self.temp_detaildata.whatitdoes_array_nude.append(self.detaildata.whatitdoes_array_nude[new_index])
+                    self.temp_detaildata.whatitdoes_array_please.append(self.detaildata.whatitdoes_array_nude[new_index])
                     
                     self.temp_detaildata.weblink_array.append(self.detaildata.weblink_array[new_index])
                     self.temp_detaildata.weblink_array_pink.append(self.detaildata.weblink_array_pink[new_index])
                     self.temp_detaildata.weblink_array_berry.append(self.detaildata.weblink_array_berry[new_index])
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
+                    self.temp_detaildata.weblink_array_please.append(self.detaildata.weblink_array_nude[new_index])
                 }
             }
         }
@@ -329,48 +353,56 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.imageArray_berry.append(self.detaildata.imageArray_berry[new_index])
                     self.temp_detaildata.imageArray_coral.append(self.detaildata.imageArray_coral[new_index])
                     self.temp_detaildata.imageArray_nude.append(self.detaildata.imageArray_nude[new_index])
+                    self.temp_detaildata.imageArray_please.append(self.detaildata.imageArray_nude[new_index])
                     
                     self.temp_detaildata.title1_array.append(self.detaildata.title1_array[new_index])
                     self.temp_detaildata.title1_array_pink.append(self.detaildata.title1_array_pink[new_index])
                     self.temp_detaildata.title1_array_berry.append(self.detaildata.title1_array_berry[new_index])
                     self.temp_detaildata.title1_array_coral.append(self.detaildata.title1_array_coral[new_index])
                     self.temp_detaildata.title1_array_nude.append(self.detaildata.title1_array_nude[new_index])
+                    self.temp_detaildata.title1_array_please.append(self.detaildata.title1_array_nude[new_index])
                     
                     self.temp_detaildata.title2_array.append(self.detaildata.title2_array[new_index])
                     self.temp_detaildata.title2_array_pink.append(self.detaildata.title2_array_pink[new_index])
                     self.temp_detaildata.title2_array_berry.append(self.detaildata.title2_array_berry[new_index])
                     self.temp_detaildata.title2_array_coral.append(self.detaildata.title2_array_coral[new_index])
                     self.temp_detaildata.title2_array_nude.append(self.detaildata.title2_array_nude[new_index])
+                    self.temp_detaildata.title2_array_please.append(self.detaildata.title2_array_nude[new_index])
                     
                     self.temp_detaildata.title3_array.append(self.detaildata.title3_array[new_index])
                     self.temp_detaildata.title3_array_pink.append(self.detaildata.title3_array_pink[new_index])
                     self.temp_detaildata.title3_array_berry.append(self.detaildata.title3_array_berry[new_index])
                     self.temp_detaildata.title3_array_coral.append(self.detaildata.title3_array_coral[new_index])
                     self.temp_detaildata.title3_array_nude.append(self.detaildata.title3_array_nude[new_index])
+                    self.temp_detaildata.title3_array_please.append(self.detaildata.title3_array_nude[new_index])
                     
                     self.temp_detaildata.price_array.append(self.detaildata.price_array[new_index])
                     self.temp_detaildata.price_array_pink.append(self.detaildata.price_array_pink[new_index])
                     self.temp_detaildata.price_array_berry.append(self.detaildata.price_array_berry[new_index])
                     self.temp_detaildata.price_array_coral.append(self.detaildata.price_array_coral[new_index])
                     self.temp_detaildata.price_array_nude.append(self.detaildata.price_array_nude[new_index])
+                    self.temp_detaildata.price_array_please.append(self.detaildata.price_array_nude[new_index])
                     
                     self.temp_detaildata.whatitis_array.append(self.detaildata.whatitis_array[new_index])
                     self.temp_detaildata.whatitis_array_pink.append(self.detaildata.whatitis_array_pink[new_index])
                     self.temp_detaildata.whatitis_array_berry.append(self.detaildata.whatitis_array_berry[new_index])
                     self.temp_detaildata.whatitis_array_coral.append(self.detaildata.whatitis_array_coral[new_index])
                     self.temp_detaildata.whatitis_array_nude.append(self.detaildata.whatitis_array_nude[new_index])
+                    self.temp_detaildata.whatitis_array_please.append(self.detaildata.whatitis_array_nude[new_index])
                     
                     self.temp_detaildata.whatitdoes_array.append(self.detaildata.whatitdoes_array[new_index])
                     self.temp_detaildata.whatitdoes_array_pink.append(self.detaildata.whatitdoes_array_pink[new_index])
                     self.temp_detaildata.whatitdoes_array_berry.append(self.detaildata.whatitdoes_array_berry[new_index])
                     self.temp_detaildata.whatitdoes_array_coral.append(self.detaildata.whatitdoes_array_coral[new_index])
                     self.temp_detaildata.whatitdoes_array_nude.append(self.detaildata.whatitdoes_array_nude[new_index])
+                    self.temp_detaildata.whatitdoes_array_please.append(self.detaildata.whatitdoes_array_nude[new_index])
                     
                     self.temp_detaildata.weblink_array.append(self.detaildata.weblink_array[new_index])
                     self.temp_detaildata.weblink_array_pink.append(self.detaildata.weblink_array_pink[new_index])
                     self.temp_detaildata.weblink_array_berry.append(self.detaildata.weblink_array_berry[new_index])
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
+                    self.temp_detaildata.weblink_array_please.append(self.detaildata.weblink_array_nude[new_index])
                 }
             }
         }
@@ -385,47 +417,56 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.imageArray_berry.append(self.detaildata.imageArray_berry[new_index])
                     self.temp_detaildata.imageArray_coral.append(self.detaildata.imageArray_coral[new_index])
                     self.temp_detaildata.imageArray_nude.append(self.detaildata.imageArray_nude[new_index])
+                    self.temp_detaildata.imageArray_please.append(self.detaildata.imageArray_nude[new_index])
                     
                     self.temp_detaildata.title1_array.append(self.detaildata.title1_array[new_index])
                     self.temp_detaildata.title1_array_pink.append(self.detaildata.title1_array_pink[new_index])
                     self.temp_detaildata.title1_array_berry.append(self.detaildata.title1_array_berry[new_index])
                     self.temp_detaildata.title1_array_coral.append(self.detaildata.title1_array_coral[new_index])
                     self.temp_detaildata.title1_array_nude.append(self.detaildata.title1_array_nude[new_index])
+                    self.temp_detaildata.title1_array_please.append(self.detaildata.title1_array_nude[new_index])
                     
                     self.temp_detaildata.title2_array.append(self.detaildata.title2_array[new_index])
                     self.temp_detaildata.title2_array_pink.append(self.detaildata.title2_array_pink[new_index])
                     self.temp_detaildata.title2_array_berry.append(self.detaildata.title2_array_berry[new_index])
                     self.temp_detaildata.title2_array_coral.append(self.detaildata.title2_array_coral[new_index])
                     self.temp_detaildata.title2_array_nude.append(self.detaildata.title2_array_nude[new_index])
+                    self.temp_detaildata.title2_array_please.append(self.detaildata.title2_array_nude[new_index])
                     
                     self.temp_detaildata.title3_array.append(self.detaildata.title3_array[new_index])
                     self.temp_detaildata.title3_array_pink.append(self.detaildata.title3_array_pink[new_index])
                     self.temp_detaildata.title3_array_berry.append(self.detaildata.title3_array_berry[new_index])
                     self.temp_detaildata.title3_array_coral.append(self.detaildata.title3_array_coral[new_index])
                     self.temp_detaildata.title3_array_nude.append(self.detaildata.title3_array_nude[new_index])
+                    self.temp_detaildata.title3_array_please.append(self.detaildata.title3_array_nude[new_index])
                     
                     self.temp_detaildata.price_array.append(self.detaildata.price_array[new_index])
                     self.temp_detaildata.price_array_pink.append(self.detaildata.price_array_pink[new_index])
                     self.temp_detaildata.price_array_berry.append(self.detaildata.price_array_berry[new_index])
                     self.temp_detaildata.price_array_coral.append(self.detaildata.price_array_coral[new_index])
                     self.temp_detaildata.price_array_nude.append(self.detaildata.price_array_nude[new_index])
+                    self.temp_detaildata.price_array_please.append(self.detaildata.price_array_nude[new_index])
                     
                     self.temp_detaildata.whatitis_array.append(self.detaildata.whatitis_array[new_index])
                     self.temp_detaildata.whatitis_array_pink.append(self.detaildata.whatitis_array_pink[new_index])
                     self.temp_detaildata.whatitis_array_berry.append(self.detaildata.whatitis_array_berry[new_index])
                     self.temp_detaildata.whatitis_array_coral.append(self.detaildata.whatitis_array_coral[new_index])
                     self.temp_detaildata.whatitis_array_nude.append(self.detaildata.whatitis_array_nude[new_index])
+                    self.temp_detaildata.whatitis_array_please.append(self.detaildata.whatitis_array_nude[new_index])
                     
                     self.temp_detaildata.whatitdoes_array.append(self.detaildata.whatitdoes_array[new_index])
                     self.temp_detaildata.whatitdoes_array_pink.append(self.detaildata.whatitdoes_array_pink[new_index])
                     self.temp_detaildata.whatitdoes_array_berry.append(self.detaildata.whatitdoes_array_berry[new_index])
                     self.temp_detaildata.whatitdoes_array_coral.append(self.detaildata.whatitdoes_array_coral[new_index])
                     self.temp_detaildata.whatitdoes_array_nude.append(self.detaildata.whatitdoes_array_nude[new_index])
+                    self.temp_detaildata.whatitdoes_array_please.append(self.detaildata.whatitdoes_array_nude[new_index])
+                    
                     self.temp_detaildata.weblink_array.append(self.detaildata.weblink_array[new_index])
                     self.temp_detaildata.weblink_array_pink.append(self.detaildata.weblink_array_pink[new_index])
                     self.temp_detaildata.weblink_array_berry.append(self.detaildata.weblink_array_berry[new_index])
                     self.temp_detaildata.weblink_array_coral.append(self.detaildata.weblink_array_coral[new_index])
                     self.temp_detaildata.weblink_array_nude.append(self.detaildata.weblink_array_nude[new_index])
+                    self.temp_detaildata.weblink_array_please.append(self.detaildata.weblink_array_nude[new_index])
                 }
             }
         }
@@ -442,13 +483,18 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
         recognizer.direction = .Right
         self.view .addGestureRecognizer(recognizer)
+        print(productButton)
+        print(self.shadeButtonNumber)
     }
     
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
   
-        if self.shadeButtonNumber == 1 {
+        if self.shadeButtonNumber == 1 && productButton == 1 {
             return self.temp_detaildata.price_array.count
+        }
+        if self.shadeButtonNumber == 1 && productButton == 2 {
+            return self.temp_detaildata.price_array_please.count
         }
         if self.shadeButtonNumber == 2 {
             return self.temp_detaildata.price_array_pink.count
@@ -476,8 +522,11 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)
             as! CollectionViewCell
-        if self.shadeButtonNumber == 1 {
+        if self.shadeButtonNumber == 1 && productButton == 1 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray[indexPath.row])
+        }else if self.shadeButtonNumber == 1 && productButton == 2 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray_please[indexPath.row])
+        
         }else if self.shadeButtonNumber == 2 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArray_pink[indexPath.row])
             
@@ -507,7 +556,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
             let vc = segue.destinationViewController as! SpecificShadeViewController
             
-            if self.shadeButtonNumber == 1 {
+            if self.shadeButtonNumber == 1 && productButton == 1 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArray[indexPath.row])!
                 vc.title = self.temp_detaildata.price_array[indexPath.row]
                 vc.title1_value = self.temp_detaildata.title1_array[indexPath.row]
@@ -517,6 +566,17 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 vc.whatitis_value = self.temp_detaildata.whatitis_array[indexPath.row]
                 vc.whatitdoes_value = self.temp_detaildata.whatitdoes_array[indexPath.row]
                 vc.weblink_values = self.temp_detaildata.weblink_array[indexPath.row]
+                
+            }else if self.shadeButtonNumber == 1 && productButton == 2 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArray_please[indexPath.row])!
+                vc.title = self.self.temp_detaildata.price_array_please[indexPath.row]
+                vc.title1_value = self.temp_detaildata.title1_array_please[indexPath.row]
+                vc.title2_value = self.temp_detaildata.title2_array_please[indexPath.row]
+                vc.title3_value = self.temp_detaildata.title3_array_please[indexPath.row]
+                vc.price_value = self.temp_detaildata.price_array_please[indexPath.row]
+                vc.whatitis_value = self.temp_detaildata.whatitis_array_please[indexPath.row]
+                vc.whatitdoes_value = self.temp_detaildata.whatitdoes_array_please[indexPath.row]
+                vc.weblink_values = self.temp_detaildata.weblink_array_please[indexPath.row]
             }else if self.shadeButtonNumber == 2 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArray_pink[indexPath.row])!
                 vc.title = self.self.temp_detaildata.price_array_pink[indexPath.row]
