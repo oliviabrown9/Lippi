@@ -4,6 +4,7 @@ import UIKit
 class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
     var button_number:Int = Int()
+    var productButtonNumber: Int = Int()
     var Slider_selectedvarue = Int()
     var temp_detaildata: DetailData = DetailData()
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4jd-CR-gTt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -22,26 +22,41 @@
                                 <rect key="frame" x="136" y="207" width="103" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lipstick"/>
+                                <connections>
+                                    <action selector="Lipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMN-iL-0dj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ut0-UC-235">
                                 <rect key="frame" x="91" y="269" width="192" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Liquid Lipstick"/>
+                                <connections>
+                                    <action selector="LiquidLipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lHt-qW-MRx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XR-Al-eHU">
                                 <rect key="frame" x="116" y="337" width="143" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lip Crayon"/>
+                                <connections>
+                                    <action selector="LipCrayon_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S3c-rm-VHi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soY-Cz-p5Q">
                                 <rect key="frame" x="130" y="405" width="115" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lip Stain"/>
+                                <connections>
+                                    <action selector="LipStain_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7GR-zs-BDo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ph7-4m-6Z4">
                                 <rect key="frame" x="131" y="467" width="114" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Lip Liner"/>
+                                <connections>
+                                    <action selector="LipLiner_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b1r-vC-q5B"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="751" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9P-us-jKJ">
                                 <rect key="frame" x="137" y="47" width="101" height="49"/>
@@ -55,24 +70,17 @@
                                 <color key="textColor" red="0.45342548076923073" green="0.45342548076923073" blue="0.45342548076923073" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDD-vX-Bcc">
-                                <rect key="frame" x="128" y="530" width="119" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Anything"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Ph7-4m-6Z4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2wY-7P-FAD"/>
-                            <constraint firstItem="xDD-vX-Bcc" firstAttribute="top" secondItem="Ph7-4m-6Z4" secondAttribute="bottom" constant="15" id="5Bu-56-BQs"/>
                             <constraint firstItem="VqI-oR-TEc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5kT-HF-nBm"/>
                             <constraint firstItem="soY-Cz-p5Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Ah-p4-JqI"/>
                             <constraint firstItem="g9P-us-jKJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G45-Lu-RXd"/>
                             <constraint firstItem="soY-Cz-p5Q" firstAttribute="top" secondItem="1XR-Al-eHU" secondAttribute="bottom" constant="20" id="Jg8-gk-kfQ"/>
                             <constraint firstItem="VqI-oR-TEc" firstAttribute="top" secondItem="ryU-Wz-BdM" secondAttribute="bottom" constant="45" id="U9m-UH-2Uu"/>
                             <constraint firstItem="g9P-us-jKJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z9y-ba-eMS"/>
-                            <constraint firstItem="xDD-vX-Bcc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="alX-qu-xRa"/>
                             <constraint firstItem="g9P-us-jKJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="bsK-OV-lhM"/>
                             <constraint firstItem="ryU-Wz-BdM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dw5-cZ-lJH"/>
                             <constraint firstItem="1XR-Al-eHU" firstAttribute="top" secondItem="ut0-UC-235" secondAttribute="bottom" constant="20" id="mVQ-e3-wXo"/>
@@ -84,10 +92,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HSw-n6-qle"/>
+                    <connections>
+                        <segue destination="UrY-7W-lzt" kind="show" identifier="toSelectShade" id="F20-qX-yK8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1285.5" y="30.75"/>
+            <point key="canvasLocation" x="1960.5" y="31.5"/>
         </scene>
         <!--Select Shade View Controller-->
         <scene sceneID="fs1-fG-1LW">
@@ -852,12 +863,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="UrY-7W-lzt" kind="relationship" relationship="rootViewController" id="zdu-nE-U6k"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8bT-Ti-TGj"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybb-Gw-Sqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2056" y="32"/>
+            <point key="canvasLocation" x="1212" y="30.75"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
