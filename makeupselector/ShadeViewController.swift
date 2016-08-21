@@ -495,7 +495,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             }
         }
 
-        if self.shadeButtonNumber == 4 {
+        if self.shadeButtonNumber == 4 && productButton == 1 {
             for _index in 1...self.detaildata.priceArrayCoralLipstick.count {
                 let new_index = _index  - 1
                 
@@ -511,7 +511,76 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 }
             }
         }
-        if self.shadeButtonNumber == 5 {
+        if self.shadeButtonNumber == 4 && productButton == 2 {
+            for _index in 1...self.detaildata.priceArrayCoralLiquid.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayCoralLiquid[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayCoralLiquid.append(self.detaildata.imageArrayCoralLiquid[new_index])
+                    self.temp_detaildata.shadeArrayCoralLiquid.append(self.detaildata.shadeArrayCoralLiquid[new_index])
+                    self.temp_detaildata.brandArrayCoralLiquid.append(self.detaildata.brandArrayCoralLiquid[new_index])
+                    self.temp_detaildata.lineArrayCoralLiquid.append(self.detaildata.lineArrayCoralLiquid[new_index])
+                    self.temp_detaildata.priceArrayCoralLiquid.append(self.detaildata.priceArrayCoralLiquid[new_index])
+                    self.temp_detaildata.whatItIsArrayCoralLiquid.append(self.detaildata.whatItIsArrayCoralLiquid[new_index])
+                    self.temp_detaildata.whatItDoesArrayCoralLiquid.append(self.detaildata.whatItDoesArrayCoralLiquid[new_index])
+                    self.temp_detaildata.linkArrayCoralLiquid.append(self.detaildata.linkArrayCoralLiquid[new_index])
+                }
+            }
+        }
+        if self.shadeButtonNumber == 4 && productButton == 3 {
+            for _index in 1...self.detaildata.priceArrayCoralCrayon.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayCoralCrayon[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayCoralCrayon.append(self.detaildata.imageArrayCoralCrayon[new_index])
+                    self.temp_detaildata.shadeArrayCoralCrayon.append(self.detaildata.shadeArrayCoralCrayon[new_index])
+                    self.temp_detaildata.brandArrayCoralCrayon.append(self.detaildata.brandArrayCoralCrayon[new_index])
+                    self.temp_detaildata.lineArrayCoralCrayon.append(self.detaildata.lineArrayCoralCrayon[new_index])
+                    self.temp_detaildata.priceArrayCoralCrayon.append(self.detaildata.priceArrayCoralCrayon[new_index])
+                    self.temp_detaildata.whatItIsArrayCoralCrayon.append(self.detaildata.whatItIsArrayCoralCrayon[new_index])
+                    self.temp_detaildata.whatItDoesArrayCoralCrayon.append(self.detaildata.whatItDoesArrayCoralCrayon[new_index])
+                    self.temp_detaildata.linkArrayCoralCrayon.append(self.detaildata.linkArrayCoralCrayon[new_index])
+                }
+            }
+        }
+        if self.shadeButtonNumber == 4 && productButton == 4 {
+            for _index in 1...self.detaildata.priceArrayCoralStain.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayCoralStain[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayCoralStain.append(self.detaildata.imageArrayCoralStain[new_index])
+                    self.temp_detaildata.shadeArrayCoralStain.append(self.detaildata.shadeArrayCoralStain[new_index])
+                    self.temp_detaildata.brandArrayCoralStain.append(self.detaildata.brandArrayCoralStain[new_index])
+                    self.temp_detaildata.lineArrayCoralStain.append(self.detaildata.lineArrayCoralStain[new_index])
+                    self.temp_detaildata.priceArrayCoralStain.append(self.detaildata.priceArrayCoralStain[new_index])
+                    self.temp_detaildata.whatItIsArrayCoralStain.append(self.detaildata.whatItIsArrayCoralStain[new_index])
+                    self.temp_detaildata.whatItDoesArrayCoralStain.append(self.detaildata.whatItDoesArrayCoralStain[new_index])
+                    self.temp_detaildata.linkArrayCoralStain.append(self.detaildata.linkArrayCoralStain[new_index])
+                }
+            }
+        }
+        if self.shadeButtonNumber == 4 && productButton == 5 {
+            for _index in 1...self.detaildata.priceArrayCoralLiner.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayCoralLiner[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayCoralLiner.append(self.detaildata.imageArrayCoralLiner[new_index])
+                    self.temp_detaildata.shadeArrayCoralLiner.append(self.detaildata.shadeArrayCoralLiner[new_index])
+                    self.temp_detaildata.brandArrayCoralLiner.append(self.detaildata.brandArrayCoralLiner[new_index])
+                    self.temp_detaildata.lineArrayCoralLiner.append(self.detaildata.lineArrayCoralLiner[new_index])
+                    self.temp_detaildata.priceArrayCoralLiner.append(self.detaildata.priceArrayCoralLiner[new_index])
+                    self.temp_detaildata.whatItIsArrayCoralLiner.append(self.detaildata.whatItIsArrayCoralLiner[new_index])
+                    self.temp_detaildata.whatItDoesArrayCoralLiner.append(self.detaildata.whatItDoesArrayCoralLiner[new_index])
+                    self.temp_detaildata.linkArrayCoralLiner.append(self.detaildata.linkArrayCoralLiner[new_index])
+                }
+            }
+        }
+
+        if self.shadeButtonNumber == 5 && productButton == 1 {
             for _index in 1...self.detaildata.priceArrayNudeLipstick.count {
                 let new_index = _index  - 1
                 
@@ -525,6 +594,74 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.temp_detaildata.whatItIsArrayNudeLipstick.append(self.detaildata.whatItIsArrayNudeLipstick[new_index])
                     self.temp_detaildata.whatItDoesArrayNudeLipstick.append(self.detaildata.whatItDoesArrayNudeLipstick[new_index])
                     self.temp_detaildata.linkArrayNudeLipstick.append(self.detaildata.linkArrayNudeLipstick[new_index])
+                }
+            }
+        }
+        if self.shadeButtonNumber == 5 && productButton == 2 {
+            for _index in 1...self.detaildata.priceArrayNudeLiquid.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayNudeLiquid[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayNudeLiquid.append(self.detaildata.imageArrayNudeLiquid[new_index])
+                    self.temp_detaildata.shadeArrayNudeLiquid.append(self.detaildata.shadeArrayNudeLiquid[new_index])
+                    self.temp_detaildata.brandArrayNudeLiquid.append(self.detaildata.brandArrayNudeLiquid[new_index])
+                    self.temp_detaildata.lineArrayNudeLiquid.append(self.detaildata.lineArrayNudeLiquid[new_index])
+                    self.temp_detaildata.priceArrayNudeLiquid.append(self.detaildata.priceArrayNudeLiquid[new_index])
+                    self.temp_detaildata.whatItIsArrayNudeLiquid.append(self.detaildata.whatItIsArrayNudeLiquid[new_index])
+                    self.temp_detaildata.whatItDoesArrayNudeLiquid.append(self.detaildata.whatItDoesArrayNudeLiquid[new_index])
+                    self.temp_detaildata.linkArrayNudeLiquid.append(self.detaildata.linkArrayNudeLiquid[new_index])
+                }
+            }
+        }
+        if self.shadeButtonNumber == 5 && productButton == 3 {
+            for _index in 1...self.detaildata.priceArrayNudeCrayon.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayNudeCrayon[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayNudeCrayon.append(self.detaildata.imageArrayNudeCrayon[new_index])
+                    self.temp_detaildata.shadeArrayNudeCrayon.append(self.detaildata.shadeArrayNudeCrayon[new_index])
+                    self.temp_detaildata.brandArrayNudeCrayon.append(self.detaildata.brandArrayNudeCrayon[new_index])
+                    self.temp_detaildata.lineArrayNudeCrayon.append(self.detaildata.lineArrayNudeCrayon[new_index])
+                    self.temp_detaildata.priceArrayNudeCrayon.append(self.detaildata.priceArrayNudeCrayon[new_index])
+                    self.temp_detaildata.whatItIsArrayNudeCrayon.append(self.detaildata.whatItIsArrayNudeCrayon[new_index])
+                    self.temp_detaildata.whatItDoesArrayNudeCrayon.append(self.detaildata.whatItDoesArrayNudeCrayon[new_index])
+                    self.temp_detaildata.linkArrayNudeCrayon.append(self.detaildata.linkArrayNudeCrayon[new_index])
+                }
+            }
+        }
+        if self.shadeButtonNumber == 5 && productButton == 4 {
+            for _index in 1...self.detaildata.priceArrayNudeStain.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayNudeStain[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayNudeStain.append(self.detaildata.imageArrayNudeStain[new_index])
+                    self.temp_detaildata.shadeArrayNudeStain.append(self.detaildata.shadeArrayNudeStain[new_index])
+                    self.temp_detaildata.brandArrayNudeStain.append(self.detaildata.brandArrayNudeStain[new_index])
+                    self.temp_detaildata.lineArrayNudeStain.append(self.detaildata.lineArrayNudeStain[new_index])
+                    self.temp_detaildata.priceArrayNudeStain.append(self.detaildata.priceArrayNudeStain[new_index])
+                    self.temp_detaildata.whatItIsArrayNudeStain.append(self.detaildata.whatItIsArrayNudeStain[new_index])
+                    self.temp_detaildata.whatItDoesArrayNudeStain.append(self.detaildata.whatItDoesArrayNudeStain[new_index])
+                    self.temp_detaildata.linkArrayNudeStain.append(self.detaildata.linkArrayNudeStain[new_index])
+                }
+            }
+        }
+        if self.shadeButtonNumber == 5 && productButton == 5 {
+            for _index in 1...self.detaildata.priceArrayNudeLiner.count {
+                let new_index = _index  - 1
+                
+                if Float(selectedValue) >= Float(self.detaildata.priceArrayNudeLiner[new_index]) {
+                    
+                    self.temp_detaildata.imageArrayNudeLiner.append(self.detaildata.imageArrayNudeLiner[new_index])
+                    self.temp_detaildata.shadeArrayNudeLiner.append(self.detaildata.shadeArrayNudeLiner[new_index])
+                    self.temp_detaildata.brandArrayNudeLiner.append(self.detaildata.brandArrayNudeLiner[new_index])
+                    self.temp_detaildata.lineArrayNudeLiner.append(self.detaildata.lineArrayNudeLiner[new_index])
+                    self.temp_detaildata.priceArrayNudeLiner.append(self.detaildata.priceArrayNudeLiner[new_index])
+                    self.temp_detaildata.whatItIsArrayNudeLiner.append(self.detaildata.whatItIsArrayNudeLiner[new_index])
+                    self.temp_detaildata.whatItDoesArrayNudeLiner.append(self.detaildata.whatItDoesArrayNudeLiner[new_index])
+                    self.temp_detaildata.linkArrayNudeLiner.append(self.detaildata.linkArrayNudeLiner[new_index])
                 }
             }
         }
@@ -561,17 +698,65 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         if self.shadeButtonNumber == 1 && productButton == 5 {
             return self.temp_detaildata.priceArrayRedLiner.count
         }
-        if self.shadeButtonNumber == 2 {
+        if self.shadeButtonNumber == 2 && productButton == 1 {
             return self.temp_detaildata.priceArrayPinkLipstick.count
         }
-        if self.shadeButtonNumber == 3 {
+        if self.shadeButtonNumber == 2 && productButton == 2 {
+            return self.temp_detaildata.priceArrayPinkLiquid.count
+        }
+        if self.shadeButtonNumber == 2 && productButton == 3 {
+            return self.temp_detaildata.priceArrayPinkCrayon.count
+        }
+        if self.shadeButtonNumber == 2 && productButton == 4 {
+            return self.temp_detaildata.priceArrayPinkStain.count
+        }
+        if self.shadeButtonNumber == 2 && productButton == 5 {
+            return self.temp_detaildata.priceArrayPinkLiner.count
+        }
+        if self.shadeButtonNumber == 3 && productButton == 1 {
             return self.temp_detaildata.priceArrayBerryLipstick.count
         }
-        if self.shadeButtonNumber == 4 {
+        if self.shadeButtonNumber == 3 && productButton == 2 {
+            return self.temp_detaildata.priceArrayBerryLiquid.count
+        }
+        if self.shadeButtonNumber == 3 && productButton == 3 {
+            return self.temp_detaildata.priceArrayBerryCrayon.count
+        }
+        if self.shadeButtonNumber == 3 && productButton == 4 {
+            return self.temp_detaildata.priceArrayBerryStain.count
+        }
+        if self.shadeButtonNumber == 3 && productButton == 5 {
+            return self.temp_detaildata.priceArrayBerryLiner.count
+        }
+        if self.shadeButtonNumber == 4 && productButton == 1 {
             return self.temp_detaildata.priceArrayCoralLipstick.count
         }
-        if self.shadeButtonNumber == 5 {
+        if self.shadeButtonNumber == 4 && productButton == 2 {
+            return self.temp_detaildata.priceArrayCoralLiquid.count
+        }
+        if self.shadeButtonNumber == 4 && productButton == 3 {
+            return self.temp_detaildata.priceArrayCoralCrayon.count
+        }
+        if self.shadeButtonNumber == 4 && productButton == 4 {
+            return self.temp_detaildata.priceArrayCoralStain.count
+        }
+        if self.shadeButtonNumber == 4 && productButton == 5 {
+            return self.temp_detaildata.priceArrayCoralLiner.count
+        }
+        if self.shadeButtonNumber == 5 && productButton == 1 {
             return self.temp_detaildata.priceArrayNudeLipstick.count
+        }
+        if self.shadeButtonNumber == 5 && productButton == 2 {
+            return self.temp_detaildata.priceArrayNudeLiquid.count
+        }
+        if self.shadeButtonNumber == 5 && productButton == 3 {
+            return self.temp_detaildata.priceArrayNudeCrayon.count
+        }
+        if self.shadeButtonNumber == 5 && productButton == 4 {
+            return self.temp_detaildata.priceArrayNudeStain.count
+        }
+        if self.shadeButtonNumber == 5 && productButton == 5 {
+            return self.temp_detaildata.priceArrayNudeLiner.count
         }
         return 0
     }
@@ -599,17 +784,49 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedLiner[indexPath.row])
 
         
-        }else if self.shadeButtonNumber == 2 {
+        }else if self.shadeButtonNumber == 2 && productButton == 1 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLipstick[indexPath.row])
+        }else if self.shadeButtonNumber == 2 && productButton == 2 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiquid[indexPath.row])
+        }else if self.shadeButtonNumber == 2 && productButton == 3 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkCrayon[indexPath.row])
+        }else if self.shadeButtonNumber == 2 && productButton == 4 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkStain[indexPath.row])
+        }else if self.shadeButtonNumber == 2 && productButton == 5 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiner[indexPath.row])
             
-        }else if self.shadeButtonNumber == 3 {
+        }else if self.shadeButtonNumber == 3 && productButton == 1 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLipstick[indexPath.row])
-            
-        }else if self.shadeButtonNumber == 4 {
+        }else if self.shadeButtonNumber == 3 && productButton == 2 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiquid[indexPath.row])
+        }else if self.shadeButtonNumber == 3 && productButton == 3 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryCrayon[indexPath.row])
+        }else if self.shadeButtonNumber == 3 && productButton == 4 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryStain[indexPath.row])
+        }else if self.shadeButtonNumber == 3 && productButton == 5 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiner[indexPath.row])
+        
+        }else if self.shadeButtonNumber == 4 && productButton == 1 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLipstick[indexPath.row])
+        }else if self.shadeButtonNumber == 4 && productButton == 2 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiquid[indexPath.row])
+        }else if self.shadeButtonNumber == 4 && productButton == 3 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralCrayon[indexPath.row])
+        }else if self.shadeButtonNumber == 4 && productButton == 4 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralStain[indexPath.row])
+        }else if self.shadeButtonNumber == 4 && productButton == 5 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiner[indexPath.row])
             
-        }else if self.shadeButtonNumber == 5 {
+        }else if self.shadeButtonNumber == 5 && productButton == 1 {
             cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[indexPath.row])
+        }else if self.shadeButtonNumber == 5 && productButton == 2 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiquid[indexPath.row])
+        }else if self.shadeButtonNumber == 5 && productButton == 3 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeCrayon[indexPath.row])
+        }else if self.shadeButtonNumber == 5 && productButton == 4 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeStain[indexPath.row])
+        }else if self.shadeButtonNumber == 5 && productButton == 5 {
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiner[indexPath.row])
         }
         return cell
     }
@@ -635,7 +852,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLipstick[indexPath.row]
                 vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayRedLipstick[indexPath.row]
                 vc.linkValue = self.temp_detaildata.linkArrayRedLipstick[indexPath.row]
-                
             }else if self.shadeButtonNumber == 1 && productButton == 2 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLiquid[indexPath.row])!
                 vc.shadeValue = self.temp_detaildata.shadeArrayRedLiquid[indexPath.row]
@@ -672,7 +888,8 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLiner[indexPath.row]
                 vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayRedLiner[indexPath.row]
                 vc.linkValue = self.temp_detaildata.linkArrayRedLiner[indexPath.row]
-            }else if self.shadeButtonNumber == 2 {
+                
+            }else if self.shadeButtonNumber == 2 && productButton == 1 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLipstick[indexPath.row])!
                 vc.shadeValue = self.temp_detaildata.shadeArrayPinkLipstick[indexPath.row]
                 vc.brandValue = self.temp_detaildata.brandArrayPinkLipstick[indexPath.row]
@@ -681,7 +898,44 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLipstick[indexPath.row]
                 vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayPinkLipstick[indexPath.row]
                 vc.linkValue = self.temp_detaildata.linkArrayPinkLipstick[indexPath.row]
-            }else if self.shadeButtonNumber == 3 {
+            }else if self.shadeButtonNumber == 2 && productButton == 2 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiquid[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLiquid[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkLiquid[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayPinkLiquid[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkLiquid[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLiquid[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayPinkLiquid[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkLiquid[indexPath.row]
+            }else if self.shadeButtonNumber == 2 && productButton == 3 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkCrayon[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkCrayon[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkCrayon[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayPinkCrayon[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkCrayon[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkCrayon[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayPinkCrayon[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkCrayon[indexPath.row]
+            }else if self.shadeButtonNumber == 2 && productButton == 4 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkStain[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkStain[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkStain[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayPinkStain[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkStain[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkStain[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayPinkStain[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkStain[indexPath.row]
+            }else if self.shadeButtonNumber == 2 && productButton == 5 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiner[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLiner[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkLiner[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayPinkLiner[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkLiner[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLiner[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayPinkLiner[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkLiner[indexPath.row]
+
+            }else if self.shadeButtonNumber == 3 && productButton == 1 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLipstick[indexPath.row])!
                 vc.shadeValue = self.temp_detaildata.shadeArrayBerryLipstick[indexPath.row]
                 vc.brandValue = self.temp_detaildata.brandArrayBerryLipstick[indexPath.row]
@@ -690,7 +944,44 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLipstick[indexPath.row]
                 vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayBerryLipstick[indexPath.row]
                 vc.linkValue = self.temp_detaildata.linkArrayBerryLipstick[indexPath.row]
-            }else if self.shadeButtonNumber == 4 {
+            }else if self.shadeButtonNumber == 3 && productButton == 2 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiquid[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLiquid[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryLiquid[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayBerryLiquid[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryLiquid[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLiquid[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayBerryLiquid[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryLiquid[indexPath.row]
+            }else if self.shadeButtonNumber == 3 && productButton == 3 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryCrayon[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryCrayon[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryCrayon[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayBerryCrayon[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryCrayon[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryCrayon[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayBerryCrayon[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryCrayon[indexPath.row]
+            }else if self.shadeButtonNumber == 3 && productButton == 4 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryStain[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryStain[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryStain[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayBerryStain[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryStain[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryStain[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayBerryStain[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryStain[indexPath.row]
+            }else if self.shadeButtonNumber == 3 && productButton == 5 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiner[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLiner[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryLiner[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayBerryLiner[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryLiner[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLiner[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayBerryLiner[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryLiner[indexPath.row]
+
+            }else if self.shadeButtonNumber == 4 && productButton == 1 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLipstick[indexPath.row])!
                 vc.shadeValue = self.temp_detaildata.shadeArrayCoralLipstick[indexPath.row]
                 vc.brandValue = self.temp_detaildata.brandArrayCoralLipstick[indexPath.row]
@@ -699,7 +990,44 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLipstick[indexPath.row]
                 vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayCoralLipstick[indexPath.row]
                 vc.linkValue = self.temp_detaildata.linkArrayCoralLipstick[indexPath.row]
-            }else if self.shadeButtonNumber == 5 {
+            }else if self.shadeButtonNumber == 4 && productButton == 2 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiquid[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLiquid[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralLiquid[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayCoralLiquid[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralLiquid[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLiquid[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayCoralLiquid[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralLiquid[indexPath.row]
+            }else if self.shadeButtonNumber == 4 && productButton == 3 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralCrayon[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralCrayon[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralCrayon[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayCoralCrayon[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralCrayon[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralCrayon[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayCoralCrayon[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralCrayon[indexPath.row]
+            }else if self.shadeButtonNumber == 4 && productButton == 4 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralStain[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralStain[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralStain[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayCoralStain[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralStain[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralStain[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayCoralStain[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralStain[indexPath.row]
+            }else if self.shadeButtonNumber == 4 && productButton == 5 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiner[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLiner[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralLiner[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayCoralLiner[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralLiner[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLiner[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayCoralLiner[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralLiner[indexPath.row]
+
+            }else if self.shadeButtonNumber == 5 && productButton == 1 {
                 vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[indexPath.row])!
                 vc.shadeValue = self.temp_detaildata.shadeArrayNudeLipstick[indexPath.row]
                 vc.brandValue = self.temp_detaildata.brandArrayNudeLipstick[indexPath.row]
@@ -708,6 +1036,43 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLipstick[indexPath.row]
                 vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayNudeLipstick[indexPath.row]
                 vc.linkValue = self.temp_detaildata.linkArrayNudeLipstick[indexPath.row]
+            }else if self.shadeButtonNumber == 5 && productButton == 2 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiquid[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLiquid[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeLiquid[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayNudeLiquid[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeLiquid[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLiquid[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayNudeLiquid[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeLiquid[indexPath.row]
+            }else if self.shadeButtonNumber == 5 && productButton == 3 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeCrayon[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeCrayon[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeCrayon[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayNudeCrayon[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeCrayon[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeCrayon[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayNudeCrayon[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeCrayon[indexPath.row]
+            }else if self.shadeButtonNumber == 5 && productButton == 4 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeStain[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeStain[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeStain[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayNudeStain[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeStain[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeStain[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayNudeStain[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeStain[indexPath.row]
+            }else if self.shadeButtonNumber == 5 && productButton == 5 {
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiner[indexPath.row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLiner[indexPath.row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeLiner[indexPath.row]
+                vc.lineValue = self.temp_detaildata.lineArrayNudeLiner[indexPath.row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeLiner[indexPath.row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLiner[indexPath.row]
+                vc.whatItDoesValue = self.temp_detaildata.whatItDoesArrayNudeLiner[indexPath.row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeLiner[indexPath.row]
+
             }
         }
     }
