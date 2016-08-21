@@ -62,7 +62,7 @@ class SelectShadeViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "Identifier"{
             if let destinationVC = segue.destinationViewController as? ShadeViewController{
-                destinationVC.button_number = self.shadeButton
+                destinationVC.shadeButtonNumber = self.shadeButton
             }
         }
     }
