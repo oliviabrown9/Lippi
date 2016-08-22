@@ -12,11 +12,11 @@ import UIKit
 
 class SelectProductViewController: UIViewController {
 
-    
     @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
         // defining unwind method
     }
     
+    //Defining Product Button Values
     @IBAction func Lipstick_Btn(sender: AnyObject) {
         productButton = 1
         performSegueWithIdentifier("toSelectShade", sender: sender)
@@ -37,12 +37,4 @@ class SelectProductViewController: UIViewController {
         productButton = 5
         performSegueWithIdentifier("toSelectShade", sender: sender)
     }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "toSelectShade"{
-            if let destinationVC = segue.destinationViewController as? ShadeViewController{
-                destinationVC.productButtonNumber = productButton
-            }
-            print(productButton)
-            
-        }}}
+}

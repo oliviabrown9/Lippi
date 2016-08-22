@@ -6,6 +6,5 @@ target 'Lippi' do
   use_frameworks!
 
   # Pods for Lippi
-	pod 'Firebase/Core'
 
 end
