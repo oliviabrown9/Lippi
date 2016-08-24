@@ -6,5 +6,7 @@ target 'Lippi' do
   use_frameworks!
 
   # Pods for Lippi
+	pod 'Fabric'
+	pod 'Answers'
 
 end

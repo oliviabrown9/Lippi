@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 7f2a91c992f6a8f9b0995d841c989f1b5b439d24
+PODS:
+  - Answers (1.2.1):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+
+DEPENDENCIES:
+  - Answers
+  - Fabric
+
+SPEC CHECKSUMS:
+  Answers: 57ee6bcc9bd3c6710862065c9251365a2a404920
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+
+PODFILE CHECKSUM: 2aa741c5df99e2ff70ed36e5401e9cf8253489df
 
 COCOAPODS: 1.0.1

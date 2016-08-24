@@ -1,3 +1,11 @@
+//
+//  ShadeViewController.swift
+//  Lippi
+//
+//  Created by Olivia on 6/28/16.
+//  Copyright © 2016 Olivia. All rights reserved.
+//
+
 import UIKit
 
 
@@ -7,7 +15,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     var productButtonNumber: Int = Int()
     var Slider_selectedvarue = Int()
     var temp_detaildata: DetailData = DetailData()
-    
     var detaildata: DetailData = DetailData()
     
     @IBAction func unwindShadeViewController(segue: UIStoryboardSegue) {

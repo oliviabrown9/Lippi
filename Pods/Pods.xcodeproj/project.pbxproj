@@ -14,15 +14,19 @@
 
 /* Begin PBXFileReference section */
 		1CB71873BEC3BBE402ED5AE36EF7E670 /* Pods-Lippi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lippi.debug.xcconfig"; sourceTree = "<group>"; };
+		1F2FC1E21C8A7C7D962ACE86369DEE9B /* Answers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Answers.framework; path = iOS/Answers.framework; sourceTree = "<group>"; };
 		23FC45527744F8609834481977D2DC60 /* Pods-Lippi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lippi.modulemap"; sourceTree = "<group>"; };
 		4E196EED82164AFCEC41377474047CCC /* Pods-Lippi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lippi-resources.sh"; sourceTree = "<group>"; };
 		52893CB24FA5FDDDAAE3B3FCCAF739C8 /* Pods-Lippi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lippi-umbrella.h"; sourceTree = "<group>"; };
 		53E3918155CCDDE887330E4BE08E5AAF /* Pods-Lippi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lippi.release.xcconfig"; sourceTree = "<group>"; };
 		7093CADFDDF15A66B86701AB06E528BE /* Pods-Lippi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lippi-dummy.m"; sourceTree = "<group>"; };
 		7192670DDD09135C0D6801E4459FB9C1 /* Pods-Lippi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lippi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		799FF70846BD50977457A4B416234643 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Answers.framework/Headers/Answers.h; sourceTree = "<group>"; };
 		8DD9F447E0B30D43DBAC9C95341BC37D /* Pods_Lippi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lippi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0E5B9CA29A37A0745008B02297711D /* Pods-Lippi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lippi-frameworks.sh"; sourceTree = "<group>"; };
+		A6F5C19576BC1252B3A523BED3997176 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		AA2CC2C1438902D566BA7C32A2E73345 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Answers.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2523E09487D43168601E5F8B9893379 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F98ED7CBB5E52CA23460F3CCCA000B08 /* Pods-Lippi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lippi-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -58,6 +62,24 @@
 			path = "Target Support Files/Pods-Lippi";
 			sourceTree = "<group>";
 		};
+		1CABA08BD6527C5E2EF6D1C13E4FA57B /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				FAFBCFDDB75631312ED4DD54F3B133B3 /* Frameworks */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		215692F60790C43EBE22B36CCFD71120 /* Answers */ = {
+			isa = PBXGroup;
+			children = (
+				AA2CC2C1438902D566BA7C32A2E73345 /* ANSCompatibility.h */,
+				799FF70846BD50977457A4B416234643 /* Answers.h */,
+				C7D2E9030D028D204E904C5EEB527FEB /* Frameworks */,
+			);
+			path = Answers;
+			sourceTree = "<group>";
+		};
 		29A5D17B30D270391D9BCB46AB46E441 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +101,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B0E34D0C2BEDB5826EF2FA134A6147DB /* Pods */,
 				29A5D17B30D270391D9BCB46AB46E441 /* Products */,
 				8B80C305C32EA087C054D77B6016AEB9 /* Targets Support Files */,
 			);
@@ -92,10 +115,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B0E34D0C2BEDB5826EF2FA134A6147DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				215692F60790C43EBE22B36CCFD71120 /* Answers */,
+				1CABA08BD6527C5E2EF6D1C13E4FA57B /* Fabric */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7D2E9030D028D204E904C5EEB527FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2FC1E21C8A7C7D962ACE86369DEE9B /* Answers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAFBCFDDB75631312ED4DD54F3B133B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5C19576BC1252B3A523BED3997176 /* Fabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -1,6 +1,6 @@
 //
 //  SpecificShadeViewController.swift
-//  makeupselector
+//  Lippi
 //
 //  Created by Olivia on 6/25/16.
 //  Copyright © 2016 Olivia. All rights reserved.

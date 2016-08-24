@@ -11,7 +11,6 @@ import UIKit
 class SelectShadeViewController: UIViewController {
     
     let messageComposer = MessageComposer()
-    
     var productButtonNumber: Int = Int()
     var shadeButton:Int = Int()
     
