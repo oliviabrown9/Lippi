@@ -34,19 +34,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             {
             // iPhone 4s
             case 480:
-                storyboard = UIStoryboard(name: "Storyboard3.5Inch", bundle: nil)
+                storyboard = UIStoryboard(name: "Storyboard4S", bundle: nil)
             // iPhone 5s
             case 568:
-                storyboard = UIStoryboard(name: "Storyboard4Inch", bundle: nil)
+                storyboard = UIStoryboard(name: "Storyboard5S", bundle: nil)
             // iPhone 6
             case 667:
-                storyboard = UIStoryboard(name: "Main", bundle: nil)
+                storyboard = UIStoryboard(name: "Storyboard6", bundle: nil)
             // iPhone 6 Plus
             case 736:
-                storyboard = UIStoryboard(name: "Main", bundle: nil)
+                storyboard = UIStoryboard(name: "Storyboard6Plus", bundle: nil)
             default:
             //iPad
-                storyboard = UIStoryboard(name: "Main", bundle: nil)
+                storyboard = UIStoryboard(name: "StoryboardIPad", bundle: nil)
             }
             return storyboard
             }
