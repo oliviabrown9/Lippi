@@ -8,10 +8,24 @@
 
 import UIKit
 
-    var productButton:Int = Int()
+var productButton:Int = Int()
 
 class SelectProductViewController: UIViewController {
+    let messageComposer = MessageComposer()
 
+    @IBAction func sendTextMessageButtonTapped(sender: UIButton) {
+        if (messageComposer.canSendText()) {
+            
+            // Obtain a configured MFMessageComposeViewController
+            let messageComposeVC = messageComposer.configuredMessageComposeViewController()
+            presentViewController(messageComposeVC, animated: true, completion: nil)
+        } else {
+            let errorAlert = UIAlertController(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", preferredStyle: .Alert)
+            errorAlert.addAction(UIAlertAction(title: "OK", style: .Default) { _ in })
+            self.presentViewController(errorAlert, animated: true){}
+        }
+
+    }
     @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
         // defining unwind method
     }

@@ -23,7 +23,6 @@ class SelectShadeViewController: UIViewController {
         let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
         recognizer.direction = .Right
         self.view .addGestureRecognizer(recognizer)
-        print(productButton)
     }
     
     @IBAction func sendTextMessageButtonTapped(sender: UIButton) {

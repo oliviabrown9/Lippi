@@ -684,8 +684,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
         recognizer.direction = .Right
         self.view .addGestureRecognizer(recognizer)
-        print(productButton)
-        print(self.shadeButtonNumber)
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

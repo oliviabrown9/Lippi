@@ -253,8 +253,6 @@
         <!--Shade View Controller-->
         <scene sceneID="THS-6l-jEK">
             <objects>
-                <exit id="MQB-7n-pia" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lp2-Pm-igT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Shade View Controller" id="HLt-qO-qeg" customClass="ShadeViewController" customModule="Lippi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Ly-gv-V41"/>
@@ -376,6 +374,8 @@
                         </segue>
                     </connections>
                 </viewController>
+                <exit id="MQB-7n-pia" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lp2-Pm-igT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3388" y="31"/>
         </scene>
@@ -404,7 +404,7 @@
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Amuse Bouche" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Isw-rM-vfp">
-                                <rect key="frame" x="177" y="531" width="591" height="33"/>
+                                <rect key="frame" x="164" y="153" width="606" height="33"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="3qr-jM-khr"/>
@@ -413,7 +413,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Bite Beauty" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o7K-Ki-yIa">
-                                <rect key="frame" x="177" y="131" width="591" height="33"/>
+                                <rect key="frame" x="158" y="131" width="610" height="33"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="M25-1R-PFt"/>
@@ -422,7 +422,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="26" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Okk-GN-a0O">
-                                <rect key="frame" x="177" y="556" width="591" height="29"/>
+                                <rect key="frame" x="167" y="184" width="588" height="29"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="R3A-Pf-O5g"/>
@@ -431,7 +431,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Shade: Cayenne" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qFj-Gc-bdp">
-                                <rect key="frame" x="-367" y="485" width="1135" height="31"/>
+                                <rect key="frame" x="158" y="107" width="614" height="31"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="nqC-CO-7In"/>
@@ -508,7 +508,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SZ-kJ-yah">
-                                <rect key="frame" x="206" y="593" width="533" height="30"/>
+                                <rect key="frame" x="167" y="218" width="589" height="30"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0jL-fT-4lX"/>
