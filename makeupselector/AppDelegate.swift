@@ -29,24 +29,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // determine screen size
         let screenHeight = UIScreen.mainScreen().bounds.size.height
         var storyboard: UIStoryboard! = nil
-
+        print(screenHeight)
+        
         switch (screenHeight)
             {
             // iPhone 4s
-            case 480:
+            case 480.0:
                 storyboard = UIStoryboard(name: "Storyboard4S", bundle: nil)
             // iPhone 5s
-            case 568:
+            case 568.0:
                 storyboard = UIStoryboard(name: "Storyboard5S", bundle: nil)
             // iPhone 6
-            case 667:
+            case 667.0:
                 storyboard = UIStoryboard(name: "Storyboard6", bundle: nil)
             // iPhone 6 Plus
-            case 736:
+            case 736.0:
                 storyboard = UIStoryboard(name: "Storyboard6Plus", bundle: nil)
             default:
             //iPad
-                storyboard = UIStoryboard(name: "StoryboardIPad", bundle: nil)
+                storyboard = UIStoryboard(name: "Main", bundle: nil)
             }
             return storyboard
             }
