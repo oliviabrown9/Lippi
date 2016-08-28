@@ -11,6 +11,11 @@ import UIKit
 var productButton:Int = Int()
 
 class SelectProductViewController: UIViewController {
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
     let messageComposer = MessageComposer()
 
     @IBAction func sendTextMessageButtonTapped(sender: UIButton) {
@@ -25,9 +30,6 @@ class SelectProductViewController: UIViewController {
             self.presentViewController(errorAlert, animated: true){}
         }
 
-    }
-    @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
-        // defining unwind method
     }
     
     //Defining Product Button Values

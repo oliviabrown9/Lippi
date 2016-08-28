@@ -14,15 +14,13 @@ class SelectShadeViewController: UIViewController {
     var productButtonNumber: Int = Int()
     var shadeButton:Int = Int()
     
-    func swipeRight(recognizer : UISwipeGestureRecognizer) {
-        self.performSegueWithIdentifier("swipeToSelectProduct", sender: self)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
-        recognizer.direction = .Right
-        self.view .addGestureRecognizer(recognizer)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
     }
     
     @IBAction func sendTextMessageButtonTapped(sender: UIButton) {
@@ -38,9 +36,6 @@ class SelectShadeViewController: UIViewController {
         }
     }
     
-    @IBAction func unwindSelectShadeViewController(segue: UIStoryboardSegue) {
-        // defining method
-    }
     @IBAction func Red_Btn(sender: AnyObject) {
         self.shadeButton = 1
         performSegueWithIdentifier("Identifier", sender: sender)

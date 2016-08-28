@@ -17,9 +17,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     var temp_detaildata: DetailData = DetailData()
     var detaildata: DetailData = DetailData()
     
-    @IBAction func unwindShadeViewController(segue: UIStoryboardSegue) {
-        // defining method
-    }
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -574,15 +571,13 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         self.collectionView.reloadData()
     }
     
-    func swipeRight(recognizer : UISwipeGestureRecognizer) {
-        self.performSegueWithIdentifier("swipeToSelectShade", sender: self)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ShadeViewController.swipeRight(_:)))
-        recognizer.direction = .Right
-        self.view .addGestureRecognizer(recognizer)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.tintColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0)
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

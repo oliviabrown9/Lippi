@@ -137,9 +137,6 @@
                                     <navigationItem id="hge-Q1-mOl">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="XRY-vH-q6j">
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                            <connections>
-                                                <segue destination="bQb-X5-IaN" kind="unwind" identifier="swipeToSelectProduct" unwindAction="unwindSelectProductViewController:" id="OZH-lz-G9o"/>
-                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -246,7 +243,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMg-H5-q05" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="bQb-X5-IaN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2593" y="31"/>
         </scene>
@@ -337,11 +333,7 @@
                                 </constraints>
                                 <items>
                                     <navigationItem id="lFh-Hg-igJ">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="r4n-lJ-8fk">
-                                            <connections>
-                                                <segue destination="MQB-7n-pia" kind="unwind" unwindAction="unwindSelectShadeViewController:" id="8Xi-tF-BBl"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="r4n-lJ-8fk"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -374,7 +366,6 @@
                         </segue>
                     </connections>
                 </viewController>
-                <exit id="MQB-7n-pia" userLabel="Exit" sceneMemberID="exit"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lp2-Pm-igT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3388" y="31"/>
@@ -395,11 +386,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
                                 <items>
                                     <navigationItem id="eGC-iv-7Gg">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="b05-hE-pCm">
-                                            <connections>
-                                                <segue destination="edV-fB-XeZ" kind="unwind" identifier="swipeToShade" unwindAction="unwindShadeViewController:" id="gda-6J-fwJ"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="b05-hE-pCm"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -582,7 +569,6 @@
                         <outlet property="whatitis" destination="Gqd-Za-j1f" id="X1x-gQ-zzs"/>
                     </connections>
                 </viewController>
-                <exit id="edV-fB-XeZ" userLabel="Exit" sceneMemberID="exit"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YIo-VF-rGI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4261" y="31"/>
