@@ -439,17 +439,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="What it does: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kZi-TZ-H4T">
-                                <rect key="frame" x="20" y="369" width="113" height="33"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="99u-qb-3xu"/>
-                                    <constraint firstAttribute="width" constant="113" id="liR-pL-LcH"/>
-                                </constraints>
-                                <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRe-Ag-nVN">
                                 <rect key="frame" x="165" y="47" width="84" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
@@ -463,13 +452,6 @@
                                     <constraint firstAttribute="height" constant="81" id="fp5-Px-4ae"/>
                                 </constraints>
                                 <string key="text">A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft texture, and creamy wear.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A1x-fh-vlw">
-                                <rect key="frame" x="20" y="397" width="374" height="319"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Swipe on bold, creamy lip color with Bite Beauty’s Amuse Bouche. Created and crafted by hand, Bite’s small batch, low-heat process preserves a balanced blend of lip-quenching nutrients, vitamins, and omega oils that are essential for achieving healthy-looking lips. Made with 12 edible oils and triple milled pigments, this lipstick provides saturated lip color with weightless coverage and a citrus flavor made from fresh pressed fruit. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -543,7 +525,6 @@
                             <constraint firstItem="ym2-Ve-tep" firstAttribute="leading" secondItem="YLV-nh-Dgj" secondAttribute="trailing" constant="-10" id="7s4-5a-LnN">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="A1x-fh-vlw" firstAttribute="trailing" secondItem="vx2-NM-xUr" secondAttribute="trailingMargin" id="87q-Xu-3rk"/>
                             <constraint firstItem="LSl-lF-Xux" firstAttribute="leading" secondItem="YLV-nh-Dgj" secondAttribute="trailing" constant="-10" id="BW4-oN-nvi">
                                 <variation key="heightClass=regular-widthClass=compact" constant="29"/>
                             </constraint>
@@ -555,7 +536,6 @@
                             <constraint firstItem="LSl-lF-Xux" firstAttribute="top" secondItem="ym2-Ve-tep" secondAttribute="bottom" constant="5" id="Ofn-Ce-VY1">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
-                            <constraint firstItem="A1x-fh-vlw" firstAttribute="leading" secondItem="vx2-NM-xUr" secondAttribute="leadingMargin" id="Pqb-qX-9rq"/>
                             <constraint firstItem="EP6-3a-KUg" firstAttribute="leading" secondItem="YLV-nh-Dgj" secondAttribute="trailing" constant="-19" id="QOH-81-vwu">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
@@ -569,11 +549,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="LSl-lF-Xux" secondAttribute="trailing" constant="-8" id="hnJ-RJ-FaW">
                                 <variation key="heightClass=regular-widthClass=compact" constant="9"/>
                             </constraint>
-                            <constraint firstItem="A1x-fh-vlw" firstAttribute="top" secondItem="kZi-TZ-H4T" secondAttribute="bottom" constant="-5" id="kS5-Ea-ma6"/>
                             <constraint firstItem="WUH-hq-szA" firstAttribute="leading" secondItem="YLV-nh-Dgj" secondAttribute="trailing" constant="-13" id="l6R-pu-A4l">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="kZi-TZ-H4T" firstAttribute="leading" secondItem="vx2-NM-xUr" secondAttribute="leadingMargin" id="nGx-e0-nah"/>
                             <constraint firstItem="kTI-XZ-KJc" firstAttribute="top" secondItem="uNa-1d-yel" secondAttribute="bottom" constant="-238" id="oP6-8g-il8">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-616"/>
                             </constraint>
@@ -595,9 +573,7 @@
                             <constraint firstItem="vYF-n7-u5u" firstAttribute="leading" secondItem="vx2-NM-xUr" secondAttribute="leadingMargin" id="tAH-Hg-wIj"/>
                             <constraint firstItem="oRe-Ag-nVN" firstAttribute="top" secondItem="Hwr-eU-z0f" secondAttribute="bottom" constant="27" id="tVN-bl-4NE"/>
                             <constraint firstItem="hJk-CM-h5K" firstAttribute="top" secondItem="YLV-nh-Dgj" secondAttribute="bottom" constant="8" id="th8-ku-Kig"/>
-                            <constraint firstItem="lPp-vk-1LN" firstAttribute="top" secondItem="A1x-fh-vlw" secondAttribute="bottom" constant="-24" id="vB9-vQ-MfJ"/>
                             <constraint firstItem="i0x-kT-fiK" firstAttribute="centerX" secondItem="vx2-NM-xUr" secondAttribute="centerX" id="vGI-CO-hMs"/>
-                            <constraint firstItem="kZi-TZ-H4T" firstAttribute="top" secondItem="vYF-n7-u5u" secondAttribute="bottom" constant="3" id="wwq-di-4P2"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -609,7 +585,6 @@
                         <outlet property="title1" destination="uNa-1d-yel" id="KqL-9W-vYW"/>
                         <outlet property="title2" destination="EP6-3a-KUg" id="mg0-ul-ZGk"/>
                         <outlet property="title3" destination="WUH-hq-szA" id="pWo-wC-7IZ"/>
-                        <outlet property="whatitdoes" destination="A1x-fh-vlw" id="8f2-go-TZj"/>
                         <outlet property="whatitis" destination="vYF-n7-u5u" id="0iL-eX-UL5"/>
                     </connections>
                 </viewController>

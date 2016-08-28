@@ -19,17 +19,17 @@ class SpecificShadeViewController: UIViewController {
     var lineValue:String = String()
     var priceValue: String = String()
     var whatItIsValue: String = String()
-    var whatItDoesValue: String = String()
     
     //IBOutlets
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var buyNowButton: UIButton!
     @IBOutlet weak var title1: UITextView!
     @IBOutlet weak var title2: UITextView!
-    @IBOutlet weak var title3: UITextView!
+//    @IBOutlet weak var title3: UITextView!
     @IBOutlet weak var price: UITextView!
     @IBOutlet weak var whatitis: UITextView!
-    @IBOutlet weak var whatitdoes: UITextView!
+    @IBOutlet weak var imageView2: UIImageView!
+
     
     //IBActions
     @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
@@ -51,12 +51,13 @@ class SpecificShadeViewController: UIViewController {
         self.view .addGestureRecognizer(recognizer)
         
         self.imageView.image = self.image
+        self.imageView2.image = self.image
         webLink = NSURL(string: self.linkValue)
         self.title1.text = self.shadeValue
         self.title2.text = self.brandValue
-        self.title3.text = self.lineValue
         self.price.text = "$\(self.priceValue)"
         self.whatitis.text = self.whatItIsValue
-        self.whatitdoes.text = self.whatItDoesValue
+        
+        buyNowButton.layer.cornerRadius = 15
     }
 }

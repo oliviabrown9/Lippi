@@ -434,17 +434,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="What it does: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LPE-Q3-kZP">
-                                <rect key="frame" x="16" y="366" width="113" height="33"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="DbU-tO-YJK"/>
-                                    <constraint firstAttribute="width" constant="113" id="bsi-oO-pNX"/>
-                                </constraints>
-                                <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5k-UT-Gfh">
                                 <rect key="frame" x="118" y="44" width="84" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
@@ -458,13 +447,6 @@
                                     <constraint firstAttribute="height" constant="81" id="2Pp-yu-S4F"/>
                                 </constraints>
                                 <string key="text">A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft texture, and creamy wear.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gsa-ef-YzQ">
-                                <rect key="frame" x="16" y="394" width="288" height="66"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Swipe on bold, creamy lip color with Bite Beauty’s Amuse Bouche. Created and crafted by hand, Bite’s small batch, low-heat process preserves a balanced blend of lip-quenching nutrients, vitamins, and omega oils that are essential for achieving healthy-looking lips. Made with 12 edible oils and triple milled pigments, this lipstick provides saturated lip color with weightless coverage and a citrus flavor made from fresh pressed fruit. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -530,9 +512,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.97906650640000004" green="0.97906650640000004" blue="0.97906650640000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Gsa-ef-YzQ" firstAttribute="leading" secondItem="Qmr-Jm-pWC" secondAttribute="leadingMargin" id="2Gt-CC-ufW"/>
-                            <constraint firstItem="Gsa-ef-YzQ" firstAttribute="trailing" secondItem="Qmr-Jm-pWC" secondAttribute="trailingMargin" id="2P7-i1-Bhj"/>
-                            <constraint firstItem="LPE-Q3-kZP" firstAttribute="top" secondItem="XNt-yc-778" secondAttribute="bottom" constant="3" id="4WF-Ld-sh2"/>
                             <constraint firstItem="lOI-zu-C8i" firstAttribute="top" secondItem="U7X-1g-6Zz" secondAttribute="bottom" constant="-2" id="6gQ-TU-UhB">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-8"/>
                             </constraint>
@@ -554,7 +533,6 @@
                             <constraint firstItem="U7X-1g-6Zz" firstAttribute="leading" secondItem="1Sq-55-ZbO" secondAttribute="trailing" constant="-13" id="IK3-46-ugu">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="Gsa-ef-YzQ" firstAttribute="top" secondItem="LPE-Q3-kZP" secondAttribute="bottom" constant="-5" id="Ipf-6B-oYg"/>
                             <constraint firstItem="lOI-zu-C8i" firstAttribute="leading" secondItem="1Sq-55-ZbO" secondAttribute="trailing" constant="-10" id="KBi-15-oVD">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
@@ -577,13 +555,11 @@
                             </constraint>
                             <constraint firstItem="o5k-UT-Gfh" firstAttribute="top" secondItem="RMx-Re-FWg" secondAttribute="bottom" constant="24" id="hPQ-fU-jgB"/>
                             <constraint firstItem="U7X-1g-6Zz" firstAttribute="top" secondItem="Elw-88-zdY" secondAttribute="bottom" constant="15" id="iyk-Ng-NdY"/>
-                            <constraint firstItem="9co-6T-dYF" firstAttribute="top" secondItem="Gsa-ef-YzQ" secondAttribute="bottom" constant="-24" id="jCd-XQ-iUN"/>
                             <constraint firstItem="Elw-88-zdY" firstAttribute="leading" secondItem="SKt-p1-PSN" secondAttribute="trailing" constant="-238" id="lNH-13-3xm">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-763"/>
                             </constraint>
                             <constraint firstItem="y49-Oo-1md" firstAttribute="top" secondItem="o5k-UT-Gfh" secondAttribute="bottom" constant="38" id="mIU-Op-Z3n"/>
                             <constraint firstItem="XNt-yc-778" firstAttribute="top" secondItem="gTl-Qz-0Qw" secondAttribute="bottom" constant="-5.5" id="nQ7-1K-Sth"/>
-                            <constraint firstItem="LPE-Q3-kZP" firstAttribute="leading" secondItem="Qmr-Jm-pWC" secondAttribute="leadingMargin" id="naC-3z-f3Q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="U7X-1g-6Zz" secondAttribute="trailing" constant="-22" id="qVU-TH-Klm">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
                             </constraint>
@@ -605,7 +581,6 @@
                         <outlet property="title1" destination="Elw-88-zdY" id="yos-u4-PhR"/>
                         <outlet property="title2" destination="y49-Oo-1md" id="tEg-CF-ZMg"/>
                         <outlet property="title3" destination="U7X-1g-6Zz" id="KN4-1C-wEK"/>
-                        <outlet property="whatitdoes" destination="Gsa-ef-YzQ" id="Oiu-DP-GhY"/>
                         <outlet property="whatitis" destination="XNt-yc-778" id="ikJ-Yv-0G8"/>
                     </connections>
                 </viewController>

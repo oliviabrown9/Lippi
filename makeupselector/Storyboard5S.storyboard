@@ -450,17 +450,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="What it does: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fvt-X1-Ra2">
-                                <rect key="frame" x="16" y="366" width="113" height="33"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="113" id="GeG-bP-UNs"/>
-                                    <constraint firstAttribute="height" constant="33" id="fgi-AF-aY2"/>
-                                </constraints>
-                                <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l86-AF-H2O">
                                 <rect key="frame" x="118" y="44" width="84" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
@@ -474,13 +463,6 @@
                                     <constraint firstAttribute="height" constant="81" id="tIX-CE-KMi"/>
                                 </constraints>
                                 <string key="text">A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft texture, and creamy wear.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NV7-mc-JTP">
-                                <rect key="frame" x="16" y="394" width="288" height="154"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Swipe on bold, creamy lip color with Bite Beauty’s Amuse Bouche. Created and crafted by hand, Bite’s small batch, low-heat process preserves a balanced blend of lip-quenching nutrients, vitamins, and omega oils that are essential for achieving healthy-looking lips. Made with 12 edible oils and triple milled pigments, this lipstick provides saturated lip color with weightless coverage and a citrus flavor made from fresh pressed fruit. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -563,7 +545,6 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="l86-AF-H2O" firstAttribute="centerX" secondItem="IpO-NE-GL9" secondAttribute="centerX" id="Lb2-QR-6q7"/>
-                            <constraint firstItem="NV7-mc-JTP" firstAttribute="top" secondItem="Fvt-X1-Ra2" secondAttribute="bottom" constant="-5" id="Lbu-Nk-dwq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VlP-Uz-08j" secondAttribute="trailing" constant="-20" id="M3T-BY-NyY"/>
                             <constraint firstItem="knO-nN-VMV" firstAttribute="top" secondItem="K5h-gK-G45" secondAttribute="bottom" constant="5" id="NSi-EO-ric">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
@@ -574,7 +555,6 @@
                             <constraint firstItem="PE8-Za-jcV" firstAttribute="top" secondItem="hA6-wv-0NQ" secondAttribute="bottom" constant="15" id="RSe-qx-dYv"/>
                             <constraint firstItem="h2O-uw-6vm" firstAttribute="top" secondItem="l86-AF-H2O" secondAttribute="bottom" constant="29" id="TL9-wP-KqQ"/>
                             <constraint firstItem="VlP-Uz-08j" firstAttribute="top" secondItem="l86-AF-H2O" secondAttribute="bottom" constant="38" id="TWv-sM-r3h"/>
-                            <constraint firstItem="NV7-mc-JTP" firstAttribute="trailing" secondItem="IpO-NE-GL9" secondAttribute="trailingMargin" id="Tmj-32-22T"/>
                             <constraint firstItem="hA6-wv-0NQ" firstAttribute="leading" secondItem="ID5-4X-fkh" secondAttribute="trailing" constant="-238" id="U3m-9Q-eCR">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-763"/>
                             </constraint>
@@ -589,12 +569,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="K5h-gK-G45" secondAttribute="trailing" constant="-7" id="dRK-UT-dnX">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
                             </constraint>
-                            <constraint firstItem="ZLz-EW-p86" firstAttribute="top" secondItem="NV7-mc-JTP" secondAttribute="bottom" constant="-24" id="eac-Cr-aAf"/>
-                            <constraint firstItem="Fvt-X1-Ra2" firstAttribute="top" secondItem="Wn0-xX-3nf" secondAttribute="bottom" constant="3" id="gmg-ss-Fxw"/>
                             <constraint firstItem="PE8-Za-jcV" firstAttribute="leading" secondItem="h2O-uw-6vm" secondAttribute="trailing" constant="-13" id="hFa-KL-QsF">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="NV7-mc-JTP" firstAttribute="leading" secondItem="IpO-NE-GL9" secondAttribute="leadingMargin" id="hyv-aa-jX2"/>
                             <constraint firstItem="l86-AF-H2O" firstAttribute="top" secondItem="OOb-cR-F2F" secondAttribute="bottom" constant="24" id="kzJ-I4-vox"/>
                             <constraint firstItem="X93-Pn-oy1" firstAttribute="centerX" secondItem="IpO-NE-GL9" secondAttribute="centerX" id="lH2-Nf-Zd5"/>
                             <constraint firstItem="iea-3C-IpI" firstAttribute="top" secondItem="h2O-uw-6vm" secondAttribute="bottom" constant="8" id="nT9-QT-daX"/>
@@ -608,7 +585,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Wn0-xX-3nf" secondAttribute="trailing" constant="11" id="tfy-cP-7bH"/>
                             <constraint firstItem="Wn0-xX-3nf" firstAttribute="top" secondItem="iea-3C-IpI" secondAttribute="bottom" constant="-5.5" id="vFR-fv-6yS"/>
                             <constraint firstItem="Wn0-xX-3nf" firstAttribute="leading" secondItem="IpO-NE-GL9" secondAttribute="leadingMargin" id="wEe-Qa-Wad"/>
-                            <constraint firstItem="Fvt-X1-Ra2" firstAttribute="leading" secondItem="IpO-NE-GL9" secondAttribute="leadingMargin" id="yAC-Yp-lnK"/>
                             <constraint firstItem="PE8-Za-jcV" firstAttribute="top" secondItem="hA6-wv-0NQ" secondAttribute="bottom" constant="15" id="z0P-0a-qZ3"/>
                         </constraints>
                     </view>
@@ -621,7 +597,6 @@
                         <outlet property="title1" destination="hA6-wv-0NQ" id="2Cc-Kl-SW5"/>
                         <outlet property="title2" destination="VlP-Uz-08j" id="b4J-gJ-xix"/>
                         <outlet property="title3" destination="PE8-Za-jcV" id="C7o-uk-Tb4"/>
-                        <outlet property="whatitdoes" destination="NV7-mc-JTP" id="DR6-CC-fjT"/>
                         <outlet property="whatitis" destination="Wn0-xX-3nf" id="rda-QP-D9c"/>
                     </connections>
                 </viewController>
