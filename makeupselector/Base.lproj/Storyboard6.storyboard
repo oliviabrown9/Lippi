@@ -501,11 +501,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="$26" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mZb-Rv-P2i">
-                                <rect key="frame" x="163" y="184" width="203" height="29"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6a-0X-hWk">
                                 <rect key="frame" x="257" y="52" width="84" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="45"/>
@@ -670,6 +665,27 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ki7-YR-r91">
+                                <rect key="frame" x="16" y="290" width="332" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="FDc-9g-e99"/>
+                                    <constraint firstAttribute="width" constant="351" id="feb-VT-C00"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FDc-9g-e99"/>
+                                        <exclude reference="feb-VT-C00"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FDc-9g-e99"/>
+                                        <include reference="feb-VT-C00"/>
+                                    </mask>
+                                </variation>
+                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="q60-fO-fnH">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
@@ -701,34 +717,35 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ki7-YR-r91">
-                                <rect key="frame" x="16" y="290" width="332" height="81"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYU-f1-kyW">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="126" id="FDc-9g-e99"/>
-                                    <constraint firstAttribute="width" constant="351" id="feb-VT-C00"/>
+                                    <constraint firstAttribute="width" constant="81" id="CP9-IJ-r05"/>
+                                    <constraint firstAttribute="width" constant="76" id="Pdp-t6-KYe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="FDc-9g-e99"/>
-                                        <exclude reference="feb-VT-C00"/>
+                                        <exclude reference="CP9-IJ-r05"/>
+                                        <exclude reference="Pdp-t6-KYe"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="FDc-9g-e99"/>
-                                        <include reference="feb-VT-C00"/>
+                                        <exclude reference="CP9-IJ-r05"/>
+                                        <include reference="Pdp-t6-KYe"/>
                                     </mask>
                                 </variation>
-                            </textView>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="q60-fO-fnH" firstAttribute="top" secondItem="E3W-UZ-Gbf" secondAttribute="bottom" constant="-8" id="1DB-eI-0cC">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-2"/>
                             </constraint>
-                            <constraint firstItem="mZb-Rv-P2i" firstAttribute="centerY" secondItem="rWp-6h-Mqf" secondAttribute="centerY" id="2l0-Yn-hQZ"/>
+                            <constraint firstItem="CYU-f1-kyW" firstAttribute="centerY" secondItem="rWp-6h-Mqf" secondAttribute="centerY" id="230-8c-iEZ"/>
                             <constraint firstItem="wqR-m4-edk" firstAttribute="leading" secondItem="2eV-qy-Pmz" secondAttribute="trailing" constant="18" id="6GM-l9-wJj">
                                 <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                             </constraint>
@@ -747,12 +764,14 @@
                             <constraint firstItem="wqR-m4-edk" firstAttribute="top" secondItem="E3W-UZ-Gbf" secondAttribute="bottom" constant="27" id="Tn5-Mt-pIn">
                                 <variation key="heightClass=regular-widthClass=compact" constant="40"/>
                             </constraint>
-                            <constraint firstItem="mZb-Rv-P2i" firstAttribute="leading" secondItem="pSz-sm-xgZ" secondAttribute="leadingMargin" constant="6" id="U2d-4m-2In"/>
                             <constraint firstItem="E3W-UZ-Gbf" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="XDZ-QG-nGn"/>
                             <constraint firstItem="FO4-GG-J2e" firstAttribute="top" secondItem="c6a-0X-hWk" secondAttribute="bottom" constant="21" id="XSG-gc-yT8">
                                 <variation key="heightClass=regular-widthClass=compact" constant="5"/>
                             </constraint>
                             <constraint firstItem="c6a-0X-hWk" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="adM-cv-GUS"/>
+                            <constraint firstItem="rWp-6h-Mqf" firstAttribute="leading" secondItem="CYU-f1-kyW" secondAttribute="trailing" constant="3" id="c1V-C7-nUf">
+                                <variation key="heightClass=regular-widthClass=compact" constant="4"/>
+                            </constraint>
                             <constraint firstItem="rWp-6h-Mqf" firstAttribute="top" secondItem="ki7-YR-r91" secondAttribute="bottom" constant="6" id="cBm-Ad-19P"/>
                             <constraint firstItem="2eV-qy-Pmz" firstAttribute="top" secondItem="wqR-m4-edk" secondAttribute="bottom" constant="8" id="ceS-QI-yZW"/>
                             <constraint firstItem="q60-fO-fnH" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="gK4-Wk-m9u"/>
@@ -761,9 +780,6 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="-8"/>
                             </constraint>
                             <constraint firstItem="ki7-YR-r91" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="jCa-OJ-Be0"/>
-                            <constraint firstItem="rWp-6h-Mqf" firstAttribute="leading" secondItem="mZb-Rv-P2i" secondAttribute="trailing" constant="4" id="jQa-90-c7E">
-                                <variation key="heightClass=regular-widthClass=compact" constant="6"/>
-                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="wqR-m4-edk" secondAttribute="trailing" id="jUF-4q-mRN">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
@@ -785,9 +801,9 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="mZb-Rv-P2i"/>
                                 <exclude reference="2eV-qy-Pmz"/>
                                 <exclude reference="q60-fO-fnH"/>
+                                <exclude reference="CYU-f1-kyW"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="PEE-Tj-8hm"/>
@@ -815,19 +831,18 @@
                                 <exclude reference="jCa-OJ-Be0"/>
                                 <exclude reference="sEN-to-gqe"/>
                                 <exclude reference="yKZ-bc-ceC"/>
-                                <exclude reference="2l0-Yn-hQZ"/>
-                                <exclude reference="U2d-4m-2In"/>
+                                <exclude reference="230-8c-iEZ"/>
                                 <exclude reference="PnZ-bE-7UZ"/>
+                                <exclude reference="c1V-C7-nUf"/>
                                 <exclude reference="cBm-Ad-19P"/>
-                                <exclude reference="jQa-90-c7E"/>
                                 <exclude reference="rTH-PT-Z2X"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="mZb-Rv-P2i"/>
                                 <include reference="2eV-qy-Pmz"/>
                                 <include reference="q60-fO-fnH"/>
+                                <include reference="CYU-f1-kyW"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="PEE-Tj-8hm"/>
@@ -855,11 +870,10 @@
                                 <include reference="jCa-OJ-Be0"/>
                                 <exclude reference="sEN-to-gqe"/>
                                 <exclude reference="yKZ-bc-ceC"/>
-                                <include reference="2l0-Yn-hQZ"/>
-                                <exclude reference="U2d-4m-2In"/>
+                                <include reference="230-8c-iEZ"/>
                                 <exclude reference="PnZ-bE-7UZ"/>
+                                <include reference="c1V-C7-nUf"/>
                                 <include reference="cBm-Ad-19P"/>
-                                <include reference="jQa-90-c7E"/>
                                 <include reference="rTH-PT-Z2X"/>
                             </mask>
                         </variation>
@@ -869,7 +883,7 @@
                     <connections>
                         <outlet property="buyNowButton" destination="rWp-6h-Mqf" id="5fW-5k-ewX"/>
                         <outlet property="imageView2" destination="stz-Ao-35Q" id="YNN-cl-kas"/>
-                        <outlet property="price" destination="mZb-Rv-P2i" id="Ged-OW-23l"/>
+                        <outlet property="price" destination="CYU-f1-kyW" id="qkh-ML-lKE"/>
                         <outlet property="shadeView" destination="2eV-qy-Pmz" id="cDW-Qj-28E"/>
                         <outlet property="title1" destination="FO4-GG-J2e" id="haC-JT-LhT"/>
                         <outlet property="title2" destination="E3W-UZ-Gbf" id="vDH-Ad-Rjt"/>
