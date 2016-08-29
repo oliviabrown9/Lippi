@@ -15,6 +15,7 @@ class DetailData{
     var imageArrayBerryLipstick: [String] = ["urbandecayshame", "biteeggplant", "biterhubarb", "katluv", "katcoven", "lancomevelvet",  "lancomeberry",  "lancomemerlot",  "smashboxscreen", "smashboxviolet", "smashboxplum", "smashboxfig", "smashboxtabloid", "besamenoir",  "besamemerlot", "narsvolga", "yvesalternative", "yvesprune", "yvesmauve",  "sephoratruth", "sephorasuper",  "sephoracrush",  "sephoraheartbreaker",  "sephorabewitch"]
     var imageArrayCoralLipstick: [String] = ["urbandecaytemper", "bitegingersnap", "katago", "smashboxfirst", "smashboxpinch", "smashboxfireball",  "smashboxla",  "besametango",  "besamecarmine", "yvesorange", "yvesdahlia", "yvesindie", "yvescorail", "yvesrougerose",  "yveslegende", "yvesmelon", "sephorabelle", "sephorajealous", "narsheat",  "barekarma", "narscatherine",  "narsjuliette",  "narsgeraldine",  "narslana"]
     var imageArrayNudeLipstick: [String] = ["urbandecayearthling", "urbandecayinsanity", "bitehoneycomb", "bitemeringue", "katagatha", "katgoth",  "lancomebeige",  "smashboxsafe",  "smashboxnude", "narstashkent", "narsmadere", "sephoralove", "sephoradelicious", "sephoraingenuous",  "yvesrouge", "narshonolulu", "narsbelle", "barenudist", "barecontroversy",  "baresexpot", "barehoneybun",  "barestrip",  "narsraquel",  "narsbarbara"]
+    
     var imageArrayRedLiquid: [String] = ["urbandecayearthling"]
     var imageArrayRedCrayon: [String] = ["urbandecayearthling"]
     var imageArrayRedStain: [String] = ["urbandecayearthling"]

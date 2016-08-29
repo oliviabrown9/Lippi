@@ -512,12 +512,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Shade: Cayenne" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FO4-GG-J2e">
-                                <rect key="frame" x="154" y="107" width="229" height="31"/>
-                                <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWp-6h-Mqf">
                                 <rect key="frame" x="163" y="218" width="204" height="30"/>
                                 <constraints>
@@ -686,18 +680,24 @@
                                     </mask>
                                 </variation>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="q60-fO-fnH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars1" translatesAutoresizingMaskIntoConstraints="NO" id="q60-fO-fnH">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="19j-dJ-qFe">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="37" id="19m-a7-J6o"/>
                                     <constraint firstAttribute="height" constant="50" id="Apa-Ky-oNZ"/>
-                                    <constraint firstAttribute="width" constant="166" id="Egc-MG-h5M"/>
+                                    <constraint firstAttribute="width" constant="166" id="Egc-MG-h5M">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="115"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" constant="240" id="gc0-JI-Bbw"/>
                                     <constraint firstAttribute="width" constant="182" id="hnf-E6-1tG"/>
                                     <constraint firstAttribute="height" constant="33" id="maO-mz-evT"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="19j-dJ-qFe"/>
                                         <exclude reference="19m-a7-J6o"/>
                                         <exclude reference="Apa-Ky-oNZ"/>
                                         <exclude reference="Egc-MG-h5M"/>
@@ -708,12 +708,13 @@
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
+                                        <include reference="19j-dJ-qFe"/>
                                         <exclude reference="19m-a7-J6o"/>
                                         <exclude reference="Apa-Ky-oNZ"/>
                                         <include reference="Egc-MG-h5M"/>
                                         <exclude reference="gc0-JI-Bbw"/>
                                         <exclude reference="hnf-E6-1tG"/>
-                                        <include reference="maO-mz-evT"/>
+                                        <exclude reference="maO-mz-evT"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -739,6 +740,12 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Cayenne" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FO4-GG-J2e">
+                                <rect key="frame" x="154" y="107" width="229" height="31"/>
+                                <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -897,7 +904,7 @@
     </scenes>
     <resources>
         <image name="buyNowBackground" width="766" height="310"/>
-        <image name="stars" width="1500" height="300"/>
+        <image name="stars1" width="325" height="59"/>
         <image name="testUrban" width="450" height="450"/>
     </resources>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
