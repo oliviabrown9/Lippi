@@ -8,5 +8,6 @@ target 'Lippi' do
   # Pods for Lippi
 	pod 'Fabric'
 	pod 'Answers'
+	pod 'Alamofire'
 
 end

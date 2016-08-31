@@ -3,10 +3,11 @@
 //  Lippi
 //
 //  Created by Olivia on 6/28/16.
-//  Copyright © 2016 Olivia. All rights reserved.
+//  Copyright © 2016 Olivia Brown. All rights reserved.
 //
 
 import UIKit
+import Alamofire
 
 class SelectShadeViewController: UIViewController {
     
@@ -16,6 +17,14 @@ class SelectShadeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Alamofire.request(.GET, "https://mobile-backend-service.herokuapp.com/request?objects=10")
+            .responseJSON { response in
+                
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
