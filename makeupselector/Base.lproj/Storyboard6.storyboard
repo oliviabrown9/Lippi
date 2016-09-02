@@ -519,7 +519,7 @@
                                     <constraint firstAttribute="width" constant="280" id="aQq-n8-cgc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
-                                <state key="normal" title="Buy Now" backgroundImage="buyNowBackground">
+                                <state key="normal" title="Buy Now" backgroundImage="buyNowButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
@@ -903,7 +903,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="buyNowBackground" width="766" height="310"/>
+        <image name="buyNowButton" width="560" height="234"/>
         <image name="stars1" width="325" height="59"/>
         <image name="testUrban" width="450" height="450"/>
     </resources>
