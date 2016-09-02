@@ -82,8 +82,8 @@
                                 <color key="textColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsg-77-F0k">
-                                <rect key="frame" x="21" y="103" width="277" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsg-77-F0k">
+                                <rect key="frame" x="26" y="103" width="268" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
                                 <color key="textColor" red="0.4534254808" green="0.4534254808" blue="0.4534254808" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -377,40 +377,24 @@
                                 <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XNt-yc-778">
-                                <rect key="frame" x="11" y="358" width="299" height="68"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="299" id="4ht-HZ-Iqt"/>
-                                    <constraint firstAttribute="width" constant="299" id="VgP-EP-uOK"/>
-                                    <constraint firstAttribute="height" constant="68" id="d14-41-1e7"/>
-                                    <constraint firstAttribute="height" constant="76" id="wvy-B2-hsT"/>
-                                </constraints>
-                                <string key="text">A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft texture, and creamy wear.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="VgP-EP-uOK"/>
-                                        <exclude reference="wvy-B2-hsT"/>
-                                    </mask>
-                                </variation>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFf-Rm-WQh">
-                                <rect key="frame" x="75" y="434" width="229" height="38"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFf-Rm-WQh">
+                                <rect key="frame" x="75" y="426" width="229" height="45.5"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="45.5" id="JPP-hc-WtG"/>
+                                    <constraint firstAttribute="height" constant="41.5" id="aKt-ER-EnP"/>
                                     <constraint firstAttribute="height" constant="38" id="uyw-up-YNk"/>
                                     <constraint firstAttribute="height" constant="30" id="xF2-31-fDi"/>
                                     <constraint firstAttribute="width" constant="229" id="zcG-SJ-ulk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                 <state key="normal" title="Buy Now" backgroundImage="buyNowButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="aKt-ER-EnP"/>
+                                        <exclude reference="uyw-up-YNk"/>
                                         <exclude reference="xF2-31-fDi"/>
                                     </mask>
                                 </variation>
@@ -419,21 +403,21 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Bite Beauty" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y49-Oo-1md">
-                                <rect key="frame" x="90" y="112" width="140.5" height="46"/>
+                                <rect key="frame" x="90" y="118" width="140.5" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testUrban" translatesAutoresizingMaskIntoConstraints="NO" id="zeP-hv-eyr">
-                                <rect key="frame" x="86" y="188" width="149" height="130"/>
+                                <rect key="frame" x="86" y="194" width="149" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="sOY-Sx-DGa"/>
                                     <constraint firstAttribute="width" constant="149" id="xz8-Rf-gb0"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="nOJ-7t-znF">
-                                <rect key="frame" x="105" y="156" width="110" height="24"/>
+                                <rect key="frame" x="105" y="162" width="110" height="24"/>
                                 <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="L76-zi-R8y"/>
@@ -449,7 +433,7 @@
                                 </variation>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Sq-55-ZbO">
-                                <rect key="frame" x="58" y="326" width="204" height="34"/>
+                                <rect key="frame" x="58" y="332" width="204" height="34"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SKt-p1-PSN">
                                         <rect key="frame" x="-398" y="-483" width="1000" height="1000"/>
@@ -497,22 +481,44 @@
                                 </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TH-P7-3tV">
-                                <rect key="frame" x="11" y="441" width="56" height="24"/>
+                                <rect key="frame" x="11" y="437" width="56" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="SAa-Az-df7"/>
                                     <constraint firstAttribute="width" constant="56" id="pM0-Kd-FD5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Cayenne" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Elw-88-zdY">
-                                <rect key="frame" x="102" y="79" width="116" height="46"/>
+                                <rect key="frame" x="92" y="79" width="136.5" height="52"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XNt-yc-778">
+                                <rect key="frame" x="11" y="365" width="299" height="57"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="4ht-HZ-Iqt"/>
+                                    <constraint firstAttribute="height" constant="57" id="CvJ-yf-Gxh"/>
+                                    <constraint firstAttribute="width" constant="299" id="VgP-EP-uOK"/>
+                                    <constraint firstAttribute="height" constant="68" id="d14-41-1e7"/>
+                                    <constraint firstAttribute="height" constant="76" id="wvy-B2-hsT"/>
+                                </constraints>
+                                <string key="text">A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft texture, and creamy wear.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VgP-EP-uOK"/>
+                                        <exclude reference="d14-41-1e7"/>
+                                        <exclude reference="wvy-B2-hsT"/>
+                                    </mask>
+                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -542,11 +548,13 @@
                             <constraint firstItem="BFf-Rm-WQh" firstAttribute="leading" secondItem="1Sq-55-ZbO" secondAttribute="trailing" constant="-10" id="cAO-BL-ztD">
                                 <variation key="heightClass=regular-widthClass=compact" constant="29"/>
                             </constraint>
+                            <constraint firstItem="XNt-yc-778" firstAttribute="top" secondItem="1Sq-55-ZbO" secondAttribute="bottom" constant="-1" id="czs-ND-Dnf"/>
                             <constraint firstItem="zeP-hv-eyr" firstAttribute="top" secondItem="nOJ-7t-znF" secondAttribute="bottom" constant="8" id="hor-lm-O0T"/>
                             <constraint firstItem="Elw-88-zdY" firstAttribute="top" secondItem="o5k-UT-Gfh" secondAttribute="bottom" constant="-1" id="iYM-Pk-9bf"/>
                             <constraint firstItem="y49-Oo-1md" firstAttribute="top" secondItem="Elw-88-zdY" secondAttribute="bottom" constant="-12.5" id="lDR-PE-VNG"/>
                             <constraint firstItem="1Sq-55-ZbO" firstAttribute="top" secondItem="zeP-hv-eyr" secondAttribute="bottom" constant="8" id="lkf-Mc-Gpq"/>
                             <constraint firstItem="nOJ-7t-znF" firstAttribute="top" secondItem="y49-Oo-1md" secondAttribute="bottom" constant="-2" id="mRb-MI-KmD"/>
+                            <constraint firstItem="XNt-yc-778" firstAttribute="top" secondItem="1Sq-55-ZbO" secondAttribute="bottom" constant="8" id="qpY-zp-fCF"/>
                             <constraint firstItem="Elw-88-zdY" firstAttribute="centerX" secondItem="Qmr-Jm-pWC" secondAttribute="centerX" id="sCa-jC-R2i"/>
                             <constraint firstItem="2TH-P7-3tV" firstAttribute="centerY" secondItem="BFf-Rm-WQh" secondAttribute="centerY" id="v5T-2E-hAG"/>
                             <constraint firstItem="zeP-hv-eyr" firstAttribute="centerX" secondItem="Qmr-Jm-pWC" secondAttribute="centerX" id="vax-fv-b3E"/>
@@ -563,6 +571,8 @@
                                 <exclude reference="8Gl-A1-ZFM"/>
                                 <exclude reference="Qcj-1b-0ZM"/>
                                 <exclude reference="7Nh-Gx-DnR"/>
+                                <exclude reference="975-Ff-9cU"/>
+                                <exclude reference="qpY-zp-fCF"/>
                                 <exclude reference="8fv-5Z-oqz"/>
                                 <exclude reference="E4o-4J-x82"/>
                                 <exclude reference="cAO-BL-ztD"/>

@@ -24,12 +24,13 @@ class SpecificShadeViewController: UIViewController {
 //    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var buyNowButton: UIButton!
     @IBOutlet weak var title1: UITextView!
-    @IBOutlet weak var title2: UITextView!
+//    @IBOutlet weak var title2: UITextView!
 //    @IBOutlet weak var price: UITextView!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var whatitis: UITextView!
     @IBOutlet weak var imageView2: UIImageView!
     @IBOutlet weak var shadeView: UIView!
+    @IBOutlet weak var title2: UILabel!
 
     //Opens link to product when a user clicks "Buy Now"
     @IBAction func buyNowButton(sender: AnyObject) {
@@ -60,7 +61,7 @@ class SpecificShadeViewController: UIViewController {
         
         //Adds a cornerRadius to the shadeView and buyNowButton
         shadeView.layer.cornerRadius = 10
-        buyNowButton.layer.cornerRadius = 15
+        buyNowButton.layer.cornerRadius = 10
         
         //Passes correct variable for each specificShadeVC variable
 //        self.imageView.image = self.image
@@ -70,5 +71,7 @@ class SpecificShadeViewController: UIViewController {
         self.title2.text = self.brandValue
         self.price.text = "$\(self.priceValue)"
         self.whatitis.text = self.whatItIsValue
+        
+        print(title2)
     }
 }
