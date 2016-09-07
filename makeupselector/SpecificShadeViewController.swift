@@ -23,10 +23,7 @@ class SpecificShadeViewController: UIViewController {
     // IBOutlets
 //    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var buyNowButton: UIButton!
-//    @IBOutlet weak var title1: UITextView!
     @IBOutlet weak var title1: UILabel!
-//    @IBOutlet weak var title2: UITextView!
-//    @IBOutlet weak var price: UITextView!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var whatitis: UITextView!
     @IBOutlet weak var imageView2: UIImageView!
@@ -72,7 +69,5 @@ class SpecificShadeViewController: UIViewController {
         self.title2.text = self.brandValue
         self.price.text = "$\(self.priceValue)"
         self.whatitis.text = self.whatItIsValue
-        
-        print(title2)
     }
 }
