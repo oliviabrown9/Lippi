@@ -10,7 +10,7 @@ import UIKit
 
 class SpecificShadeViewController: UIViewController {
     
-    //Class Variables
+    // Class Variables
     var image = UIImage()
     var webLink: NSURL!
     var linkValue: String = String()
@@ -21,52 +21,47 @@ class SpecificShadeViewController: UIViewController {
     var whatItIsValue: String = String()
     
     // IBOutlets
-//    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var buyNowButton: UIButton!
-    @IBOutlet weak var title1: UILabel!
+    @IBOutlet weak var shade: UILabel!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var whatitis: UITextView!
-    @IBOutlet weak var imageView2: UIImageView!
+    @IBOutlet weak var shadeImage: UIImageView!
     @IBOutlet weak var shadeView: UIView!
-    @IBOutlet weak var title2: UILabel!
+    @IBOutlet weak var brand: UILabel!
 
-    //Opens link to product when a user clicks "Buy Now"
+    // Opens link to product when a user clicks "Buy Now"
     @IBAction func buyNowButton(sender: AnyObject) {
         UIApplication.sharedApplication().openURL(webLink)
     }
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        //Sets navigationBar tint color to pink
+        
+        // Sets navigationBar tint color to pink
         navigationController?.navigationBar.tintColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0)
         
-        //Disables whatitis textfield scrolling - fixes error of poorly formatted text
-        whatitis.scrollEnabled = false
-        
-        //idk man
+        // Changes font size of price if its width is too small
         price.adjustsFontSizeToFitWidth = true
         price.minimumScaleFactor = 0.5
-
     }
     
-    override func viewDidAppear(animated: Bool) {
-        //Enables whatitis textfield scrolling - fixes error of poorly formatted text
-        whatitis.scrollEnabled = true
+    // Starts whatitis UITextView at top of text
+    override func viewDidLayoutSubviews() {
+        self.whatitis.setContentOffset(CGPointZero, animated: false)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Adds a cornerRadius to the shadeView and buyNowButton
+        // Adds a cornerRadius to the shadeView and buyNowButton
         shadeView.layer.cornerRadius = 10
         buyNowButton.layer.cornerRadius = 10
         
-        //Passes correct variable for each specificShadeVC variable
-//        self.imageView.image = self.image
-        self.imageView2.image = self.image
+        // Passes correct variable for each specificShadeVC variable
+        self.shadeImage.image = self.image
         webLink = NSURL(string: self.linkValue)
-        self.title1.text = self.shadeValue
-        self.title2.text = self.brandValue
+        self.shade.text = self.shadeValue
+        self.brand.text = self.brandValue
         self.price.text = "$\(self.priceValue)"
         self.whatitis.text = self.whatItIsValue
     }
