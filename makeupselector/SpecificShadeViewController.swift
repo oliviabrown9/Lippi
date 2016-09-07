@@ -23,7 +23,8 @@ class SpecificShadeViewController: UIViewController {
     // IBOutlets
 //    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var buyNowButton: UIButton!
-    @IBOutlet weak var title1: UITextView!
+//    @IBOutlet weak var title1: UITextView!
+    @IBOutlet weak var title1: UILabel!
 //    @IBOutlet weak var title2: UITextView!
 //    @IBOutlet weak var price: UITextView!
     @IBOutlet weak var price: UILabel!

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ad5-Gy-Ei1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ad5-Gy-Ei1">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -390,15 +390,6 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Amuse Bouche" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Isw-rM-vfp">
-                                <rect key="frame" x="164" y="153" width="606" height="33"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="3qr-jM-khr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Bite Beauty" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o7K-Ki-yIa">
                                 <rect key="frame" x="158" y="131" width="610" height="33"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
@@ -408,7 +399,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="26" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Okk-GN-a0O">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" editable="NO" text="26" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Okk-GN-a0O">
                                 <rect key="frame" x="167" y="184" width="588" height="29"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -427,18 +418,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="What it is: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HsC-Fc-tqX">
-                                <rect key="frame" x="20" y="260" width="98" height="35.5"/>
-                                <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="98" id="Prd-a9-Fav"/>
-                                    <constraint firstAttribute="height" constant="35.5" id="dl2-uf-7LO"/>
-                                </constraints>
-                                <color key="textColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gqd-Za-j1f">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gqd-Za-j1f">
                                 <rect key="frame" x="20" y="290" width="717" height="81"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -476,7 +456,7 @@
                                     <constraint firstAttribute="height" constant="130" id="wmM-6s-UhN"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SZ-kJ-yah">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SZ-kJ-yah">
                                 <rect key="frame" x="167" y="218" width="589" height="30"/>
                                 <color key="backgroundColor" white="0.97755872479999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -503,10 +483,6 @@
                             <constraint firstItem="6KN-Ws-pjS" firstAttribute="top" secondItem="qFj-Gc-bdp" secondAttribute="bottom" constant="-238" id="9hU-kN-kNc">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-616"/>
                             </constraint>
-                            <constraint firstItem="Isw-rM-vfp" firstAttribute="top" secondItem="qFj-Gc-bdp" secondAttribute="bottom" constant="15" id="CH3-vT-Ivw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Isw-rM-vfp" secondAttribute="trailing" constant="-22" id="DjR-PS-no9">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
-                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="Gqd-Za-j1f" secondAttribute="trailing" constant="11" id="E8T-0R-sRX"/>
                             <constraint firstItem="qFj-Gc-bdp" firstAttribute="leading" secondItem="6KN-Ws-pjS" secondAttribute="trailing" constant="-238" id="Glj-jU-Dms">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-763"/>
@@ -514,31 +490,18 @@
                             <constraint firstItem="8SZ-kJ-yah" firstAttribute="top" secondItem="Okk-GN-a0O" secondAttribute="bottom" constant="5" id="GtN-xf-rGd">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
-                            <constraint firstItem="Isw-rM-vfp" firstAttribute="top" secondItem="qFj-Gc-bdp" secondAttribute="bottom" constant="15" id="KIz-xw-wuB"/>
                             <constraint firstItem="yl1-Jv-wzr" firstAttribute="top" secondItem="krA-wz-YXN" secondAttribute="bottom" constant="29" id="QdN-p2-pd7"/>
                             <constraint firstItem="krA-wz-YXN" firstAttribute="top" secondItem="NaH-mP-Doh" secondAttribute="bottom" constant="32" id="R5a-qq-1d7"/>
                             <constraint firstItem="o7K-Ki-yIa" firstAttribute="leading" secondItem="yl1-Jv-wzr" secondAttribute="trailing" constant="-19" id="SXX-a1-4kB">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="Isw-rM-vfp" firstAttribute="leading" secondItem="yl1-Jv-wzr" secondAttribute="trailing" constant="-13" id="Slk-I2-1Jn">
-                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
-                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="Okk-GN-a0O" secondAttribute="trailing" constant="-7" id="UJq-ad-EAY">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
                             </constraint>
-                            <constraint firstAttribute="trailingMargin" secondItem="Isw-rM-vfp" secondAttribute="trailing" constant="-22" id="Ub2-Ym-wRU">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
-                            </constraint>
-                            <constraint firstItem="Isw-rM-vfp" firstAttribute="top" secondItem="qFj-Gc-bdp" secondAttribute="bottom" constant="15" id="Wi8-9x-7rV"/>
                             <constraint firstItem="o7K-Ki-yIa" firstAttribute="top" secondItem="krA-wz-YXN" secondAttribute="bottom" constant="38" id="Xmz-Aa-j91"/>
-                            <constraint firstItem="Isw-rM-vfp" firstAttribute="leading" secondItem="yl1-Jv-wzr" secondAttribute="trailing" constant="-13" id="cfL-5m-EBZ">
-                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
-                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="8SZ-kJ-yah" secondAttribute="trailing" constant="-8" id="fMc-QA-K7t">
                                 <variation key="heightClass=regular-widthClass=compact" constant="9"/>
                             </constraint>
-                            <constraint firstItem="HsC-Fc-tqX" firstAttribute="leading" secondItem="TlB-w0-u5G" secondAttribute="leadingMargin" id="jh8-4w-hnD"/>
-                            <constraint firstItem="Gqd-Za-j1f" firstAttribute="top" secondItem="HsC-Fc-tqX" secondAttribute="bottom" constant="-5.5" id="ltb-TL-fk1"/>
                             <constraint firstItem="yl1-Jv-wzr" firstAttribute="leading" secondItem="TlB-w0-u5G" secondAttribute="leadingMargin" constant="27" id="njs-5x-PaL"/>
                             <constraint firstItem="8SZ-kJ-yah" firstAttribute="leading" secondItem="yl1-Jv-wzr" secondAttribute="trailing" constant="-10" id="nu8-wr-YT1">
                                 <variation key="heightClass=regular-widthClass=compact" constant="29"/>
@@ -546,15 +509,11 @@
                             <constraint firstItem="Okk-GN-a0O" firstAttribute="leading" secondItem="yl1-Jv-wzr" secondAttribute="trailing" constant="-10" id="rGe-1G-Erk">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="HsC-Fc-tqX" firstAttribute="top" secondItem="yl1-Jv-wzr" secondAttribute="bottom" constant="8" id="toH-Bl-wQb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qFj-Gc-bdp" secondAttribute="trailing" constant="-24" id="uul-44-499">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
                             </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="o7K-Ki-yIa" secondAttribute="trailing" constant="-20" id="wSv-MJ-IN3"/>
                             <constraint firstItem="Gqd-Za-j1f" firstAttribute="leading" secondItem="TlB-w0-u5G" secondAttribute="leadingMargin" id="wsT-oe-ZIF"/>
-                            <constraint firstItem="Okk-GN-a0O" firstAttribute="top" secondItem="Isw-rM-vfp" secondAttribute="bottom" constant="-2" id="ykF-fN-5qe">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-8"/>
-                            </constraint>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -565,7 +524,6 @@
                         <outlet property="price" destination="Okk-GN-a0O" id="KjH-pX-wgt"/>
                         <outlet property="title1" destination="qFj-Gc-bdp" id="MLX-Mb-p1d"/>
                         <outlet property="title2" destination="o7K-Ki-yIa" id="Pk2-n8-aDl"/>
-                        <outlet property="title3" destination="Isw-rM-vfp" id="YoL-70-Dda"/>
                         <outlet property="whatitis" destination="Gqd-Za-j1f" id="X1x-gQ-zzs"/>
                     </connections>
                 </viewController>
