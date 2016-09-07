@@ -467,7 +467,6 @@
                             <constraint firstItem="PzF-KQ-v0L" firstAttribute="top" secondItem="rtI-a4-skS" secondAttribute="bottom" constant="-4" id="DYe-IP-oOV"/>
                             <constraint firstItem="oRe-Ag-nVN" firstAttribute="centerX" secondItem="vx2-NM-xUr" secondAttribute="centerX" id="KTz-1o-t67"/>
                             <constraint firstItem="vYF-n7-u5u" firstAttribute="top" secondItem="YLV-nh-Dgj" secondAttribute="bottom" constant="-5" id="VCy-eI-dvR"/>
-                            <constraint firstItem="PzF-KQ-v0L" firstAttribute="top" secondItem="rtI-a4-skS" secondAttribute="bottom" constant="8" id="YNX-Oc-LvM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="k4I-bJ-DkO" secondAttribute="trailing" constant="-12" id="ZSz-Tj-sVo"/>
                             <constraint firstItem="k4I-bJ-DkO" firstAttribute="leading" secondItem="ALs-OX-CVo" secondAttribute="trailing" constant="7" id="hqE-s7-ggW"/>
                             <constraint firstItem="YLV-nh-Dgj" firstAttribute="top" secondItem="J1b-uF-JBe" secondAttribute="bottom" constant="5" id="kM6-ee-Qin"/>
@@ -477,11 +476,6 @@
                             <constraint firstItem="YLV-nh-Dgj" firstAttribute="centerX" secondItem="vx2-NM-xUr" secondAttribute="centerX" id="xbN-uM-rfJ"/>
                             <constraint firstItem="Od2-T4-q6L" firstAttribute="centerX" secondItem="vx2-NM-xUr" secondAttribute="centerX" id="zQk-nJ-oIz"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="YNX-Oc-LvM"/>
-                            </mask>
-                        </variation>
                     </view>
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>

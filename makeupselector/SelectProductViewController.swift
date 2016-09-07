@@ -29,10 +29,9 @@ class SelectProductViewController: UIViewController {
             errorAlert.addAction(UIAlertAction(title: "OK", style: .Default) { _ in })
             self.presentViewController(errorAlert, animated: true){}
         }
-
     }
     
-    //Defining Product Button Values
+    // Defining Product Button Values
     @IBAction func Lipstick_Btn(sender: AnyObject) {
         productButton = 1
         performSegueWithIdentifier("toSelectShade", sender: sender)
