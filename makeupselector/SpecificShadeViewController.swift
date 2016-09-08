@@ -53,6 +53,11 @@ class SpecificShadeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // How to load an image
+//        let url = NSURL(string: "https://66.media.tumblr.com/7f69e3b7c2975ec3f25315ec4e05c99e/tumblr_od5s5r5j6x1vfw4z6o1_75sq.jpg")
+//        let data = NSData(contentsOfURL: url!)
+//        shadeImage.image = UIImage(data: data!)
+        
         // Adds a cornerRadius to the shadeView and buyNowButton
         shadeView.layer.cornerRadius = 10
         buyNowButton.layer.cornerRadius = 10
