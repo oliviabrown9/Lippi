@@ -69,7 +69,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryU-Wz-BdM">
                                 <rect key="frame" x="48" y="121" width="277" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                <color key="textColor" red="0.45342548076923073" green="0.45342548076923073" blue="0.45342548076923073" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="0.27000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-mQ-nx9">
@@ -204,7 +204,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="In the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBV-XI-hut">
                                 <rect key="frame" x="141" y="94" width="317" height="110"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                <color key="textColor" red="0.4534254808" green="0.4534254808" blue="0.4534254808" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="0.27000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nch-3L-m8y">
@@ -731,24 +731,24 @@
                                 <exclude reference="FAr-Wi-SE9"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="B4S-8v-3yE"/>
-                                <exclude reference="adM-cv-GUS"/>
-                                <exclude reference="K29-P6-KfM"/>
-                                <exclude reference="Mnm-hj-kzR"/>
+                                <exclude reference="230-8c-iEZ"/>
                                 <exclude reference="CQD-35-hmG"/>
                                 <exclude reference="Uvj-lA-xft"/>
+                                <exclude reference="K29-P6-KfM"/>
+                                <exclude reference="Mnm-hj-kzR"/>
                                 <exclude reference="67q-5R-wcy"/>
                                 <exclude reference="gK4-Wk-m9u"/>
-                                <exclude reference="hNN-Ps-i6x"/>
-                                <exclude reference="ntC-do-t72"/>
                                 <exclude reference="ceS-QI-yZW"/>
                                 <exclude reference="kMZ-CX-VPP"/>
-                                <exclude reference="KTQ-SN-gK8"/>
-                                <exclude reference="jCa-OJ-Be0"/>
+                                <exclude reference="hNN-Ps-i6x"/>
+                                <exclude reference="ntC-do-t72"/>
+                                <exclude reference="B4S-8v-3yE"/>
+                                <exclude reference="adM-cv-GUS"/>
                                 <exclude reference="c1V-C7-nUf"/>
                                 <exclude reference="cBm-Ad-19P"/>
                                 <exclude reference="rTH-PT-Z2X"/>
-                                <exclude reference="230-8c-iEZ"/>
+                                <exclude reference="KTQ-SN-gK8"/>
+                                <exclude reference="jCa-OJ-Be0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -760,24 +760,24 @@
                                 <include reference="FAr-Wi-SE9"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="B4S-8v-3yE"/>
-                                <include reference="adM-cv-GUS"/>
-                                <include reference="K29-P6-KfM"/>
-                                <include reference="Mnm-hj-kzR"/>
+                                <include reference="230-8c-iEZ"/>
                                 <include reference="CQD-35-hmG"/>
                                 <include reference="Uvj-lA-xft"/>
+                                <include reference="K29-P6-KfM"/>
+                                <include reference="Mnm-hj-kzR"/>
                                 <include reference="67q-5R-wcy"/>
                                 <include reference="gK4-Wk-m9u"/>
-                                <include reference="hNN-Ps-i6x"/>
-                                <include reference="ntC-do-t72"/>
                                 <include reference="ceS-QI-yZW"/>
                                 <include reference="kMZ-CX-VPP"/>
-                                <include reference="KTQ-SN-gK8"/>
-                                <include reference="jCa-OJ-Be0"/>
+                                <include reference="hNN-Ps-i6x"/>
+                                <include reference="ntC-do-t72"/>
+                                <include reference="B4S-8v-3yE"/>
+                                <include reference="adM-cv-GUS"/>
                                 <include reference="c1V-C7-nUf"/>
                                 <include reference="cBm-Ad-19P"/>
                                 <include reference="rTH-PT-Z2X"/>
-                                <include reference="230-8c-iEZ"/>
+                                <include reference="KTQ-SN-gK8"/>
+                                <include reference="jCa-OJ-Be0"/>
                             </mask>
                         </variation>
                     </view>
