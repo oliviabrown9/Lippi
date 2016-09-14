@@ -12,7 +12,7 @@ class SpecificShadeViewController: UIViewController {
     
     // Class Variables
     var image = UIImage()
-    var webLink: NSURL!
+    var webLink: URL!
     var linkValue: String = String()
     var shadeValue: String = String()
     var brandValue: String = String()
@@ -29,13 +29,13 @@ class SpecificShadeViewController: UIViewController {
     @IBOutlet weak var shadeView: UIView!
     @IBOutlet weak var brand: UILabel!
 
-    @IBOutlet weak var shareButton: UIButton!
+    // @IBOutlet weak var shareButton: UIButton!
     // Opens link to product when a user clicks "Buy Now"
-    @IBAction func buyNowButton(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(webLink)
+    @IBAction func buyNowButton(_ sender: AnyObject) {
+        UIApplication.shared.openURL(webLink)
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Sets navigationBar tint color to pink
@@ -48,14 +48,14 @@ class SpecificShadeViewController: UIViewController {
     
     // Starts whatitis UITextView at top of text
     override func viewDidLayoutSubviews() {
-        self.whatitis.setContentOffset(CGPointZero, animated: false)
+        self.whatitis.setContentOffset(CGPoint.zero, animated: false)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        shareButton.layer.borderWidth = 0.8
-        shareButton.layer.borderColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0).CGColor
+        // shareButton.layer.borderWidth = 0.8
+        // shareButton.layer.borderColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0).cgColor
         
         // Adds a cornerRadius to the shadeView and buyNowButton
         shadeView.layer.cornerRadius = 10
@@ -63,7 +63,7 @@ class SpecificShadeViewController: UIViewController {
         
         // Passes correct variable for each specificShadeVC variable
         self.shadeImage.image = self.image
-        webLink = NSURL(string: self.linkValue)
+        webLink = URL(string: self.linkValue)
         self.shade.text = self.shadeValue
         self.brand.text = self.brandValue
         self.price.text = "$\(self.priceValue)"

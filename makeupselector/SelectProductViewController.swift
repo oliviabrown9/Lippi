@@ -12,44 +12,44 @@ var productButton:Int = Int()
 
 class SelectProductViewController: UIViewController {
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
     
     let messageComposer = MessageComposer()
 
-    @IBAction func sendTextMessageButtonTapped(sender: UIButton) {
+    @IBAction func sendTextMessageButtonTapped(_ sender: UIButton) {
         if (messageComposer.canSendText()) {
             
             // Obtain a configured MFMessageComposeViewController
             let messageComposeVC = messageComposer.configuredMessageComposeViewController()
-            presentViewController(messageComposeVC, animated: true, completion: nil)
+            present(messageComposeVC, animated: true, completion: nil)
         } else {
-            let errorAlert = UIAlertController(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", preferredStyle: .Alert)
-            errorAlert.addAction(UIAlertAction(title: "OK", style: .Default) { _ in })
-            self.presentViewController(errorAlert, animated: true){}
+            let errorAlert = UIAlertController(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", preferredStyle: .alert)
+            errorAlert.addAction(UIAlertAction(title: "OK", style: .default) { _ in })
+            self.present(errorAlert, animated: true){}
         }
     }
     
     // Defining Product Button Values
-    @IBAction func Lipstick_Btn(sender: AnyObject) {
+    @IBAction func Lipstick_Btn(_ sender: AnyObject) {
         productButton = 1
-        performSegueWithIdentifier("toSelectShade", sender: sender)
+        performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
-    @IBAction func LiquidLipstick_Btn(sender: AnyObject) {
+    @IBAction func LiquidLipstick_Btn(_ sender: AnyObject) {
         productButton = 2
-        performSegueWithIdentifier("toSelectShade", sender: sender)
+        performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
-    @IBAction func LipCrayon_Btn(sender: AnyObject) {
+    @IBAction func LipCrayon_Btn(_ sender: AnyObject) {
         productButton = 3
-        performSegueWithIdentifier("toSelectShade", sender: sender)
+        performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
-    @IBAction func LipStain_Btn(sender: AnyObject) {
+    @IBAction func LipStain_Btn(_ sender: AnyObject) {
         productButton = 4
-        performSegueWithIdentifier("toSelectShade", sender: sender)
+        performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
-    @IBAction func LipLiner_Btn(sender: AnyObject) {
+    @IBAction func LipLiner_Btn(_ sender: AnyObject) {
         productButton = 5
-        performSegueWithIdentifier("toSelectShade", sender: sender)
+        performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
 }

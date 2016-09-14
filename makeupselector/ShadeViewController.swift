@@ -7,6 +7,26 @@
 //
 
 import UIKit
+fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l < r
+  case (nil, _?):
+    return true
+  default:
+    return false
+  }
+}
+
+fileprivate func >= <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l >= r
+  default:
+    return !(lhs < rhs)
+  }
+}
+
 
 
 class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
@@ -20,7 +40,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBAction func sliderValueChanged(sender: UISlider) {
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
         let selectedValue = Int(sender.value)
 
         sliderLabel.text = String("$ \(selectedValue)")
@@ -575,12 +595,12 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         super.viewDidLoad()
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.navigationBar.tintColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0)
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
   
         if self.shadeButtonNumber == 1 && productButton == 1 {
             return self.temp_detaildata.priceArrayRedLipstick.count
@@ -667,260 +687,260 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
 //        return CGSize(width: (screenWidth-45)/3, height: (screenWidth-45)/3);
 //    }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
             as! CollectionViewCell
         if self.shadeButtonNumber == 1 && productButton == 1 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedLipstick[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedLipstick[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 1 && productButton == 2 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedLiquid[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedLiquid[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 1 && productButton == 3 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedCrayon[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedCrayon[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 1 && productButton == 4 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedStain[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedStain[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 1 && productButton == 5 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedLiner[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayRedLiner[(indexPath as NSIndexPath).row])
 
         
         }else if self.shadeButtonNumber == 2 && productButton == 1 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLipstick[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLipstick[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 2 && productButton == 2 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiquid[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiquid[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 2 && productButton == 3 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkCrayon[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkCrayon[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 2 && productButton == 4 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkStain[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkStain[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 2 && productButton == 5 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiner[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiner[(indexPath as NSIndexPath).row])
             
         }else if self.shadeButtonNumber == 3 && productButton == 1 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLipstick[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLipstick[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 3 && productButton == 2 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiquid[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiquid[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 3 && productButton == 3 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryCrayon[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryCrayon[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 3 && productButton == 4 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryStain[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryStain[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 3 && productButton == 5 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiner[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiner[(indexPath as NSIndexPath).row])
         
         }else if self.shadeButtonNumber == 4 && productButton == 1 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLipstick[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLipstick[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 4 && productButton == 2 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiquid[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiquid[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 4 && productButton == 3 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralCrayon[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralCrayon[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 4 && productButton == 4 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralStain[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralStain[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 4 && productButton == 5 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiner[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiner[(indexPath as NSIndexPath).row])
             
         }else if self.shadeButtonNumber == 5 && productButton == 1 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 5 && productButton == 2 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiquid[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiquid[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 5 && productButton == 3 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeCrayon[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeCrayon[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 5 && productButton == 4 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeStain[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeStain[(indexPath as NSIndexPath).row])
         }else if self.shadeButtonNumber == 5 && productButton == 5 {
-            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiner[indexPath.row])
+            cell.imageView?.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiner[(indexPath as NSIndexPath).row])
         }
         return cell
     }
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        self.performSegueWithIdentifier("showImage", sender: self)
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "showImage", sender: self)
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "showImage"
         {
-            let indexPaths = self.collectionView!.indexPathsForSelectedItems()!
-            let indexPath = indexPaths[0] as NSIndexPath
-            let vc = segue.destinationViewController as! SpecificShadeViewController
+            let indexPaths = self.collectionView!.indexPathsForSelectedItems!
+            let indexPath = indexPaths[0] as IndexPath
+            let vc = segue.destination as! SpecificShadeViewController
             
             if self.shadeButtonNumber == 1 && productButton == 1 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLipstick[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayRedLipstick[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayRedLipstick[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayRedLipstick[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLipstick[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayRedLipstick[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLipstick[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayRedLipstick[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayRedLipstick[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayRedLipstick[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLipstick[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayRedLipstick[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 1 && productButton == 2 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLiquid[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayRedLiquid[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayRedLiquid[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayRedLiquid[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLiquid[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayRedLiquid[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLiquid[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayRedLiquid[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayRedLiquid[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayRedLiquid[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLiquid[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayRedLiquid[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 1 && productButton == 3 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedCrayon[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayRedCrayon[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayRedCrayon[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayRedCrayon[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedCrayon[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayRedCrayon[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedCrayon[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayRedCrayon[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayRedCrayon[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayRedCrayon[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedCrayon[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayRedCrayon[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 1 && productButton == 4 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedStain[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayRedStain[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayRedStain[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayRedStain[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedStain[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayRedStain[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedStain[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayRedStain[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayRedStain[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayRedStain[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedStain[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayRedStain[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 1 && productButton == 5 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLiner[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayRedLiner[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayRedLiner[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayRedLiner[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLiner[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayRedLiner[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayRedLiner[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayRedLiner[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayRedLiner[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayRedLiner[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayRedLiner[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayRedLiner[(indexPath as NSIndexPath).row]
                 
             }else if self.shadeButtonNumber == 2 && productButton == 1 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLipstick[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLipstick[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayPinkLipstick[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayPinkLipstick[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLipstick[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayPinkLipstick[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLipstick[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLipstick[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkLipstick[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkLipstick[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLipstick[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkLipstick[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 2 && productButton == 2 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiquid[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLiquid[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayPinkLiquid[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayPinkLiquid[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLiquid[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayPinkLiquid[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiquid[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLiquid[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkLiquid[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkLiquid[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLiquid[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkLiquid[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 2 && productButton == 3 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkCrayon[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayPinkCrayon[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayPinkCrayon[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayPinkCrayon[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkCrayon[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayPinkCrayon[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkCrayon[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkCrayon[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkCrayon[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkCrayon[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkCrayon[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkCrayon[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 2 && productButton == 4 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkStain[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayPinkStain[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayPinkStain[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayPinkStain[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkStain[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayPinkStain[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkStain[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkStain[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkStain[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkStain[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkStain[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkStain[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 2 && productButton == 5 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiner[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLiner[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayPinkLiner[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayPinkLiner[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLiner[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayPinkLiner[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayPinkLiner[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayPinkLiner[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayPinkLiner[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayPinkLiner[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayPinkLiner[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayPinkLiner[(indexPath as NSIndexPath).row]
 
             }else if self.shadeButtonNumber == 3 && productButton == 1 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLipstick[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLipstick[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayBerryLipstick[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayBerryLipstick[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLipstick[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayBerryLipstick[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLipstick[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLipstick[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryLipstick[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryLipstick[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLipstick[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryLipstick[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 3 && productButton == 2 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiquid[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLiquid[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayBerryLiquid[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayBerryLiquid[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLiquid[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayBerryLiquid[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiquid[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLiquid[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryLiquid[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryLiquid[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLiquid[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryLiquid[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 3 && productButton == 3 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryCrayon[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayBerryCrayon[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayBerryCrayon[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayBerryCrayon[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryCrayon[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayBerryCrayon[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryCrayon[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryCrayon[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryCrayon[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryCrayon[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryCrayon[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryCrayon[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 3 && productButton == 4 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryStain[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayBerryStain[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayBerryStain[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayBerryStain[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryStain[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayBerryStain[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryStain[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryStain[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryStain[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryStain[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryStain[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryStain[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 3 && productButton == 5 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiner[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLiner[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayBerryLiner[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayBerryLiner[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLiner[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayBerryLiner[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayBerryLiner[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayBerryLiner[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayBerryLiner[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayBerryLiner[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayBerryLiner[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayBerryLiner[(indexPath as NSIndexPath).row]
 
             }else if self.shadeButtonNumber == 4 && productButton == 1 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLipstick[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLipstick[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayCoralLipstick[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayCoralLipstick[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLipstick[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayCoralLipstick[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLipstick[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLipstick[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralLipstick[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralLipstick[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLipstick[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralLipstick[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 4 && productButton == 2 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiquid[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLiquid[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayCoralLiquid[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayCoralLiquid[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLiquid[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayCoralLiquid[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiquid[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLiquid[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralLiquid[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralLiquid[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLiquid[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralLiquid[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 4 && productButton == 3 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralCrayon[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayCoralCrayon[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayCoralCrayon[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayCoralCrayon[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralCrayon[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayCoralCrayon[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralCrayon[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralCrayon[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralCrayon[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralCrayon[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralCrayon[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralCrayon[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 4 && productButton == 4 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralStain[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayCoralStain[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayCoralStain[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayCoralStain[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralStain[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayCoralStain[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralStain[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralStain[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralStain[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralStain[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralStain[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralStain[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 4 && productButton == 5 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiner[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLiner[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayCoralLiner[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayCoralLiner[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLiner[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayCoralLiner[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayCoralLiner[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayCoralLiner[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayCoralLiner[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayCoralLiner[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayCoralLiner[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayCoralLiner[(indexPath as NSIndexPath).row]
 
             }else if self.shadeButtonNumber == 5 && productButton == 1 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLipstick[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayNudeLipstick[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayNudeLipstick[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLipstick[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayNudeLipstick[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLipstick[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLipstick[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeLipstick[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeLipstick[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLipstick[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeLipstick[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 5 && productButton == 2 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiquid[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLiquid[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayNudeLiquid[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayNudeLiquid[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLiquid[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayNudeLiquid[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiquid[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLiquid[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeLiquid[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeLiquid[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLiquid[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeLiquid[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 5 && productButton == 3 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeCrayon[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayNudeCrayon[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayNudeCrayon[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayNudeCrayon[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeCrayon[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayNudeCrayon[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeCrayon[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeCrayon[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeCrayon[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeCrayon[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeCrayon[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeCrayon[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 5 && productButton == 4 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeStain[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayNudeStain[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayNudeStain[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayNudeStain[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeStain[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayNudeStain[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeStain[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeStain[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeStain[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeStain[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeStain[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeStain[(indexPath as NSIndexPath).row]
             }else if self.shadeButtonNumber == 5 && productButton == 5 {
-                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiner[indexPath.row])!
-                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLiner[indexPath.row]
-                vc.brandValue = self.temp_detaildata.brandArrayNudeLiner[indexPath.row]
-                vc.priceValue = self.temp_detaildata.priceArrayNudeLiner[indexPath.row]
-                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLiner[indexPath.row]
-                vc.linkValue = self.temp_detaildata.linkArrayNudeLiner[indexPath.row]
+                vc.image = UIImage(named: self.temp_detaildata.imageArrayNudeLiner[(indexPath as NSIndexPath).row])!
+                vc.shadeValue = self.temp_detaildata.shadeArrayNudeLiner[(indexPath as NSIndexPath).row]
+                vc.brandValue = self.temp_detaildata.brandArrayNudeLiner[(indexPath as NSIndexPath).row]
+                vc.priceValue = self.temp_detaildata.priceArrayNudeLiner[(indexPath as NSIndexPath).row]
+                vc.whatItIsValue = self.temp_detaildata.whatItIsArrayNudeLiner[(indexPath as NSIndexPath).row]
+                vc.linkValue = self.temp_detaildata.linkArrayNudeLiner[(indexPath as NSIndexPath).row]
 
             }
         }

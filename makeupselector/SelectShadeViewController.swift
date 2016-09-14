@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Alamofire
+// import Alamofire
 
 class SelectShadeViewController: UIViewController {
     
@@ -27,47 +27,47 @@ class SelectShadeViewController: UIViewController {
 //        }
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        navigationController?.navigationBar.tintColor = UIColor.white
     }
     
-    @IBAction func sendTextMessageButtonTapped(sender: UIButton) {
+    @IBAction func sendTextMessageButtonTapped(_ sender: UIButton) {
         if (messageComposer.canSendText()) {
             
             // Obtain a configured MFMessageComposeViewController
             let messageComposeVC = messageComposer.configuredMessageComposeViewController()
-            presentViewController(messageComposeVC, animated: true, completion: nil)
+            present(messageComposeVC, animated: true, completion: nil)
         } else {
-            let errorAlert = UIAlertController(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", preferredStyle: .Alert)
-            errorAlert.addAction(UIAlertAction(title: "OK", style: .Default) { _ in })
-            self.presentViewController(errorAlert, animated: true){}
+            let errorAlert = UIAlertController(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", preferredStyle: .alert)
+            errorAlert.addAction(UIAlertAction(title: "OK", style: .default) { _ in })
+            self.present(errorAlert, animated: true){}
         }
     }
     
-   @IBAction func Red_Btn(sender: AnyObject) {
+   @IBAction func Red_Btn(_ sender: AnyObject) {
         self.shadeButton = 1
-        performSegueWithIdentifier("Identifier", sender: sender)
+        performSegue(withIdentifier: "Identifier", sender: sender)
     }
-    @IBAction func Pink_Btn(sender: AnyObject) {
+    @IBAction func Pink_Btn(_ sender: AnyObject) {
         self.shadeButton = 2
-        performSegueWithIdentifier("Identifier", sender: sender)
+        performSegue(withIdentifier: "Identifier", sender: sender)
     }
-    @IBAction func Berry_Btn(sender: AnyObject) {
+    @IBAction func Berry_Btn(_ sender: AnyObject) {
         self.shadeButton = 3
-        performSegueWithIdentifier("Identifier", sender: sender)
+        performSegue(withIdentifier: "Identifier", sender: sender)
     }
-    @IBAction func Coral_Btn(sender: AnyObject) {
+    @IBAction func Coral_Btn(_ sender: AnyObject) {
         self.shadeButton = 4
-        performSegueWithIdentifier("Identifier", sender: sender)
+        performSegue(withIdentifier: "Identifier", sender: sender)
     }
-    @IBAction func Nude_Btn(sender: AnyObject) {
+    @IBAction func Nude_Btn(_ sender: AnyObject) {
         self.shadeButton = 5
-        performSegueWithIdentifier("Identifier", sender: sender)
+        performSegue(withIdentifier: "Identifier", sender: sender)
     }
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Identifier"{
-            if let destinationVC = segue.destinationViewController as? ShadeViewController{
+            if let destinationVC = segue.destination as? ShadeViewController{
                 destinationVC.shadeButtonNumber = self.shadeButton
             }
         }

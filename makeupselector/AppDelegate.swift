@@ -7,17 +7,15 @@
 //
 
 import UIKit
-import Fabric
-import Answers
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UINavigationBar.appearance().shadowImage = UIImage()
-        UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         
         let storyboard = grabStoryboard()
         self.window?.rootViewController = storyboard.instantiateInitialViewController()
@@ -28,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func grabStoryboard() -> UIStoryboard {
         // determine screen size
-        let screenHeight = UIScreen.mainScreen().bounds.size.height
+        let screenHeight = UIScreen.main.bounds.size.height
         var storyboard: UIStoryboard! = nil
         
         switch (screenHeight)
@@ -52,19 +50,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return storyboard
             }
 
-    func applicationWillResignActive(application: UIApplication) {
+    func applicationWillResignActive(_ application: UIApplication) {
     }
 
-    func applicationDidEnterBackground(application: UIApplication) {
+    func applicationDidEnterBackground(_ application: UIApplication) {
     }
 
-    func applicationWillEnterForeground(application: UIApplication) {
+    func applicationWillEnterForeground(_ application: UIApplication) {
     }
 
-    func applicationDidBecomeActive(application: UIApplication) {
+    func applicationDidBecomeActive(_ application: UIApplication) {
     }
 
-    func applicationWillTerminate(application: UIApplication) {
+    func applicationWillTerminate(_ application: UIApplication) {
     }
 
 
