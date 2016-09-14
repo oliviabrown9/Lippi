@@ -29,6 +29,7 @@ class SpecificShadeViewController: UIViewController {
     @IBOutlet weak var shadeView: UIView!
     @IBOutlet weak var brand: UILabel!
 
+    @IBOutlet weak var shareButton: UIButton!
     // Opens link to product when a user clicks "Buy Now"
     @IBAction func buyNowButton(sender: AnyObject) {
         UIApplication.sharedApplication().openURL(webLink)
@@ -52,6 +53,9 @@ class SpecificShadeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        shareButton.layer.borderWidth = 0.8
+        shareButton.layer.borderColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0).CGColor
         
         // Adds a cornerRadius to the shadeView and buyNowButton
         shadeView.layer.cornerRadius = 10

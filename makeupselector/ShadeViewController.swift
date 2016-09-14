@@ -660,12 +660,12 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         return 0
     }
     
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        
-        let screenSize: CGRect = UIScreen.mainScreen().bounds
-        let screenWidth = screenSize.width
-        return CGSize(width: (screenWidth-45)/3, height: (screenWidth-45)/3);
-    }
+//    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+//        
+//        let screenSize: CGRect = UIScreen.mainScreen().bounds
+//        let screenWidth = screenSize.width
+//        return CGSize(width: (screenWidth-45)/3, height: (screenWidth-45)/3);
+//    }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         

@@ -45,7 +45,7 @@ class SelectShadeViewController: UIViewController {
         }
     }
     
-    @IBAction func Red_Btn(sender: AnyObject) {
+   @IBAction func Red_Btn(sender: AnyObject) {
         self.shadeButton = 1
         performSegueWithIdentifier("Identifier", sender: sender)
     }
