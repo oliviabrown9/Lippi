@@ -20,7 +20,7 @@ class SpecificShadeViewController: UIViewController {
     var priceValue: String = String()
     var whatItIsValue: String = String()
     
-    // IBOutlets
+    // Defining IBOutlets
     @IBOutlet weak var buyNowButton: UIButton!
     @IBOutlet weak var shade: UILabel!
     @IBOutlet weak var price: UILabel!
