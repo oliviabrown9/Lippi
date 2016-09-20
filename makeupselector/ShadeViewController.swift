@@ -34,8 +34,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     var shadeButtonNumber:Int = Int()
     var productButtonNumber: Int = Int()
     var Slider_selectedvarue = Int()
-    var temp_detaildata: DetailData = DetailData()
-    var detaildata: DetailData = DetailData()
     
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
