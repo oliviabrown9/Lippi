@@ -31,7 +31,7 @@
                         <viewControllerLayoutGuide type="bottom" id="tHj-je-271"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4NY-Zd-ON4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhI-GD-IdA">
@@ -39,20 +39,6 @@
                                 <state key="normal" title="Lipstick"/>
                                 <connections>
                                     <action selector="Lipstick_Btn:" destination="SRH-i0-1NJ" eventType="touchUpInside" id="EAB-Cv-EC1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeO-rc-gJy">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="45"/>
-                                <state key="normal" title="Lip Stain"/>
-                                <connections>
-                                    <action selector="LipStain_Btn:" destination="SRH-i0-1NJ" eventType="touchUpInside" id="RWS-2O-xWS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7FS-ke-XrK">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="45"/>
-                                <state key="normal" title="Lip Liner"/>
-                                <connections>
-                                    <action selector="LipLiner_Btn:" destination="SRH-i0-1NJ" eventType="touchUpInside" id="6PZ-UB-O7p"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEa-Ps-8vh">
@@ -80,33 +66,20 @@
                                     <action selector="LiquidLipstick_Btn:" destination="SRH-i0-1NJ" eventType="touchUpInside" id="cwy-QY-d9A"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msU-E3-QGg">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="45"/>
-                                <state key="normal" title="Lip Crayon"/>
-                                <connections>
-                                    <action selector="LipCrayon_Btn:" destination="SRH-i0-1NJ" eventType="touchUpInside" id="8Ub-Eg-USQ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7FS-ke-XrK" firstAttribute="centerX" secondItem="4NY-Zd-ON4" secondAttribute="centerX" id="1Iv-Nh-d4S"/>
                             <constraint firstItem="LBR-qL-bPN" firstAttribute="centerX" secondItem="4NY-Zd-ON4" secondAttribute="centerX" id="BHu-Xg-2KC"/>
-                            <constraint firstItem="msU-E3-QGg" firstAttribute="centerX" secondItem="4NY-Zd-ON4" secondAttribute="centerX" id="G8H-8S-Ueg"/>
                             <constraint firstItem="dhI-GD-IdA" firstAttribute="centerX" secondItem="4NY-Zd-ON4" secondAttribute="centerX" id="Kkh-PT-Kpm"/>
                             <constraint firstItem="Jqr-vU-as8" firstAttribute="centerX" secondItem="4NY-Zd-ON4" secondAttribute="centerX" id="PdN-Yu-HyG"/>
-                            <constraint firstItem="7FS-ke-XrK" firstAttribute="top" secondItem="MeO-rc-gJy" secondAttribute="bottom" constant="20" id="T3y-at-h0H"/>
                             <constraint firstItem="lEa-Ps-8vh" firstAttribute="top" secondItem="Jqr-vU-as8" secondAttribute="bottom" constant="35" id="XJP-Hm-21c"/>
                             <constraint firstItem="LBR-qL-bPN" firstAttribute="top" secondItem="dhI-GD-IdA" secondAttribute="bottom" constant="20" id="Y9I-Aq-Nm1"/>
                             <constraint firstItem="dhI-GD-IdA" firstAttribute="top" secondItem="lEa-Ps-8vh" secondAttribute="bottom" constant="30" id="ZmL-0a-pBY"/>
-                            <constraint firstItem="MeO-rc-gJy" firstAttribute="centerX" secondItem="4NY-Zd-ON4" secondAttribute="centerX" id="grL-cV-tjm"/>
                             <constraint firstItem="tHj-je-271" firstAttribute="top" secondItem="DaS-NO-KJf" secondAttribute="bottom" constant="8" id="jAc-7K-38Y"/>
                             <constraint firstItem="lEa-Ps-8vh" firstAttribute="centerX" secondItem="4NY-Zd-ON4" secondAttribute="centerX" id="nHI-Rf-Bi3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DaS-NO-KJf" secondAttribute="trailing" id="puT-ka-pxh"/>
-                            <constraint firstItem="msU-E3-QGg" firstAttribute="top" secondItem="LBR-qL-bPN" secondAttribute="bottom" constant="20" id="qjR-fK-k5i"/>
                             <constraint firstItem="Jqr-vU-as8" firstAttribute="top" secondItem="RSw-S5-lhd" secondAttribute="bottom" constant="-17" id="vOY-Ah-CUf"/>
-                            <constraint firstItem="MeO-rc-gJy" firstAttribute="top" secondItem="msU-E3-QGg" secondAttribute="bottom" constant="20" id="zvv-vl-HhJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pR1-31-XI8"/>
@@ -129,7 +102,7 @@
                         <viewControllerLayoutGuide type="bottom" id="QsS-2t-3EH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BkX-u3-SGn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBm-op-H2F">
@@ -236,7 +209,7 @@
                         <viewControllerLayoutGuide type="bottom" id="r49-k7-Z5B"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BjA-k0-h6G">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ytG-3H-GYE">
@@ -339,7 +312,7 @@
                         <viewControllerLayoutGuide type="bottom" id="lPp-vk-1LN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vx2-NM-xUr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRe-Ag-nVN">

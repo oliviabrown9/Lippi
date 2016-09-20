@@ -43,27 +43,6 @@
                                     <action selector="LiquidLipstick_Btn:" destination="Iz9-MS-CQu" eventType="touchUpInside" id="NGG-6z-qQm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cva-4m-z6i">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="33"/>
-                                <state key="normal" title="Lip Crayon"/>
-                                <connections>
-                                    <action selector="LipCrayon_Btn:" destination="Iz9-MS-CQu" eventType="touchUpInside" id="psg-9r-TdD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hq6-Ba-93b">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="33"/>
-                                <state key="normal" title="Lip Stain"/>
-                                <connections>
-                                    <action selector="LipStain_Btn:" destination="Iz9-MS-CQu" eventType="touchUpInside" id="e1R-Nq-MEi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq2-sD-c20">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="33"/>
-                                <state key="normal" title="Lip Liner"/>
-                                <connections>
-                                    <action selector="LipLiner_Btn:" destination="Iz9-MS-CQu" eventType="touchUpInside" id="z5y-fy-FXx"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="751" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DI1-ii-QN0">
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="41"/>
                                 <color key="textColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -91,21 +70,15 @@
                         <color key="backgroundColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cva-4m-z6i" firstAttribute="top" secondItem="yC0-mq-5OV" secondAttribute="bottom" constant="15" id="1Bd-FG-31P"/>
-                            <constraint firstItem="qq2-sD-c20" firstAttribute="top" secondItem="hq6-Ba-93b" secondAttribute="bottom" constant="15" id="CEB-Of-bVa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qbx-g5-ZX1" secondAttribute="trailing" id="JOr-1g-QxM"/>
                             <constraint firstItem="MF5-i4-2pf" firstAttribute="top" secondItem="qbx-g5-ZX1" secondAttribute="bottom" constant="8" id="PXs-H0-ysb"/>
-                            <constraint firstItem="cva-4m-z6i" firstAttribute="centerX" secondItem="7UL-hf-jTi" secondAttribute="centerX" id="PzG-w8-nvy"/>
                             <constraint firstItem="yC0-mq-5OV" firstAttribute="top" secondItem="CqF-x8-gxu" secondAttribute="bottom" constant="15" id="RRU-0r-lXj"/>
                             <constraint firstItem="yC0-mq-5OV" firstAttribute="centerX" secondItem="7UL-hf-jTi" secondAttribute="centerX" id="T3p-8W-R4I"/>
                             <constraint firstItem="DI1-ii-QN0" firstAttribute="centerX" secondItem="7UL-hf-jTi" secondAttribute="centerX" id="VQa-Dz-sp7"/>
                             <constraint firstItem="CqF-x8-gxu" firstAttribute="top" secondItem="1RC-Fj-nUa" secondAttribute="bottom" constant="20" id="c4S-9x-veD"/>
-                            <constraint firstItem="hq6-Ba-93b" firstAttribute="top" secondItem="cva-4m-z6i" secondAttribute="bottom" constant="15" id="cdW-ZE-u2n"/>
                             <constraint firstItem="1RC-Fj-nUa" firstAttribute="top" secondItem="DI1-ii-QN0" secondAttribute="bottom" constant="25" id="cdn-0e-NhA"/>
-                            <constraint firstItem="qq2-sD-c20" firstAttribute="centerX" secondItem="7UL-hf-jTi" secondAttribute="centerX" id="cf2-4e-5IQ"/>
                             <constraint firstItem="CqF-x8-gxu" firstAttribute="centerX" secondItem="7UL-hf-jTi" secondAttribute="centerX" id="lPP-Wx-xAd"/>
                             <constraint firstItem="DI1-ii-QN0" firstAttribute="top" secondItem="1wH-ME-vZU" secondAttribute="bottom" constant="-25" id="qzA-hP-km1"/>
-                            <constraint firstItem="hq6-Ba-93b" firstAttribute="centerX" secondItem="7UL-hf-jTi" secondAttribute="centerX" id="ruL-Rz-KYa"/>
                             <constraint firstItem="1RC-Fj-nUa" firstAttribute="centerX" secondItem="7UL-hf-jTi" secondAttribute="centerX" id="wfa-X8-rCd"/>
                         </constraints>
                     </view>

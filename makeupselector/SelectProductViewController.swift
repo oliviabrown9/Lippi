@@ -40,16 +40,4 @@ class SelectProductViewController: UIViewController {
         productButton = 2
         performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
-    @IBAction func LipCrayon_Btn(_ sender: AnyObject) {
-        productButton = 3
-        performSegue(withIdentifier: "toSelectShade", sender: sender)
-    }
-    @IBAction func LipStain_Btn(_ sender: AnyObject) {
-        productButton = 4
-        performSegue(withIdentifier: "toSelectShade", sender: sender)
-    }
-    @IBAction func LipLiner_Btn(_ sender: AnyObject) {
-        productButton = 5
-        performSegue(withIdentifier: "toSelectShade", sender: sender)
-    }
 }

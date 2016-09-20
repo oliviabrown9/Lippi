@@ -31,30 +31,9 @@
                         <viewControllerLayoutGuide type="bottom" id="qOr-ah-0xW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NpO-0P-XVl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UE8-tR-qCR">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="70"/>
-                                <state key="normal" title="Lip Crayon"/>
-                                <connections>
-                                    <action selector="LipCrayon_Btn:" destination="6Fe-K4-gjO" eventType="touchUpInside" id="vw3-l2-5Fk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BF-ks-9qf">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="70"/>
-                                <state key="normal" title="Lip Stain"/>
-                                <connections>
-                                    <action selector="LipStain_Btn:" destination="6Fe-K4-gjO" eventType="touchUpInside" id="ftq-HK-mNd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgA-Qz-tes">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="70"/>
-                                <state key="normal" title="Lip Liner"/>
-                                <connections>
-                                    <action selector="LipLiner_Btn:" destination="6Fe-K4-gjO" eventType="touchUpInside" id="9Ri-TJ-OLF"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="751" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0W-Q7-fNj">
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="100"/>
                                 <color key="textColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -91,21 +70,15 @@
                         <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rsf-aL-pp7" firstAttribute="top" secondItem="0ke-k4-SJL" secondAttribute="bottom" constant="32" id="3sJ-f5-DCN"/>
-                            <constraint firstItem="QgA-Qz-tes" firstAttribute="top" secondItem="3BF-ks-9qf" secondAttribute="bottom" constant="32" id="4ul-Tr-JaE"/>
                             <constraint firstItem="0ke-k4-SJL" firstAttribute="centerX" secondItem="NpO-0P-XVl" secondAttribute="centerX" id="G1g-DR-Je5"/>
                             <constraint firstItem="qOr-ah-0xW" firstAttribute="top" secondItem="C6N-iA-qy1" secondAttribute="bottom" constant="10" id="GMx-OY-SXg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="C6N-iA-qy1" secondAttribute="trailing" id="Gj0-5g-kCf"/>
-                            <constraint firstItem="3BF-ks-9qf" firstAttribute="top" secondItem="UE8-tR-qCR" secondAttribute="bottom" constant="32" id="HKJ-e3-f0V"/>
-                            <constraint firstItem="UE8-tR-qCR" firstAttribute="centerX" secondItem="NpO-0P-XVl" secondAttribute="centerX" id="L0C-HJ-QMH"/>
                             <constraint firstItem="rsf-aL-pp7" firstAttribute="centerX" secondItem="NpO-0P-XVl" secondAttribute="centerX" id="Mwg-Cg-dPF"/>
-                            <constraint firstItem="QgA-Qz-tes" firstAttribute="centerX" secondItem="NpO-0P-XVl" secondAttribute="centerX" id="Q68-VQ-uik"/>
                             <constraint firstItem="0ke-k4-SJL" firstAttribute="top" secondItem="abE-n7-ZZQ" secondAttribute="bottom" constant="18" id="QRM-bz-fgN"/>
                             <constraint firstItem="abE-n7-ZZQ" firstAttribute="top" secondItem="c0W-Q7-fNj" secondAttribute="bottom" constant="25" id="Ugr-1c-C9e"/>
-                            <constraint firstItem="UE8-tR-qCR" firstAttribute="top" secondItem="rsf-aL-pp7" secondAttribute="bottom" constant="32" id="cuV-zr-jMX"/>
                             <constraint firstItem="abE-n7-ZZQ" firstAttribute="centerX" secondItem="NpO-0P-XVl" secondAttribute="centerX" id="dBa-wt-437"/>
                             <constraint firstItem="c0W-Q7-fNj" firstAttribute="top" secondItem="u8s-54-waR" secondAttribute="bottom" constant="20" id="iSe-8c-cFV"/>
                             <constraint firstItem="c0W-Q7-fNj" firstAttribute="centerX" secondItem="NpO-0P-XVl" secondAttribute="centerX" id="zPr-SV-zK7"/>
-                            <constraint firstItem="3BF-ks-9qf" firstAttribute="centerX" secondItem="NpO-0P-XVl" secondAttribute="centerX" id="zjv-gh-FSV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="h5G-UD-sAt"/>
@@ -128,7 +101,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HAN-nP-PY8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="l8k-em-cwv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6V-JY-xBd">
@@ -234,7 +207,7 @@
                         <viewControllerLayoutGuide type="bottom" id="jKV-cK-ufn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OlF-h6-Fan">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcv-Q9-avx">
@@ -339,7 +312,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Vlh-kF-2mS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TlB-w0-u5G">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gqd-Za-j1f">

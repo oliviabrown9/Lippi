@@ -22,7 +22,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wSf-y8-JHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1603" y="31"/>
+            <point key="canvasLocation" x="1105" y="31"/>
         </scene>
         <!--Select Product View Controller-->
         <scene sceneID="CJS-sr-RJa">
@@ -50,27 +50,6 @@
                                     <action selector="LiquidLipstick_Btn:" destination="XmK-i7-YJr" eventType="touchUpInside" id="lN1-6O-3i4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD7-Qx-6NP">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
-                                <state key="normal" title="Lip Crayon"/>
-                                <connections>
-                                    <action selector="LipCrayon_Btn:" destination="XmK-i7-YJr" eventType="touchUpInside" id="5Jq-x7-cGf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkL-KW-bC7">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
-                                <state key="normal" title="Lip Stain"/>
-                                <connections>
-                                    <action selector="LipStain_Btn:" destination="XmK-i7-YJr" eventType="touchUpInside" id="bMV-vc-Key"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Laj-se-P8I">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
-                                <state key="normal" title="Lip Liner"/>
-                                <connections>
-                                    <action selector="LipLiner_Btn:" destination="XmK-i7-YJr" eventType="touchUpInside" id="bmH-Od-Usz"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="751" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eU-Ec-XkM">
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="41"/>
                                 <color key="textColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -91,12 +70,7 @@
                         <color key="backgroundColor" red="0.92156862745098034" green="0.29411764705882354" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Laj-se-P8I" firstAttribute="centerX" secondItem="aXd-b9-cDR" secondAttribute="centerX" id="1CG-G1-r2b"/>
-                            <constraint firstItem="KD7-Qx-6NP" firstAttribute="centerX" secondItem="aXd-b9-cDR" secondAttribute="centerX" id="3LC-ky-JIw"/>
-                            <constraint firstItem="AkL-KW-bC7" firstAttribute="top" secondItem="KD7-Qx-6NP" secondAttribute="bottom" constant="8" id="3Tn-5r-HoV"/>
-                            <constraint firstItem="Laj-se-P8I" firstAttribute="top" secondItem="AkL-KW-bC7" secondAttribute="bottom" constant="8" id="91a-xf-W7b"/>
                             <constraint firstItem="lsg-77-F0k" firstAttribute="top" secondItem="7eU-Ec-XkM" secondAttribute="bottom" constant="15" id="D8Y-zD-FQe"/>
-                            <constraint firstItem="KD7-Qx-6NP" firstAttribute="top" secondItem="ITF-Mg-FIw" secondAttribute="bottom" constant="8" id="JAD-2A-YZO"/>
                             <constraint firstItem="lsg-77-F0k" firstAttribute="centerX" secondItem="aXd-b9-cDR" secondAttribute="centerX" id="Nto-Qt-FH5"/>
                             <constraint firstItem="H6L-uy-XyA" firstAttribute="top" secondItem="lsg-77-F0k" secondAttribute="bottom" constant="15" id="Rww-b1-7Ix"/>
                             <constraint firstItem="7eU-Ec-XkM" firstAttribute="top" secondItem="JRf-wn-mHU" secondAttribute="bottom" constant="-25" id="TAt-QN-vVi"/>
@@ -106,7 +80,6 @@
                             <constraint firstItem="ITF-Mg-FIw" firstAttribute="centerX" secondItem="aXd-b9-cDR" secondAttribute="centerX" id="ck0-8F-VqE"/>
                             <constraint firstItem="ITF-Mg-FIw" firstAttribute="top" secondItem="H6L-uy-XyA" secondAttribute="bottom" constant="8" id="fmx-73-ypR"/>
                             <constraint firstItem="Bdz-ws-ZGx" firstAttribute="top" secondItem="7z8-um-pQb" secondAttribute="bottom" constant="8" id="g3b-yv-N8p"/>
-                            <constraint firstItem="AkL-KW-bC7" firstAttribute="centerX" secondItem="aXd-b9-cDR" secondAttribute="centerX" id="x6H-HB-F7b"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YSf-el-mXR"/>
@@ -118,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WMG-C7-e6C" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1960.5" y="31.5"/>
+            <point key="canvasLocation" x="1801" y="29"/>
         </scene>
         <!--Select Shade View Controller-->
         <scene sceneID="hcV-ad-j89">
@@ -224,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AaQ-yp-FSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2313" y="31"/>
+            <point key="canvasLocation" x="2471" y="30"/>
         </scene>
         <!--Shade View Controller-->
         <scene sceneID="rbY-x9-3Qg">
@@ -327,7 +300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Gs-fn-LpP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2647" y="31"/>
+            <point key="canvasLocation" x="3062" y="30"/>
         </scene>
         <!--Specific Shade View Controller-->
         <scene sceneID="lHu-ZY-Kpe">
@@ -495,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EH3-ek-6cy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3032" y="31"/>
+            <point key="canvasLocation" x="3684" y="30"/>
         </scene>
     </scenes>
     <resources>
