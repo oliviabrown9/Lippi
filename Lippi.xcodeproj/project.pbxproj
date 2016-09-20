@@ -11,6 +11,7 @@
 		452CF11A1D7016BF00347D5F /* Storyboard5S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF1191D7016BF00347D5F /* Storyboard5S.storyboard */; };
 		452CF11C1D70174D00347D5F /* Storyboard6Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11B1D70174D00347D5F /* Storyboard6Plus.storyboard */; };
 		452CF11E1D70177200347D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11D1D70177200347D5F /* Main.storyboard */; };
+		4532E7441D90ED0200509B23 /* final.json in Resources */ = {isa = PBXBuildFile; fileRef = 4532E7431D90ED0200509B23 /* final.json */; };
 		4548E06E1D22E56700257BDC /* ShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E06D1D22E56700257BDC /* ShadeViewController.swift */; };
 		4548E0721D22E88C00257BDC /* SelectShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */; };
 		4548E0741D22E97700257BDC /* SelectProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E0731D22E97700257BDC /* SelectProductViewController.swift */; };
@@ -29,6 +30,7 @@
 		452CF1191D7016BF00347D5F /* Storyboard5S.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard5S.storyboard; sourceTree = "<group>"; };
 		452CF11B1D70174D00347D5F /* Storyboard6Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard6Plus.storyboard; sourceTree = "<group>"; };
 		452CF11D1D70177200347D5F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4532E7431D90ED0200509B23 /* final.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = final.json; sourceTree = "<group>"; };
 		4548E06D1D22E56700257BDC /* ShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadeViewController.swift; sourceTree = "<group>"; };
 		4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectShadeViewController.swift; sourceTree = "<group>"; };
 		4548E0731D22E97700257BDC /* SelectProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectProductViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */,
 				EB5685B11D2538E5004E4D51 /* DetailData.swift */,
+				4532E7431D90ED0200509B23 /* final.json */,
 			);
 			name = "Specific Shade View Controller";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				452CF1181D6FDB8800347D5F /* Storyboard4S.storyboard in Resources */,
 				452CF11C1D70174D00347D5F /* Storyboard6Plus.storyboard in Resources */,
 				454C61071D1F5CDE0053B661 /* LaunchScreen.storyboard in Resources */,
+				4532E7441D90ED0200509B23 /* final.json in Resources */,
 				454C61041D1F5CDE0053B661 /* Assets.xcassets in Resources */,
 				454C61021D1F5CDE0053B661 /* Storyboard6.storyboard in Resources */,
 				452CF11E1D70177200347D5F /* Main.storyboard in Resources */,
