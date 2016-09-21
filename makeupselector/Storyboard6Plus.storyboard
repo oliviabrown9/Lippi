@@ -215,38 +215,54 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ytG-3H-GYE">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4jF-Wk-0ix">
-                                    <size key="itemSize" width="110" height="110"/>
+                                    <size key="itemSize" width="120" height="120"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="10" minY="15" maxX="10" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="EU9-Q9-x7d" customClass="CollectionViewCell" customModule="Lippi" customModuleProvider="target">
-                                        <rect key="frame" x="10" y="15" width="110" height="110"/>
+                                        <rect key="frame" x="10" y="15" width="120" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bNe-GG-Hid">
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2tr-ho-7Id">
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bNe-GG-Hid">
+                                                            <frame key="frameInset" minX="-719" minY="-520" width="1677" height="1167"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="1016" id="AFz-up-7jh">
+                                                                    <variation key="heightClass=regular-widthClass=compact" constant="1677"/>
+                                                                </constraint>
+                                                                <constraint firstAttribute="height" constant="814" id="hYb-7J-aZM">
+                                                                    <variation key="heightClass=regular-widthClass=compact" constant="1167"/>
+                                                                </constraint>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="1016" id="AFz-up-7jh">
-                                                            <variation key="heightClass=regular-widthClass=compact" constant="1677"/>
-                                                        </constraint>
-                                                        <constraint firstAttribute="height" constant="814" id="hYb-7J-aZM">
-                                                            <variation key="heightClass=regular-widthClass=compact" constant="1167"/>
-                                                        </constraint>
+                                                        <constraint firstItem="bNe-GG-Hid" firstAttribute="centerY" secondItem="2tr-ho-7Id" secondAttribute="centerY" id="Kd6-Ts-kyd"/>
+                                                        <constraint firstItem="bNe-GG-Hid" firstAttribute="centerX" secondItem="2tr-ho-7Id" secondAttribute="centerX" id="LBM-tB-kwh"/>
+                                                        <constraint firstAttribute="height" constant="120" id="T4k-lv-Syj"/>
+                                                        <constraint firstAttribute="width" constant="60" id="dcR-vF-rZN"/>
+                                                    </constraints>
+                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testUrban" translatesAutoresizingMaskIntoConstraints="NO" id="9xd-vl-bkd">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="90" id="iYp-Vd-q8K"/>
+                                                        <constraint firstAttribute="width" constant="60" id="l4i-2R-k6L"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="bNe-GG-Hid" firstAttribute="top" secondItem="EU9-Q9-x7d" secondAttribute="topMargin" constant="-497" id="XAt-qW-LSN">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="-650"/>
-                                            </constraint>
-                                            <constraint firstItem="bNe-GG-Hid" firstAttribute="leading" secondItem="EU9-Q9-x7d" secondAttribute="leadingMargin" constant="-445" id="txh-sN-vFb">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="-756"/>
-                                            </constraint>
+                                            <constraint firstAttribute="trailingMargin" secondItem="9xd-vl-bkd" secondAttribute="trailing" constant="-10" id="21w-v8-Pw7"/>
+                                            <constraint firstItem="9xd-vl-bkd" firstAttribute="centerY" secondItem="EU9-Q9-x7d" secondAttribute="centerY" id="DJU-ce-pFf"/>
+                                            <constraint firstItem="2tr-ho-7Id" firstAttribute="centerY" secondItem="EU9-Q9-x7d" secondAttribute="centerY" id="S69-so-BBl"/>
+                                            <constraint firstItem="2tr-ho-7Id" firstAttribute="leading" secondItem="EU9-Q9-x7d" secondAttribute="leadingMargin" constant="-10" id="rDt-xS-83n"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="imageView" destination="bNe-GG-Hid" id="JUo-pO-Jqg"/>
