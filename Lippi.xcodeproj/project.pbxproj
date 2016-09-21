@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		452CF1181D6FDB8800347D5F /* Storyboard4S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF1171D6FDB8800347D5F /* Storyboard4S.storyboard */; };
 		452CF11A1D7016BF00347D5F /* Storyboard5S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF1191D7016BF00347D5F /* Storyboard5S.storyboard */; };
 		452CF11C1D70174D00347D5F /* Storyboard6Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11B1D70174D00347D5F /* Storyboard6Plus.storyboard */; };
 		452CF11E1D70177200347D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11D1D70177200347D5F /* Main.storyboard */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		452CF1171D6FDB8800347D5F /* Storyboard4S.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard4S.storyboard; sourceTree = "<group>"; };
 		452CF1191D7016BF00347D5F /* Storyboard5S.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard5S.storyboard; sourceTree = "<group>"; };
 		452CF11B1D70174D00347D5F /* Storyboard6Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard6Plus.storyboard; sourceTree = "<group>"; };
 		452CF11D1D70177200347D5F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 		452CF11F1D70192100347D5F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				452CF1171D6FDB8800347D5F /* Storyboard4S.storyboard */,
 				452CF1191D7016BF00347D5F /* Storyboard5S.storyboard */,
 				454C61001D1F5CDE0053B661 /* Storyboard6.storyboard */,
 				452CF11B1D70174D00347D5F /* Storyboard6Plus.storyboard */,
@@ -199,7 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				452CF11A1D7016BF00347D5F /* Storyboard5S.storyboard in Resources */,
-				452CF1181D6FDB8800347D5F /* Storyboard4S.storyboard in Resources */,
 				452CF11C1D70174D00347D5F /* Storyboard6Plus.storyboard in Resources */,
 				454C61071D1F5CDE0053B661 /* LaunchScreen.storyboard in Resources */,
 				4532E7441D90ED0200509B23 /* final.json in Resources */,
@@ -288,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
