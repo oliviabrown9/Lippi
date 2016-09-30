@@ -36,6 +36,11 @@ class SelectProductViewController: UIViewController {
         productButton = 1
         performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
+    
+    @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
+        // defining method
+    }
+    
     @IBAction func LiquidLipstick_Btn(_ sender: AnyObject) {
         productButton = 2
         performSegue(withIdentifier: "toSelectShade", sender: sender)
