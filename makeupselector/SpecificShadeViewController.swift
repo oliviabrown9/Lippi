@@ -12,6 +12,9 @@ class SpecificShadeViewController: UIViewController {
     
     // Class Variables
     var image = UIImage()
+    var imageUrl: String = String()
+    var shadeUrl: String = String()
+    
     var webLink: URL!
     var linkValue: String = String()
     var shadeValue: String = String()
@@ -20,6 +23,7 @@ class SpecificShadeViewController: UIViewController {
     var priceValue: String = String()
     var whatItIsValue: String = String()
     
+
     // Defining IBOutlets
     @IBOutlet weak var buyNowButton: UIButton!
     @IBOutlet weak var shade: UILabel!
@@ -28,8 +32,9 @@ class SpecificShadeViewController: UIViewController {
     @IBOutlet weak var shadeImage: UIImageView!
     @IBOutlet weak var shadeView: UIView!
     @IBOutlet weak var brand: UILabel!
-
-    // @IBOutlet weak var shareButton: UIButton!
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var shareButton: UIBarButtonItem!
+    
     // Opens link to product when a user clicks "Buy Now"
     @IBAction func buyNowButton(_ sender: AnyObject) {
         UIApplication.shared.openURL(webLink)
@@ -54,15 +59,17 @@ class SpecificShadeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // shareButton.layer.borderWidth = 0.8
-        // shareButton.layer.borderColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0).cgColor
-        
         // Adds a cornerRadius to the shadeView and buyNowButton
         shadeView.layer.cornerRadius = 10
         buyNowButton.layer.cornerRadius = 10
         
         // Passes correct variable for each specificShadeVC variable
-        self.shadeImage.image = self.image
+        let productUrl = NSURL(string: self.imageUrl)
+        self.productImage?.sd_setImage(with: productUrl as URL!)
+        
+        let shadeUrl = NSURL(string: self.shadeUrl)
+        self.shadeImage?.sd_setImage(with: shadeUrl as URL!)
+        
         webLink = URL(string: self.linkValue)
         self.shade.text = self.shadeValue
         self.brand.text = self.brandValue

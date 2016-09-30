@@ -12,8 +12,13 @@ var productButton:Int = Int()
 
 class SelectProductViewController: UIViewController {
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    @IBOutlet weak var lipstick: UIButton!
+    @IBOutlet weak var liquidLipstick: UIButton!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        lipstick.layer.cornerRadius = 15
+        liquidLipstick.layer.cornerRadius = 15
+        
     }
     
     let messageComposer = MessageComposer()
@@ -36,11 +41,6 @@ class SelectProductViewController: UIViewController {
         productButton = 1
         performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
-    
-    @IBAction func unwindSelectProductViewController(segue: UIStoryboardSegue) {
-        // defining method
-    }
-    
     @IBAction func LiquidLipstick_Btn(_ sender: AnyObject) {
         productButton = 2
         performSegue(withIdentifier: "toSelectShade", sender: sender)

@@ -31,24 +31,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         switch (screenHeight)
             {
-            // iPhone 4s
-            case 480.0:
-                storyboard = UIStoryboard(name: "Storyboard4S", bundle: nil)
-            // iPhone 5s
+            // iPhone SE
             case 568.0:
                 storyboard = UIStoryboard(name: "Storyboard5S", bundle: nil)
-            // iPhone 6
+            // iPhone 7
             case 667.0:
                 storyboard = UIStoryboard(name: "Storyboard6", bundle: nil)
-            // iPhone 6 Plus
+            // iPhone 7 Plus
             case 736.0:
                 storyboard = UIStoryboard(name: "Storyboard6Plus", bundle: nil)
             default:
             //iPad
                 storyboard = UIStoryboard(name: "Main", bundle: nil)
             }
-            return storyboard
-            }
+        storyboard = UIStoryboard(name: "Storyboard6", bundle: nil)
+        return storyboard
+    }
 
     func applicationWillResignActive(_ application: UIApplication) {
     }

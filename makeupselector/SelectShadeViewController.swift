@@ -17,21 +17,18 @@ class SelectShadeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        Alamofire.request(.GET, "https://mobile-backend-service.herokuapp.com/request?objects=10")
-//            .responseJSON { response in
-//                
-//                if let JSON = response.result.value {
-//                    print("JSON: \(JSON)")
-//                }
-//        }
+        buttonRed.layer.cornerRadius = 15
+        buttonPink.layer.cornerRadius = 15
+        buttonBerry.layer.cornerRadius = 15
+        buttonCoral.layer.cornerRadius = 15
+        buttonNude.layer.cornerRadius = 15
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.navigationBar.tintColor = UIColor.white
-    }
-    
+    @IBOutlet weak var buttonRed: UIButton!
+    @IBOutlet weak var buttonPink: UIButton!
+    @IBOutlet weak var buttonBerry: UIButton!
+    @IBOutlet weak var buttonCoral: UIButton!
+    @IBOutlet weak var buttonNude: UIButton!
+
     @IBAction func sendTextMessageButtonTapped(_ sender: UIButton) {
         if (messageComposer.canSendText()) {
             

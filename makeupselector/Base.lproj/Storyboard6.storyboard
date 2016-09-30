@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VzS-cd-Vm8">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VzS-cd-Vm8">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -36,46 +37,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ut0-UC-235">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Liquid Lipstick"/>
-                                <connections>
-                                    <action selector="LiquidLipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lHt-qW-MRx"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="751" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9P-us-jKJ">
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="45"/>
-                                <color key="textColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-mQ-nx9">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Contact Us">
+                                    <color key="titleColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendTextMessageButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDG-o2-joE"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryU-Wz-BdM">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" red="0.27000001072883606" green="0.27000001072883606" blue="0.27000001072883606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-mQ-nx9">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Contact Us"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c34-0T-Pmm">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="OeL-Va-hAr"/>
+                                    <constraint firstAttribute="width" constant="250" id="cLD-Sx-e3h"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="lipstickButton"/>
                                 <connections>
-                                    <action selector="sendTextMessageButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDG-o2-joE"/>
+                                    <action selector="Lipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8g1-tu-m5g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-oR-TEc">
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Lipstick"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsX-uF-ZgO">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="pns-gH-Lb9"/>
+                                    <constraint firstAttribute="height" constant="194" id="uuf-5C-asj"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="liquidLipstickButton"/>
                                 <connections>
-                                    <action selector="Lipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMN-iL-0dj"/>
+                                    <action selector="LiquidLipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKD-5c-DUc"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VqI-oR-TEc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5kT-HF-nBm"/>
+                            <constraint firstItem="c34-0T-Pmm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0ev-p1-1Bp"/>
+                            <constraint firstItem="ryU-Wz-BdM" firstAttribute="top" secondItem="g9P-us-jKJ" secondAttribute="bottom" constant="25" id="9lS-y9-ndM"/>
                             <constraint firstItem="g9P-us-jKJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G45-Lu-RXd"/>
-                            <constraint firstItem="VqI-oR-TEc" firstAttribute="top" secondItem="ryU-Wz-BdM" secondAttribute="bottom" constant="45" id="U9m-UH-2Uu">
-                                <variation key="heightClass=regular-widthClass=compact" constant="25"/>
-                            </constraint>
+                            <constraint firstItem="jsX-uF-ZgO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ltz-Eb-eb9"/>
+                            <constraint firstItem="c34-0T-Pmm" firstAttribute="top" secondItem="ryU-Wz-BdM" secondAttribute="bottom" constant="33" id="OPb-fm-0DE"/>
+                            <constraint firstItem="jsX-uF-ZgO" firstAttribute="top" secondItem="c34-0T-Pmm" secondAttribute="bottom" constant="8" id="Wet-FN-gfH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ejB-mQ-nx9" secondAttribute="bottom" constant="14" id="XMo-qj-CDk">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
@@ -83,13 +93,6 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
                             </constraint>
                             <constraint firstItem="ryU-Wz-BdM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dw5-cZ-lJH"/>
-                            <constraint firstItem="ut0-UC-235" firstAttribute="top" secondItem="VqI-oR-TEc" secondAttribute="bottom" constant="14" id="n27-c7-huQ">
-                                <variation key="heightClass=regular-widthClass=compact" constant="18"/>
-                            </constraint>
-                            <constraint firstItem="ut0-UC-235" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tx5-nC-Zrq"/>
-                            <constraint firstItem="ryU-Wz-BdM" firstAttribute="top" secondItem="g9P-us-jKJ" secondAttribute="bottom" constant="25" id="ufO-Xa-ubs">
-                                <variation key="heightClass=regular-widthClass=compact" constant="35"/>
-                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="ejB-mQ-nx9" secondAttribute="trailing" id="vfQ-qE-S5D"/>
                         </constraints>
                         <variation key="default">
@@ -115,12 +118,14 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="lipstick" destination="c34-0T-Pmm" id="4QX-3b-NOJ"/>
+                        <outlet property="liquidLipstick" destination="jsX-uF-ZgO" id="vjF-vx-lcZ"/>
                         <segue destination="UrY-7W-lzt" kind="show" identifier="toSelectShade" id="F20-qX-yK8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1960.5" y="31.5"/>
+            <point key="canvasLocation" x="1959.2" y="31.03448275862069"/>
         </scene>
         <!--Select Shade View Controller-->
         <scene sceneID="fs1-fG-1LW">
@@ -134,10 +139,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="XRJ-jw-Fxy"/>
+                                    <constraint firstAttribute="height" constant="60" id="zq5-cn-U1P"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Coral">
-                                    <color key="titleColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Coral" backgroundImage="buyNowButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Coral_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="BHk-gf-LpM"/>
@@ -145,13 +154,17 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-eP-ClF">
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="45"/>
-                                <color key="textColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="H0G-2M-iTb"/>
+                                    <constraint firstAttribute="width" constant="200" id="kR1-wS-CGL"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Nude">
-                                    <color key="titleColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Nude" backgroundImage="buyNowButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Nude_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="PD7-B9-d1w"/>
@@ -169,36 +182,48 @@
                                     <action selector="sendTextMessageButtonTapped:" destination="UrY-7W-lzt" eventType="touchUpInside" id="JbN-5G-upc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0wf-8k-9lC"/>
+                                    <constraint firstAttribute="height" constant="60" id="RZA-mN-FKE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Pink">
-                                    <color key="titleColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Pink" backgroundImage="buyNowButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Pink_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="RlP-5N-8gF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="YqV-dN-hwH"/>
+                                    <constraint firstAttribute="height" constant="60" id="uJw-OR-dqj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Berry">
-                                    <color key="titleColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Berry" backgroundImage="buyNowButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Berry_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="eX1-YT-by6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="LO6-s1-SmH"/>
+                                    <constraint firstAttribute="width" constant="200" id="svT-yw-gsa"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Red">
-                                    <color key="titleColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Red" backgroundImage="buyNowButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Red_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="390-Sr-Vfk"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.96736860280000003" green="1" blue="0.95416283609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BgL-Jl-hYu" firstAttribute="top" secondItem="CBV-XI-hut" secondAttribute="bottom" constant="19" id="16N-RF-0UP">
                                 <variation key="heightClass=regular-widthClass=compact" constant="25"/>
@@ -244,6 +269,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="krW-hx-VCZ"/>
                     <connections>
+                        <outlet property="buttonBerry" destination="olU-br-oMQ" id="cbW-Xe-mxH"/>
+                        <outlet property="buttonCoral" destination="BGL-gA-Vs7" id="7f5-dE-0G7"/>
+                        <outlet property="buttonNude" destination="e45-la-tUH" id="tw8-Z7-JZF"/>
+                        <outlet property="buttonPink" destination="aC1-Dc-xdZ" id="zye-2H-Qa4"/>
+                        <outlet property="buttonRed" destination="BgL-Jl-hYu" id="Lpq-2W-rWF"/>
                         <segue destination="qMB-kT-EnU" kind="show" identifier="Identifier" id="zP7-81-Xpg"/>
                     </connections>
                 </viewController>
@@ -268,7 +298,7 @@
                                 <color key="textColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="37" minValue="13" maxValue="37" translatesAutoresizingMaskIntoConstraints="NO" id="iLA-Yl-lNa">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="37" minValue="6" maxValue="37" translatesAutoresizingMaskIntoConstraints="NO" id="iLA-Yl-lNa">
                                 <color key="tintColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GJU-nT-jap"/>
@@ -310,113 +340,55 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zxm-Jp-gcc">
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="110" id="UFX-IK-drE">
-                                                            <variation key="heightClass=regular-widthClass=compact" constant="70"/>
-                                                        </constraint>
-                                                        <constraint firstAttribute="width" constant="55" id="g8v-aW-vn6">
-                                                            <variation key="heightClass=regular-widthClass=compact" constant="55"/>
-                                                        </constraint>
+                                                        <constraint firstAttribute="width" constant="60" id="eYb-Gl-tjG"/>
+                                                        <constraint firstAttribute="height" constant="90" id="sJa-P1-XYQ"/>
                                                     </constraints>
-                                                    <variation key="default">
-                                                        <mask key="constraints">
-                                                            <exclude reference="UFX-IK-drE"/>
-                                                            <exclude reference="g8v-aW-vn6"/>
-                                                        </mask>
-                                                    </variation>
-                                                    <variation key="heightClass=regular-widthClass=compact">
-                                                        <mask key="constraints">
-                                                            <include reference="UFX-IK-drE"/>
-                                                            <include reference="g8v-aW-vn6"/>
-                                                        </mask>
-                                                    </variation>
                                                 </imageView>
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QpK-vi-oeo">
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n5h-Tg-TTm">
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="110" id="6ou-Aa-day">
-                                                                    <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                                                </constraint>
-                                                                <constraint firstAttribute="height" constant="1167" id="TlY-ru-Z1A">
-                                                                    <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                                                </constraint>
+                                                                <constraint firstAttribute="width" constant="1000" id="hUr-Mp-wd7"/>
+                                                                <constraint firstAttribute="height" constant="1000" id="vc8-vP-NgH"/>
                                                             </constraints>
-                                                            <variation key="default">
-                                                                <mask key="constraints">
-                                                                    <exclude reference="6ou-Aa-day"/>
-                                                                    <exclude reference="TlY-ru-Z1A"/>
-                                                                </mask>
-                                                            </variation>
-                                                            <variation key="heightClass=regular-widthClass=compact">
-                                                                <mask key="constraints">
-                                                                    <include reference="6ou-Aa-day"/>
-                                                                    <include reference="TlY-ru-Z1A"/>
-                                                                </mask>
-                                                            </variation>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="n5h-Tg-TTm" firstAttribute="centerY" secondItem="QpK-vi-oeo" secondAttribute="centerY" id="AaX-UV-1dt"/>
-                                                        <constraint firstAttribute="width" constant="55" id="mwj-a8-Dlf"/>
-                                                        <constraint firstItem="n5h-Tg-TTm" firstAttribute="centerX" secondItem="QpK-vi-oeo" secondAttribute="centerX" id="neS-94-yWo"/>
-                                                        <constraint firstAttribute="height" constant="55" id="qnN-VV-BUP">
-                                                            <variation key="heightClass=regular-widthClass=compact" constant="110"/>
-                                                        </constraint>
+                                                        <constraint firstItem="n5h-Tg-TTm" firstAttribute="centerX" secondItem="QpK-vi-oeo" secondAttribute="centerX" id="CRN-kN-gao"/>
+                                                        <constraint firstAttribute="width" constant="50" id="bad-8M-Dxk"/>
+                                                        <constraint firstItem="n5h-Tg-TTm" firstAttribute="centerY" secondItem="QpK-vi-oeo" secondAttribute="centerY" id="hBj-Ae-6qF"/>
                                                     </constraints>
                                                     <variation key="default">
                                                         <mask key="subviews">
                                                             <exclude reference="n5h-Tg-TTm"/>
-                                                        </mask>
-                                                        <mask key="constraints">
-                                                            <exclude reference="mwj-a8-Dlf"/>
-                                                            <exclude reference="qnN-VV-BUP"/>
-                                                            <exclude reference="AaX-UV-1dt"/>
-                                                            <exclude reference="neS-94-yWo"/>
                                                         </mask>
                                                     </variation>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <mask key="subviews">
                                                             <include reference="n5h-Tg-TTm"/>
                                                         </mask>
-                                                        <mask key="constraints">
-                                                            <include reference="mwj-a8-Dlf"/>
-                                                            <include reference="qnN-VV-BUP"/>
-                                                            <include reference="AaX-UV-1dt"/>
-                                                            <include reference="neS-94-yWo"/>
-                                                        </mask>
                                                     </variation>
                                                 </view>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="QpK-vi-oeo" firstAttribute="leading" secondItem="VXl-X7-BJN" secondAttribute="leadingMargin" constant="-8" id="32s-Cm-PYu"/>
-                                            <constraint firstItem="Zxm-Jp-gcc" firstAttribute="leading" secondItem="QpK-vi-oeo" secondAttribute="trailing" id="5O3-DB-Wjn"/>
-                                            <constraint firstItem="QpK-vi-oeo" firstAttribute="centerY" secondItem="VXl-X7-BJN" secondAttribute="centerY" id="J5U-PD-mL4"/>
-                                            <constraint firstItem="Zxm-Jp-gcc" firstAttribute="centerY" secondItem="VXl-X7-BJN" secondAttribute="centerY" id="MJq-cN-cXE"/>
+                                            <constraint firstItem="Zxm-Jp-gcc" firstAttribute="leading" secondItem="QpK-vi-oeo" secondAttribute="trailing" id="0Da-hP-QTp"/>
+                                            <constraint firstItem="Zxm-Jp-gcc" firstAttribute="centerY" secondItem="VXl-X7-BJN" secondAttribute="centerY" id="Dhp-bx-fP7"/>
+                                            <constraint firstAttribute="bottom" secondItem="QpK-vi-oeo" secondAttribute="bottom" id="a00-tY-Ojw"/>
+                                            <constraint firstItem="QpK-vi-oeo" firstAttribute="leading" secondItem="VXl-X7-BJN" secondAttribute="leading" id="gGg-tS-hAh"/>
+                                            <constraint firstItem="QpK-vi-oeo" firstAttribute="top" secondItem="VXl-X7-BJN" secondAttribute="top" id="r1B-Fg-RDw"/>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="subviews">
                                                 <exclude reference="Zxm-Jp-gcc"/>
                                                 <exclude reference="QpK-vi-oeo"/>
                                             </mask>
-                                            <mask key="constraints">
-                                                <exclude reference="32s-Cm-PYu"/>
-                                                <exclude reference="J5U-PD-mL4"/>
-                                                <exclude reference="5O3-DB-Wjn"/>
-                                                <exclude reference="MJq-cN-cXE"/>
-                                            </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="subviews">
                                                 <include reference="Zxm-Jp-gcc"/>
                                                 <include reference="QpK-vi-oeo"/>
-                                            </mask>
-                                            <mask key="constraints">
-                                                <include reference="32s-Cm-PYu"/>
-                                                <include reference="J5U-PD-mL4"/>
-                                                <include reference="5O3-DB-Wjn"/>
-                                                <include reference="MJq-cN-cXE"/>
                                             </mask>
                                         </variation>
                                         <connections>
@@ -493,7 +465,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoR-QA-j02" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3281.25" y="31.125"/>
+            <point key="canvasLocation" x="3284" y="30.134932533733135"/>
         </scene>
         <!--Specific Shade View Controller-->
         <scene sceneID="PXm-lo-1ys">
@@ -509,7 +481,7 @@
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqR-m4-edk">
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testUrban" translatesAutoresizingMaskIntoConstraints="NO" id="3ml-HD-vlk">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ml-HD-vlk">
                                         <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="180" id="W5j-Bu-GV6">
@@ -695,15 +667,6 @@
                                     <action selector="buyNowButton:" destination="MFo-3v-kZm" eventType="touchUpInside" id="SuJ-tc-WWP"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W3w-Da-oQx">
-                                <frame key="frameInset" minY="20" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="sK0-cs-zSz">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="MaI-Or-ZSY"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYU-f1-kyW">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="a9K-7w-Iy8"/>
@@ -720,6 +683,7 @@
                             <constraint firstItem="FAr-Wi-SE9" firstAttribute="top" secondItem="ect-pc-OG5" secondAttribute="bottom" constant="8" id="CQD-35-hmG">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-3"/>
                             </constraint>
+                            <constraint firstItem="CYU-f1-kyW" firstAttribute="leading" secondItem="pSz-sm-xgZ" secondAttribute="leading" constant="4" id="Js3-kU-K0r"/>
                             <constraint firstItem="ki7-YR-r91" firstAttribute="top" secondItem="2eV-qy-Pmz" secondAttribute="bottom" constant="4" id="KTQ-SN-gK8"/>
                             <constraint firstItem="ect-pc-OG5" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="Mnm-hj-kzR"/>
                             <constraint firstItem="CYU-f1-kyW" firstAttribute="centerY" secondItem="rWp-6h-Mqf" secondAttribute="centerY" id="Oq8-oK-lPb"/>
@@ -796,6 +760,7 @@
                         <outlet property="brand" destination="FAr-Wi-SE9" id="RaN-Jg-j5W"/>
                         <outlet property="buyNowButton" destination="rWp-6h-Mqf" id="5fW-5k-ewX"/>
                         <outlet property="price" destination="CYU-f1-kyW" id="qkh-ML-lKE"/>
+                        <outlet property="productImage" destination="3ml-HD-vlk" id="mmk-bD-uJJ"/>
                         <outlet property="shade" destination="ect-pc-OG5" id="cuU-LO-Ea0"/>
                         <outlet property="shadeImage" destination="stz-Ao-35Q" id="2wj-Yr-858"/>
                         <outlet property="shadeView" destination="2eV-qy-Pmz" id="cDW-Qj-28E"/>
@@ -804,13 +769,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XFX-Nm-LIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3972.75" y="30.375"/>
+            <point key="canvasLocation" x="3905" y="30"/>
         </scene>
     </scenes>
     <resources>
         <image name="buyNowButton" width="2100" height="1500"/>
+        <image name="lipstickButton" width="516" height="342"/>
+        <image name="liquidLipstickButton" width="714" height="550"/>
         <image name="stars" width="1500" height="300"/>
-        <image name="testUrban" width="450" height="450"/>
     </resources>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
