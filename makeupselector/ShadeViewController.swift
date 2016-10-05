@@ -53,10 +53,8 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let productType: Int? = (item as! NSDictionary).object(forKey: "productType") as? Int
             let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
             let priceValue: Float? = (item as! NSDictionary).object(forKey: "price") as? Float
-            
-            //productType == productButton &&
-            
-            if shadeType == self.shadeButtonNumber && Float(selectedValue) >= priceValue{
+
+            if productType == productButton && shadeType == self.shadeButtonNumber && Float(selectedValue) >= priceValue{
                 self.temp_detaildata.append(item as! NSDictionary)
             }
         }
@@ -92,9 +90,8 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         {
             let productType: Int? = (item as! NSDictionary).object(forKey: "productType") as? Int
             let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
-            
-            //productType == productButton &&
-            if shadeType == self.shadeButtonNumber {
+
+            if productType == productButton && shadeType == self.shadeButtonNumber {
                 self.temp_detaildata.append(item as! NSDictionary)
             }
         }
