@@ -12,7 +12,7 @@
         <scene sceneID="dhi-gm-a9p">
             <objects>
                 <navigationController id="VzS-cd-Vm8" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Lg9-N0-xTA">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lg9-N0-xTA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -318,7 +318,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="182" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zxm-Jp-gcc">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zxm-Jp-gcc">
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="125" id="dgb-PH-2KM"/>
                                                         <constraint firstAttribute="width" constant="125" id="uMJ-no-lwf"/>
@@ -449,9 +449,9 @@
                                 <exclude reference="9T8-a0-vhR"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="CVT-B6-fap"/>
                                 <exclude reference="6Bp-Fv-wJB"/>
                                 <exclude reference="ldo-cE-NUb"/>
+                                <exclude reference="CVT-B6-fap"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -460,9 +460,9 @@
                                 <include reference="9T8-a0-vhR"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="CVT-B6-fap"/>
                                 <include reference="6Bp-Fv-wJB"/>
                                 <include reference="ldo-cE-NUb"/>
+                                <include reference="CVT-B6-fap"/>
                             </mask>
                         </variation>
                     </view>

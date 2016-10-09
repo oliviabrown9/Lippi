@@ -34,7 +34,7 @@
                         <viewControllerLayoutGuide type="bottom" id="zDA-cG-1J2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RUr-p7-Cgy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VQm-Yq-MfI">
@@ -74,7 +74,7 @@
                                                         <constraint firstAttribute="height" constant="120" id="eIc-lc-1g2"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pvw-Kz-O2z">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pvw-Kz-O2z">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="7cA-9U-LJ7"/>
                                                         <constraint firstAttribute="height" constant="90" id="y92-XT-hoa"/>
@@ -158,7 +158,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1WT-JZ-aPs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Dl4-6b-qF9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngg-dX-X7K">
@@ -192,7 +192,7 @@
                                     <constraint firstAttribute="height" constant="42" id="v7I-4t-th8"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J8L-RG-23u">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J8L-RG-23u">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="210" id="IGZ-vX-xvR"/>
                                     <constraint firstAttribute="width" constant="210" id="XsB-Gs-I9h"/>
@@ -293,7 +293,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1Kt-AX-QNt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="A7w-Nc-byD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="751" text="Lippi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iux-gj-ysC">
@@ -397,7 +397,7 @@
                         <viewControllerLayoutGuide type="bottom" id="XBD-MH-wu7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1nf-oE-jaU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmQ-ZJ-xqN">
