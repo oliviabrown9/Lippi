@@ -66,11 +66,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         super.viewDidLoad()
         
         self.getData()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.navigationBar.tintColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0)
+        self.automaticallyAdjustsScrollViewInsets = false
     }
     
     func getData() {
@@ -117,6 +113,11 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         let shadeImageStr = itemData[indexPath.row]["shadeImage"] as! String
         let shadeurl = NSURL(string: shadeImageStr)
         cell.imageView?.sd_setImage(with: shadeurl as URL!)
+        
+        cell.brandLabel?.text = (self.temp_detaildata[indexPath.row]).object(forKey: "brandName") as? String
+        
+        let priceLabelInt = (self.temp_detaildata[indexPath.row]).object(forKey: "price") as! Int
+        cell.priceLabel?.text = "$ \(priceLabelInt)"
         
         return cell
     }

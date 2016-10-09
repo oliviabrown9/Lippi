@@ -43,9 +43,6 @@ class SpecificShadeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        // Sets navigationBar tint color to pink
-        navigationController?.navigationBar.tintColor = UIColor(red:0.98, green:0.42, blue:0.42, alpha:1.0)
-        
         // Changes font size of price if its width is too small
         price.adjustsFontSizeToFitWidth = true
         price.minimumScaleFactor = 0.5
