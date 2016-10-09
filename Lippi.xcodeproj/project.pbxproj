@@ -21,6 +21,7 @@
 		454C610F1D1FB09B0053B661 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */; };
 		454C61111D1FB0D80053B661 /* SpecificShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */; };
 		458DB9781D5BC6AE005A2104 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DB9771D5BC6AE005A2104 /* MessageComposer.swift */; };
+		45C657C01DAA22F80022F644 /* UpdatedIdeas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C657BF1DAA22F80022F644 /* UpdatedIdeas.storyboard */; };
 		4B69C63C1D9273D200012A56 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69C6201D9273D200012A56 /* NSData+ImageContentType.m */; };
 		4B69C63D1D9273D200012A56 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69C6221D9273D200012A56 /* SDImageCache.m */; };
 		4B69C63E1D9273D200012A56 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69C6241D9273D200012A56 /* SDWebImageCompat.m */; };
@@ -54,6 +55,7 @@
 		454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShadeViewController.swift; sourceTree = "<group>"; };
 		458DB9771D5BC6AE005A2104 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
+		45C657BF1DAA22F80022F644 /* UpdatedIdeas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UpdatedIdeas.storyboard; sourceTree = "<group>"; };
 		4B69C61F1D9273D200012A56 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		4B69C6201D9273D200012A56 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		4B69C6211D9273D200012A56 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				452CF1191D7016BF00347D5F /* Storyboard5S.storyboard */,
 				454C61001D1F5CDE0053B661 /* Storyboard6.storyboard */,
+				45C657BF1DAA22F80022F644 /* UpdatedIdeas.storyboard */,
 				452CF11B1D70174D00347D5F /* Storyboard6Plus.storyboard */,
 				452CF11D1D70177200347D5F /* Main.storyboard */,
 				458DB9791D5BE865005A2104 /* View Controllers */,
@@ -285,6 +288,7 @@
 				452CF11A1D7016BF00347D5F /* Storyboard5S.storyboard in Resources */,
 				452CF11C1D70174D00347D5F /* Storyboard6Plus.storyboard in Resources */,
 				454C61071D1F5CDE0053B661 /* LaunchScreen.storyboard in Resources */,
+				45C657C01DAA22F80022F644 /* UpdatedIdeas.storyboard in Resources */,
 				4532E7441D90ED0200509B23 /* final.json in Resources */,
 				454C61041D1F5CDE0053B661 /* Assets.xcassets in Resources */,
 				454C61021D1F5CDE0053B661 /* Storyboard6.storyboard in Resources */,
@@ -448,7 +452,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Lippi-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -467,7 +471,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Lippi-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -15,6 +15,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JAd-gx-jWW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="LEy-RP-CYW" kind="relationship" relationship="rootViewController" id="Rci-mo-ZLh"/>
@@ -103,13 +104,16 @@
                                     <outlet property="delegate" destination="mah-Ra-Nmc" id="FVG-eJ-yka"/>
                                 </connections>
                             </collectionView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="37" minValue="13" maxValue="37" translatesAutoresizingMaskIntoConstraints="NO" id="cQ3-e9-wl3">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="90" minValue="6" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="cQ3-e9-wl3">
                                 <color key="tintColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="450" id="0uZ-dh-zfc"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="mah-Ra-Nmc" eventType="valueChanged" id="tZQ-VM-im3"/>
+                                </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$37" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ea-53-Yel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ea-53-Yel">
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -136,6 +140,8 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="qdg-Qf-Lbb" id="fow-GP-28t"/>
+                        <outlet property="slider" destination="cQ3-e9-wl3" id="roO-O3-8hf"/>
+                        <outlet property="sliderLabel" destination="9Ea-53-Yel" id="27E-qi-BNL"/>
                         <segue destination="T6j-KU-47q" kind="show" identifier="showImage" id="qg3-rS-JuO">
                             <nil key="action"/>
                         </segue>
@@ -350,8 +356,8 @@
                                 <exclude reference="D7F-Ym-4rv"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="d46-Yo-aYo"/>
                                 <exclude reference="ige-3U-r3d"/>
+                                <exclude reference="d46-Yo-aYo"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -359,8 +365,8 @@
                                 <include reference="D7F-Ym-4rv"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="d46-Yo-aYo"/>
                                 <include reference="ige-3U-r3d"/>
+                                <include reference="d46-Yo-aYo"/>
                             </mask>
                         </variation>
                     </view>
@@ -391,8 +397,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9h-fU-a29">
-                                <frame key="frameInset" minX="88" minY="440" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9h-fU-a29">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="NVy-8b-7T6"/>
                                     <constraint firstAttribute="width" constant="200" id="Xpg-Sj-ea7"/>
@@ -405,14 +410,12 @@
                                     <action selector="Coral_Btn:" destination="2gf-xm-Ozx" eventType="touchUpInside" id="Dh6-zT-DZi"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li4-Iy-3S6">
-                                <frame key="frameInset" minX="132" minY="44" width="111" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li4-Iy-3S6">
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="45"/>
                                 <color key="textColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZR-G0-ERb">
-                                <frame key="frameInset" minX="88" minY="518" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZR-G0-ERb">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="vjv-dd-371"/>
                                     <constraint firstAttribute="height" constant="60" id="xny-tD-9ta"/>
@@ -425,8 +428,7 @@
                                     <action selector="Nude_Btn:" destination="2gf-xm-Ozx" eventType="touchUpInside" id="z05-QP-NN7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="In the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dn3-AF-k4o">
-                                <frame key="frameInset" minX="31" minY="133" width="313" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dn3-AF-k4o">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" red="0.27000001070000001" green="0.27000001070000001" blue="0.27000001070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -438,8 +440,7 @@
                                     <action selector="sendTextMessageButtonTapped:" destination="2gf-xm-Ozx" eventType="touchUpInside" id="Bbo-PA-sq0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOV-Jw-iEz">
-                                <frame key="frameInset" minX="88" minY="284" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOV-Jw-iEz">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="JZ1-Ub-QhN"/>
                                     <constraint firstAttribute="height" constant="60" id="ULc-k4-d0E"/>
@@ -452,8 +453,7 @@
                                     <action selector="Pink_Btn:" destination="2gf-xm-Ozx" eventType="touchUpInside" id="5wv-Cg-J6R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5A-kV-tjR">
-                                <frame key="frameInset" minX="88" minY="362" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5A-kV-tjR">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="1C8-9s-WFV"/>
                                     <constraint firstAttribute="height" constant="60" id="hwV-4O-HEg"/>
@@ -466,8 +466,7 @@
                                     <action selector="Berry_Btn:" destination="2gf-xm-Ozx" eventType="touchUpInside" id="ekR-dO-pAD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSu-ij-f0R">
-                                <frame key="frameInset" minX="88" minY="206" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSu-ij-f0R">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Gqa-Gu-hJD"/>
                                     <constraint firstAttribute="height" constant="60" id="ZhK-kF-oIy"/>
@@ -513,6 +512,7 @@
                             <constraint firstItem="c5A-kV-tjR" firstAttribute="top" secondItem="MOV-Jw-iEz" secondAttribute="bottom" constant="8" id="koI-fe-l1a">
                                 <variation key="heightClass=regular-widthClass=compact" constant="18"/>
                             </constraint>
+                            <constraint firstItem="Li4-Iy-3S6" firstAttribute="top" secondItem="7Ef-ym-7JB" secondAttribute="bottom" constant="-20" id="vaU-pM-TIn"/>
                             <constraint firstItem="dn3-AF-k4o" firstAttribute="centerX" secondItem="Ygf-Gj-KyZ" secondAttribute="centerX" id="wwo-Te-AkZ"/>
                         </constraints>
                         <variation key="default">
