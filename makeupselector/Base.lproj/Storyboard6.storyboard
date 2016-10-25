@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VzS-cd-Vm8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VzS-cd-Vm8">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -50,8 +50,7 @@
                                     <action selector="sendTextMessageButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDG-o2-joE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c34-0T-Pmm">
-                                <frame key="frameInset" minX="62.5" minY="204" width="250" height="194"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c34-0T-Pmm">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="194" id="OeL-Va-hAr"/>
                                     <constraint firstAttribute="width" constant="250" id="cLD-Sx-e3h"/>
@@ -61,8 +60,7 @@
                                     <action selector="Lipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8g1-tu-m5g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsX-uF-ZgO">
-                                <frame key="frameInset" minX="62.5" minY="406" width="250" height="194"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsX-uF-ZgO">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="pns-gH-Lb9"/>
                                     <constraint firstAttribute="height" constant="194" id="uuf-5C-asj"/>
@@ -138,8 +136,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
-                                <frame key="frameInset" minX="87.5" minY="440" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGL-gA-Vs7">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="XRJ-jw-Fxy"/>
                                     <constraint firstAttribute="height" constant="60" id="zq5-cn-U1P"/>
@@ -152,8 +149,7 @@
                                     <action selector="Coral_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="BHk-gf-LpM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
-                                <frame key="frameInset" minX="87.5" minY="518" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e45-la-tUH">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="H0G-2M-iTb"/>
                                     <constraint firstAttribute="width" constant="200" id="kR1-wS-CGL"/>
@@ -173,8 +169,7 @@
                                     <action selector="sendTextMessageButtonTapped:" destination="UrY-7W-lzt" eventType="touchUpInside" id="JbN-5G-upc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
-                                <frame key="frameInset" minX="87.5" minY="284" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-Dc-xdZ">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="0wf-8k-9lC"/>
                                     <constraint firstAttribute="height" constant="60" id="RZA-mN-FKE"/>
@@ -187,8 +182,7 @@
                                     <action selector="Pink_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="RlP-5N-8gF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
-                                <frame key="frameInset" minX="87.5" minY="362" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-br-oMQ">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="YqV-dN-hwH"/>
                                     <constraint firstAttribute="height" constant="60" id="uJw-OR-dqj"/>
@@ -201,8 +195,7 @@
                                     <action selector="Berry_Btn:" destination="UrY-7W-lzt" eventType="touchUpInside" id="eX1-YT-by6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
-                                <frame key="frameInset" minX="87.5" minY="206" width="200" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgL-Jl-hYu">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="LO6-s1-SmH"/>
                                     <constraint firstAttribute="width" constant="200" id="svT-yw-gsa"/>
