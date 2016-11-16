@@ -78,8 +78,8 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
             self.detaildata = parsedData;
             
-        } catch let error as NSError {
-            print(error)
+        } catch _ as NSError {
+            // Handle errors
         }
         
         for (item) in self.detaildata
