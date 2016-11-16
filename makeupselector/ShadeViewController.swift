@@ -91,8 +91,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 self.temp_detaildata.append(item as! NSDictionary)
             }
         }
-        
-        print(self.temp_detaildata);
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
