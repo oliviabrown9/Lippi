@@ -1,10 +1,11 @@
 //
-//  ShadeViewController.swift
 //  Lippi
+//  ShadeViewController.swift
 //
-//  Created by Olivia on 6/28/16.
-//  Copyright © 2016 Olivia. All rights reserved.
+//  obrown917@gmail.com
+//  Copyright © 2016 Olivia Brown. All rights reserved.
 //
+
 import Foundation
 
 import UIKit
