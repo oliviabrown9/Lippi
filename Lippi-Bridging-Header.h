@@ -1,9 +1,9 @@
 //
-//  Lippi-Bridging-Header.h
 //  Lippi
+//  Lippi-Bridging-Header.h
 //
-//  Created by Olivia on 9/21/16.
-//  Copyright © 2016 Olivia. All rights reserved.
+//  obrown917@gmail.com
+//  Copyright © 2016 Olivia Brown. All rights reserved.
 //
 
 #ifndef Lippi_Bridging_Header_h
