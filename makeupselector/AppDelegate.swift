@@ -33,13 +33,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             {
             // iPhone SE
             case 568.0:
-                storyboard = UIStoryboard(name: "Storyboard5S", bundle: nil)
+                storyboard = UIStoryboard(name: "StoryboardSE", bundle: nil)
             // iPhone 7
             case 667.0:
-                storyboard = UIStoryboard(name: "Storyboard6", bundle: nil)
+                storyboard = UIStoryboard(name: "Storyboard7", bundle: nil)
             // iPhone 7 Plus
             case 736.0:
-                storyboard = UIStoryboard(name: "Storyboard6Plus", bundle: nil)
+                storyboard = UIStoryboard(name: "Storyboard7Plus", bundle: nil)
             // iPad Pro 9.7
             case 1024.0:
             storyboard = UIStoryboard(name: "StoryboardPro9", bundle: nil)
