@@ -97,11 +97,6 @@
                             <constraint firstItem="ryU-Wz-BdM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="lX1-k6-t5Z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ejB-mQ-nx9" secondAttribute="trailing" id="vfQ-qE-S5D"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ejB-mQ-nx9"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ejB-mQ-nx9"/>
@@ -669,12 +664,6 @@
                             <constraint firstItem="3ml-HD-vlk" firstAttribute="top" secondItem="q60-fO-fnH" secondAttribute="bottom" constant="15.5" id="y6Z-SA-oDG"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="2eV-qy-Pmz"/>
-                                <exclude reference="q60-fO-fnH"/>
-                                <exclude reference="ect-pc-OG5"/>
-                                <exclude reference="FAr-Wi-SE9"/>
-                            </mask>
                             <mask key="constraints">
                                 <exclude reference="Mnm-hj-kzR"/>
                             </mask>
@@ -691,9 +680,9 @@
                                 <include reference="Mnm-hj-kzR"/>
                                 <include reference="gK4-Wk-m9u"/>
                                 <include reference="hNN-Ps-i6x"/>
-                                <include reference="ceS-QI-yZW"/>
                                 <include reference="jCa-OJ-Be0"/>
                                 <include reference="rTH-PT-Z2X"/>
+                                <include reference="ceS-QI-yZW"/>
                             </mask>
                         </variation>
                     </view>
