@@ -44,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //iPad
                 storyboard = UIStoryboard(name: "Main", bundle: nil)
             }
-//        storyboard = UIStoryboard(name: "Storyboard6", bundle: nil)
+
         return storyboard
     }
 
