@@ -40,6 +40,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // iPhone 7 Plus
             case 736.0:
                 storyboard = UIStoryboard(name: "Storyboard6Plus", bundle: nil)
+            // iPad Pro 9.7
+            case 1024.0:
+            storyboard = UIStoryboard(name: "StoryboardPro9", bundle: nil)
             default:
             //iPad
                 storyboard = UIStoryboard(name: "Main", bundle: nil)
