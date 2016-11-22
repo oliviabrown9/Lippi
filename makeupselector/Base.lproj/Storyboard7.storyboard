@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -298,6 +297,9 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rhc-X2-KCC">
                                 <rect key="frame" x="5" y="135" width="364" height="532"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="364" id="pKX-ke-WXb"/>
+                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="UTj-oE-djF">
                                     <size key="itemSize" width="182" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -424,14 +426,13 @@
                             <constraint firstItem="9T8-a0-vhR" firstAttribute="leading" secondItem="iLA-Yl-lNa" secondAttribute="trailing" constant="14" id="6Bp-Fv-wJB">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
-                            <constraint firstItem="Rhc-X2-KCC" firstAttribute="leading" secondItem="9L2-eb-4Na" secondAttribute="leading" constant="5" id="7Fb-vc-lBm"/>
                             <constraint firstItem="iLA-Yl-lNa" firstAttribute="centerX" secondItem="9L2-eb-4Na" secondAttribute="centerX" id="CVT-B6-fap"/>
                             <constraint firstItem="lO4-Pk-ep4" firstAttribute="centerX" secondItem="9L2-eb-4Na" secondAttribute="centerX" id="Cyd-oD-BS9"/>
                             <constraint firstItem="eGQ-Ke-TC7" firstAttribute="top" secondItem="iLA-Yl-lNa" secondAttribute="bottom" constant="15" id="HnO-oj-ao1"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Rhc-X2-KCC" secondAttribute="trailing" constant="-10" id="ST4-IH-QwY"/>
                             <constraint firstItem="Jta-tb-Te2" firstAttribute="centerY" secondItem="iLA-Yl-lNa" secondAttribute="centerY" id="Vee-GG-dQm"/>
                             <constraint firstItem="iLA-Yl-lNa" firstAttribute="leading" secondItem="Jta-tb-Te2" secondAttribute="trailing" constant="8" id="Xu5-jl-45Z"/>
                             <constraint firstItem="iLA-Yl-lNa" firstAttribute="top" secondItem="3r0-Um-HzY" secondAttribute="bottom" constant="16" id="YcI-Rn-ZPJ"/>
+                            <constraint firstItem="Rhc-X2-KCC" firstAttribute="centerX" secondItem="9L2-eb-4Na" secondAttribute="centerX" id="bpa-XX-i5W"/>
                             <constraint firstItem="9T8-a0-vhR" firstAttribute="centerY" secondItem="iLA-Yl-lNa" secondAttribute="centerY" id="ldo-cE-NUb"/>
                             <constraint firstItem="Rhc-X2-KCC" firstAttribute="top" secondItem="iLA-Yl-lNa" secondAttribute="bottom" constant="25" id="rcs-nJ-96j"/>
                         </constraints>
@@ -680,9 +681,9 @@
                                 <include reference="Mnm-hj-kzR"/>
                                 <include reference="gK4-Wk-m9u"/>
                                 <include reference="hNN-Ps-i6x"/>
+                                <include reference="ceS-QI-yZW"/>
                                 <include reference="jCa-OJ-Be0"/>
                                 <include reference="rTH-PT-Z2X"/>
-                                <include reference="ceS-QI-yZW"/>
                             </mask>
                         </variation>
                     </view>
