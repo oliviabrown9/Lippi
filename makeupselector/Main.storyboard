@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -315,27 +314,11 @@
                                                 </imageView>
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S54-zC-NOZ">
                                                     <rect key="frame" x="0.0" y="232" width="251" height="30"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3zj-1O-kdI">
-                                                            <rect key="frame" x="-874.5" y="-985" width="2000" height="2000"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="2000" id="GV8-lc-fM1"/>
-                                                                <constraint firstAttribute="height" constant="2000" id="pII-xS-BKG"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                    </subviews>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="3zj-1O-kdI" firstAttribute="centerY" secondItem="S54-zC-NOZ" secondAttribute="centerY" id="7y9-fK-dxc"/>
                                                         <constraint firstAttribute="height" constant="30" id="DAp-Y8-aO0"/>
                                                         <constraint firstAttribute="width" constant="251" id="PK1-MA-q6o"/>
-                                                        <constraint firstItem="3zj-1O-kdI" firstAttribute="centerX" secondItem="S54-zC-NOZ" secondAttribute="centerX" id="U0f-oj-EFq"/>
                                                     </constraints>
-                                                    <variation key="heightClass=regular-widthClass=compact">
-                                                        <mask key="subviews">
-                                                            <include reference="3zj-1O-kdI"/>
-                                                        </mask>
-                                                    </variation>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$40" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ALL-mw-kEt">
                                                     <rect key="frame" x="8" y="197" width="235" height="30"/>
@@ -375,9 +358,9 @@
                                         </variation>
                                         <connections>
                                             <outlet property="brandLabel" destination="RHs-7T-i1Y" id="MpE-ub-jJH"/>
-                                            <outlet property="imageView" destination="3zj-1O-kdI" id="el2-aF-dlU"/>
                                             <outlet property="priceLabel" destination="ALL-mw-kEt" id="cLR-zo-mvh"/>
                                             <outlet property="productImageView" destination="vRS-Vb-NyM" id="UzT-bR-wxj"/>
+                                            <outlet property="shadeView" destination="S54-zC-NOZ" id="g5Q-Ku-hPJ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -497,8 +480,8 @@
                                         </constraints>
                                         <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="constraints">
-                                                <include reference="d1h-ni-ofw"/>
                                                 <include reference="0IG-XB-HmJ"/>
+                                                <include reference="d1h-ni-ofw"/>
                                             </mask>
                                         </variation>
                                     </imageView>
@@ -516,8 +499,8 @@
                                 </constraints>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="VzQ-mR-3iA"/>
                                         <include reference="SQx-Zb-fol"/>
+                                        <include reference="VzQ-mR-3iA"/>
                                         <include reference="9Cb-hw-cQJ"/>
                                         <include reference="awx-Dg-fhj"/>
                                     </mask>
@@ -525,42 +508,19 @@
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8qA-7d-Ntz">
                                 <rect key="frame" x="252" y="822" width="520" height="90"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xXJ-QF-yBt">
-                                        <rect key="frame" x="-740" y="-955" width="2000" height="2000"/>
-                                        <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="Vyd-IC-4J9">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                            </constraint>
-                                            <constraint firstAttribute="width" constant="2000" id="owD-V0-jEd">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                            </constraint>
-                                        </constraints>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="Vyd-IC-4J9"/>
-                                                <include reference="owD-V0-jEd"/>
-                                            </mask>
-                                        </variation>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="xXJ-QF-yBt" firstAttribute="centerX" secondItem="8qA-7d-Ntz" secondAttribute="centerX" id="0sx-Qa-jdI"/>
                                     <constraint firstAttribute="height" constant="90" id="J1i-fJ-HBK">
                                         <variation key="heightClass=regular-widthClass=compact" constant="50"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="520" id="fAe-H4-hLm">
                                         <variation key="heightClass=regular-widthClass=compact" constant="260"/>
                                     </constraint>
-                                    <constraint firstItem="xXJ-QF-yBt" firstAttribute="centerY" secondItem="8qA-7d-Ntz" secondAttribute="centerY" id="wSe-vB-Ru6"/>
                                 </constraints>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="J1i-fJ-HBK"/>
                                         <include reference="fAe-H4-hLm"/>
-                                        <include reference="0sx-Qa-jdI"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -577,8 +537,8 @@
                                 </constraints>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="lxD-1N-zcC"/>
                                         <include reference="DF3-RU-qQS"/>
+                                        <include reference="lxD-1N-zcC"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -716,7 +676,6 @@
                         <outlet property="price" destination="0A1-3I-UQf" id="82c-dv-3fm"/>
                         <outlet property="productImage" destination="bsi-CO-emf" id="Grw-Uj-XMa"/>
                         <outlet property="shade" destination="xd4-WC-kZg" id="p4W-Kl-xMt"/>
-                        <outlet property="shadeImage" destination="xXJ-QF-yBt" id="vO5-cE-aDJ"/>
                         <outlet property="shadeView" destination="8qA-7d-Ntz" id="sc7-k0-8Iu"/>
                         <outlet property="whatitis" destination="1OE-Bc-zRi" id="yxe-mW-OL7"/>
                     </connections>

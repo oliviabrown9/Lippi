@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -317,27 +316,11 @@
                                                 </imageView>
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fer-3x-g0E">
                                                     <rect key="frame" x="0.0" y="222" width="246" height="28"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rAG-ko-XYW">
-                                                            <rect key="frame" x="-377" y="-485.5" width="1000" height="1000"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="1000" id="NSL-5O-zx6"/>
-                                                                <constraint firstAttribute="width" constant="1000" id="zjg-fP-slP"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                    </subviews>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="rAG-ko-XYW" firstAttribute="centerY" secondItem="Fer-3x-g0E" secondAttribute="centerY" id="30f-LL-fTy"/>
                                                         <constraint firstAttribute="height" constant="28" id="Lrr-Dd-cmv"/>
                                                         <constraint firstAttribute="width" constant="246" id="cyu-tp-sfo"/>
-                                                        <constraint firstItem="rAG-ko-XYW" firstAttribute="centerX" secondItem="Fer-3x-g0E" secondAttribute="centerX" id="e1A-j6-mta"/>
                                                     </constraints>
-                                                    <variation key="heightClass=regular-widthClass=compact">
-                                                        <mask key="subviews">
-                                                            <include reference="rAG-ko-XYW"/>
-                                                        </mask>
-                                                    </variation>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smashbox" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Sac-ee-QBX">
                                                     <rect key="frame" x="8" y="156" width="230" height="36"/>
@@ -377,9 +360,9 @@
                                         </variation>
                                         <connections>
                                             <outlet property="brandLabel" destination="Sac-ee-QBX" id="PNF-KL-PXS"/>
-                                            <outlet property="imageView" destination="rAG-ko-XYW" id="no8-XI-wD0"/>
                                             <outlet property="priceLabel" destination="BBi-ZA-9Y1" id="EWo-oZ-pS4"/>
                                             <outlet property="productImageView" destination="r3l-ji-Eme" id="7ij-4Y-o6K"/>
+                                            <outlet property="shadeView" destination="Fer-3x-g0E" id="2I2-2b-iB0"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -527,42 +510,19 @@
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Igi-Wv-jRl">
                                 <rect key="frame" x="184" y="642" width="400" height="80"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Isk-Xm-46C">
-                                        <rect key="frame" x="-800.5" y="-960" width="2000" height="2000"/>
-                                        <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="9ZY-XN-yAe">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                            </constraint>
-                                            <constraint firstAttribute="width" constant="2000" id="FUL-IG-nPQ">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                            </constraint>
-                                        </constraints>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="9ZY-XN-yAe"/>
-                                                <include reference="FUL-IG-nPQ"/>
-                                            </mask>
-                                        </variation>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Isk-Xm-46C" firstAttribute="centerX" secondItem="Igi-Wv-jRl" secondAttribute="centerX" id="6DH-WV-TJT"/>
                                     <constraint firstAttribute="height" constant="80" id="Psg-jl-mbo">
                                         <variation key="heightClass=regular-widthClass=compact" constant="50"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="400" id="Qw5-op-HYb">
                                         <variation key="heightClass=regular-widthClass=compact" constant="260"/>
                                     </constraint>
-                                    <constraint firstItem="Isk-Xm-46C" firstAttribute="centerY" secondItem="Igi-Wv-jRl" secondAttribute="centerY" id="ohB-Ir-jcR"/>
                                 </constraints>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Psg-jl-mbo"/>
                                         <include reference="Qw5-op-HYb"/>
-                                        <include reference="6DH-WV-TJT"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -718,7 +678,6 @@
                         <outlet property="price" destination="VQ4-AG-5K4" id="pCo-Z1-JRw"/>
                         <outlet property="productImage" destination="vkk-Cf-enF" id="7Jf-hA-lEH"/>
                         <outlet property="shade" destination="zv6-Vo-GSp" id="0G5-ZC-IO1"/>
-                        <outlet property="shadeImage" destination="Isk-Xm-46C" id="8aj-PJ-VIS"/>
                         <outlet property="shadeView" destination="Igi-Wv-jRl" id="zvr-uL-d4v"/>
                         <outlet property="whatitis" destination="vG7-z5-1Xq" id="XyX-EW-M2x"/>
                     </connections>

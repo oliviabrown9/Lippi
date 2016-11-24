@@ -343,27 +343,11 @@
                                                 </imageView>
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fs5-a9-NE3">
                                                     <rect key="frame" x="0.0" y="197" width="200" height="28"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mdl-b8-WP2">
-                                                            <rect key="frame" x="-400" y="-486.33333333333331" width="1000" height="1000.6666666666667"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="1000" id="DOq-gt-Ut1"/>
-                                                                <constraint firstAttribute="height" constant="1000" id="F5b-n5-ezh"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                    </subviews>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="Mdl-b8-WP2" firstAttribute="centerY" secondItem="Fs5-a9-NE3" secondAttribute="centerY" id="AXJ-fn-2CE"/>
                                                         <constraint firstAttribute="width" constant="200" id="CiU-0z-J2r"/>
-                                                        <constraint firstItem="Mdl-b8-WP2" firstAttribute="centerX" secondItem="Fs5-a9-NE3" secondAttribute="centerX" id="Ydz-UN-NTi"/>
                                                         <constraint firstAttribute="height" constant="28" id="xh2-at-BJ3"/>
                                                     </constraints>
-                                                    <variation key="heightClass=regular-widthClass=compact">
-                                                        <mask key="subviews">
-                                                            <include reference="Mdl-b8-WP2"/>
-                                                        </mask>
-                                                    </variation>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smashbox" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="fDu-0k-XPq">
                                                     <rect key="frame" x="8" y="147" width="184" height="27.666666666666657"/>
@@ -403,9 +387,9 @@
                                         </variation>
                                         <connections>
                                             <outlet property="brandLabel" destination="fDu-0k-XPq" id="clN-KS-sXT"/>
-                                            <outlet property="imageView" destination="Mdl-b8-WP2" id="SXv-FE-cpM"/>
                                             <outlet property="priceLabel" destination="g9C-RP-bPr" id="yxT-oi-cFo"/>
                                             <outlet property="productImageView" destination="odm-GO-CCX" id="jCO-3W-7Ua"/>
+                                            <outlet property="shadeView" destination="Fs5-a9-NE3" id="Omp-qh-erJ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -556,32 +540,8 @@
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBh-Yi-VZb">
                                 <rect key="frame" x="77" y="469" width="260" height="50"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W2H-fh-y9D">
-                                        <rect key="frame" x="-870" y="-975.66666666666674" width="2000" height="2000"/>
-                                        <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="180" id="0I4-Jv-aX0">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                            </constraint>
-                                            <constraint firstAttribute="height" constant="180" id="nBa-kT-J3C">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="2000"/>
-                                            </constraint>
-                                        </constraints>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="0I4-Jv-aX0"/>
-                                                <include reference="nBa-kT-J3C"/>
-                                            </mask>
-                                        </variation>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="W2H-fh-y9D" firstAttribute="centerX" secondItem="iBh-Yi-VZb" secondAttribute="centerX" id="6WT-gE-Qbw"/>
-                                    <constraint firstItem="W2H-fh-y9D" firstAttribute="centerY" secondItem="iBh-Yi-VZb" secondAttribute="centerY" id="SIk-uC-wTn">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
-                                    </constraint>
                                     <constraint firstAttribute="height" constant="180" id="Seo-sq-HPB">
                                         <variation key="heightClass=regular-widthClass=compact" constant="50"/>
                                     </constraint>
@@ -593,8 +553,6 @@
                                     <mask key="constraints">
                                         <include reference="Seo-sq-HPB"/>
                                         <include reference="VAf-RE-hEQ"/>
-                                        <include reference="6WT-gE-Qbw"/>
-                                        <include reference="SIk-uC-wTn"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -740,7 +698,6 @@
                         <outlet property="price" destination="8La-qx-Lgl" id="xRm-ts-Iyh"/>
                         <outlet property="productImage" destination="u3v-XX-Ouo" id="U85-aI-lH8"/>
                         <outlet property="shade" destination="clI-qL-wOw" id="Xmv-dE-SAI"/>
-                        <outlet property="shadeImage" destination="W2H-fh-y9D" id="okf-VQ-RIS"/>
                         <outlet property="shadeView" destination="iBh-Yi-VZb" id="PeR-Of-b6X"/>
                         <outlet property="whatitis" destination="76z-fr-ipD" id="0NW-Li-UBc"/>
                     </connections>
