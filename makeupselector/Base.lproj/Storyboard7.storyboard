@@ -54,7 +54,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c34-0T-Pmm">
-                                <rect key="frame" x="62.5" y="153" width="250" height="194"/>
+                                <rect key="frame" x="62.5" y="172" width="250" height="194"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="194" id="OeL-Va-hAr"/>
                                     <constraint firstAttribute="width" constant="250" id="cLD-Sx-e3h"/>
@@ -65,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsX-uF-ZgO">
-                                <rect key="frame" x="62.5" y="355" width="250" height="194"/>
+                                <rect key="frame" x="62.5" y="374" width="250" height="194"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="pns-gH-Lb9"/>
                                     <constraint firstAttribute="height" constant="194" id="uuf-5C-asj"/>
@@ -76,7 +76,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryU-Wz-BdM">
-                                <rect key="frame" x="27" y="72" width="321" height="48"/>
+                                <rect key="frame" x="27" y="99" width="321" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" red="0.27000001072883606" green="0.27000001072883606" blue="0.27000001072883606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -87,13 +87,13 @@
                         <constraints>
                             <constraint firstItem="c34-0T-Pmm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0ev-p1-1Bp"/>
                             <constraint firstItem="jsX-uF-ZgO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ltz-Eb-eb9"/>
-                            <constraint firstItem="c34-0T-Pmm" firstAttribute="top" secondItem="ryU-Wz-BdM" secondAttribute="bottom" constant="33" id="OPb-fm-0DE"/>
+                            <constraint firstItem="c34-0T-Pmm" firstAttribute="top" secondItem="ryU-Wz-BdM" secondAttribute="bottom" constant="25" id="OPb-fm-0DE"/>
                             <constraint firstItem="jsX-uF-ZgO" firstAttribute="top" secondItem="c34-0T-Pmm" secondAttribute="bottom" constant="8" id="Wet-FN-gfH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ejB-mQ-nx9" secondAttribute="bottom" constant="14" id="XMo-qj-CDk">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
                             <constraint firstItem="ryU-Wz-BdM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dw5-cZ-lJH"/>
-                            <constraint firstItem="ryU-Wz-BdM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="lX1-k6-t5Z"/>
+                            <constraint firstItem="ryU-Wz-BdM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="lX1-k6-t5Z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ejB-mQ-nx9" secondAttribute="trailing" id="vfQ-qE-S5D"/>
                         </constraints>
                         <variation key="heightClass=regular-widthClass=compact">
