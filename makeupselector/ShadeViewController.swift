@@ -56,9 +56,10 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let parsedData = try JSONSerialization.jsonObject(with: data! as Data, options: .allowFragments) as! NSArray
             
             self.detaildata = parsedData;
+            print(self.detaildata)
             
-        } catch _ as NSError {
-            // Handle errors
+        } catch let error as NSError {
+            print(error)
         }
         
         for (item) in self.detaildata
