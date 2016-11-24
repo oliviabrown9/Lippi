@@ -13,7 +13,7 @@ class SpecificShadeViewController: UIViewController {
     // Class Variables
     var image = UIImage()
     var imageUrl: String = String()
-    var shadeUrl: String = String()
+    var shadeCode: String = String()
     
     var webLink: URL!
     var linkValue: String = String()
@@ -50,6 +50,28 @@ class SpecificShadeViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         self.whatitis.setContentOffset(CGPoint.zero, animated: false)
     }
+    
+    func hexStringToUIColor (hex:String) -> UIColor {
+        var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+        
+        if (cString.hasPrefix("#")) {
+            cString.remove(at: cString.startIndex)
+        }
+        
+        if ((cString.characters.count) != 6) {
+            return UIColor.gray
+        }
+        
+        var rgbValue:UInt32 = 0
+        Scanner(string: cString).scanHexInt32(&rgbValue)
+        
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,8 +84,8 @@ class SpecificShadeViewController: UIViewController {
         let productUrl = NSURL(string: self.imageUrl)
         self.productImage?.sd_setImage(with: productUrl as URL!)
         
-        let shadeUrl = NSURL(string: self.shadeUrl)
-        self.shadeImage?.sd_setImage(with: shadeUrl as URL!)
+        let shadeColor = hexStringToUIColor(hex: shadeCode)
+        self.shadeView.backgroundColor = shadeColor
         
         webLink = URL(string: self.linkValue)
         self.shade.text = self.shadeValue

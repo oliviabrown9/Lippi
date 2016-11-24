@@ -18,7 +18,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     var temp_detaildata: [NSDictionary] = [NSDictionary]()
     var detaildata: NSArray = []
     
-    
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -135,7 +134,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let vc = segue.destination as! SpecificShadeViewController
             
             vc.imageUrl = (self.temp_detaildata[indexPath.row]).object(forKey: "productImage") as! String
-            vc.shadeUrl = (self.temp_detaildata[indexPath.row]).object(forKey: "shadeImage") as! String
+            vc.shadeCode = (self.temp_detaildata[indexPath.row]).object(forKey: "shadeImage") as! String
             vc.shadeValue = (self.temp_detaildata[indexPath.row]).object(forKey: "shadeName") as! String
             vc.brandValue = (self.temp_detaildata[indexPath.row]).object(forKey: "brandName") as! String
             let priceValue: Int? = (self.temp_detaildata[indexPath.row]).object(forKey: "price") as? Int
