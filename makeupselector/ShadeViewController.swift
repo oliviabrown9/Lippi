@@ -9,25 +9,25 @@
 import Foundation
 import UIKit
 
-fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
-    switch (lhs, rhs) {
-    case let (l?, r?):
-        return l < r
-    case (nil, _?):
-        return true
-    default:
-        return false
-    }
-}
-
-fileprivate func >= <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
-    switch (lhs, rhs) {
-    case let (l?, r?):
-        return l >= r
-    default:
-        return !(lhs < rhs)
-    }
-}
+//fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+//    switch (lhs, rhs) {
+//    case let (l?, r?):
+//        return l < r
+//    case (nil, _?):
+//        return true
+//    default:
+//        return false
+//    }
+//}
+//
+//fileprivate func >= <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+//    switch (lhs, rhs) {
+//    case let (l?, r?):
+//        return l >= r
+//    default:
+//        return !(lhs < rhs)
+//    }
+//}
 
 class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
@@ -54,7 +54,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
             let priceValue: Float? = (item as! NSDictionary).object(forKey: "price") as? Float
 
-            if productType == productButton && shadeType == self.shadeButtonNumber && Float(selectedValue) >= priceValue{
+            if productType! == productButton && shadeType! == self.shadeButtonNumber && Float(selectedValue) >= priceValue!{
                 self.temp_detaildata.append(item as! NSDictionary)
             }
         }

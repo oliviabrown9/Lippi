@@ -22,16 +22,12 @@ class SelectShadeViewController: UIViewController {
         buttonBerry.layer.cornerRadius = 15
         buttonCoral.layer.cornerRadius = 15
         buttonNude.layer.cornerRadius = 15
-        
-        let shadeColor = UIColor(netHex:0xADD8E6)
-        self.shadeView.backgroundColor = shadeColor
     }
     @IBOutlet weak var buttonRed: UIButton!
     @IBOutlet weak var buttonPink: UIButton!
     @IBOutlet weak var buttonBerry: UIButton!
     @IBOutlet weak var buttonCoral: UIButton!
     @IBOutlet weak var buttonNude: UIButton!
-    @IBOutlet weak var shadeView: UIView!
 
     @IBAction func sendTextMessageButtonTapped(_ sender: UIButton) {
         if (messageComposer.canSendText()) {

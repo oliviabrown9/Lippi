@@ -217,14 +217,6 @@
                                 <color key="textColor" red="0.27000001072883606" green="0.27000001072883606" blue="0.27000001072883606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7hg-Md-rxe">
-                                <rect key="frame" x="67" y="568" width="240" height="32"/>
-                                <color key="backgroundColor" red="1" green="0.55652006172839508" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="D7y-Ze-4DJ"/>
-                                    <constraint firstAttribute="width" constant="240" id="nnN-lH-r8g"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -250,11 +242,9 @@
                             <constraint firstItem="e45-la-tUH" firstAttribute="top" secondItem="BGL-gA-Vs7" secondAttribute="bottom" constant="16" id="jpW-oz-5iW">
                                 <variation key="heightClass=regular-widthClass=compact" constant="18"/>
                             </constraint>
-                            <constraint firstItem="7hg-Md-rxe" firstAttribute="top" secondItem="e45-la-tUH" secondAttribute="bottom" constant="24" id="qI6-Af-5BH"/>
                             <constraint firstItem="CBV-XI-hut" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="rpi-dc-2fD"/>
                             <constraint firstItem="nch-3L-m8y" firstAttribute="trailing" secondItem="tMw-Qy-ClW" secondAttribute="trailingMargin" id="t4A-W8-E9f"/>
                             <constraint firstItem="olU-br-oMQ" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="tDa-yY-xOS"/>
-                            <constraint firstItem="7hg-Md-rxe" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="ytj-ce-zAe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Lippi" id="krW-hx-VCZ">
@@ -266,7 +256,6 @@
                         <outlet property="buttonNude" destination="e45-la-tUH" id="tw8-Z7-JZF"/>
                         <outlet property="buttonPink" destination="aC1-Dc-xdZ" id="zye-2H-Qa4"/>
                         <outlet property="buttonRed" destination="BgL-Jl-hYu" id="Lpq-2W-rWF"/>
-                        <outlet property="shadeView" destination="7hg-Md-rxe" id="HPw-2x-pWi"/>
                         <segue destination="qMB-kT-EnU" kind="show" identifier="Identifier" id="zP7-81-Xpg"/>
                     </connections>
                 </viewController>
