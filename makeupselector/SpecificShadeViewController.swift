@@ -29,11 +29,9 @@ class SpecificShadeViewController: UIViewController {
     @IBOutlet weak var shade: UILabel!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var whatitis: UITextView!
-    @IBOutlet weak var shadeImage: UIImageView!
     @IBOutlet weak var shadeView: UIView!
     @IBOutlet weak var brand: UILabel!
     @IBOutlet weak var productImage: UIImageView!
-    @IBOutlet weak var shareButton: UIBarButtonItem!
     
     // Opens link to product when a user clicks "Buy Now"
     @IBAction func buyNowButton(_ sender: AnyObject) {
