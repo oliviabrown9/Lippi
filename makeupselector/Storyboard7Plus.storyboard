@@ -660,7 +660,7 @@
                                     <action selector="buyNowButton:" destination="WhK-xp-Xth" eventType="touchUpInside" id="nmL-uo-hGN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8La-qx-Lgl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="8La-qx-Lgl">
                                 <rect key="frame" x="27" y="670" width="76" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="6Oo-PQ-wjh"/>
@@ -721,11 +721,11 @@
                             <mask key="constraints">
                                 <include reference="h1V-l6-nyA"/>
                                 <include reference="Lfs-eR-mzQ"/>
-                                <include reference="san-df-cYL"/>
                                 <include reference="E4G-vw-xtC"/>
+                                <include reference="AMF-xN-BuT"/>
                                 <include reference="5Z2-zF-JwK"/>
                                 <include reference="zTI-0s-eab"/>
-                                <include reference="AMF-xN-BuT"/>
+                                <include reference="san-df-cYL"/>
                             </mask>
                         </variation>
                     </view>

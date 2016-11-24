@@ -37,14 +37,6 @@ class SpecificShadeViewController: UIViewController {
     @IBAction func buyNowButton(_ sender: AnyObject) {
         UIApplication.shared.openURL(webLink)
     }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        // Changes font size of price if its width is too small
-        price.adjustsFontSizeToFitWidth = true
-        price.minimumScaleFactor = 0.5
-    }
     
     // Starts whatitis UITextView at top of text
     override func viewDidLayoutSubviews() {

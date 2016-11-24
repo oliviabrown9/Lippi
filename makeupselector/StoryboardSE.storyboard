@@ -16,7 +16,7 @@
             <objects>
                 <navigationController id="Ulo-je-70W" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="mpW-JK-NbX">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mpW-JK-NbX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -36,7 +36,6 @@
         <!--Lippi-->
         <scene sceneID="f3x-Ah-Icd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uch-QC-RRQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="6ue-M5-gdr" customClass="ShadeViewController" customModule="Lippi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bn2-r6-wyg"/>
@@ -199,6 +198,7 @@
                         </segue>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uch-QC-RRQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2574.375" y="26.408450704225352"/>
         </scene>
@@ -214,7 +214,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOv-Sl-i1y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="FOv-Sl-i1y">
                                 <rect key="frame" x="7" y="517" width="73.5" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="73.5" id="32c-oo-oKZ"/>

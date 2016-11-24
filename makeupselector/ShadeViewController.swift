@@ -102,12 +102,8 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     func hexStringToUIColor (hex:String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
-        if (cString.hasPrefix("#")) {
-            cString.remove(at: cString.startIndex)
-        }
-        
         if ((cString.characters.count) != 6) {
-            return UIColor.gray
+            return UIColor.white
         }
         
         var rgbValue:UInt32 = 0
