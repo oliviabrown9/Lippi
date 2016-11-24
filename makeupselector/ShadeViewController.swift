@@ -108,9 +108,9 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         let prourl = NSURL(string: productImageStr)
         cell.productImageView?.sd_setImage(with: prourl as URL!)
         
-        let shadeImageStr = itemData[indexPath.row]["shadeImage"] as! String
-        let shadeurl = NSURL(string: shadeImageStr)
-        cell.imageView?.sd_setImage(with: shadeurl as URL!)
+        let shadeCode = itemData[indexPath.row]["shadeImage"] as! String
+        let shadeColor = hexStringToUIColor(hex: shadeCode)
+        cell.shadeView.backgroundColor = shadeColor
         
         cell.brandLabel?.text = (self.temp_detaildata[indexPath.row]).object(forKey: "brandName") as? String
         
@@ -118,6 +118,28 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         cell.priceLabel?.text = "$ \(priceLabelInt)"
         
         return cell
+    }
+    
+    func hexStringToUIColor (hex:String) -> UIColor {
+        var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+        
+        if (cString.hasPrefix("#")) {
+            cString.remove(at: cString.startIndex)
+        }
+        
+        if ((cString.characters.count) != 6) {
+            return UIColor.gray
+        }
+        
+        var rgbValue:UInt32 = 0
+        Scanner(string: cString).scanHexInt32(&rgbValue)
+        
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -141,6 +163,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             vc.whatItIsValue = (self.temp_detaildata[indexPath.row]).object(forKey: "description") as! String
             vc.linkValue = (self.temp_detaildata[indexPath.row]).object(forKey: "link") as! String
         }
-        
     }
 }
+

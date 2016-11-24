@@ -6,7 +6,7 @@
  "brandName":"Make Up For Ever",
  "rating":4.7,
  "productImage":"https://65.media.tumblr.com/aec8f1f79e45050c33667a144c1cf582/tumblr_oe9wo96Iek1vgtxo7o1_500.png",
- "shadeImage":"https://67.media.tumblr.com/22c22b5d07c0c05ec4353a99bf206be4/tumblr_oe9vnhTkfg1vgssimo1_75sq.jpg",
+ "shadeImage":"000000",
  "description":"An innovative, bold lipstick that provides long-wearing, show-stopping color and endless creamy comfort.",
  "price":22,
  "link":"https://www.sephora.com/artist-rouge-lipstick-P410516?skuId=1854421&icid2=products%20grid%3Ap410516"
@@ -18,7 +18,7 @@
  "brandName":"Ulta",
  "rating":4.2,
  "productImage":"https://67.media.tumblr.com/c82cc655728e31038717c5cedf926855/tumblr_oe9vwgBGA01vgssimo1_400.jpg",
- "shadeImage":"https://66.media.tumblr.com/84bf28f73f73863e9b290229e101299d/tumblr_oe9vwex9YD1vgssimo1_250.png",
+ "shadeImage":"FF0000",
  "description":"Ulta's Lipstick gives full, rich color in a long-lasting formula. Shea butter and hyaluronic filling spheres penetrate lips and provide moisturization and fills in lip lines and wrinkles for a soft and smooth pout. Gluten-free.",
  "price":8,
  "link":"https://www.ulta.com/lipstick?productId=xlsImpprod3570083&sku=2232528"
@@ -30,7 +30,7 @@
  "brandName":"Maybelline",
  "rating":4,
  "productImage":"https://66.media.tumblr.com/e899d1717fddc57a7d03d939d522622d/tumblr_oe9vonfuHj1vgssimo1_400.jpg",
- "shadeImage":"https://67.media.tumblr.com/9741aa71f61b1b941fdeb0d56b8b83c1/tumblr_oe9vo1R0kG1vgssimo1_250.png",
+ "shadeImage":"800000",
  "description":"Maybelline's Color Sensational The Loaded Bolds Lip Color delivers one-stroke intensity with hyper-color pigments and an opaque, creamy clay base.",
  "price":7.49,
  "link":"https://www.ulta.com/color-sensational-loaded-bolds-lip-color?productId=xlsImpprod14251015&sku=2303894"
@@ -42,7 +42,7 @@
  "brandName":"Christian Louboutin",
  "rating":4.3,
  "productImage":"https://66.media.tumblr.com/7ec9dbf00da97cab217c363b7a7e7db3/tumblr_oe9vb6WVdk1vgssimo1_500.png",
- "shadeImage":"https://67.media.tumblr.com/0ffcdcc6f0092fc61ec8508ca159a3bd/tumblr_oe9vacHUZ51vgssimo1_75sq.jpg",
+ "shadeImage":"800000",
  "description":"A highly-pigmented matte lip color that provides non-drying comfort on the lips and leaves a suede finish. ",
  "price":90,
  "link":"https://www.sephora.com/velvet-matte-lip-colour-P400560?skuId=1750140&icid2=products%20grid:p400560"
@@ -66,7 +66,7 @@
  "brandName":"Lorac",
  "rating":4.4,
  "productImage":"https://67.media.tumblr.com/f0876ffc8b40248dfb1f10914dcb2de6/tumblr_oe9vakIBGY1vgssimo1_400.jpg",
- "shadeImage":"https://66.media.tumblr.com/ea172e8f13311d36c314f088337adf2d/tumblr_oe9vaahWrV1vgssimo1_250.png",
+ "shadeImage":"800000",
  "description":"Go PRO with LORAC PRO Matte Lip Color! This velvety-smooth, matte lip color is infused with anti-aging antioxidants of acai berry, pomegranate, grape seed extract and vitamins C and E to help nourish and protect your lips. The PRO tip hugs the curves of your lips with precision and control while the weightless, PRO formula easily glides on with a long-lasting, matte finish. PRO Matte Lip Color comes in an array of highly-pigmented, buildable, rich colors from natural nudes to vibrant hues for a modern, matte lip in any shade you desire. Color, line and define, just like a PRO!",
  "price":18,
  "link":"https://www.ulta.com/pro-matte-lip-color?productId=xlsImpprod10751012&sku=2275366"
@@ -78,7 +78,7 @@
  "brandName":"Nyx Cosmetics",
  "rating":5,
  "productImage":"https://67.media.tumblr.com/35080c0dca6871fb082100f5a2cca61a/tumblr_oe9vsjIzZw1vgssimo1_500.jpg",
- "shadeImage":"https://66.media.tumblr.com/12b6287ac934a9b79b47961cc2240100/tumblr_oe9vt64pFM1vgssimo1_250.png",
+ "shadeImage":"800000",
  "description":"",
  "price":5.99,
  "link":"https://www.target.com/p/nyx-high-voltage-lipstick/-/A-51580511"
@@ -90,8 +90,7 @@
  "brandName":"Yves Saint Laurent",
  "rating":3.5,
  "productImage":"https://67.media.tumblr.com/bcfb8df7e700a0f250bd42803f5e32a6/tumblr_oe9vxio4XU1vgssimo1_500.png",
- "shadeImage":"https://67.media.tumblr.com/f9ce229b73e136a812cbc01c9e90d977/tumblr_oe9vwskLHo1vgssimo1_75sq.jpg",
- "description":"A limited-edition Rouge Pur Couture lipstick, dressed for the holidays, with gold and silver sparkles and a bullet embossed with stars.",
+"shadeImage":"800000", "description":"A limited-edition Rouge Pur Couture lipstick, dressed for the holidays, with gold and silver sparkles and a bullet embossed with stars.",
  "price":37,
  "link":"https://www.sephora.com/rouge-pur-couture-star-clash-edition-lipstick-P411226?skuId=1863232&icid2=products%20grid:p411226#pdp-reviews"
  },
@@ -102,8 +101,7 @@
  "brandName":"Nyx Cosmetics",
  "rating":4.3,
  "productImage":"https://67.media.tumblr.com/fa4e892cff37a7b770d7338bf49395dc/tumblr_oe9vu589Bf1vgssimo1_400.jpg",
- "shadeImage":"https://67.media.tumblr.com/316a732e8919ecfdd8260b9861c3c2e8/tumblr_oe9vu4dgn81vgssimo1_75sq.jpg",
- "description":"NYX Matte Lipstick is a highly pigmented lipstick that glides on smoothly and stays put.",
+"shadeImage":"800000", "description":"NYX Matte Lipstick is a highly pigmented lipstick that glides on smoothly and stays put.",
  "price":5.99,
  "link":"https://www.ulta.com/matte-lipstick?productId=xlsImpprod4141597&sku=2242459"
  },
@@ -114,8 +112,7 @@
  "brandName":"Yves Saint Laurent",
  "rating":4.5,
  "productImage":"https://66.media.tumblr.com/7b34439b93f5c0585fbd28f37856c259/tumblr_oe9vwpQEwZ1vgssimo1_500.png",
- "shadeImage":"https://67.media.tumblr.com/de8dd43894172971e03858419b4a3dc1/tumblr_oe9vwgpSWN1vgssimo1_75sq.jpg",
- "description":"An oil-in-a-stick, medium-coverage lipstick with an innovative texture that provides high-performance color and irreverent shine while it conditions the lips.",
+"shadeImage":"800000", "description":"An oil-in-a-stick, medium-coverage lipstick with an innovative texture that provides high-performance color and irreverent shine while it conditions the lips.",
  "price":37,
  "link":"https://www.sephora.com/rouge-volupte-shine-oil-in-stick-lipstick-P377710?skuId=1719962&icid2=products%20grid:p377710"
  },
@@ -126,7 +123,7 @@
  "brandName":"Milani",
  "rating":5,
  "productImage":"https://65.media.tumblr.com/d6b29c8cce4cd9df38477a8a3b41db9e/tumblr_oe9vppaTwl1vgssimo1_500.jpg",
- "shadeImage":"https://67.media.tumblr.com/a40c8ae2b315eac761f9309fe2db9887/tumblr_oe9vqhKNX91vgssimo1_250.png",
+"shadeImage":"800000",
  "description":"Matte lipstick isn't meant to be drying or complicated to wear. Infused with grape seed extract imported from Italy, Milani Matte Color Statement Lipstick dresses up lips with rich, eye-catching color and a suede-like finish while offering the same comfort your favorite cream lipsticks provide. This long-wearing, non-drying matte lipstick takes you from velvety pale pink to voluptuous red—and everywhere in between—with just one stroke.",
  "price":6.99,
  "link":"https://www.target.com/p/milani-lipstick-color-statement-matte/-/A-51436216"
@@ -138,8 +135,7 @@
  "brandName":"MAC",
  "rating":4.6,
  "productImage":"https://66.media.tumblr.com/ebe493ebededeaedd61175abb9475ccc/tumblr_oe9vihiiia1vgssimo1_1280.jpg",
- "shadeImage":"https://66.media.tumblr.com/8af9e3a2cc0f54034479617294acb770/tumblr_oe9vimCOUy1vgssimo1_1280.png",
- "description":"Formulated to shade, define and showcase the lips. Hundreds of hues, high-fashion textures. The iconic product that made M·A·C famous.",
+"shadeImage":"800000", "description":"Formulated to shade, define and showcase the lips. Hundreds of hues, high-fashion textures. The iconic product that made M·A·C famous.",
  "price":17,
  "link":"https://www.maccosmetics.com/product/13854/310/Products/Makeup/Lips/Lipstick/Lipstick#/shade/Ruby_Woo"
  },
@@ -150,8 +146,7 @@
  "brandName":"MAC",
  "rating":5,
  "productImage":"https://65.media.tumblr.com/aa765601ae3eab6a0e196041e1e3d027/tumblr_oe9vi9GiiQ1vgssimo1_540.png",
- "shadeImage":"https://67.media.tumblr.com/9a72dd1eb74bb3b3662961c7273fd4b9/tumblr_oe9vidROEA1vgssimo1_1280.png",
- "description":"A brilliant formula that pushes the boundaries of colour. Each Lipstick holds intense amounts of pigment, resulting in extreme colour intensity, clarity and vibrancy. This luxurious gelled base melts on contact, providing fully saturated colour with a satin finish in one stroke.",
+"shadeImage":"800000", "description":"A brilliant formula that pushes the boundaries of colour. Each Lipstick holds intense amounts of pigment, resulting in extreme colour intensity, clarity and vibrancy. This luxurious gelled base melts on contact, providing fully saturated colour with a satin finish in one stroke.",
  "price":21,
  "link":"https://www.maccosmetics.com/product/13854/43859/Products/Makeup/Lips/Lipstick/Liptensity-Lipstick#/shade/Life%27s_Blood"
  },
@@ -162,8 +157,8 @@
  "brandName":"No7",
  "rating":5,
  "productImage":"https://66.media.tumblr.com/38aedd84fc4f092a849ae1456b1ffe4a/tumblr_oe9vpomFpz1vgssimo1_500.jpg",
- "shadeImage":"https://66.media.tumblr.com/d82c7e4381e409a4c3acf580ab6b106d/tumblr_oe9vpyc2Pb1vgssimo1_250.png",
- "description":"",
+"shadeImage":"800000",
+ "description":"empty brah",
  "price":9.99,
  "link":"https://www.target.com/p/no7-stay-perfect-lipstick/-/A-51129024"
  },
@@ -174,8 +169,8 @@
  "brandName":"No7",
  "rating":5,
  "productImage":"https://66.media.tumblr.com/88b7c90a97dcc9110f94d5ddc7e4fcb8/tumblr_oe9vrwOIgD1vgssimo1_500.jpg",
- "shadeImage":"https://66.media.tumblr.com/5c2a18981f5417ad180e350858e85748/tumblr_oe9vrsjyXl1vgssimo1_250.png",
- "description":"",
+"shadeImage":"800000",
+ "description":"empty brah",
  "price":9.99,
  "link":"https://www.target.com/p/no7-moisture-drench-lipstick/-/A-51135732"
  },
@@ -186,7 +181,7 @@
  "brandName":"MAC",
  "rating":4,
  "productImage":"https://66.media.tumblr.com/4b26544f437acaaacab1415e4207f0d4/tumblr_oe9vavimVw1vgssimo1_540.png",
- "shadeImage":"https://66.media.tumblr.com/55ce6e93d5000cd627d031c0c825f7b5/tumblr_oe9vdeJ0tP1vgssimo1_1280.png",
+"shadeImage":"800000",
  "description":"The perfect blend of high fashion colour and comfortable texture. Rich formula glides on with ease, creating perfect coverage and shine.",
  "price":23,
  "link":"https://www.maccosmetics.com/product/13854/32732/Products/Makeup/Lips/Lipstick/Ultimate-Lipstick#/shade/Audacious"
@@ -198,7 +193,7 @@
  "brandName":"MAC",
  "rating":4.3,
  "productImage":"https://66.media.tumblr.com/ddffd660b0e9cae436ea1632537f1c80/tumblr_oe9vffl3Zc1vgssimo1_1280.jpg",
- "shadeImage":"https://66.media.tumblr.com/bf2c964d3023cdd1b14281e1c41d80d0/tumblr_oe9vfdWtbk1vgssimo1_1280.png",
+"shadeImage":"800000",
  "description":"M•A•C Huggable Lipcolour is back by popular demand. A comforting, creamy formula in shades that stay luminous for up to six hours. This lasting lipstick with rich, glossy shine boosts collagen, leaving lips looking smooth, supple, sculpted. The unique gel base melts upon contact, allowing each shade to glide on effortlessly with a feather-light moisturizing finish.",
  "price":21,
  "link":"https://www.maccosmetics.com/product/13854/35141/Products/Makeup/Lips/Lipstick/Huggable-Lipcolour#/shade/Cherry_Glaze"
@@ -210,7 +205,7 @@
  "brandName":"MAC",
  "rating":4.4,
  "productImage":"https://66.media.tumblr.com/b5c19c462195794851112d1bfbeb0489/tumblr_oe9wsap8tu1vgtxo7o1_1280.jpg",
- "shadeImage":"https://66.media.tumblr.com/71d8cf8bc51e33c1e03dac7835b10043/tumblr_oe9vgtqpNw1vgssimo1_1280.png",
+"shadeImage":"800000",
  "description":"A 77-Mineral Moist Complex that instantly nourishes lips with maximum moisture in a lightweight, non-sticky formula. Larger bullet applies bright, long-lasting colour in a single stroke. Medium-shine finish, buildable coverage. Magnetic closure.",
  "price":25,
  "link":"https://www.maccosmetics.com/product/13854/24937/Products/Makeup/Lips/Lipstick/Mineralize-Rich-Lipstick#/shade/Everyday_Diva"
@@ -222,8 +217,8 @@
  "brandName":"IMAN",
  "rating":5,
  "productImage":"https://67.media.tumblr.com/a0ee183f8ab15733cc87797686974ea5/tumblr_oe9v7tbanY1vgssimo1_500.jpg",
- "shadeImage":"https://67.media.tumblr.com/14805f131d742d6244e478960f1675f6/tumblr_oe9v8b9mbD1vgssimo1_250.png",
- "description":"",
+"shadeImage":"800000",
+ "description":"empty brah",
  "price":9.99,
  "link":"https://www.target.com/p/iman-lipstick/-/A-51531913"
  },
@@ -234,7 +229,7 @@
  "brandName":"Kat Von D",
  "rating":4,
  "productImage":"https://66.media.tumblr.com/bb5c0b242ffe0df7d08281ff12c00c03/tumblr_oe9v8991j51vgssimo1_500.png",
- "shadeImage":"https://66.media.tumblr.com/d6d1c6eef64793b7aad18c8961ffca65/tumblr_oe9v8aSD8O1vgssimo1_75sq.jpg",
+"shadeImage":"800000",
  "description":"An innovative lipstick that coats lips with bold color, long-lasting wear, and luxe comfort.",
  "price":21,
  "link":"https://www.sephora.com/studded-kiss-lipstick-P387435?skuId=1621812&icid2=products%20grid:p387435"
@@ -246,7 +241,7 @@
  "brandName":"MAC",
  "rating":3.8,
  "productImage":"https://65.media.tumblr.com/e0df6515c4af53c634b1c9698f3d1178/tumblr_oe9vn5KUIN1vgssimo1_1280.jpg",
- "shadeImage":"https://67.media.tumblr.com/cbe02a5ec9adf576f2319164d7972733/tumblr_oe9vj3oVvm1vgssimo1_1280.png",
+"shadeImage":"800000",
  "description":"Cremesheen Lipstick, infused with pearlized pigments and a moisturizing serum blend, is available in 10 new Asia-inspired shades. Prominent pinks, radiant reds and contemporary corals flatter all skin tones with a finish that leaves lips luminous. With foolproof colour coverage, this update to Cremesheen is the new yin and yang for your lips.",
  "price":17,
  "link":"https://www.maccosmetics.com/product/13854/36169/Products/Makeup/Lips/Lipstick/Cremesheen-Lipstick#/shade/Sweet_Sakura"
@@ -258,7 +253,7 @@
  "brandName":"Butter London",
  "rating":4.3,
  "productImage":"https://66.media.tumblr.com/6068c289754d415c16314e70d2b49e24/tumblr_oe9v7svLQO1vgssimo1_400.jpg",
- "shadeImage":"https://65.media.tumblr.com/be049cd7f8753d2942ea2279b290b297/tumblr_oe9v86js0E1vgssimo1_250.png",
+"shadeImage":"800000",
  "description":"Experience fuller and more voluptuous lips with a stroke of captivating colour. Butter London's creamy, long wearing formula instantly accentuates lip curves and provides essential moisture. In irresistible shades specially formulated with a Phyto-Endorphin Complex to give you a blissful rush of happy, you'll crave the indulgence.",
  "price":22,
  "link":"https://www.ulta.com/plush-rush-lipstick?productId=xlsImpprod13561043&sku=2297233"
@@ -270,7 +265,7 @@
  "brandName":"e.l.f.",
  "rating":4,
  "productImage":"https://67.media.tumblr.com/e62248f426205a9e02f391d5b37353fc/tumblr_oe9v80GPHS1vgssimo1_500.jpg",
- "shadeImage":"https://67.media.tumblr.com/6ff9e57885c77831e9bac834e20300a8/tumblr_oe9v7yqPfP1vgssimo1_250.png",
+"shadeImage":"800000",
  "description":"",
  "price":3,
  "link":"https://www.target.com/p/e-l-f-moisturizing-lipstick/-/A-51169576"
@@ -282,7 +277,7 @@
  "brandName":"Bite Beauty",
  "rating":4.7,
  "productImage":"https://65.media.tumblr.com/f5f1d62d8c2969e1e08d675f9d2a765a/tumblr_oe9v7k0jd01vgssimo1_400.png",
- "shadeImage":"https://67.media.tumblr.com/7fb210bcf26de881138ebb3ea99d16e9/tumblr_oe9v7mbhrQ1vgssimo1_75sq.jpg",
+"shadeImage":"800000",
  "description":"A collection of high-impact lipsticks in dimensional shades that have been handcrafted to deliver extreme moisture, soft texture, and creamy wear. ",
  "price":26,
  "link":"https://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796689&icid2=products%20grid:p405057"
