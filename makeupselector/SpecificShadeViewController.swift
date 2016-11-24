@@ -69,8 +69,8 @@ class SpecificShadeViewController: UIViewController {
         buyNowButton.layer.cornerRadius = 10
         
         // Passes correct variable for each specificShadeVC variable
-        let productUrl = NSURL(string: self.imageUrl)
-        self.productImage?.sd_setImage(with: productUrl as URL!)
+        let productUrl = self.imageUrl
+        self.productImage.downloadedFrom(link: "\(productUrl)")
         
         let shadeColor = hexStringToUIColor(hex: shadeCode)
         self.shadeView.backgroundColor = shadeColor

@@ -28,6 +28,7 @@ class SelectShadeViewController: UIViewController {
     @IBOutlet weak var buttonBerry: UIButton!
     @IBOutlet weak var buttonCoral: UIButton!
     @IBOutlet weak var buttonNude: UIButton!
+    @IBOutlet weak var testImage: UIImageView!
 
     @IBAction func sendTextMessageButtonTapped(_ sender: UIButton) {
         if (messageComposer.canSendText()) {

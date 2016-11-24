@@ -217,6 +217,13 @@
                                 <color key="textColor" red="0.27000001072883606" green="0.27000001072883606" blue="0.27000001072883606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g5T-aX-H8b">
+                                <rect key="frame" x="113" y="531" width="149" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="MvF-Oj-Yiy"/>
+                                    <constraint firstAttribute="height" constant="128" id="eSZ-Xx-F08"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -236,12 +243,14 @@
                             <constraint firstItem="CBV-XI-hut" firstAttribute="top" secondItem="d0S-F2-3Id" secondAttribute="bottom" constant="35" id="WZj-Uo-QQh"/>
                             <constraint firstItem="hTW-u3-e81" firstAttribute="top" secondItem="nch-3L-m8y" secondAttribute="bottom" constant="8" id="b3Y-fn-pmP"/>
                             <constraint firstItem="BgL-Jl-hYu" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="b8O-fk-Tah"/>
+                            <constraint firstItem="g5T-aX-H8b" firstAttribute="top" secondItem="e45-la-tUH" secondAttribute="bottom" constant="-13" id="dxz-BQ-cqs"/>
                             <constraint firstItem="olU-br-oMQ" firstAttribute="top" secondItem="aC1-Dc-xdZ" secondAttribute="bottom" constant="8" id="fin-dz-T7f">
                                 <variation key="heightClass=regular-widthClass=compact" constant="18"/>
                             </constraint>
                             <constraint firstItem="e45-la-tUH" firstAttribute="top" secondItem="BGL-gA-Vs7" secondAttribute="bottom" constant="16" id="jpW-oz-5iW">
                                 <variation key="heightClass=regular-widthClass=compact" constant="18"/>
                             </constraint>
+                            <constraint firstItem="g5T-aX-H8b" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="rXW-37-K96"/>
                             <constraint firstItem="CBV-XI-hut" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="rpi-dc-2fD"/>
                             <constraint firstItem="nch-3L-m8y" firstAttribute="trailing" secondItem="tMw-Qy-ClW" secondAttribute="trailingMargin" id="t4A-W8-E9f"/>
                             <constraint firstItem="olU-br-oMQ" firstAttribute="centerX" secondItem="tMw-Qy-ClW" secondAttribute="centerX" id="tDa-yY-xOS"/>
@@ -256,6 +265,7 @@
                         <outlet property="buttonNude" destination="e45-la-tUH" id="tw8-Z7-JZF"/>
                         <outlet property="buttonPink" destination="aC1-Dc-xdZ" id="zye-2H-Qa4"/>
                         <outlet property="buttonRed" destination="BgL-Jl-hYu" id="Lpq-2W-rWF"/>
+                        <outlet property="testImage" destination="g5T-aX-H8b" id="yh7-5K-bDO"/>
                         <segue destination="qMB-kT-EnU" kind="show" identifier="Identifier" id="zP7-81-Xpg"/>
                     </connections>
                 </viewController>
