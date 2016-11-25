@@ -556,23 +556,6 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="dzc-Ax-4uJ">
-                                <rect key="frame" x="137.33333333333331" y="168.66666666666666" width="139.99999999999994" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="166" id="ILr-wg-290">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="140"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="31" id="iNu-mE-oZM">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="30"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="ILr-wg-290"/>
-                                        <include reference="iNu-mE-oZM"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cayenne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="clI-qL-wOw">
                                 <rect key="frame" x="35.666666666666657" y="64" width="343" height="54"/>
                                 <constraints>
@@ -648,30 +631,61 @@
                                     </mask>
                                 </variation>
                             </textView>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pce-VL-M8G" customClass="CosmosView" customModule="Lippi" customModuleProvider="target">
+                                <rect key="frame" x="108" y="164" width="199" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="76c-P1-YLl"/>
+                                    <constraint firstAttribute="width" constant="199" id="Yh6-p5-1tH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="iBh-Yi-VZb" firstAttribute="centerX" secondItem="lg7-dB-1jy" secondAttribute="centerX" id="5Z2-zF-JwK"/>
                             <constraint firstItem="ffw-h5-YLC" firstAttribute="top" secondItem="76z-fr-ipD" secondAttribute="bottom" constant="8" id="6VG-Th-L96"/>
                             <constraint firstItem="Bbv-V4-mmI" firstAttribute="centerX" secondItem="lg7-dB-1jy" secondAttribute="centerX" id="AMF-xN-BuT"/>
-                            <constraint firstItem="dzc-Ax-4uJ" firstAttribute="centerX" secondItem="lg7-dB-1jy" secondAttribute="centerX" id="E4G-vw-xtC"/>
                             <constraint firstItem="76z-fr-ipD" firstAttribute="top" secondItem="iBh-Yi-VZb" secondAttribute="bottom" constant="7" id="JR4-HA-cm2"/>
                             <constraint firstItem="clI-qL-wOw" firstAttribute="top" secondItem="oW1-I2-srn" secondAttribute="bottom" id="KWi-SZ-0Hn"/>
                             <constraint firstItem="x2l-8x-Tqf" firstAttribute="centerX" secondItem="lg7-dB-1jy" secondAttribute="centerX" id="Lfs-eR-mzQ"/>
-                            <constraint firstItem="Bbv-V4-mmI" firstAttribute="top" secondItem="dzc-Ax-4uJ" secondAttribute="bottom" constant="15.5" id="d8W-JS-7zK"/>
-                            <constraint firstItem="dzc-Ax-4uJ" firstAttribute="top" secondItem="x2l-8x-Tqf" secondAttribute="bottom" constant="5" id="duL-zD-nKx"/>
+                            <constraint firstItem="u3v-XX-Ouo" firstAttribute="top" secondItem="pce-VL-M8G" secondAttribute="bottom" constant="8" id="fGg-TX-Kvg"/>
                             <constraint firstItem="clI-qL-wOw" firstAttribute="centerX" secondItem="lg7-dB-1jy" secondAttribute="centerX" id="h1V-l6-nyA"/>
                             <constraint firstItem="x2l-8x-Tqf" firstAttribute="top" secondItem="clI-qL-wOw" secondAttribute="bottom" id="izD-Ij-8L3"/>
                             <constraint firstItem="ffw-h5-YLC" firstAttribute="leading" secondItem="8La-qx-Lgl" secondAttribute="trailing" constant="4" id="kVS-1R-Buy"/>
                             <constraint firstItem="8La-qx-Lgl" firstAttribute="centerY" secondItem="ffw-h5-YLC" secondAttribute="centerY" id="mNU-SW-ZVH"/>
+                            <constraint firstItem="pce-VL-M8G" firstAttribute="top" secondItem="x2l-8x-Tqf" secondAttribute="bottom" constant="0.33333333333337123" id="ndD-jw-Ouc"/>
                             <constraint firstItem="8La-qx-Lgl" firstAttribute="leading" secondItem="lg7-dB-1jy" secondAttribute="leading" constant="27" id="pMi-wx-ZqH"/>
                             <constraint firstItem="76z-fr-ipD" firstAttribute="centerX" secondItem="lg7-dB-1jy" secondAttribute="centerX" id="san-df-cYL"/>
+                            <constraint firstItem="pce-VL-M8G" firstAttribute="centerX" secondItem="lg7-dB-1jy" secondAttribute="centerX" id="wA9-Q2-Op2"/>
                             <constraint firstItem="iBh-Yi-VZb" firstAttribute="top" secondItem="Bbv-V4-mmI" secondAttribute="bottom" constant="15" id="zTI-0s-eab"/>
                         </constraints>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="iBh-Yi-VZb"/>
-                                <include reference="dzc-Ax-4uJ"/>
                                 <include reference="clI-qL-wOw"/>
                                 <include reference="x2l-8x-Tqf"/>
                                 <include reference="8La-qx-Lgl"/>
@@ -679,7 +693,6 @@
                             <mask key="constraints">
                                 <include reference="h1V-l6-nyA"/>
                                 <include reference="Lfs-eR-mzQ"/>
-                                <include reference="E4G-vw-xtC"/>
                                 <include reference="AMF-xN-BuT"/>
                                 <include reference="5Z2-zF-JwK"/>
                                 <include reference="zTI-0s-eab"/>
@@ -697,6 +710,7 @@
                         <outlet property="buyNowButton" destination="ffw-h5-YLC" id="3z1-Uq-Ru9"/>
                         <outlet property="price" destination="8La-qx-Lgl" id="xRm-ts-Iyh"/>
                         <outlet property="productImage" destination="u3v-XX-Ouo" id="U85-aI-lH8"/>
+                        <outlet property="ratingView" destination="pce-VL-M8G" id="QcI-hx-U5V"/>
                         <outlet property="shade" destination="clI-qL-wOw" id="Xmv-dE-SAI"/>
                         <outlet property="shadeView" destination="iBh-Yi-VZb" id="PeR-Of-b6X"/>
                         <outlet property="whatitis" destination="76z-fr-ipD" id="0NW-Li-UBc"/>
@@ -704,13 +718,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAB-O3-OhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3904.8000000000002" y="29.23538230884558"/>
+            <point key="canvasLocation" x="3904.347826086957" y="28.532608695652176"/>
         </scene>
     </scenes>
     <resources>
         <image name="buyNowButton" width="2100" height="1500"/>
         <image name="lipstickButton" width="516" height="342"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
-        <image name="stars" width="1500" height="300"/>
     </resources>
 </document>

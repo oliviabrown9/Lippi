@@ -526,24 +526,6 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="f5W-n8-aYU">
-                                <rect key="frame" x="269" y="237" width="230" height="50"/>
-                                <color key="tintColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="230" id="6lI-LT-3DC">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="140"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="50" id="dS2-Qp-TOT">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="30"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="6lI-LT-3DC"/>
-                                        <include reference="dS2-Qp-TOT"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cayenne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zv6-Vo-GSp">
                                 <rect key="frame" x="20" y="64" width="729" height="90"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -628,6 +610,38 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEX-7R-gTn" customClass="CosmosView" customModule="Lippi" customModuleProvider="target">
+                                <rect key="frame" x="259" y="240" width="250" height="47"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="0tC-5w-GVX"/>
+                                    <constraint firstAttribute="height" constant="47" id="65m-O2-TKo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="45"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -637,21 +651,20 @@
                             <constraint firstItem="Igi-Wv-jRl" firstAttribute="centerX" secondItem="YDR-iX-QyK" secondAttribute="centerX" id="OET-HS-7bc"/>
                             <constraint firstItem="zv6-Vo-GSp" firstAttribute="top" secondItem="Qec-4b-bBb" secondAttribute="bottom" id="PNK-LE-ifV"/>
                             <constraint firstItem="vG7-z5-1Xq" firstAttribute="top" secondItem="Igi-Wv-jRl" secondAttribute="bottom" constant="3" id="Rcv-rA-dnA"/>
-                            <constraint firstItem="f5W-n8-aYU" firstAttribute="centerX" secondItem="YDR-iX-QyK" secondAttribute="centerX" id="WXD-Su-wmN"/>
+                            <constraint firstItem="oEX-7R-gTn" firstAttribute="top" secondItem="pUD-xV-sHY" secondAttribute="bottom" constant="8" id="bW8-bY-KTm"/>
                             <constraint firstItem="pUD-xV-sHY" firstAttribute="centerX" secondItem="YDR-iX-QyK" secondAttribute="centerX" id="cD1-yE-zTb"/>
                             <constraint firstItem="D0E-1D-KrL" firstAttribute="top" secondItem="vG7-z5-1Xq" secondAttribute="bottom" constant="18" id="d8r-Qc-PnH"/>
+                            <constraint firstItem="vkk-Cf-enF" firstAttribute="top" secondItem="oEX-7R-gTn" secondAttribute="bottom" constant="15" id="gct-tS-tgb"/>
                             <constraint firstItem="VQ4-AG-5K4" firstAttribute="centerY" secondItem="D0E-1D-KrL" secondAttribute="centerY" id="hJe-Tp-Ppg"/>
                             <constraint firstItem="zv6-Vo-GSp" firstAttribute="centerX" secondItem="YDR-iX-QyK" secondAttribute="centerX" id="mAS-Ef-H6v"/>
                             <constraint firstItem="VQ4-AG-5K4" firstAttribute="leading" secondItem="YDR-iX-QyK" secondAttribute="leadingMargin" constant="45" id="mcw-zo-tZ8"/>
-                            <constraint firstItem="f5W-n8-aYU" firstAttribute="top" secondItem="pUD-xV-sHY" secondAttribute="bottom" constant="5" id="suY-zw-oBu"/>
-                            <constraint firstItem="dda-9d-ZIE" firstAttribute="top" secondItem="f5W-n8-aYU" secondAttribute="bottom" constant="15.5" id="t09-yp-nqC"/>
+                            <constraint firstItem="oEX-7R-gTn" firstAttribute="centerX" secondItem="YDR-iX-QyK" secondAttribute="centerX" id="mhN-PC-elU"/>
                             <constraint firstItem="pUD-xV-sHY" firstAttribute="top" secondItem="zv6-Vo-GSp" secondAttribute="bottom" id="tCV-S1-XEJ"/>
                             <constraint firstItem="vG7-z5-1Xq" firstAttribute="centerX" secondItem="YDR-iX-QyK" secondAttribute="centerX" id="tWq-Il-xd6"/>
                         </constraints>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Igi-Wv-jRl"/>
-                                <include reference="f5W-n8-aYU"/>
                                 <include reference="zv6-Vo-GSp"/>
                                 <include reference="pUD-xV-sHY"/>
                                 <include reference="VQ4-AG-5K4"/>
@@ -659,7 +672,6 @@
                             <mask key="constraints">
                                 <include reference="mAS-Ef-H6v"/>
                                 <include reference="cD1-yE-zTb"/>
-                                <include reference="WXD-Su-wmN"/>
                                 <include reference="Bjg-q2-5lq"/>
                                 <include reference="L77-6o-dU7"/>
                                 <include reference="OET-HS-7bc"/>
@@ -677,6 +689,7 @@
                         <outlet property="buyNowButton" destination="D0E-1D-KrL" id="UGQ-9p-hL0"/>
                         <outlet property="price" destination="VQ4-AG-5K4" id="pCo-Z1-JRw"/>
                         <outlet property="productImage" destination="vkk-Cf-enF" id="7Jf-hA-lEH"/>
+                        <outlet property="ratingView" destination="oEX-7R-gTn" id="9hG-ha-Ybt"/>
                         <outlet property="shade" destination="zv6-Vo-GSp" id="0G5-ZC-IO1"/>
                         <outlet property="shadeView" destination="Igi-Wv-jRl" id="zvr-uL-d4v"/>
                         <outlet property="whatitis" destination="vG7-z5-1Xq" id="XyX-EW-M2x"/>
@@ -691,6 +704,5 @@
         <image name="buyNowButton" width="2100" height="1500"/>
         <image name="lipstickButton" width="516" height="342"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
-        <image name="stars" width="1500" height="300"/>
     </resources>
 </document>

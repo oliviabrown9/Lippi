@@ -524,24 +524,6 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="H6Z-Na-rIR">
-                                <rect key="frame" x="377" y="286.5" width="270" height="60"/>
-                                <color key="tintColor" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="DF3-RU-qQS">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="30"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="270" id="lxD-1N-zcC">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="140"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="DF3-RU-qQS"/>
-                                        <include reference="lxD-1N-zcC"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cayenne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xd4-WC-kZg">
                                 <rect key="frame" x="147.5" y="84" width="729" height="107.5"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -626,22 +608,54 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sCQ-49-FFb" customClass="CosmosView" customModule="Lippi" customModuleProvider="target">
+                                <rect key="frame" x="365" y="281" width="295" height="58"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="YBD-5g-DEV"/>
+                                    <constraint firstAttribute="width" constant="295" id="t8Z-Si-cph"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="55"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0A1-3I-UQf" firstAttribute="centerY" secondItem="aTX-vq-Eyv" secondAttribute="centerY" id="2HW-D1-ecz"/>
                             <constraint firstItem="1OE-Bc-zRi" firstAttribute="top" secondItem="8qA-7d-Ntz" secondAttribute="bottom" constant="24" id="2Qh-uB-A6y"/>
-                            <constraint firstItem="RdG-6J-1H6" firstAttribute="top" secondItem="H6Z-Na-rIR" secondAttribute="bottom" constant="15.5" id="4Qa-an-Du6"/>
                             <constraint firstItem="aTX-vq-Eyv" firstAttribute="top" secondItem="1OE-Bc-zRi" secondAttribute="bottom" constant="23" id="G04-Rc-awY"/>
                             <constraint firstItem="aTX-vq-Eyv" firstAttribute="leading" secondItem="0A1-3I-UQf" secondAttribute="trailing" constant="12" id="I9J-4y-gDz"/>
                             <constraint firstItem="xd4-WC-kZg" firstAttribute="top" secondItem="U6a-PM-k9v" secondAttribute="bottom" constant="20" id="Imd-Qf-AdE"/>
                             <constraint firstItem="UXn-X8-9Eb" firstAttribute="top" secondItem="xd4-WC-kZg" secondAttribute="bottom" id="KSF-NN-dav"/>
+                            <constraint firstItem="bsi-CO-emf" firstAttribute="top" secondItem="sCQ-49-FFb" secondAttribute="bottom" constant="23" id="MJi-L6-we0"/>
                             <constraint firstItem="RdG-6J-1H6" firstAttribute="centerX" secondItem="73Z-Yl-NZS" secondAttribute="centerX" id="NTz-mJ-H6X"/>
                             <constraint firstItem="0A1-3I-UQf" firstAttribute="leading" secondItem="73Z-Yl-NZS" secondAttribute="leadingMargin" constant="123" id="RCy-ou-foU"/>
                             <constraint firstItem="1OE-Bc-zRi" firstAttribute="centerX" secondItem="73Z-Yl-NZS" secondAttribute="centerX" id="bcx-LX-Ec8"/>
-                            <constraint firstItem="H6Z-Na-rIR" firstAttribute="top" secondItem="UXn-X8-9Eb" secondAttribute="bottom" constant="5" id="hbm-LX-Mw5"/>
+                            <constraint firstItem="sCQ-49-FFb" firstAttribute="centerX" secondItem="73Z-Yl-NZS" secondAttribute="centerX" id="gW9-qe-mLJ"/>
+                            <constraint firstItem="sCQ-49-FFb" firstAttribute="top" secondItem="UXn-X8-9Eb" secondAttribute="bottom" constant="-0.5" id="iId-Mf-yC7"/>
                             <constraint firstItem="xd4-WC-kZg" firstAttribute="centerX" secondItem="73Z-Yl-NZS" secondAttribute="centerX" id="jbq-wu-hjV"/>
-                            <constraint firstItem="H6Z-Na-rIR" firstAttribute="centerX" secondItem="73Z-Yl-NZS" secondAttribute="centerX" id="nZG-wI-Wwe"/>
                             <constraint firstItem="UXn-X8-9Eb" firstAttribute="centerX" secondItem="73Z-Yl-NZS" secondAttribute="centerX" id="tgq-ys-Wu3"/>
                             <constraint firstItem="8qA-7d-Ntz" firstAttribute="top" secondItem="RdG-6J-1H6" secondAttribute="bottom" constant="20" id="tqH-Sp-mYj"/>
                             <constraint firstItem="8qA-7d-Ntz" firstAttribute="centerX" secondItem="73Z-Yl-NZS" secondAttribute="centerX" id="v2y-Pr-Uww"/>
@@ -649,7 +663,6 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="8qA-7d-Ntz"/>
-                                <include reference="H6Z-Na-rIR"/>
                                 <include reference="xd4-WC-kZg"/>
                                 <include reference="UXn-X8-9Eb"/>
                                 <include reference="0A1-3I-UQf"/>
@@ -658,7 +671,6 @@
                                 <include reference="jbq-wu-hjV"/>
                                 <include reference="tgq-ys-Wu3"/>
                                 <include reference="NTz-mJ-H6X"/>
-                                <include reference="nZG-wI-Wwe"/>
                                 <include reference="tqH-Sp-mYj"/>
                                 <include reference="v2y-Pr-Uww"/>
                                 <include reference="bcx-LX-Ec8"/>
@@ -675,6 +687,7 @@
                         <outlet property="buyNowButton" destination="aTX-vq-Eyv" id="Eus-eS-Vom"/>
                         <outlet property="price" destination="0A1-3I-UQf" id="82c-dv-3fm"/>
                         <outlet property="productImage" destination="bsi-CO-emf" id="Grw-Uj-XMa"/>
+                        <outlet property="ratingView" destination="sCQ-49-FFb" id="6Ue-X5-0WB"/>
                         <outlet property="shade" destination="xd4-WC-kZg" id="p4W-Kl-xMt"/>
                         <outlet property="shadeView" destination="8qA-7d-Ntz" id="sc7-k0-8Iu"/>
                         <outlet property="whatitis" destination="1OE-Bc-zRi" id="yxe-mW-OL7"/>
@@ -689,6 +702,5 @@
         <image name="buyNowButton" width="2100" height="1500"/>
         <image name="lipstickButton" width="516" height="342"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
-        <image name="stars" width="1500" height="300"/>
     </resources>
 </document>
