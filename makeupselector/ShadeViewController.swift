@@ -134,7 +134,9 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             vc.shadeValue = (self.temp_detaildata[indexPath.row]).object(forKey: "shadeName") as! String
             vc.brandValue = (self.temp_detaildata[indexPath.row]).object(forKey: "brandName") as! String
             let priceValue: Int? = (self.temp_detaildata[indexPath.row]).object(forKey: "price") as? Int
+            let ratingValue: Double? = (self.temp_detaildata[indexPath.row]).object(forKey: "rating") as? Double
             vc.priceValue = String(priceValue!)
+            vc.ratingValue = ratingValue!
             vc.whatItIsValue = (self.temp_detaildata[indexPath.row]).object(forKey: "description") as! String
             vc.linkValue = (self.temp_detaildata[indexPath.row]).object(forKey: "link") as! String
         }

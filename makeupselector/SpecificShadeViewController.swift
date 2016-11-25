@@ -22,7 +22,9 @@ class SpecificShadeViewController: UIViewController {
     var lineValue:String = String()
     var priceValue: String = String()
     var whatItIsValue: String = String()
+    var ratingValue: Double = Double()
     
+    @IBOutlet weak var ratingView: CosmosView!
 
     // Defining IBOutlets
     @IBOutlet weak var buyNowButton: UIButton!
@@ -63,6 +65,8 @@ class SpecificShadeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ratingView.rating = ratingValue
         
         // Adds a cornerRadius to the shadeView and buyNowButton
         shadeView.layer.cornerRadius = 10

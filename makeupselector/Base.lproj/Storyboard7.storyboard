@@ -531,23 +531,6 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="q60-fO-fnH">
-                                <rect key="frame" x="125" y="156.5" width="125" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="19j-dJ-qFe">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="25"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="166" id="Egc-MG-h5M">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="125"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="19j-dJ-qFe"/>
-                                        <include reference="Egc-MG-h5M"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cayenne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ect-pc-OG5">
                                 <rect key="frame" x="16" y="64" width="343" height="48"/>
                                 <constraints>
@@ -611,11 +594,44 @@
                                     </mask>
                                 </variation>
                             </textView>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUB-h8-fmv" customClass="CosmosView" customModule="Lippi" customModuleProvider="target">
+                                <rect key="frame" x="101" y="159" width="173" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="RGX-JY-6HT"/>
+                                    <constraint firstAttribute="width" constant="173" id="z9r-O8-y4F"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                        <color key="value" red="0.92156862750000001" green="0.29411764709999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="MUB-h8-fmv" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="DEi-qb-6fe"/>
                             <constraint firstItem="2eV-qy-Pmz" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="Dui-uI-uWf"/>
                             <constraint firstItem="CYU-f1-kyW" firstAttribute="leading" secondItem="pSz-sm-xgZ" secondAttribute="leading" constant="4" id="Js3-kU-K0r"/>
+                            <constraint firstItem="wqR-m4-edk" firstAttribute="top" secondItem="MUB-h8-fmv" secondAttribute="bottom" constant="13" id="Lld-I5-6Xf"/>
                             <constraint firstItem="ki7-YR-r91" firstAttribute="top" secondItem="2eV-qy-Pmz" secondAttribute="bottom" constant="8" id="LqJ-X8-KGM"/>
                             <constraint firstItem="ect-pc-OG5" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="Mnm-hj-kzR"/>
                             <constraint firstItem="CYU-f1-kyW" firstAttribute="centerY" secondItem="rWp-6h-Mqf" secondAttribute="centerY" id="Oq8-oK-lPb"/>
@@ -624,13 +640,11 @@
                             <constraint firstItem="FAr-Wi-SE9" firstAttribute="top" secondItem="ect-pc-OG5" secondAttribute="bottom" id="V9S-NG-lSs"/>
                             <constraint firstItem="2eV-qy-Pmz" firstAttribute="top" secondItem="wqR-m4-edk" secondAttribute="bottom" constant="8" id="ceS-QI-yZW"/>
                             <constraint firstItem="rWp-6h-Mqf" firstAttribute="top" secondItem="ki7-YR-r91" secondAttribute="bottom" constant="8" id="eEV-c0-lY6"/>
-                            <constraint firstItem="q60-fO-fnH" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="gK4-Wk-m9u"/>
                             <constraint firstItem="wqR-m4-edk" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="hNN-Ps-i6x"/>
                             <constraint firstItem="ki7-YR-r91" firstAttribute="centerX" secondItem="pSz-sm-xgZ" secondAttribute="centerX" id="jCa-OJ-Be0"/>
-                            <constraint firstItem="q60-fO-fnH" firstAttribute="top" secondItem="FAr-Wi-SE9" secondAttribute="bottom" constant="5" id="pii-uj-n9i"/>
+                            <constraint firstItem="MUB-h8-fmv" firstAttribute="top" secondItem="FAr-Wi-SE9" secondAttribute="bottom" constant="7.5" id="rJY-QI-bBE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rWp-6h-Mqf" secondAttribute="trailing" constant="-5" id="rTH-PT-Z2X"/>
                             <constraint firstItem="ect-pc-OG5" firstAttribute="top" secondItem="HQi-RF-tkX" secondAttribute="bottom" id="v35-M2-Nmo"/>
-                            <constraint firstItem="3ml-HD-vlk" firstAttribute="top" secondItem="q60-fO-fnH" secondAttribute="bottom" constant="15.5" id="y6Z-SA-oDG"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -640,14 +654,12 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="2eV-qy-Pmz"/>
-                                <include reference="q60-fO-fnH"/>
                                 <include reference="ect-pc-OG5"/>
                                 <include reference="FAr-Wi-SE9"/>
                                 <include reference="CYU-f1-kyW"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="Mnm-hj-kzR"/>
-                                <include reference="gK4-Wk-m9u"/>
                                 <include reference="hNN-Ps-i6x"/>
                                 <include reference="ceS-QI-yZW"/>
                                 <include reference="jCa-OJ-Be0"/>
@@ -665,6 +677,7 @@
                         <outlet property="buyNowButton" destination="rWp-6h-Mqf" id="5fW-5k-ewX"/>
                         <outlet property="price" destination="CYU-f1-kyW" id="qkh-ML-lKE"/>
                         <outlet property="productImage" destination="3ml-HD-vlk" id="mmk-bD-uJJ"/>
+                        <outlet property="ratingView" destination="MUB-h8-fmv" id="dKF-iL-TzQ"/>
                         <outlet property="shade" destination="ect-pc-OG5" id="cuU-LO-Ea0"/>
                         <outlet property="shadeView" destination="2eV-qy-Pmz" id="cDW-Qj-28E"/>
                         <outlet property="whatitis" destination="ki7-YR-r91" id="Dwy-RU-V2b"/>
@@ -679,7 +692,6 @@
         <image name="buyNowButton" width="2100" height="1500"/>
         <image name="lipstickButton" width="516" height="342"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
-        <image name="stars" width="1500" height="300"/>
     </resources>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
