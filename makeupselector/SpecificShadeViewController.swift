@@ -39,6 +39,20 @@ class SpecificShadeViewController: UIViewController {
         UIApplication.shared.openURL(webLink)
     }
     
+    @IBAction func shareButtonClicked(sender: AnyObject)
+    {
+        //Set the default sharing message.
+        let message = "Message goes here."
+        //Set the link to share.
+        if let link = NSURL(string: "http://yoururl.com")
+        {
+            let objectsToShare = [message,link] as [Any]
+            let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+            activityVC.excludedActivityTypes = [UIActivityType.airDrop, UIActivityType.addToReadingList]
+            self.present(activityVC, animated: true, completion: nil)
+        }
+    }
+    
     // Starts whatitis UITextView at top of text
     override func viewDidLayoutSubviews() {
         self.whatitis.setContentOffset(CGPoint.zero, animated: false)
