@@ -27,7 +27,6 @@ struct CosmosAccessibility {
         if isInteger {
             return "\(Int(accessibilityRating))"
         } else {
-            // Only show a single decimal place
             let roundedToFirstDecimalPlace = Double( round(10 * accessibilityRating) / 10 )
             return "\(roundedToFirstDecimalPlace)"
         }
@@ -342,8 +341,8 @@ struct CosmosRating {
         var displayedRating = starFloorNumber + starFillLevel(
             ratingRemainder: singleStarRemainder, fillMode: fillMode)
         
-        displayedRating = min(Double(totalStars), displayedRating) // Can't go bigger than number of stars
-        displayedRating = max(0, displayedRating) // Can't be less than zero
+        displayedRating = min(Double(totalStars), displayedRating)
+        displayedRating = max(0, displayedRating)
         
         return displayedRating
     }
@@ -443,7 +442,7 @@ struct CosmosTouch {
         correctedRating = CosmosRating.displayedRatingFromPreciseRating(correctedRating,
                                                                         fillMode: settings.fillMode, totalStars: settings.totalStars)
         
-        correctedRating = max(settings.minTouchRating, correctedRating) // Can't be less than min rating
+        correctedRating = max(settings.minTouchRating, correctedRating)
         
         return correctedRating
     }
@@ -601,7 +600,6 @@ import UIKit
         }
         
         if calculatedTouchRating == previousRatingForDidTouchCallback {
-            // Do not call didTouchCosmos if rating has not changed
             return
         }
         
@@ -713,11 +711,9 @@ import UIKit
             settings.minTouchRating = minTouchRating
         }
     }
-    
-    /// Draw the stars in interface buidler
+
     open override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        
         update()
     }
 }
