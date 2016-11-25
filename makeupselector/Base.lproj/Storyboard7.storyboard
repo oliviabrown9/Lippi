@@ -623,6 +623,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>

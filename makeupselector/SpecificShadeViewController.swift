@@ -23,8 +23,6 @@ class SpecificShadeViewController: UIViewController {
     var priceValue: String = String()
     var whatItIsValue: String = String()
     var ratingValue: Double = Double()
-    
-    @IBOutlet weak var ratingView: CosmosView!
 
     // Defining IBOutlets
     @IBOutlet weak var buyNowButton: UIButton!
@@ -34,6 +32,7 @@ class SpecificShadeViewController: UIViewController {
     @IBOutlet weak var shadeView: UIView!
     @IBOutlet weak var brand: UILabel!
     @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var ratingView: CosmosView!
     
     // Opens link to product when a user clicks "Buy Now"
     @IBAction func buyNowButton(_ sender: AnyObject) {
@@ -45,6 +44,7 @@ class SpecificShadeViewController: UIViewController {
         self.whatitis.setContentOffset(CGPoint.zero, animated: false)
     }
     
+    // Converts hex value to UIColor
     func hexStringToUIColor (hex:String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
@@ -66,6 +66,7 @@ class SpecificShadeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Sets star to correct rating
         ratingView.rating = ratingValue
         
         // Adds a cornerRadius to the shadeView and buyNowButton
