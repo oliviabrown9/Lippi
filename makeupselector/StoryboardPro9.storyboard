@@ -682,6 +682,11 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Lippi" id="jMU-vU-S4o">
                         <barButtonItem key="backBarButtonItem" title="Back" id="dF7-o9-8uF"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="dgO-fb-Q8o">
+                            <connections>
+                                <action selector="shareButtonClickedWithSender:" destination="Juw-2d-YJF" id="cEC-NQ-rGT"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
