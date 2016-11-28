@@ -24,6 +24,7 @@ class SpecificShadeViewController: UIViewController {
     var whatItIsValue: String = String()
     var ratingValue: Double = Double()
 
+
     // Defining IBOutlets
     @IBOutlet weak var buyNowButton: UIButton!
     @IBOutlet weak var shade: UILabel!
@@ -41,12 +42,12 @@ class SpecificShadeViewController: UIViewController {
     
     @IBAction func shareButtonClicked(sender: AnyObject)
     {
-        //Set the default sharing message.
-        let message = "Message goes here."
-        //Set the link to share.
-        if let link = NSURL(string: "http://yoururl.com")
+        // Set the default sharing message.
+        let message = "Check out this lipstick I found on Lippi!"
+        // Set the link to share.
+        if let link = NSURL(string: "\(webLink!)")
         {
-            let objectsToShare = [message,link] as [Any]
+            let objectsToShare = [message, link] as [Any]
             let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
             activityVC.excludedActivityTypes = [UIActivityType.airDrop, UIActivityType.addToReadingList]
             self.present(activityVC, animated: true, completion: nil)
