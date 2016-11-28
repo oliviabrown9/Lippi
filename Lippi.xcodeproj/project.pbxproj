@@ -68,7 +68,6 @@
 				452CF11B1D70174D00347D5F /* Storyboard7Plus.storyboard */,
 				454D85E31DE439CC001F5632 /* StoryboardPro9.storyboard */,
 				452CF11D1D70177200347D5F /* Main.storyboard */,
-				458DB9791D5BE865005A2104 /* View Controllers */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -95,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				454C60FC1D1F5CDE0053B661 /* AppDelegate.swift */,
+				458DB9791D5BE865005A2104 /* View Controllers */,
 				452CF11F1D70192100347D5F /* Storyboards */,
 				454C61031D1F5CDE0053B661 /* Assets.xcassets */,
 				454C61051D1F5CDE0053B661 /* LaunchScreen.storyboard */,
