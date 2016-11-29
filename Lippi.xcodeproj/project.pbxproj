@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		320FD0E817E130E92DF3D295 /* Pods_Lippi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552930F01B260C70EF6532A7 /* Pods_Lippi.framework */; };
 		452CF11A1D7016BF00347D5F /* StoryboardSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF1191D7016BF00347D5F /* StoryboardSE.storyboard */; };
 		452CF11C1D70174D00347D5F /* Storyboard7Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11B1D70174D00347D5F /* Storyboard7Plus.storyboard */; };
 		452CF11E1D70177200347D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11D1D70177200347D5F /* Main.storyboard */; };
@@ -27,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		451944101DED7AC800FE58D0 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		452CF1191D7016BF00347D5F /* StoryboardSE.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSE.storyboard; sourceTree = "<group>"; };
 		452CF11B1D70174D00347D5F /* Storyboard7Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard7Plus.storyboard; sourceTree = "<group>"; };
 		452CF11D1D70177200347D5F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320FD0E817E130E92DF3D295 /* Pods_Lippi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +146,6 @@
 		4CBC1EFACF8AF34ECEEABB8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				451944101DED7AC800FE58D0 /* ChameleonFramework.framework */,
 				552930F01B260C70EF6532A7 /* Pods_Lippi.framework */,
 			);
 			name = Frameworks;
@@ -171,12 +167,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454C610B1D1F5CDE0053B661 /* Build configuration list for PBXNativeTarget "Lippi" */;
 			buildPhases = (
-				1B6F16BC5D445C004DF5B365 /* [CP] Check Pods Manifest.lock */,
 				454C60F51D1F5CDE0053B661 /* Sources */,
 				454C60F61D1F5CDE0053B661 /* Frameworks */,
 				454C60F71D1F5CDE0053B661 /* Resources */,
-				2871463FB29EB7B908275B1E /* [CP] Embed Pods Frameworks */,
-				D951085B0C1253F48B7D9652 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +187,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Olivia;
 				TargetAttributes = {
 					454C60F81D1F5CDE0053B661 = {
@@ -239,54 +232,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1B6F16BC5D445C004DF5B365 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2871463FB29EB7B908275B1E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lippi/Pods-Lippi-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D951085B0C1253F48B7D9652 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lippi/Pods-Lippi-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		454C60F51D1F5CDE0053B661 /* Sources */ = {
@@ -361,7 +306,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -370,13 +314,11 @@
 		};
 		454C610D1D1F5CDE0053B661 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F98D61EDA3D7CE5E6CEA7B9A /* Pods-Lippi.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = makeupselector/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
