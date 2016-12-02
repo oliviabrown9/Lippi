@@ -399,7 +399,11 @@
                                     <constraint firstAttribute="height" constant="180" id="3d7-D5-aos"/>
                                     <constraint firstAttribute="width" constant="230" id="cYe-1U-Gc8"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="lipstickButton"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Lipstick" image="LIP1301">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="Lipstick_Btn:" destination="kb6-Wq-JwC" eventType="touchUpInside" id="CqX-Fg-zDR"/>
                                 </connections>
@@ -592,8 +596,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LIP1301" width="130" height="130"/>
         <image name="buyNowButton" width="2100" height="1500"/>
-        <image name="lipstickButton" width="516" height="342"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
     </resources>
 </document>
