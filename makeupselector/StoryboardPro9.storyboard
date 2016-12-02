@@ -49,7 +49,8 @@
                                     <constraint firstAttribute="height" constant="350" id="CI9-f1-guQ"/>
                                     <constraint firstAttribute="width" constant="450" id="NFZ-ae-sR5"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="lipstickButton"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="70"/>
+                                <state key="normal" title="Lipstick" image="lipstick"/>
                                 <connections>
                                     <action selector="Lipstick_Btn:" destination="tj5-NU-ypG" eventType="touchUpInside" id="0zL-Gb-TdH"/>
                                 </connections>
@@ -66,7 +67,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qN-j8-nNB">
-                                <rect key="frame" x="108.5" y="94" width="551.5" height="84"/>
+                                <rect key="frame" x="108" y="94" width="552" height="84"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
                                 <color key="textColor" red="0.27000001070000001" green="0.27000001070000001" blue="0.27000001070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -707,7 +708,7 @@
     </scenes>
     <resources>
         <image name="buyNowButton" width="2100" height="1500"/>
-        <image name="lipstickButton" width="516" height="342"/>
+        <image name="lipstick" width="110" height="110"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
     </resources>
 </document>

@@ -54,12 +54,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c34-0T-Pmm">
-                                <rect key="frame" x="62.5" y="172" width="250" height="194"/>
+                                <rect key="frame" x="63" y="172" width="250" height="194"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="194" id="OeL-Va-hAr"/>
                                     <constraint firstAttribute="width" constant="250" id="cLD-Sx-e3h"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="lipstickButton"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                                <state key="normal" title="Lipstick" image="lipstick"/>
                                 <connections>
                                     <action selector="Lipstick_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8g1-tu-m5g"/>
                                 </connections>
@@ -686,7 +687,7 @@
     </scenes>
     <resources>
         <image name="buyNowButton" width="2100" height="1500"/>
-        <image name="lipstickButton" width="516" height="342"/>
+        <image name="lipstick" width="110" height="110"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
     </resources>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

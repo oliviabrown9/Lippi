@@ -60,7 +60,8 @@
                                     <constraint firstAttribute="height" constant="240" id="6po-j2-cBs"/>
                                     <constraint firstAttribute="width" constant="300" id="dyx-fS-3Vn"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="lipstickButton"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
+                                <state key="normal" title="Lipstick" image="lipstick"/>
                                 <connections>
                                     <action selector="Lipstick_Btn:" destination="Qeb-dw-7tf" eventType="touchUpInside" id="MtT-eW-uxB"/>
                                 </connections>
@@ -728,7 +729,7 @@
     </scenes>
     <resources>
         <image name="buyNowButton" width="2100" height="1500"/>
-        <image name="lipstickButton" width="516" height="342"/>
+        <image name="lipstick" width="110" height="110"/>
         <image name="liquidLipstickButton" width="714" height="550"/>
     </resources>
 </document>

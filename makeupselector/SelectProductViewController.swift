@@ -17,20 +17,9 @@ class SelectProductViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         lipstick.layer.cornerRadius = 15
-//        var titleSpacing = 0 as CGFloat
-//        if let text: NSString = lipstick.titleLabel?.text as NSString?, let font = lipstick.titleLabel?.font {
-//            let attributes = [NSFontAttributeName:font]
-//            let titleSize = text.size(attributes: attributes)
-//            titleSpacing = (230 - titleSize.width) / 2
-//            print(titleSpacing)
-//        }
         lipstick.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
-        let imageEdgeInsets = UIEdgeInsets(top: -50, left: 60, bottom: 0, right: 60)
-        let titleEdgeInsets = UIEdgeInsets(top: 120, left: -55, bottom: 0, right: 51)
-        lipstick.imageEdgeInsets = imageEdgeInsets
-        lipstick.titleEdgeInsets = titleEdgeInsets
+        lipstick.centerLabelVerticallyWithPadding(spacing: 0)
         liquidLipstick.layer.cornerRadius = 15
-        
     }
     
     let messageComposer = MessageComposer()
@@ -56,5 +45,30 @@ class SelectProductViewController: UIViewController {
     @IBAction func LiquidLipstick_Btn(_ sender: AnyObject) {
         productButton = 2
         performSegue(withIdentifier: "toSelectShade", sender: sender)
+    }
+}
+extension UIButton {
+    func centerLabelVerticallyWithPadding(spacing:CGFloat) {
+        // update positioning of image and title
+        let imageSize = self.imageView?.frame.size
+        self.titleEdgeInsets = UIEdgeInsets(top:0,
+                                            left:-(imageSize?.width)!,
+                                            bottom:-((imageSize?.height)! + spacing),
+                                            right:0)
+        let titleSize = self.titleLabel?.frame.size
+        self.imageEdgeInsets = UIEdgeInsets(top:-((titleSize?.height)! + spacing),
+                                            left:0,
+                                            bottom: 0,
+                                            right:-(titleSize?.width)!)
+        
+        // reset contentInset, so intrinsicContentSize() is still accurate
+        let trueContentSize = (self.titleLabel?.frame)!.union((self.imageView?.frame)!).size
+        let oldContentSize = self.intrinsicContentSize
+        let heightDelta = trueContentSize.height - oldContentSize.height
+        let widthDelta = trueContentSize.width - oldContentSize.width
+        self.contentEdgeInsets = UIEdgeInsets(top:heightDelta/2.0,
+                                              left:widthDelta/2.0,
+                                              bottom:heightDelta/2.0,
+                                              right:widthDelta/2.0)
     }
 }
