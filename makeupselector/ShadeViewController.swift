@@ -15,9 +15,11 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     var productButtonNumber: Int = Int()
     var Slider_selectedvarue = Int()
     
+    @IBOutlet weak var minPrice: UILabel!
     var temp_detaildata: [NSDictionary] = [NSDictionary]()
     var detaildata: NSArray = []
-    
+    var priceArray: [Float] = []
+
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -43,9 +45,16 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.getData()
         self.automaticallyAdjustsScrollViewInsets = false
+        
+        let minValue = priceArray.min()
+        let maxValue = priceArray.max()
+        slider.maximumValue = maxValue!
+        slider.minimumValue = minValue!
+        slider.value = maxValue!
+        minPrice.text = "$\(Int(minValue!))"
+        sliderLabel.text = "$\(Int(maxValue!))"
     }
     
     func getData() {
@@ -65,10 +74,17 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         {
             let productType: Int? = (item as! NSDictionary).object(forKey: "productType") as? Int
             let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
+            
 
             if productType == productButton && shadeType == self.shadeButtonNumber {
                 self.temp_detaildata.append(item as! NSDictionary)
+                
             }
+        }
+        
+        for (item) in self.temp_detaildata {
+            let priceFloat: Float? = (item).object(forKey: "price") as? Float
+            priceArray.append(priceFloat!)
         }
     }
     

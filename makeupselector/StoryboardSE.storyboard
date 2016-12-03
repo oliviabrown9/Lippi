@@ -16,7 +16,7 @@
             <objects>
                 <navigationController id="Ulo-je-70W" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="mpW-JK-NbX">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mpW-JK-NbX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -134,7 +134,7 @@
                                     <constraint firstAttribute="width" constant="320" id="hhy-aW-bKE"/>
                                 </constraints>
                             </view>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="90" minValue="6" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="rEB-iO-1jK">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="rEB-iO-1jK">
                                 <rect key="frame" x="51" y="75" width="219" height="31"/>
                                 <color key="tintColor" red="1" green="0.074509803920000006" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -185,6 +185,7 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="Cl9-PA-aDd" id="SrR-ep-R1E"/>
+                        <outlet property="minPrice" destination="vkz-kH-2qh" id="Qoc-w0-AMF"/>
                         <outlet property="slider" destination="rEB-iO-1jK" id="thP-cn-WTA"/>
                         <outlet property="sliderLabel" destination="RDy-3h-iMw" id="hJM-Uw-nBJ"/>
                         <segue destination="MS2-mM-y8a" kind="show" identifier="showImage" id="7c8-Ja-3dm">
