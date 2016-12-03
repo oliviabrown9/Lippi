@@ -20,6 +20,8 @@ class SelectProductViewController: UIViewController {
         lipstick.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
         lipstick.centerLabelVerticallyWithPadding(spacing: 0)
         liquidLipstick.layer.cornerRadius = 15
+        liquidLipstick.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
+        liquidLipstick.centerLabelVerticallyWithPadding(spacing: 0)
     }
     
     let messageComposer = MessageComposer()

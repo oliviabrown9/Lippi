@@ -388,7 +388,8 @@
                                     <constraint firstAttribute="height" constant="180" id="r7T-DE-lZW"/>
                                     <constraint firstAttribute="width" constant="230" id="sx8-AZ-3lm"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="liquidLipstickButton"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <state key="normal" title="Liquid Lipstick" image="liquidLipstick"/>
                                 <connections>
                                     <action selector="LiquidLipstick_Btn:" destination="kb6-Wq-JwC" eventType="touchUpInside" id="HPe-Uy-ywd"/>
                                 </connections>
@@ -597,7 +598,7 @@
     </scenes>
     <resources>
         <image name="buyNowButton" width="2100" height="1500"/>
-        <image name="lipstick" width="110" height="110"/>
-        <image name="liquidLipstickButton" width="714" height="550"/>
+        <image name="lipstick" width="2000" height="2000"/>
+        <image name="liquidLipstick" width="110" height="110"/>
     </resources>
 </document>
