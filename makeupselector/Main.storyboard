@@ -14,7 +14,7 @@
         <scene sceneID="gEv-36-9jQ">
             <objects>
                 <navigationController id="Rto-gU-tES" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="e9T-tK-Gm8">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e9T-tK-Gm8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -386,7 +386,7 @@
                                     <constraint firstAttribute="width" constant="1024" id="I8N-B0-g4o"/>
                                 </constraints>
                             </view>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="90" minValue="6" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="TOL-vO-I8s">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="TOL-vO-I8s">
                                 <rect key="frame" x="214" y="85" width="604" height="31"/>
                                 <color key="tintColor" red="1" green="0.074509803920000006" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>

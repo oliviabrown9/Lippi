@@ -15,7 +15,7 @@
         <scene sceneID="Bwc-bP-puC">
             <objects>
                 <navigationController id="Tr6-Kd-iAp" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="4fL-HG-iHv">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4fL-HG-iHv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -292,7 +292,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="90" minValue="6" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="Q1p-ii-djr">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="Q1p-ii-djr">
                                 <rect key="frame" x="85.333333333333314" y="80" width="244" height="31"/>
                                 <color key="tintColor" red="1" green="0.074509803920000006" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
