@@ -240,7 +240,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                 <color key="tintColor" red="0.4534254808" green="0.4534254808" blue="0.4534254808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Buy Now" backgroundImage="buyNowButton">
+                                <state key="normal" title="Buy Now">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -495,7 +495,7 @@
                                     <constraint firstAttribute="height" constant="55" id="JCZ-hC-Pkg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Coral" backgroundImage="buyNowButton">
+                                <state key="normal" title="Coral">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -509,7 +509,7 @@
                                     <constraint firstAttribute="height" constant="55" id="w7V-o5-Ufq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Nude" backgroundImage="buyNowButton">
+                                <state key="normal" title="Nude">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -523,7 +523,7 @@
                                     <constraint firstAttribute="height" constant="55" id="avN-XA-2Xc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Pink" backgroundImage="buyNowButton">
+                                <state key="normal" title="Pink">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -537,7 +537,7 @@
                                     <constraint firstAttribute="width" constant="200" id="bfi-Fr-rgJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Berry" backgroundImage="buyNowButton">
+                                <state key="normal" title="Berry">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -551,7 +551,7 @@
                                     <constraint firstAttribute="width" constant="200" id="eez-0F-Ueo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
-                                <state key="normal" title="Red" backgroundImage="buyNowButton">
+                                <state key="normal" title="Red">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -597,8 +597,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="buyNowButton" width="2100" height="1500"/>
-        <image name="lipstick" width="2000" height="2000"/>
-        <image name="liquidLipstick" width="110" height="110"/>
+        <image name="lipstick" width="150" height="150"/>
+        <image name="liquidLipstick" width="75" height="150"/>
     </resources>
 </document>

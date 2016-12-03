@@ -81,6 +81,8 @@ class SpecificShadeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        buyNowButton.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
+        
         // Sets star to correct rating
         ratingView.rating = ratingValue
         

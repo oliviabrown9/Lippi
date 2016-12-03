@@ -44,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5c-4E-pmt">
-                                <rect key="frame" x="262" y="367" width="500" height="350"/>
+                                <rect key="frame" x="262" y="368" width="500" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="350" id="BrG-aY-jCN"/>
                                     <constraint firstAttribute="width" constant="500" id="ezb-Le-OXQ"/>
@@ -56,18 +56,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoo-4a-17H">
-                                <rect key="frame" x="262" y="747" width="500" height="350"/>
+                                <rect key="frame" x="262" y="748" width="500" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="350" id="4Jt-bL-w1T"/>
                                     <constraint firstAttribute="width" constant="500" id="Gn3-S6-NXq"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="liquidLipstickButton"/>
+                                <state key="normal" title="Button" image="liquidLipstick"/>
                                 <connections>
                                     <action selector="LiquidLipstick_Btn:" destination="9S1-y4-nV3" eventType="touchUpInside" id="QqV-Fu-4Z6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPw-vI-V8e">
-                                <rect key="frame" x="806" y="1301.5" width="198" height="60"/>
+                                <rect key="frame" x="806" y="1302" width="198" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Contact Us">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -77,7 +77,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7o-q6-qId">
-                                <rect key="frame" x="159" y="153" width="706" height="107.5"/>
+                                <rect key="frame" x="159" y="153" width="706" height="108"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="90"/>
                                 <color key="textColor" red="0.27000001070000001" green="0.27000001070000001" blue="0.27000001070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -165,7 +165,7 @@
                                     <constraint firstAttribute="width" constant="400" id="hIR-by-wTO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
-                                <state key="normal" title="Coral" backgroundImage="buyNowButton">
+                                <state key="normal" title="Coral">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -179,7 +179,7 @@
                                     <constraint firstAttribute="height" constant="120" id="AC4-zE-sAU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
-                                <state key="normal" title="Nude" backgroundImage="buyNowButton">
+                                <state key="normal" title="Nude">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -193,7 +193,7 @@
                                     <constraint firstAttribute="width" constant="400" id="ros-li-WiX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
-                                <state key="normal" title="Pink" backgroundImage="buyNowButton">
+                                <state key="normal" title="Pink">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -207,7 +207,7 @@
                                     <constraint firstAttribute="height" constant="120" id="bEL-D2-rdB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
-                                <state key="normal" title="Berry" backgroundImage="buyNowButton">
+                                <state key="normal" title="Berry">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -221,7 +221,7 @@
                                     <constraint firstAttribute="width" constant="400" id="DF1-t5-DdP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
-                                <state key="normal" title="Red" backgroundImage="buyNowButton">
+                                <state key="normal" title="Red">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -579,7 +579,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="45"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Buy Now" backgroundImage="buyNowButton">
+                                <state key="normal" title="Buy Now">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
@@ -705,8 +705,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="buyNowButton" width="2100" height="1500"/>
-        <image name="lipstick" width="128" height="128"/>
-        <image name="liquidLipstickButton" width="714" height="550"/>
+        <image name="lipstick" width="150" height="150"/>
+        <image name="liquidLipstick" width="75" height="150"/>
     </resources>
 </document>
