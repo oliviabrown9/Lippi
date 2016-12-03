@@ -18,10 +18,15 @@ class SelectShadeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonRed.layer.cornerRadius = 15
+        buttonRed.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
         buttonPink.layer.cornerRadius = 15
+        buttonPink.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
         buttonBerry.layer.cornerRadius = 15
+        buttonBerry.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
         buttonCoral.layer.cornerRadius = 15
+        buttonCoral.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
         buttonNude.layer.cornerRadius = 15
+        buttonNude.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
     }
     @IBOutlet weak var buttonRed: UIButton!
     @IBOutlet weak var buttonPink: UIButton!
