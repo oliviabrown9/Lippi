@@ -724,12 +724,12 @@
                                 <include reference="0A1-3I-UQf"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="bcx-LX-Ec8"/>
+                                <include reference="jbq-wu-hjV"/>
+                                <include reference="tgq-ys-Wu3"/>
+                                <include reference="NTz-mJ-H6X"/>
                                 <include reference="tqH-Sp-mYj"/>
                                 <include reference="v2y-Pr-Uww"/>
-                                <include reference="NTz-mJ-H6X"/>
-                                <include reference="tgq-ys-Wu3"/>
-                                <include reference="jbq-wu-hjV"/>
+                                <include reference="bcx-LX-Ec8"/>
                             </mask>
                         </variation>
                     </view>

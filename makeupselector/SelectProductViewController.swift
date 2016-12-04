@@ -14,14 +14,12 @@ class SelectProductViewController: UIViewController {
     
     @IBOutlet weak var lipstick: UIButton!
     @IBOutlet weak var liquidLipstick: UIButton!
+    @IBOutlet weak var lipstickView: UIView!
+    @IBOutlet weak var liquidLipstickView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        lipstick.layer.cornerRadius = 15
-//        lipstick.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
-//        lipstick.centerLabelVerticallyWithPadding(spacing: 0)
-        liquidLipstick.layer.cornerRadius = 15
-//        liquidLipstick.backgroundColor = UIColor(red:1.00, green:0.07, blue:0.14, alpha:1.0)
-//        liquidLipstick.centerLabelVerticallyWithPadding(spacing: 0)
+        lipstickView.layer.cornerRadius = 15
+        liquidLipstickView.layer.cornerRadius = 15
     }
     
     let messageComposer = MessageComposer()
