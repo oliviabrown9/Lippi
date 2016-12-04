@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 storyboard = UIStoryboard(name: "StoryboardSE", bundle: nil)
             // iPhone 7
             case 667.0:
-                storyboard = UIStoryboard(name: "Storyboard7", bundle: nil)
+                storyboard = UIStoryboard(name: "Main", bundle: nil)
             // iPhone 7 Plus
             case 736.0:
                 storyboard = UIStoryboard(name: "Storyboard7Plus", bundle: nil)

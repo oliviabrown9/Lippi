@@ -46,6 +46,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         self.getData()
+        print(temp_detaildata)
         temp_detaildata.shuffle()
         self.automaticallyAdjustsScrollViewInsets = false
         
@@ -54,7 +55,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         slider.maximumValue = maxValue!
         slider.minimumValue = minValue!
         slider.value = maxValue!
-        minPrice.text = "$\(Int(minValue!))"
+//        minPrice.text = "$\(Int(minValue!))"
         sliderLabel.text = "$\(Int(maxValue!))"
     }
     
