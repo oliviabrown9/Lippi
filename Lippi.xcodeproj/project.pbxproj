@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		452CF11A1D7016BF00347D5F /* StoryboardSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF1191D7016BF00347D5F /* StoryboardSE.storyboard */; };
 		452CF11C1D70174D00347D5F /* Storyboard7Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11B1D70174D00347D5F /* Storyboard7Plus.storyboard */; };
-		452CF11E1D70177200347D5F /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11D1D70177200347D5F /* Main2.storyboard */; };
+		452CF11E1D70177200347D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF11D1D70177200347D5F /* Main.storyboard */; };
 		4532E7441D90ED0200509B23 /* final.json in Resources */ = {isa = PBXBuildFile; fileRef = 4532E7431D90ED0200509B23 /* final.json */; };
 		4548E06E1D22E56700257BDC /* ShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E06D1D22E56700257BDC /* ShadeViewController.swift */; };
 		4548E0721D22E88C00257BDC /* SelectShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */; };
@@ -23,13 +23,12 @@
 		454D85E41DE439CC001F5632 /* StoryboardPro9.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454D85E31DE439CC001F5632 /* StoryboardPro9.storyboard */; };
 		4579736A1DE81EFF004C12B6 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457973691DE81EFF004C12B6 /* CosmosDistrib.swift */; };
 		458DB9781D5BC6AE005A2104 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DB9771D5BC6AE005A2104 /* MessageComposer.swift */; };
-		45F1520A1DF3855000B8F4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F152091DF3855000B8F4D1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		452CF1191D7016BF00347D5F /* StoryboardSE.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSE.storyboard; sourceTree = "<group>"; };
 		452CF11B1D70174D00347D5F /* Storyboard7Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard7Plus.storyboard; sourceTree = "<group>"; };
-		452CF11D1D70177200347D5F /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
+		452CF11D1D70177200347D5F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4532E7431D90ED0200509B23 /* final.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = final.json; sourceTree = "<group>"; };
 		4548E06D1D22E56700257BDC /* ShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadeViewController.swift; sourceTree = "<group>"; };
 		4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectShadeViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +44,6 @@
 		454D85E31DE439CC001F5632 /* StoryboardPro9.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardPro9.storyboard; sourceTree = "<group>"; };
 		457973691DE81EFF004C12B6 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
 		458DB9771D5BC6AE005A2104 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
-		45F152091DF3855000B8F4D1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +64,7 @@
 				454C61001D1F5CDE0053B661 /* Storyboard7.storyboard */,
 				452CF11B1D70174D00347D5F /* Storyboard7Plus.storyboard */,
 				454D85E31DE439CC001F5632 /* StoryboardPro9.storyboard */,
-				452CF11D1D70177200347D5F /* Main2.storyboard */,
-				45F152091DF3855000B8F4D1 /* Main.storyboard */,
+				452CF11D1D70177200347D5F /* Main.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -207,9 +204,8 @@
 				454D85E41DE439CC001F5632 /* StoryboardPro9.storyboard in Resources */,
 				4532E7441D90ED0200509B23 /* final.json in Resources */,
 				454C61041D1F5CDE0053B661 /* Assets.xcassets in Resources */,
-				45F1520A1DF3855000B8F4D1 /* Main.storyboard in Resources */,
 				454C61021D1F5CDE0053B661 /* Storyboard7.storyboard in Resources */,
-				452CF11E1D70177200347D5F /* Main2.storyboard in Resources */,
+				452CF11E1D70177200347D5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
