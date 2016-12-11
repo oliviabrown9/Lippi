@@ -229,7 +229,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERh-fX-Dfk">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ERh-fX-Dfk">
                                 <rect key="frame" x="7" y="410" width="305" height="90"/>
                                 <color key="tintColor" red="1" green="0.074509803920000006" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -494,8 +494,8 @@
                                 <exclude reference="GJu-7F-zh1"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="uje-bB-Xge"/>
                                 <exclude reference="g4l-XA-hlP"/>
+                                <exclude reference="uje-bB-Xge"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -503,8 +503,8 @@
                                 <include reference="GJu-7F-zh1"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="uje-bB-Xge"/>
                                 <include reference="g4l-XA-hlP"/>
+                                <include reference="uje-bB-Xge"/>
                             </mask>
                         </variation>
                     </view>
