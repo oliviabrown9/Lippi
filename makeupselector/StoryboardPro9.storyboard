@@ -57,7 +57,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="sendTextMessageButtonTapped:" destination="tj5-NU-ypG" eventType="touchUpInside" id="7yu-yC-FFg"/>
+                                    <action selector="contactUsButtonClicked:" destination="tj5-NU-ypG" eventType="touchUpInside" id="q05-CK-Jvf"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fus-rR-rjW">
@@ -98,7 +98,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="Lipstick_Btn:" destination="tj5-NU-ypG" eventType="touchUpInside" id="92Y-af-PxY"/>
+                                    <action selector="lipstickButtonClicked:" destination="tj5-NU-ypG" eventType="touchUpInside" id="yZ5-nE-X57"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BFr-qO-ZfN">
@@ -139,7 +139,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="LiquidLipstick_Btn:" destination="tj5-NU-ypG" eventType="touchUpInside" id="NIu-d6-GGF"/>
+                                    <action selector="liquidLipstickButtonClicked:" destination="tj5-NU-ypG" eventType="touchUpInside" id="69F-sp-BHb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -222,7 +222,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Coral_Btn:" destination="Hht-b6-s3D" eventType="touchUpInside" id="kuF-Gq-6Vj"/>
+                                    <action selector="coralButtonClicked:" destination="Hht-b6-s3D" eventType="touchUpInside" id="AAw-yO-tYp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sd6-E8-l70">
@@ -237,7 +237,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Nude_Btn:" destination="Hht-b6-s3D" eventType="touchUpInside" id="7Zh-QT-P1L"/>
+                                    <action selector="nudeButtonClicked:" destination="Hht-b6-s3D" eventType="touchUpInside" id="bhs-pM-df1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ols-Wr-cT2">
@@ -252,7 +252,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Pink_Btn:" destination="Hht-b6-s3D" eventType="touchUpInside" id="y53-NU-N0U"/>
+                                    <action selector="pinkButtonClicked:" destination="Hht-b6-s3D" eventType="touchUpInside" id="aqz-pm-nIk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACW-U2-fTo">
@@ -267,7 +267,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Berry_Btn:" destination="Hht-b6-s3D" eventType="touchUpInside" id="K6q-dT-aRL"/>
+                                    <action selector="berryButtonClicked:" destination="Hht-b6-s3D" eventType="touchUpInside" id="K2W-RT-KdG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wW-fJ-TZf">
@@ -282,7 +282,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Red_Btn:" destination="Hht-b6-s3D" eventType="touchUpInside" id="e1T-qf-Cr2"/>
+                                    <action selector="redButtonClicked:" destination="Hht-b6-s3D" eventType="touchUpInside" id="aLg-kp-hOd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the shade of..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWW-So-POc">
@@ -297,7 +297,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Contact Us"/>
                                 <connections>
-                                    <action selector="sendTextMessageButtonTapped:" destination="Hht-b6-s3D" eventType="touchUpInside" id="DqF-ex-yIE"/>
+                                    <action selector="contactUsButtonClicked:" destination="Hht-b6-s3D" eventType="touchUpInside" id="Xcf-ln-bWD"/>
                                 </connections>
                             </button>
                         </subviews>

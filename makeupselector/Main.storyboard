@@ -50,7 +50,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="sendTextMessageButtonTapped:" destination="9S1-y4-nV3" eventType="touchUpInside" id="9td-jG-k0i"/>
+                                    <action selector="contactUsButtonClicked:" destination="9S1-y4-nV3" eventType="touchUpInside" id="jp5-Tt-B2U"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am looking for..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7o-q6-qId">
@@ -97,7 +97,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="Lipstick_Btn:" destination="9S1-y4-nV3" eventType="touchUpInside" id="qI0-Ld-nvh"/>
+                                    <action selector="lipstickButtonClicked:" destination="9S1-y4-nV3" eventType="touchUpInside" id="uK2-2v-QQJ"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JGG-VX-Kob">
@@ -138,7 +138,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="LiquidLipstick_Btn:" destination="9S1-y4-nV3" eventType="touchUpInside" id="9Nl-sl-b8b"/>
+                                    <action selector="liquidLipstickButtonClicked:" destination="9S1-y4-nV3" eventType="touchUpInside" id="3l9-Rd-eIs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -220,7 +220,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Contact Us"/>
                                 <connections>
-                                    <action selector="sendTextMessageButtonTapped:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="Dbj-4T-V7Q"/>
+                                    <action selector="contactUsButtonClicked:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="UwE-Vv-oEi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7Y-Ba-GHr">
@@ -235,7 +235,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Coral_Btn:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="ysZ-Iu-waV"/>
+                                    <action selector="coralButtonClicked:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="3AZ-hh-KPD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKP-xK-Wc3">
@@ -250,7 +250,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Nude_Btn:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="k4L-fz-N5s"/>
+                                    <action selector="nudeButtonClicked:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="SFm-qz-9Ca"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxW-8V-v8H">
@@ -265,7 +265,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Pink_Btn:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="LU5-fH-jUh"/>
+                                    <action selector="pinkButtonClicked:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="lEb-cp-lzl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ss-Km-y7Y">
@@ -280,7 +280,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Berry_Btn:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="B7U-CV-mhL"/>
+                                    <action selector="berryButtonClicked:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="P6I-Mr-tL3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCo-i0-aIQ">
@@ -295,7 +295,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Red_Btn:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="jNw-DW-5Nt"/>
+                                    <action selector="redButtonClicked:" destination="WqJ-a8-AVW" eventType="touchUpInside" id="baW-rM-ruc"/>
                                 </connections>
                             </button>
                         </subviews>
