@@ -104,10 +104,10 @@
                                 <rect key="frame" x="237" y="798" width="550" height="400"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liquidLipstick" translatesAutoresizingMaskIntoConstraints="NO" id="uY0-a8-Bgx">
-                                        <rect key="frame" x="205" y="30" width="140" height="250"/>
+                                        <rect key="frame" x="205" y="40" width="140" height="230"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="140" id="RoN-0j-eKf"/>
-                                            <constraint firstAttribute="height" constant="250" id="vIl-MW-Pkb"/>
+                                            <constraint firstAttribute="height" constant="230" id="vIl-MW-Pkb"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liquid Lipstick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2x7-Rk-xSw">
@@ -122,7 +122,7 @@
                                     <constraint firstItem="2x7-Rk-xSw" firstAttribute="centerX" secondItem="JGG-VX-Kob" secondAttribute="centerX" id="37b-79-8WW"/>
                                     <constraint firstAttribute="height" constant="400" id="3gK-5N-H5g"/>
                                     <constraint firstAttribute="bottom" secondItem="2x7-Rk-xSw" secondAttribute="bottom" constant="10" id="8co-0Y-8Q6"/>
-                                    <constraint firstItem="uY0-a8-Bgx" firstAttribute="top" secondItem="JGG-VX-Kob" secondAttribute="top" constant="30" id="A1C-M7-mSn"/>
+                                    <constraint firstItem="uY0-a8-Bgx" firstAttribute="top" secondItem="JGG-VX-Kob" secondAttribute="top" constant="40" id="A1C-M7-mSn"/>
                                     <constraint firstAttribute="width" constant="550" id="Qeb-l3-FM0"/>
                                     <constraint firstItem="uY0-a8-Bgx" firstAttribute="centerX" secondItem="JGG-VX-Kob" secondAttribute="centerX" id="fK6-4O-QWN"/>
                                 </constraints>
