@@ -512,6 +512,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="f13-Lp-762" id="HI6-on-8Ni"/>
+                        <outlet property="minPrice" destination="qjD-fp-gbW" id="We4-16-BpC"/>
                         <outlet property="slider" destination="TOL-vO-I8s" id="7ZY-9C-Ss2"/>
                         <outlet property="sliderLabel" destination="BSD-7S-sCw" id="ley-sy-qPY"/>
                         <segue destination="Qzf-M2-muv" kind="show" identifier="showImage" id="2eH-7P-gy7">
