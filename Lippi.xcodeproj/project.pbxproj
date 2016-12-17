@@ -25,23 +25,6 @@
 		458DB9781D5BC6AE005A2104 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DB9771D5BC6AE005A2104 /* MessageComposer.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		458459451E04DC550067BE5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 454C60F11D1F5CDE0053B661 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 454C60F81D1F5CDE0053B661;
-			remoteInfo = Lippi;
-		};
-		458459521E04E11D0067BE5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 454C60F11D1F5CDE0053B661 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 454C60F81D1F5CDE0053B661;
-			remoteInfo = Lippi;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		452CF1191D7016BF00347D5F /* StoryboardSE.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSE.storyboard; sourceTree = "<group>"; };
 		452CF11B1D70174D00347D5F /* Storyboard7Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard7Plus.storyboard; sourceTree = "<group>"; };
@@ -60,27 +43,11 @@
 		454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShadeViewController.swift; sourceTree = "<group>"; };
 		454D85E31DE439CC001F5632 /* StoryboardPro9.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardPro9.storyboard; sourceTree = "<group>"; };
 		457973691DE81EFF004C12B6 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
-		458459401E04DC550067BE5B /* LippiFastlane.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LippiFastlane.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4584594D1E04E11D0067BE5B /* fastlane.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastlane.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		458DB9771D5BC6AE005A2104 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		454C60F61D1F5CDE0053B661 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4584593D1E04DC550067BE5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4584594A1E04E11D0067BE5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				454C60F91D1F5CDE0053B661 /* Lippi.app */,
-				458459401E04DC550067BE5B /* LippiFastlane.xctest */,
-				4584594D1E04E11D0067BE5B /* fastlane.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,49 +158,13 @@
 			productReference = 454C60F91D1F5CDE0053B661 /* Lippi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4584593F1E04DC550067BE5B /* LippiFastlane */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 458459481E04DC550067BE5B /* Build configuration list for PBXNativeTarget "LippiFastlane" */;
-			buildPhases = (
-				4584593C1E04DC550067BE5B /* Sources */,
-				4584593D1E04DC550067BE5B /* Frameworks */,
-				4584593E1E04DC550067BE5B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				458459461E04DC550067BE5B /* PBXTargetDependency */,
-			);
-			name = LippiFastlane;
-			productName = LippiFastlane;
-			productReference = 458459401E04DC550067BE5B /* LippiFastlane.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		4584594C1E04E11D0067BE5B /* fastlane */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 458459541E04E11D0067BE5B /* Build configuration list for PBXNativeTarget "fastlane" */;
-			buildPhases = (
-				458459491E04E11D0067BE5B /* Sources */,
-				4584594A1E04E11D0067BE5B /* Frameworks */,
-				4584594B1E04E11D0067BE5B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				458459531E04E11D0067BE5B /* PBXTargetDependency */,
-			);
-			name = fastlane;
-			productName = fastlane;
-			productReference = 4584594D1E04E11D0067BE5B /* fastlane.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		454C60F11D1F5CDE0053B661 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Olivia;
 				TargetAttributes = {
@@ -243,18 +172,6 @@
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 8GEKYYW3CQ;
 						LastSwiftMigration = 0810;
-					};
-					4584593F1E04DC550067BE5B = {
-						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 8GEKYYW3CQ;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 454C60F81D1F5CDE0053B661;
-					};
-					4584594C1E04E11D0067BE5B = {
-						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 8GEKYYW3CQ;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 454C60F81D1F5CDE0053B661;
 					};
 				};
 			};
@@ -272,8 +189,6 @@
 			projectRoot = "";
 			targets = (
 				454C60F81D1F5CDE0053B661 /* Lippi */,
-				4584593F1E04DC550067BE5B /* LippiFastlane */,
-				4584594C1E04E11D0067BE5B /* fastlane */,
 			);
 		};
 /* End PBXProject section */
@@ -291,20 +206,6 @@
 				454C61041D1F5CDE0053B661 /* Assets.xcassets in Resources */,
 				454C61021D1F5CDE0053B661 /* Storyboard7.storyboard in Resources */,
 				452CF11E1D70177200347D5F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4584593E1E04DC550067BE5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4584594B1E04E11D0067BE5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,34 +227,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4584593C1E04DC550067BE5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		458459491E04E11D0067BE5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		458459461E04DC550067BE5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 454C60F81D1F5CDE0053B661 /* Lippi */;
-			targetProxy = 458459451E04DC550067BE5B /* PBXContainerItemProxy */;
-		};
-		458459531E04E11D0067BE5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 454C60F81D1F5CDE0053B661 /* Lippi */;
-			targetProxy = 458459521E04E11D0067BE5B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		454C61001D1F5CDE0053B661 /* Storyboard7.storyboard */ = {
@@ -436,36 +310,6 @@
 			};
 			name = Release;
 		};
-		458459471E04DC550067BE5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEVELOPMENT_TEAM = 8GEKYYW3CQ;
-				INFOPLIST_FILE = LippiFastlane/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.lippi.LippiFastlane;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Lippi;
-			};
-			name = Release;
-		};
-		458459551E04E11D0067BE5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEVELOPMENT_TEAM = 8GEKYYW3CQ;
-				INFOPLIST_FILE = fastlane/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.lippi.fastlane;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Lippi;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -484,20 +328,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		458459481E04DC550067BE5B /* Build configuration list for PBXNativeTarget "LippiFastlane" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				458459471E04DC550067BE5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		458459541E04E11D0067BE5B /* Build configuration list for PBXNativeTarget "fastlane" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				458459551E04E11D0067BE5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
