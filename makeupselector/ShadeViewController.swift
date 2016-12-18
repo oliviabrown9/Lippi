@@ -13,7 +13,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
 {
     var shadeButtonNumber:Int = Int()
     var productButtonNumber: Int = Int()
-    var Slider_selectedvarue = Int()
     
     @IBOutlet weak var minPrice: UILabel!
     var temp_detaildata: [NSDictionary] = [NSDictionary]()
