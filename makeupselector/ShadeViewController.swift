@@ -39,7 +39,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                 self.temp_detaildata.append(item as! NSDictionary)
             }
         }
-        
         self.collectionView.reloadData()
     }
     
@@ -194,4 +193,3 @@ extension MutableCollection where Indices.Iterator.Element == Index {
         }
     }
 }
-
