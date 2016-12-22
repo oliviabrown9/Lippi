@@ -13,12 +13,11 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
 {
     var shadeButtonNumber:Int = Int()
     var productButtonNumber: Int = Int()
-    
-    @IBOutlet weak var minPrice: UILabel!
     var temp_detaildata: [NSDictionary] = [NSDictionary]()
     var detaildata: NSArray = []
     var priceArray: [Float] = []
-
+    
+    @IBOutlet weak var minPrice: UILabel!
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
