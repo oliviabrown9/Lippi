@@ -12,6 +12,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/artist-rouge-lipstick-P410516?skuId=1854421&icid2=products%20grid%3Ap410516"
   },
   {
@@ -27,6 +29,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/lipstick?productId=xlsImpprod3570083&sku=2232528"
   },
   {
@@ -42,6 +46,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/color-sensational-loaded-bolds-lip-color?productId=xlsImpprod14251015&sku=2303894"
   },
   {
@@ -57,6 +63,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/velvet-matte-lip-colour-P400560?skuId=1750140&icid2=products%20grid:p400560"
   },
   {
@@ -72,6 +80,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/sexy-mother-pucker-lipstick?productId=xlsImpprod14251003&sku=2304512"
   },
   {
@@ -87,6 +97,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/pro-matte-lip-color?productId=xlsImpprod10751012&sku=2275366"
   },
   {
@@ -102,6 +114,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-high-voltage-lipstick/-/A-51580511"
   },
   {
@@ -117,6 +131,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/matte-lipstick?productId=xlsImpprod4141597&sku=2242459"
   },
   {
@@ -132,6 +148,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-lipstick-color-statement-matte/-/A-51436216"
   },
   {
@@ -147,6 +165,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/310/Products/Makeup/Lips/Lipstick/Lipstick#/shade/Ruby_Woo"
   },
   {
@@ -162,6 +182,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/43859/Products/Makeup/Lips/Lipstick/Liptensity-Lipstick#/shade/Life%27s_Blood"
   },
   {
@@ -177,6 +199,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/no7-stay-perfect-lipstick/-/A-51129024"
   },
   {
@@ -192,6 +216,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/no7-moisture-drench-lipstick/-/A-51135732"
   },
   {
@@ -207,6 +233,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/32732/Products/Makeup/Lips/Lipstick/Ultimate-Lipstick#/shade/Audacious"
   },
   {
@@ -222,6 +250,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/35141/Products/Makeup/Lips/Lipstick/Huggable-Lipcolour#/shade/Cherry_Glaze"
   },
   {
@@ -237,6 +267,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/24937/Products/Makeup/Lips/Lipstick/Mineralize-Rich-Lipstick#/shade/Everyday_Diva"
   },
   {
@@ -252,6 +284,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/iman-lipstick/-/A-51531913"
   },
   {
@@ -267,6 +301,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/studded-kiss-lipstick-P387435?skuId=1621812&icid2=products%20grid:p387435"
   },
   {
@@ -282,6 +318,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/36169/Products/Makeup/Lips/Lipstick/Cremesheen-Lipstick#/shade/Sweet_Sakura"
   },
   {
@@ -297,6 +335,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/plush-rush-lipstick?productId=xlsImpprod13561043&sku=2297233"
   },
   {
@@ -312,6 +352,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/e-l-f-moisturizing-lipstick/-/A-51169576"
   },
   {
@@ -327,6 +369,8 @@
   "ingredients": 2.5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796689&icid2=products%20grid:p405057"
   },
   {
@@ -342,6 +386,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/lipstick?productId=xlsImpprod3570083&sku=2232571"
   },
   {
@@ -357,6 +403,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/color-sensational-loaded-bolds-lip-color?productId=xlsImpprod14251015&sku=2303896"
   },
   {
@@ -372,6 +420,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/plush-rush-lipstick?productId=xlsImpprod13561043&sku=2297228"
   },
   {
@@ -387,6 +437,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-high-voltage-lipstick/-/A-51580511"
   },
   {
@@ -402,6 +454,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-lipstick-color-statement-matte/-/A-51436216"
   },
   {
@@ -417,6 +471,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/no7-moisture-drench-lipstick/-/A-51135732"
   },
   {
@@ -432,6 +488,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/310/Products/Makeup/Lips/Lipstick/Lipstick#/shade/Be_Silly"
   },
   {
@@ -447,6 +505,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/matte-lipstick?productId=xlsImpprod4141597&sku=2242457"
   },
   {
@@ -462,6 +522,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/sexy-mother-pucker-lipstick?productId=xlsImpprod14251003&sku=2304508"
   },
   {
@@ -477,6 +539,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.sephora.com/artist-rouge-lipstick-P410516?skuId=1850569&icid2=products%20grid:p410516"
   },
   {
@@ -492,6 +556,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/43859/Products/Makeup/Lips/Lipstick/Liptensity-Lipstick#/shade/Gumball"
   },
   {
@@ -507,6 +573,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/36169/Products/Makeup/Lips/Lipstick/Cremesheen-Lipstick#/shade/Star_Magnolia"
   },
   {
@@ -522,6 +590,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/32732/Products/Makeup/Lips/Lipstick/Ultimate-Lipstick#/shade/To_Savour"
   },
   {
@@ -537,6 +607,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/35141/Products/Makeup/Lips/Lipstick/Huggable-Lipcolour#/shade/ExtraSweet"
   },
   {
@@ -552,6 +624,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/24937/Products/Makeup/Lips/Lipstick/Mineralize-Rich-Lipstick#/shade/Elegant_Accent"
   },
   {
@@ -567,6 +641,8 @@
   "ingredients": 2.5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/multistick-P411038?skuId=1855261&icid2=products%20grid:p411038"
   },
   {
@@ -582,6 +658,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/beyu-hydro-star-volume-lipstick/-/A-51405856"
   },
   {
@@ -597,6 +675,8 @@
   "ingredients": 2.5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796945&icid2=products%20grid:p405057"
   },
   {
@@ -612,6 +692,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/lip-color-P270541?skuId=1287622&icid2=products%20grid:p270541"
   },
   {
@@ -627,6 +709,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/e-l-f-moisturizing-lipstick/-/A-51169576"
   },
   {
@@ -642,6 +726,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/gen-nude-radiant-lipstick?productId=xlsImpprod14301043&sku=2303721"
   },
   {
@@ -657,6 +743,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/vice-lipstick-P409523?skuId=1828896&icid2=products%20grid:p409523"
   },
   {
@@ -672,6 +760,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/sexy-mother-pucker-lipstick?productId=xlsImpprod14251003&sku=2304511"
   },
   {
@@ -687,6 +777,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-high-voltage-lipstick/-/A-51580511"
   },
   {
@@ -702,6 +794,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/color-sensational-loaded-bolds-lip-color?productId=xlsImpprod14251015&sku=2303898"
   },
   {
@@ -717,6 +811,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/no7-stay-perfect-lipstick/-/A-51129024"
   },
   {
@@ -732,6 +828,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-turnt-up-lipstick-0-09-oz/-/A-51481736"
   },
   {
@@ -747,6 +845,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/vice-lipstick-P409523?skuId=1828524&icid2=products%20grid%3Ap409523"
   },
   {
@@ -762,6 +862,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/matte-lipstick?productId=xlsImpprod4141597&sku=2242467"
   },
   {
@@ -777,6 +879,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/lipstick?productId=xlsImpprod3570083&sku=2232541"
   },
   {
@@ -792,6 +896,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-lipstick-color-statement-matte/-/A-51436216"
   },
   {
@@ -807,6 +913,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/32732/Products/Makeup/Lips/Lipstick/Ultimate-Lipstick#/shade/The_Scene"
   },
   {
@@ -821,6 +929,8 @@
   "price":22,
   "ingredients": 2.5,
   "natural": 0,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/artist-rouge-lipstick-P410516?skuId=1850775&icid2=products%20grid%3Ap410516"
   },
   {
@@ -836,6 +946,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/35141/Products/Makeup/Lips/Lipstick/Huggable-Lipcolour#/shade/Red_Necessity"
   },
   {
@@ -851,6 +963,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/36169/Products/Makeup/Lips/Lipstick/Cremesheen-Lipstick#/shade/Pickled_Plum"
   },
   {
@@ -866,6 +980,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/24937/Products/Makeup/Lips/Lipstick/Mineralize-Rich-Lipstick#/shade/Labradorable"
   },
   {
@@ -881,6 +997,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/310/Products/Makeup/Lips/Lipstick/Lipstick#/shade/Diva"
   },
   {
@@ -896,6 +1014,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/43859/Products/Makeup/Lips/Lipstick/Liptensity-Lipstick#/shade/Cordovan"
   },
   {
@@ -911,6 +1031,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/studded-kiss-lipstick-P387435?skuId=1621630&icid2=products%20grid%3Ap387435"
   },
   {
@@ -926,6 +1048,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/iman-lipstick/-/A-51531913"
   },
   {
@@ -941,6 +1065,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/e-l-f-moisturizing-lipstick/-/A-51169576"
   },
   {
@@ -956,6 +1082,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/plush-rush-lipstick?productId=xlsImpprod13561043&sku=2297231"
   },
   {
@@ -971,6 +1099,8 @@
   "ingredients": 2.5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796887&icid2=products%20grid%3Ap405057"
   },
   {
@@ -986,6 +1116,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/gen-nude-radiant-lipstick?productId=xlsImpprod14301043&sku=2303735"
   },
   {
@@ -1001,6 +1133,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.sephora.com/le-marc-lip-creme-P392352?skuId=1651421&icid2=products%20grid:p392352"
   },
   {
@@ -1016,6 +1150,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/310/Products/Makeup/Lips/Lipstick/Lipstick#/shade/Coral_Bliss"
   },
   {
@@ -1031,6 +1167,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/iconic-baked-sculpting-lipstick?productId=xlsImpprod12801037&sku=2290529"
   },
   {
@@ -1046,6 +1184,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/studded-kiss-lipstick-P387435?skuId=1621655&icid2=products%20grid%3Ap387435"
   },
   {
@@ -1061,6 +1201,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/iman-lipstick/-/A-51531913"
   },
   {
@@ -1076,6 +1218,8 @@
   "ingredients": 5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/gabriel-cosmetics-lipstick/-/A-50259216"
   },
   {
@@ -1091,6 +1235,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/vice-lipstick-P409523?skuId=1828227&icid2=products%20grid%3Ap409523"
   },
   {
@@ -1106,6 +1252,8 @@
   "ingredients": 4.5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/natural-lipstick/-/A-51189654"
   },
   {
@@ -1121,6 +1269,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/lipstick?productId=xlsImpprod3570083&sku=2232535"
   },
   {
@@ -1136,6 +1286,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-high-voltage-lipstick/-/A-51580511"
   },
   {
@@ -1151,6 +1303,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/matte-lipstick?productId=xlsImpprod4141597&sku=2297472"
   },
   {
@@ -1166,6 +1320,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/color-sensational-loaded-bolds-lip-color?productId=xlsImpprod14251015&sku=2303895"
   },
   {
@@ -1181,6 +1337,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.sephora.com/le-marc-lip-creme-P392352?skuId=1651470&icid2=products%20grid%3Ap392352"
   },
   {
@@ -1196,22 +1354,9 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.sephora.com/artist-rouge-lipstick-P410516?skuId=1850650&icid2=products%20grid%3Ap410516"
-  },
-  {
-  "productType":1,
-  "shadeType":4,
-  "shadeName":"Pure Vanity",
-  "brandName":"MAC",
-  "rating":4.8,
-  "productImage":"https://67.media.tumblr.com/ab325a58a27172a6dc6d2ba33fd6cef1/tumblr_oe9vralY1p1vgtxo7o1_1280.png",
-  "shadeImage":"ED796C",
-  "description":"Lose control and imagine yourself in lips painted reckless shades of red and coral, or a flash of gold. Five hues, five high-fashion textures. The iconic product that made M∙A∙C famous. Special packaging with graphic geometric patterns woven in eye-catching hues.",
-  "price":18,
-  "ingredients": 3,
-  "natural": 0,
-  "crueltyFree": 0,
-  "link":"https://www.maccosmetics.com/product/13854/41452/Products/Makeup/Lips/Lipstick/Lipstick-Vibe-Tribe#/shade/Pure_Vanity"
   },
   {
   "productType":1,
@@ -1226,6 +1371,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/43859/Products/Makeup/Lips/Lipstick/Liptensity-Lipstick#/shade/Postmodern"
   },
   {
@@ -1241,6 +1388,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/24937/Products/Makeup/Lips/Lipstick/Mineralize-Rich-Lipstick#/shade/Lady_at_Play"
   },
   {
@@ -1256,6 +1405,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/35141/Products/Makeup/Lips/Lipstick/Huggable-Lipcolour#/shade/Fashion_Force"
   },
   {
@@ -1271,22 +1422,9 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/36169/Products/Makeup/Lips/Lipstick/Cremesheen-Lipstick#/shade/Koi_Coral"
-  },
-  {
-  "productType":1,
-  "shadeType":4,
-  "shadeName":"Coral Sands",
-  "brandName":"Covergirl",
-  "rating":3,
-  "productImage":"https://67.media.tumblr.com/7b3c8f5982822645d27ec3b3df88453b/tumblr_oe9vhc7DZy1vgtxo7o1_500.jpg",
-  "shadeImage":"FD9DAC",
-  "description":"A rich, full-color lipstick with a soft-matte finish.",
-  "price":6.99,
-  "ingredients": 1,
-  "natural": 0,
-  "crueltyFree": 0,
-  "link":"https://www.target.com/p/covergirl-katy-kat-matte-lipstick/-/A-50665836"
   },
   {
   "productType":1,
@@ -1301,6 +1439,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/plush-rush-lipstick?productId=xlsImpprod13561043&sku=2297226"
   },
   {
@@ -1316,6 +1456,8 @@
   "ingredients": 2.5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796622&icid2=products%20grid%3Ap405057"
   },
   {
@@ -1331,6 +1473,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/gen-nude-radiant-lipstick?productId=xlsImpprod14301043&sku=2303737"
   },
   {
@@ -1346,6 +1490,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/beyu-hydro-star-volume-lipstick/-/A-51405856"
   },
   {
@@ -1361,6 +1507,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/velvet-matte-lip-colour-P400560?skuId=1750215&icid2=products%20grid%3Ap400560"
   },
   {
@@ -1376,6 +1524,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/iman-lipstick/-/A-51531913"
   },
   {
@@ -1391,6 +1541,8 @@
   "ingredients": 2.5,
   "natural": 1,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/amuse-bouche-lipstick-P405057?skuId=1796531&icid2=products%20grid%3Ap405057"
   },
   {
@@ -1406,6 +1558,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/24937/Products/Makeup/Lips/Lipstick/Mineralize-Rich-Lipstick#/shade/Touch_the_Earth"
   },
   {
@@ -1421,6 +1575,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.sephora.com/vice-lipstick-P409523?skuId=1828177&icid2=products%20grid%3Ap409523"
   },
   {
@@ -1436,6 +1592,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/lipstick?productId=xlsImpprod3570083&sku=2232550"
   },
   {
@@ -1451,6 +1609,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/sexy-mother-pucker-lipstick?productId=xlsImpprod14251003&sku=2304504"
   },
   {
@@ -1466,6 +1626,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.ulta.com/matte-lipstick?productId=xlsImpprod4141597&sku=2242452"
   },
   {
@@ -1481,6 +1643,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-turnt-up-lipstick-0-09-oz/-/A-51481736"
   },
   {
@@ -1496,6 +1660,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-high-voltage-lipstick/-/A-51580511"
   },
   {
@@ -1511,6 +1677,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/32732/Products/Makeup/Lips/Lipstick/Ultimate-Lipstick#/shade/Soft_Pout"
   },
   {
@@ -1526,6 +1694,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/color-sensational-loaded-bolds-lip-color?productId=xlsImpprod14251015#"
   },
   {
@@ -1541,6 +1711,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-lipstick-color-statement-matte/-/A-51436216"
   },
   {
@@ -1556,6 +1728,8 @@
   "ingredients": 2.5,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.sephora.com/artist-rouge-lipstick-P410516?skuId=1850650&icid2=products%20grid%3Ap410516"
   },
   {
@@ -1571,6 +1745,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/35141/Products/Makeup/Lips/Lipstick/Huggable-Lipcolour#/shade/Touch%C3%A9"
   },
   {
@@ -1586,6 +1762,8 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/43859/Products/Makeup/Lips/Lipstick/Liptensity-Lipstick#/shade/Doe"
   },
   {
@@ -1601,22 +1779,9 @@
   "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.maccosmetics.com/product/13854/310/Products/Makeup/Lips/Lipstick/Lipstick#/shade/Cr%C3%A8me_d%E2%80%99Nude"
-  },
-  {
-  "productType":1,
-  "shadeType":5,
-  "shadeName":"Arrowhead",
-  "brandName":"MAC",
-  "rating":4.8,
-  "productImage":"https://67.media.tumblr.com/0e4fc4d4f9a7e05f4c5e72818e8f8e92/tumblr_oe9vekYfEE1vgssimo1_1280.png",
-  "shadeImage":"E9A092",
-  "description":"Lose control and imagine yourself in lips painted reckless shades of red and coral, or a flash of gold. Five hues, five high-fashion textures. The iconic product that made M∙A∙C famous. Special packaging with graphic geometric patterns woven in eye-catching hues.",
-  "price":18,
-  "ingredients": 3,
-  "natural": 0,
-  "crueltyFree": 0,
-  "link":"https://www.maccosmetics.com/product/13854/41452/Products/Makeup/Lips/Lipstick/Lipstick-Vibe-Tribe#/shade/Arrowhead"
   },
   {
   "productType":1,
@@ -1631,6 +1796,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/studded-kiss-lipstick-P387435?skuId=1621671&icid2=products%20grid%3Ap387435"
   },
   {
@@ -1646,6 +1813,8 @@
   "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.ulta.com/plush-rush-lipstick?productId=xlsImpprod13561043&sku=2297235"
   },
   {
@@ -1661,6 +1830,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/e-l-f-moisturizing-lipstick/-/A-51169576"
   },
   {
@@ -1676,6 +1847,8 @@
   "ingredients": 3.5,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.target.com/p/beyu-hydro-star-volume-lipstick/-/A-51405856"
   },
   {
@@ -1691,6 +1864,8 @@
   "ingredients": 1,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 1,
+  "longWearing": 0,
   "link":"https://www.ulta.com/gen-nude-radiant-lipstick?productId=xlsImpprod14301043&sku=2303731"
   },
   {
@@ -1703,6 +1878,8 @@
   "shadeImage":"CB0114",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/Fashion_Legacy"
   },
   {
@@ -1715,6 +1892,8 @@
   "shadeImage":"C11734",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1552389&icid2=products%20grid%3Ap384954"
   },
   {
@@ -1727,6 +1906,8 @@
   "shadeImage":"87010A",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -1751,6 +1932,8 @@
   "shadeImage":"D31822",
   "description":"A highly pigmented cream used to customize colour for the lips.",
   "price":25,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"http://www.maccosmetics.com/product/13854/808/products/makeup/lips/lipstick/pro-longwear-lipcolour"
   },
   {
@@ -1859,6 +2042,8 @@
   "shadeImage":"BA313B",
   "description":"Pure Red- Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2003,6 +2188,8 @@
   "shadeImage":"DC818A",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2027,6 +2214,8 @@
   "shadeImage":"C8297D",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -2051,6 +2240,8 @@
   "shadeImage":"EE759E",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/DivineDivine"
   },
   {
@@ -2063,6 +2254,8 @@
   "shadeImage":"F966AA",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1552363&icid2=products%20grid%3Ap384954"
   },
   {
@@ -2243,6 +2436,8 @@
   "shadeImage":"F94592",
   "description":"A highly pigmented cream used to mix and customize colour for the lips.",
   "price":17,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"http://www.maccosmetics.com/product/13854/916/Products/Makeup/Lips/Lipstick/Lipmix#/shade/Magenta"
   },
   {
@@ -2339,6 +2534,8 @@
   "shadeImage":"580730",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/Oh%2C_Lady"
   },
   {
@@ -2351,6 +2548,8 @@
   "shadeImage":"6A1A2A",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1705011&icid2=products%20grid:p384954"
   },
   {
@@ -2447,6 +2646,8 @@
   "shadeImage":"943459",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2471,6 +2672,8 @@
   "shadeImage":"73222B",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -2531,6 +2734,8 @@
   "shadeImage":"BD2050",
   "description":"A highly pigmented cream used to mix and customize colour for the lips.",
   "price":17,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"https://www.maccosmetics.com/product/13854/916/Products/Makeup/Lips/Lipstick/Lipmix#/shade/Fuchsia"
   },
   {
@@ -2615,6 +2820,8 @@
   "shadeImage":"E4514A",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/Rich_%26_Restless"
   },
   {
@@ -2627,6 +2834,8 @@
   "shadeImage":"EE4D5C",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1705052&icid2=products%20grid:p384954"
   },
   {
@@ -2723,6 +2932,8 @@
   "shadeImage":"D02F25",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2735,6 +2946,8 @@
   "shadeImage":"D84651",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -2855,6 +3068,8 @@
   "shadeImage":"975545",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -2903,6 +3118,8 @@
   "shadeImage":"C1705D",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/LadyBeGood"
   },
   {
@@ -2915,6 +3132,8 @@
   "shadeImage":"E69077",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1705060&icid2=products%20grid%3Ap384954"
   },
   {
@@ -3011,6 +3230,8 @@
   "shadeImage":"C0887B",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable ",
   "price":5.99,
+  "natural": 0,
+  "crueltyFree": 1,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -3107,6 +3328,8 @@
   "shadeImage":"EFA686",
   "description":"A highly pigmented cream used to mix and customize colour for the lips.",
   "price":17,
+  "natural": 0,
+  "crueltyFree": 0,
   "link":"https://www.maccosmetics.com/product/13854/916/Products/Makeup/Lips/Lipstick/Lipmix#/shade/Medium_Nude"
   },
   {
