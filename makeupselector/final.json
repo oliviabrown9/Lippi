@@ -1878,8 +1878,11 @@
   "shadeImage":"CB0114",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/Fashion_Legacy"
   },
   {
@@ -1892,8 +1895,11 @@
   "shadeImage":"C11734",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "ingredients": 4,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1552389&icid2=products%20grid%3Ap384954"
   },
   {
@@ -1906,8 +1912,11 @@
   "shadeImage":"87010A",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -1920,21 +1929,12 @@
   "shadeImage":"E11C23",
   "description":"This is the long-lasting, transfer-proof color you’ve been searching for—no fading, no bleeding. The high-intensity color glides on with a moisturizing feel that lasts up to 24 hours. The result: bold lips without the dry-out and no need to re-apply",
   "price":9.79,
-  "link":"https://www.target.com/p/l-oreal-paris-infallible-lip-2-step/-/A-16716797"
-  },
-  {
-  "productType":2,
-  "shadeType":1,
-  "shadeName":"Lasting Lust",
-  "brandName":"MAC",
-  "rating":4.8,
-  "productImage":"https://66.media.tumblr.com/37faa7f870c47812010ec44e1861c28d/tumblr_oh57yqpTDK1vgssimo1_1280.png",
-  "shadeImage":"D31822",
-  "description":"A highly pigmented cream used to customize colour for the lips.",
-  "price":25,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
-  "link":"http://www.maccosmetics.com/product/13854/808/products/makeup/lips/lipstick/pro-longwear-lipcolour"
+  "finish": 1,
+  "longWearing": 1,
+  "link":"https://www.target.com/p/l-oreal-paris-infallible-lip-2-step/-/A-16716797"
   },
   {
   "productType":2,
@@ -1946,6 +1946,11 @@
   "shadeImage":"AA2D35",
   "description":"This velvety smooth matte lip cream is a fluffy, mousse-like cream texture that feels soft and light on the lips while delivering bold, intense color with a high fashion matte finish. Ulta's Matte Lip Cream formula is so rich and creamy, lips are never dry.",
   "price":9,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.ulta.com/matte-lip-cream?productId=xlsImpprod11921001&sku=2281966"
   },
   {
@@ -1958,6 +1963,11 @@
   "shadeImage":"C62E23",
   "description":"A long-lasting, full-coverage matte lipstick in liquid form.",
   "price":20,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/liquid-lipstick-P404831?skuId=1790815&icid2=products%20grid%3Ap404831"
   },
   {
@@ -1970,6 +1980,11 @@
   "shadeImage":"B63037",
   "description":"An eight-hour wear, liquid-matte lipstick with a featherweight, comfortable formula that stays put and keeps color looking as fresh and flawless as the first swipe. ",
   "price":24,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/always-on-matte-liquid-lipstick-P409317?skuId=1817188&icid2=products%20grid:p409317"
   },
   {
@@ -1982,6 +1997,11 @@
   "shadeImage":"A40123",
   "description":"A highly-pigmented, liquid lipstick that's weightless on the lips and delivers long-lasting coverage.",
   "price":24,
+  "ingredients": 3.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/stay-all-day-liquid-lipstick-P374936?skuId=1440189&icid2=products%20grid:p374936"
   },
   {
@@ -1994,6 +2014,11 @@
   "shadeImage":"A01B36",
   "description":"A richly pigmented, silky-smooth, matte lip color that delivers 14 hours of continuous wear without smudging or dryness. ",
   "price":28,
+  "ingredients": 1,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/opaque-rouge-liquid-lipstick-P375384?skuId=1439405&icid2=products%20grid:p375384"
   },
   {
@@ -2004,8 +2029,13 @@
   "rating":3.4,
   "productImage":"https://67.media.tumblr.com/7dd984c965590a133dfa9322a555388d/tumblr_odqgtgp8L41vgssimo2_500.jpg",
   "shadeImage":"CB3B5E",
-  "description":"A plumping, lightweight liquid lipstick with an addictive whipped texture and soft matte finish. ",
+  "description":"A plumping, lightweight liquid lipstick with an addictive whipped texture and soft matte finish.",
   "price":21,
+  "ingredients": 2,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/wildly-whipped-lightweight-liquid-lipstick-P407359?skuId=1786953&icid2=products%20grid%3Ap407359"
   },
   {
@@ -2018,6 +2048,11 @@
   "shadeImage":"8D0100",
   "description":"It’s time to put your lipsticks on notice. Milani Amore Matte Lip Crème has arrived. This revolutionary, highly saturated liquid-to-matte formula dries to a soft, velvety finish for fuller-looking lips. Its double-sided, flexible plush applicator hugs the contours of lips, working to lock in bold, opaque color. Non-sticky, smooth and ready for all-night wear (up to 16 hours!), our Amore Matte Lip Crème is the ultimate transfer resistant kiss-me-matte.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-amore-mattes-lip-creme/-/A-51088104"
   },
   {
@@ -2030,6 +2065,11 @@
   "shadeImage":"C41B38",
   "description":"High-definition color meets velvety matte with Revlon Ultra HD Matte Lipcolor. With a unique gel formula and a lightweight, moisturizing feel. For love that draws you in – in 8 shades.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/revlon-ultra-hd-matte-lipcolor/-/A-50855970"
   },
   {
@@ -2040,10 +2080,13 @@
   "rating":5,
   "productImage":"https://66.media.tumblr.com/e9db91a91931fe4609ad5ee4f6f75372/tumblr_odqgv7SqrO1vgssimo2_500.jpg",
   "shadeImage":"BA313B",
-  "description":"Pure Red- Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
+  "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2164,6 +2207,11 @@
   "shadeImage":"CF0A59",
   "description":"It’s time to put your lipsticks on notice. Milani Amore Matte Lip Crème has arrived. This revolutionary, highly saturated liquid-to-matte formula dries to a soft, velvety finish for fuller-looking lips. Its double-sided, flexible plush applicator hugs the contours of lips, working to lock in bold, opaque color. Non-sticky, smooth and ready for all-night wear (up to 16 hours!), our Amore Matte Lip Crème is the ultimate transfer resistant kiss-me-matte.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-amore-mattes-lip-creme/-/A-51088104"
   },
   {
@@ -2176,6 +2224,11 @@
   "shadeImage":"E33E80",
   "description":"High-definition color meets velvety matte with Revlon Ultra HD Matte Lipcolor. With a unique gel formula and a lightweight, moisturizing feel. For love that draws you in – in 8 shades.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/revlon-ultra-hd-matte-lipcolor/-/A-50855970"
   },
   {
@@ -2188,8 +2241,11 @@
   "shadeImage":"DC818A",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2214,8 +2270,11 @@
   "shadeImage":"C8297D",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -2240,8 +2299,11 @@
   "shadeImage":"EE759E",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/DivineDivine"
   },
   {
@@ -2254,8 +2316,11 @@
   "shadeImage":"F966AA",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "ingredients": 4,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1552363&icid2=products%20grid%3Ap384954"
   },
   {
@@ -2268,6 +2333,11 @@
   "shadeImage":"D45280",
   "description":"A long-lasting, full-coverage matte lipstick in liquid form.",
   "price":20,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/liquid-lipstick-P404831?skuId=1786854&icid2=products%20grid%3Ap404831"
   },
   {
@@ -2280,6 +2350,11 @@
   "shadeImage":"CB3E69",
   "description":"An eight-hour wear, liquid-matte lipstick with a featherweight, comfortable formula that stays put and keeps color looking as fresh and flawless as the first swipe. ",
   "price":24,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/always-on-matte-liquid-lipstick-P409317?skuId=1817071&icid2=products%20grid%3Ap409317"
   },
   {
@@ -2292,6 +2367,11 @@
   "shadeImage":"E32E65",
   "description":"A highly-pigmented, liquid lipstick that's weightless on the lips and delivers long-lasting coverage.",
   "price":24,
+  "ingredients": 3.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/stay-all-day-liquid-lipstick-P374936?skuId=1705425&icid2=products%20grid%3Ap374936"
   },
   {
@@ -2304,6 +2384,11 @@
   "shadeImage":"E05E80",
   "description":"A richly pigmented, silky-smooth, matte lip color that delivers 14 hours of continuous wear without smudging or dryness. ",
   "price":28,
+  "ingredients": 1,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/opaque-rouge-liquid-lipstick-P375384?skuId=1439371&icid2=products%20grid%3Ap375384"
   },
   {
@@ -2316,6 +2401,11 @@
   "shadeImage":"C02569",
   "description":"A plumping, lightweight liquid lipstick with an addictive whipped texture and soft matte finish.",
   "price":21,
+  "ingredients": 2,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/wildly-whipped-lightweight-liquid-lipstick-P407359?skuId=1786896&icid2=products%20grid%3Ap407359"
   },
   {
@@ -2328,6 +2418,11 @@
   "shadeImage":"EB9FAC",
   "description":"This is the long-lasting, transfer-proof color you’ve been searching for—no fading, no bleeding. The high-intensity color glides on with a moisturizing feel that lasts up to 24 hours. The result: bold lips without the dry-out and no need to re-apply",
   "price":9.99,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/l-oreal-paris-infallible-lip-2-step/-/A-16716797"
   },
   {
@@ -2340,6 +2435,11 @@
   "shadeImage":"DA899A",
   "description":"This velvety smooth matte lip cream is a fluffy, mousse-like cream texture that feels soft and light on the lips while delivering bold, intense color with a high fashion matte finish. Ulta's Matte Lip Cream formula is so rich and creamy, lips are never dry.",
   "price":9,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.ulta.com/matte-lip-cream?productId=xlsImpprod11921001&sku=2303340"
   },
   {
@@ -2534,8 +2634,11 @@
   "shadeImage":"580730",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/Oh%2C_Lady"
   },
   {
@@ -2548,8 +2651,11 @@
   "shadeImage":"6A1A2A",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "ingredients": 4,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1705011&icid2=products%20grid:p384954"
   },
   {
@@ -2562,6 +2668,11 @@
   "shadeImage":"823859",
   "description":"A long-lasting, full-coverage matte lipstick in liquid form.",
   "price":20,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/liquid-lipstick-P404831?skuId=1786839&icid2=products%20grid%3Ap404831"
   },
   {
@@ -2574,6 +2685,11 @@
   "shadeImage":"B65775",
   "description":"An eight-hour wear, liquid-matte lipstick with a featherweight, comfortable formula that stays put and keeps color looking as fresh and flawless as the first swipe. ",
   "price":24,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/always-on-matte-liquid-lipstick-P409317?skuId=1817089&icid2=products%20grid%3Ap409317"
   },
   {
@@ -2586,6 +2702,11 @@
   "shadeImage":"7A1535",
   "description":"A highly-pigmented, liquid lipstick that's weightless on the lips and delivers long-lasting coverage.",
   "price":24,
+  "ingredients": 3.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/stay-all-day-liquid-lipstick-P374936?skuId=1777234&icid2=products%20grid:p374936"
   },
   {
@@ -2598,6 +2719,11 @@
   "shadeImage":"B43B5A",
   "description":"A richly pigmented, silky-smooth, matte lip color that delivers 14 hours of continuous wear without smudging or dryness. ",
   "price":28,
+  "ingredients": 1,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/opaque-rouge-liquid-lipstick-P375384?skuId=1439421&icid2=products%20grid%3Ap375384"
   },
   {
@@ -2610,6 +2736,11 @@
   "shadeImage":"A04554",
   "description":"A plumping, lightweight liquid lipstick with an addictive whipped texture and soft matte finish. ",
   "price":21,
+  "ingredients": 2,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/wildly-whipped-lightweight-liquid-lipstick-P407359?skuId=1786961&icid2=products%20grid%3Ap407359"
   },
   {
@@ -2622,6 +2753,11 @@
   "shadeImage":"9D0148",
   "description":"It’s time to put your lipsticks on notice. Milani Amore Matte Lip Crème has arrived. This revolutionary, highly saturated liquid-to-matte formula dries to a soft, velvety finish for fuller-looking lips. Its double-sided, flexible plush applicator hugs the contours of lips, working to lock in bold, opaque color. Non-sticky, smooth and ready for all-night wear (up to 16 hours!), our Amore Matte Lip Crème is the ultimate transfer resistant kiss-me-matte.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-amore-mattes-lip-creme/-/A-51088104"
   },
   {
@@ -2634,6 +2770,11 @@
   "shadeImage":"BA4177",
   "description":"High-definition color meets velvety matte with Revlon Ultra HD Matte Lipcolor. With a unique gel formula and a lightweight, moisturizing feel. For love that draws you in – in 8 shades.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/revlon-ultra-hd-matte-lipcolor/-/A-50855970"
   },
   {
@@ -2646,8 +2787,11 @@
   "shadeImage":"943459",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2672,8 +2816,11 @@
   "shadeImage":"73222B",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -2686,6 +2833,11 @@
   "shadeImage":"A13856",
   "description":"This is the long-lasting, transfer-proof color you’ve been searching for—no fading, no bleeding. The high-intensity color glides on with a moisturizing feel that lasts up to 24 hours. The result: bold lips without the dry-out and no need to re-apply",
   "price":9.99,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/l-oreal-paris-infallible-lip-2-step/-/A-16716797"
   },
   {
@@ -2698,6 +2850,11 @@
   "shadeImage":"825761",
   "description":"This velvety smooth matte lip cream is a fluffy, mousse-like cream texture that feels soft and light on the lips while delivering bold, intense color with a high fashion matte finish. Ulta's Matte Lip Cream formula is so rich and creamy, lips are never dry.",
   "price":9,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.ulta.com/matte-lip-cream?productId=xlsImpprod11921001&sku=2281965"
   },
   {
@@ -2760,6 +2917,11 @@
   "shadeImage":"852742",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish.",
   "price":3.49,
+  "ingredients": 4,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/A-49121165"
   },
   {
@@ -2820,8 +2982,11 @@
   "shadeImage":"E4514A",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/Rich_%26_Restless"
   },
   {
@@ -2834,8 +2999,11 @@
   "shadeImage":"EE4D5C",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "ingredients": 4,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1705052&icid2=products%20grid:p384954"
   },
   {
@@ -2848,6 +3016,11 @@
   "shadeImage":"E99692",
   "description":"A long-lasting, full-coverage matte lipstick in liquid form.",
   "price":20,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/liquid-lipstick-P404831?skuId=1790682&icid2=products%20grid%3Ap404831"
   },
   {
@@ -2860,6 +3033,11 @@
   "shadeImage":"E8596D",
   "description":"An eight-hour wear, liquid-matte lipstick with a featherweight, comfortable formula that stays put and keeps color looking as fresh and flawless as the first swipe. ",
   "price":24,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/always-on-matte-liquid-lipstick-P409317?skuId=1817162&icid2=products%20grid%3Ap409317"
   },
   {
@@ -2872,6 +3050,11 @@
   "shadeImage":"FB4746",
   "description":"A highly-pigmented, liquid lipstick that's weightless on the lips and delivers long-lasting coverage.",
   "price":24,
+  "ingredients": 3.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/stay-all-day-liquid-lipstick-P374936?skuId=1440270&icid2=products%20grid%3Ap374936"
   },
   {
@@ -2884,6 +3067,11 @@
   "shadeImage":"FC3F49",
   "description":"A richly pigmented, silky-smooth, matte lip color that delivers 14 hours of continuous wear without smudging or dryness. ",
   "price":28,
+  "ingredients": 1,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/opaque-rouge-liquid-lipstick-P375384?skuId=1439413&icid2=products%20grid%3Ap375384"
   },
   {
@@ -2896,6 +3084,11 @@
   "shadeImage":"D44A59",
   "description":"A plumping, lightweight liquid lipstick with an addictive whipped texture and soft matte finish. ",
   "price":21,
+  "ingredients": 2,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/wildly-whipped-lightweight-liquid-lipstick-P407359?skuId=1786987&icid2=products%20grid%3Ap407359"
   },
   {
@@ -2908,6 +3101,11 @@
   "shadeImage":"E73E37",
   "description":"It’s time to put your lipsticks on notice. Milani Amore Matte Lip Crème has arrived. This revolutionary, highly saturated liquid-to-matte formula dries to a soft, velvety finish for fuller-looking lips. Its double-sided, flexible plush applicator hugs the contours of lips, working to lock in bold, opaque color. Non-sticky, smooth and ready for all-night wear (up to 16 hours!), our Amore Matte Lip Crème is the ultimate transfer resistant kiss-me-matte.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-amore-mattes-lip-creme/-/A-51088104"
   },
   {
@@ -2920,6 +3118,11 @@
   "shadeImage":"F45E67",
   "description":"High-definition color meets velvety matte with Revlon Ultra HD Matte Lipcolor. With a unique gel formula and a lightweight, moisturizing feel. For love that draws you in – in 8 shades.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/revlon-ultra-hd-matte-lipcolor/-/A-50855970"
   },
   {
@@ -2932,8 +3135,11 @@
   "shadeImage":"D02F25",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable and unlike some matte lipstick formulas also moisturizing.",
   "price":5.99,
+  "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -2946,8 +3152,11 @@
   "shadeImage":"D84651",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -2960,6 +3169,11 @@
   "shadeImage":"D33B2E",
   "description":"This is the long-lasting, transfer-proof color you’ve been searching for—no fading, no bleeding. The high-intensity color glides on with a moisturizing feel that lasts up to 24 hours. The result: bold lips without the dry-out and no need to re-apply",
   "price":9.99,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/l-oreal-paris-infallible-lip-2-step/-/A-16716797"
   },
   {
@@ -2972,6 +3186,11 @@
   "shadeImage":"DE8283",
   "description":"This velvety smooth matte lip cream is a fluffy, mousse-like cream texture that feels soft and light on the lips while delivering bold, intense color with a high fashion matte finish. Ulta's Matte Lip Cream formula is so rich and creamy, lips are never dry.",
   "price":9,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.ulta.com/matte-lip-cream?productId=xlsImpprod11921001&sku=2281974"
   },
   {
@@ -3068,8 +3287,11 @@
   "shadeImage":"975545",
   "description":"Doll up your lips in plush and vibrant color! Our Liquid Suede Cream Lipstick glides on and sets into a striking matte finish. Velvety soft and waterproof, this long-lasting lippie creates a positively polished look with every swipe.",
   "price":6.99,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/p/nyx-liquid-suede-lipstick-0-13-oz/-/A-51482284?lnk=rec|pdpipadh2|viewed_bought|pdpipadh2|51482284|0"
   },
   {
@@ -3082,6 +3304,11 @@
   "shadeImage":"C3705E",
   "description":"This is the long-lasting, transfer-proof color you’ve been searching for—no fading, no bleeding. The high-intensity color glides on with a moisturizing feel that lasts up to 24 hours. The result: bold lips without the dry-out and no need to re-apply",
   "price":9.99,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 1,
+  "longWearing": 1,
   "link":"https://www.target.com/p/l-oreal-paris-infallible-lip-2-step/-/A-16716797"
   },
   {
@@ -3094,6 +3321,11 @@
   "shadeImage":"CD977D",
   "description":"This velvety smooth matte lip cream is a fluffy, mousse-like cream texture that feels soft and light on the lips while delivering bold, intense color with a high fashion matte finish. Ulta's Matte Lip Cream formula is so rich and creamy, lips are never dry.",
   "price":9,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.ulta.com/matte-lip-cream?productId=xlsImpprod11921001&sku=2281969"
   },
   {
@@ -3118,8 +3350,11 @@
   "shadeImage":"C1705D",
   "description":"A lip colour that provides a splash of colour in a liquid-suede finish that lingers.",
   "price":21,
+  "ingredients": 3,
   "natural": 0,
   "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.maccosmetics.com/product/13854/37620/Products/Makeup/Lips/Lipstick/Retro-Matte-Liquid-Lipcolour#/shade/LadyBeGood"
   },
   {
@@ -3132,8 +3367,11 @@
   "shadeImage":"E69077",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":20,
+  "ingredients": 4,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/everlasting-love-liquid-lipstick-P384954?skuId=1705060&icid2=products%20grid%3Ap384954"
   },
   {
@@ -3146,6 +3384,11 @@
   "shadeImage":"F9BFB1",
   "description":"A long-lasting, full-coverage matte lipstick in liquid form.",
   "price":20,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/liquid-lipstick-P404831?skuId=1790757&icid2=products%20grid%3Ap404831"
   },
   {
@@ -3158,6 +3401,11 @@
   "shadeImage":"B66F6D",
   "description":"An eight-hour wear, liquid-matte lipstick with a featherweight, comfortable formula that stays put and keeps color looking as fresh and flawless as the first swipe. ",
   "price":24,
+  "ingredients": 3,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/always-on-matte-liquid-lipstick-P409317?skuId=1817048&icid2=products%20grid%3Ap409317"
   },
   {
@@ -3170,6 +3418,11 @@
   "shadeImage":"BE697E",
   "description":"A highly-pigmented, liquid lipstick that's weightless on the lips and delivers long-lasting coverage.",
   "price":24,
+  "ingredients": 3.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/stay-all-day-liquid-lipstick-P374936?skuId=1777218&icid2=products%20grid:p374936"
   },
   {
@@ -3182,6 +3435,11 @@
   "shadeImage":"CF6B77",
   "description":"A richly pigmented, silky-smooth, matte lip color that delivers 14 hours of continuous wear without smudging or dryness. ",
   "price":28,
+  "ingredients": 1,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.sephora.com/opaque-rouge-liquid-lipstick-P375384?skuId=1439454&icid2=products%20grid%3Ap375384"
   },
   {
@@ -3194,6 +3452,11 @@
   "shadeImage":"AD5C5B",
   "description":"A plumping, lightweight liquid lipstick with an addictive whipped texture and soft matte finish.",
   "price":21,
+  "ingredients": 2,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.sephora.com/wildly-whipped-lightweight-liquid-lipstick-P407359?skuId=1786995&icid2=products%20grid%3Ap407359"
   },
   {
@@ -3206,6 +3469,11 @@
   "shadeImage":"BA736F",
   "description":"It’s time to put your lipsticks on notice. Milani Amore Matte Lip Crème has arrived. This revolutionary, highly saturated liquid-to-matte formula dries to a soft, velvety finish for fuller-looking lips. Its double-sided, flexible plush applicator hugs the contours of lips, working to lock in bold, opaque color. Non-sticky, smooth and ready for all-night wear (up to 16 hours!), our Amore Matte Lip Crème is the ultimate transfer resistant kiss-me-matte.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.target.com/p/milani-amore-mattes-lip-creme/-/A-51088104"
   },
   {
@@ -3218,6 +3486,11 @@
   "shadeImage":"CC6D6B",
   "description":"High-definition color meets velvety matte with Revlon Ultra HD Matte Lipcolor. With a unique gel formula and a lightweight, moisturizing feel. For love that draws you in – in 8 shades.",
   "price":7.99,
+  "ingredients": 2.5,
+  "natural": 0,
+  "crueltyFree": 0,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/revlon-ultra-hd-matte-lipcolor/-/A-50855970"
   },
   {
@@ -3230,8 +3503,11 @@
   "shadeImage":"C0887B",
   "description":"Neither lipstick nor lip gloss, this matte lip cream is a new kind of lip color that goes on silky smooth and sets to a matte finish. Soft Matte Lip Cream is surprisingly durable ",
   "price":5.99,
+  "ingredients": 2,
   "natural": 0,
   "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 0,
   "link":"https://www.target.com/p/nyx-soft-matte-lip-cream-23fl-oz-amsterdam/-/A-49162308"
   },
   {
@@ -3354,6 +3630,11 @@
   "shadeImage":"D77F75",
   "description":"A long-wear, full-coverage liquid lipstick with a smooth, matte finish. ",
   "price":3.49,
+  "ingredients": 4,
+  "natural": 0,
+  "crueltyFree": 1,
+  "finish": 0,
+  "longWearing": 1,
   "link":"https://www.target.com/p/essence-liquid-lipstick-make-a-statement-0-14-fl-oz/-/A-49121165"
   }
   ]
