@@ -17,38 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         
-        let storyboard = grabStoryboard()
-        self.window?.rootViewController = storyboard.instantiateInitialViewController()
-        self.window?.makeKeyAndVisible()
-        
         return true
-    }
-    
-    func grabStoryboard() -> UIStoryboard {
-        // determine screen size
-        let screenHeight = UIScreen.main.bounds.size.height
-        var storyboard: UIStoryboard! = nil
-        
-        switch (screenHeight)
-            {
-            // iPhone SE
-            case 568.0:
-                storyboard = UIStoryboard(name: "StoryboardSE", bundle: nil)
-            // iPhone 7
-            case 667.0:
-                storyboard = UIStoryboard(name: "Storyboard7", bundle: nil)
-            // iPhone 7 Plus
-            case 736.0:
-                storyboard = UIStoryboard(name: "Storyboard7Plus", bundle: nil)
-            // iPad Pro 9.7
-            case 1024.0:
-            storyboard = UIStoryboard(name: "StoryboardPro9", bundle: nil)
-            default:
-            //iPad
-                storyboard = UIStoryboard(name: "Main", bundle: nil)
-            }
-
-        return storyboard
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
