@@ -2,8 +2,8 @@
 //  Lippi
 //  AppDelegate.swift
 //
-//  obrown917@gmail.com
-//  Copyright © 2016 Olivia Brown. All rights reserved.
+//  olivia@lippi.co
+//  Copyright © 2017 Olivia Brown. All rights reserved.
 //
 
 import UIKit

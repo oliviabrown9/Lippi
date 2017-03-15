@@ -2,8 +2,8 @@
 //  Lippi
 //  ShadeViewController.swift
 //
-//  obrown917@gmail.com
-//  Copyright © 2016 Olivia Brown. All rights reserved.
+//  olivia@lippi.co
+//  Copyright © 2017 Olivia Brown. All rights reserved.
 //
 
 import Foundation
@@ -43,7 +43,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         self.getData()
-        print(temp_detaildata)
         temp_detaildata.shuffle()
         self.automaticallyAdjustsScrollViewInsets = false
         
