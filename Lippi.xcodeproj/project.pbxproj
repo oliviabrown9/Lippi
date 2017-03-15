@@ -18,7 +18,6 @@
 		454C610F1D1FB09B0053B661 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */; };
 		454C61111D1FB0D80053B661 /* SpecificShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */; };
 		4579736A1DE81EFF004C12B6 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457973691DE81EFF004C12B6 /* CosmosDistrib.swift */; };
-		458DB9781D5BC6AE005A2104 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DB9771D5BC6AE005A2104 /* MessageComposer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 		454C610E1D1FB09B0053B661 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		454C61101D1FB0D80053B661 /* SpecificShadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificShadeViewController.swift; sourceTree = "<group>"; };
 		457973691DE81EFF004C12B6 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
-		458DB9771D5BC6AE005A2104 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				4548E0731D22E97700257BDC /* SelectProductViewController.swift */,
-				458DB97C1D5BE9DF005A2104 /* Select Shade View Controller */,
+				4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */,
 				458DB97A1D5BE97A005A2104 /* Shade View Controller */,
 				458DB97B1D5BE9BE005A2104 /* Specific Shade View Controller */,
 			);
@@ -107,15 +105,6 @@
 				4532E7431D90ED0200509B23 /* final.json */,
 			);
 			name = "Specific Shade View Controller";
-			sourceTree = "<group>";
-		};
-		458DB97C1D5BE9DF005A2104 /* Select Shade View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4548E0711D22E88C00257BDC /* SelectShadeViewController.swift */,
-				458DB9771D5BC6AE005A2104 /* MessageComposer.swift */,
-			);
-			name = "Select Shade View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +186,6 @@
 				454C60FD1D1F5CDE0053B661 /* AppDelegate.swift in Sources */,
 				4579736A1DE81EFF004C12B6 /* CosmosDistrib.swift in Sources */,
 				454C610F1D1FB09B0053B661 /* CollectionViewCell.swift in Sources */,
-				458DB9781D5BC6AE005A2104 /* MessageComposer.swift in Sources */,
 				4548E0741D22E97700257BDC /* SelectProductViewController.swift in Sources */,
 				454C61111D1FB0D80053B661 /* SpecificShadeViewController.swift in Sources */,
 			);
@@ -275,7 +263,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = makeupselector/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.makeupselector;
 				PRODUCT_NAME = Lippi;
