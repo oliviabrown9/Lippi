@@ -243,6 +243,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKh-6B-PME">
                                                 <rect key="frame" x="0.0" y="0.0" width="504.5" height="358"/>
                                                 <state key="normal" backgroundImage="brown_button"/>
+                                                <connections>
+                                                    <action selector="brownButtonClicked:" destination="UrY-7W-lzt" eventType="touchUpInside" id="mq0-Qw-zGB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="301-fM-wz9">
                                                 <rect key="frame" x="509.5" y="0.0" width="504.5" height="358"/>
@@ -266,6 +269,9 @@
                                                     <constraint firstAttribute="width" secondItem="ExQ-0O-wqE" secondAttribute="height" multiplier="5:1" id="t2S-ut-1i7"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="all_button"/>
+                                                <connections>
+                                                    <action selector="allButtonClicked:" destination="UrY-7W-lzt" eventType="touchUpInside" id="M8W-P7-H6h"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

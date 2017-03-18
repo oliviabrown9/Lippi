@@ -32,6 +32,14 @@ class SelectShadeViewController: UIViewController {
         self.shadeButton = 5
         performSegue(withIdentifier: "Identifier", sender: sender)
     }
+    @IBAction func brownButtonClicked(_ sender: AnyObject) {
+        self.shadeButton = 6
+        performSegue(withIdentifier: "Identifier", sender: sender)
+    }
+    @IBAction func allButtonClicked(_ sender: AnyObject) {
+        self.shadeButton = 7
+        performSegue(withIdentifier: "Identifier", sender: sender)
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Identifier"{
             if let destinationVC = segue.destination as? ShadeViewController{
