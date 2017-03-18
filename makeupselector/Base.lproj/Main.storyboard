@@ -76,10 +76,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oap-R2-dyy">
                                                 <rect key="frame" x="0.0" y="0.0" width="504.5" height="358.5"/>
                                                 <state key="normal" backgroundImage="lipgloss_button"/>
+                                                <connections>
+                                                    <action selector="lipGlossButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IdA-Yx-IEo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7y-Yh-aLx">
                                                 <rect key="frame" x="509.5" y="0.0" width="504.5" height="358.5"/>
                                                 <state key="normal" backgroundImage="lip_stain_button"/>
+                                                <connections>
+                                                    <action selector="lipStainButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7Y-Pv-QTe"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -93,10 +99,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMO-0h-bvp">
                                                 <rect key="frame" x="0.0" y="0.0" width="504.5" height="358"/>
                                                 <state key="normal" backgroundImage="lip_liner_button"/>
+                                                <connections>
+                                                    <action selector="lipLinerButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONq-e9-prW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb3-E0-1Jc">
                                                 <rect key="frame" x="509.5" y="0.0" width="504.5" height="358"/>
                                                 <state key="normal" backgroundImage="lip_care_button"/>
+                                                <connections>
+                                                    <action selector="lipCareButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sgi-2R-JXl"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -113,6 +125,9 @@
                                                     <constraint firstAttribute="width" secondItem="VBt-Pa-2Pc" secondAttribute="height" multiplier="5:1" id="xuT-nr-gbQ"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="all_button"/>
+                                                <connections>
+                                                    <action selector="allButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yua-er-MLD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -154,8 +169,6 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="lipstick" destination="NDd-AQ-1vr" id="07j-cX-tO8"/>
-                        <outlet property="liquidLipstick" destination="PxZ-eK-kAZ" id="gOo-h8-Rlh"/>
                         <segue destination="UrY-7W-lzt" kind="show" identifier="toSelectShade" id="F20-qX-yK8"/>
                     </connections>
                 </viewController>
@@ -292,11 +305,6 @@
                         </view>
                     </navigationItem>
                     <connections>
-                        <outlet property="buttonBerry" destination="uRM-oJ-ZuK" id="Zam-GN-MMq"/>
-                        <outlet property="buttonCoral" destination="Ag0-ej-iKe" id="sJ8-cy-1xa"/>
-                        <outlet property="buttonNude" destination="301-fM-wz9" id="KGN-LL-iDr"/>
-                        <outlet property="buttonPink" destination="bWW-rK-PcG" id="MAX-QO-TcQ"/>
-                        <outlet property="buttonRed" destination="mCA-2T-KGH" id="ltc-p6-egd"/>
                         <segue destination="qMB-kT-EnU" kind="show" identifier="Identifier" id="zP7-81-Xpg"/>
                     </connections>
                 </viewController>

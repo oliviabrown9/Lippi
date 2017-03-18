@@ -11,12 +11,6 @@ import UIKit
 class SelectShadeViewController: UIViewController {
     var productButtonNumber: Int = Int()
     var shadeButton:Int = Int()
-
-    @IBOutlet weak var buttonRed: UIButton!
-    @IBOutlet weak var buttonPink: UIButton!
-    @IBOutlet weak var buttonBerry: UIButton!
-    @IBOutlet weak var buttonCoral: UIButton!
-    @IBOutlet weak var buttonNude: UIButton!
     
    @IBAction func redButtonClicked(_ sender: AnyObject) {
         self.shadeButton = 1
