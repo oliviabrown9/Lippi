@@ -12,7 +12,7 @@ import UIKit
 class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
     var productButtonNumber: Int = Int()
-    var temp_detaildata: [NSDictionary] = [NSDictionary]()
+    var tempDetaildata: [NSDictionary] = [NSDictionary]()
     var detaildata: NSArray = []
     var priceArray: [Float] = []
     
@@ -24,7 +24,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         let selectedValue = Int(sender.value)
         
         sliderLabel.text = String("$ \(selectedValue)")
-        self.temp_detaildata = []
+        self.tempDetaildata = []
         
         for (item) in self.detaildata
         {
@@ -35,7 +35,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             if productButton != 7 && shadeButton != 7
             {
                 if productType! == productButton && shadeType! == shadeButton && Float(selectedValue) >= priceValue!{
-                    self.temp_detaildata.append(item as! NSDictionary)
+                    self.tempDetaildata.append(item as! NSDictionary)
                 }
             }
             
@@ -46,7 +46,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         self.getData()
-        temp_detaildata.shuffle()
+        tempDetaildata.shuffle()
         self.automaticallyAdjustsScrollViewInsets = false
         
         let minValue = priceArray.min()
@@ -79,13 +79,12 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             if productButton != 7 && shadeButton != 7
             {
             if productType == productButton && shadeType == shadeButton {
-                self.temp_detaildata.append(item as! NSDictionary)
+                self.tempDetaildata.append(item as! NSDictionary)
                 }
             }
         }
-        print(temp_detaildata)
         
-        for (item) in self.temp_detaildata {
+        for (item) in self.tempDetaildata {
             let priceFloat: Float? = (item).object(forKey: "price") as? Float
             priceArray.append(priceFloat!)
         }
@@ -93,14 +92,14 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return self.temp_detaildata.count
+        return self.tempDetaildata.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
             as! CollectionViewCell
-        let itemData = self.temp_detaildata as [NSDictionary]
+        let itemData = self.tempDetaildata as [NSDictionary]
         
         let productImageStr = itemData[indexPath.row]["productImage"] as! String
         cell.productImageView.downloadedFrom(link: "\(productImageStr)")
@@ -109,9 +108,9 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         let shadeColor = hexStringToUIColor(hex: shadeCode)
         cell.shadeView.backgroundColor = shadeColor
         
-        cell.brandLabel?.text = (self.temp_detaildata[indexPath.row]).object(forKey: "brandName") as? String
+        cell.brandLabel?.text = (self.tempDetaildata[indexPath.row]).object(forKey: "brandName") as? String
         
-        let priceLabelInt = (self.temp_detaildata[indexPath.row]).object(forKey: "price") as! Int
+        let priceLabelInt = (self.tempDetaildata[indexPath.row]).object(forKey: "price") as! Int
         cell.priceLabel?.text = "$ \(priceLabelInt)"
         
         return cell
@@ -147,16 +146,16 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let indexPath = indexPaths[0] as IndexPath
             let vc = segue.destination as! SpecificShadeViewController
             
-            vc.imageUrl = (self.temp_detaildata[indexPath.row]).object(forKey: "productImage") as! String
-            vc.shadeCode = (self.temp_detaildata[indexPath.row]).object(forKey: "shadeImage") as! String
-            vc.shadeValue = (self.temp_detaildata[indexPath.row]).object(forKey: "shadeName") as! String
-            vc.brandValue = (self.temp_detaildata[indexPath.row]).object(forKey: "brandName") as! String
-            let priceValue: Int? = (self.temp_detaildata[indexPath.row]).object(forKey: "price") as? Int
-            let ratingValue: Double? = (self.temp_detaildata[indexPath.row]).object(forKey: "rating") as? Double
+            vc.imageUrl = (self.tempDetaildata[indexPath.row]).object(forKey: "productImage") as! String
+            vc.shadeCode = (self.tempDetaildata[indexPath.row]).object(forKey: "shadeImage") as! String
+            vc.shadeValue = (self.tempDetaildata[indexPath.row]).object(forKey: "shadeName") as! String
+            vc.brandValue = (self.tempDetaildata[indexPath.row]).object(forKey: "brandName") as! String
+            let priceValue: Int? = (self.tempDetaildata[indexPath.row]).object(forKey: "price") as? Int
+            let ratingValue: Double? = (self.tempDetaildata[indexPath.row]).object(forKey: "rating") as? Double
             vc.priceValue = String(priceValue!)
             vc.ratingValue = ratingValue!
-            vc.whatItIsValue = (self.temp_detaildata[indexPath.row]).object(forKey: "description") as! String
-            vc.linkValue = (self.temp_detaildata[indexPath.row]).object(forKey: "link") as! String
+            vc.whatItIsValue = (self.tempDetaildata[indexPath.row]).object(forKey: "description") as! String
+            vc.linkValue = (self.tempDetaildata[indexPath.row]).object(forKey: "link") as! String
         }
     }
 }
