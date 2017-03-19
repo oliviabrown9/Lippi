@@ -319,7 +319,7 @@
             </objects>
             <point key="canvasLocation" x="2610.4000000000001" y="31.03448275862069"/>
         </scene>
-        <!--Lippi-->
+        <!--Shade View Controller-->
         <scene sceneID="5wh-sy-VVA">
             <objects>
                 <viewController id="qMB-kT-EnU" customClass="ShadeViewController" customModule="Lippi" customModuleProvider="target" sceneMemberID="viewController">
@@ -489,10 +489,24 @@
                         </variation>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Lippi" id="wbz-YQ-OoR">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="rKE-0I-fL7">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        </barButtonItem>
+                    <navigationItem key="navigationItem" id="hzs-Bq-PKZ">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="XMI-Vv-601"/>
+                        <view key="titleView" contentMode="scaleToFill" id="F9w-UT-nha">
+                            <rect key="frame" x="479" y="2" width="66" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titleLogo" translatesAutoresizingMaskIntoConstraints="NO" id="LwF-EC-nGI">
+                                    <rect key="frame" x="0.0" y="0.0" width="66" height="40"/>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="LwF-EC-nGI" secondAttribute="trailing" id="6al-wl-Rjb"/>
+                                <constraint firstAttribute="bottom" secondItem="LwF-EC-nGI" secondAttribute="bottom" id="DBI-zN-YgM"/>
+                                <constraint firstItem="LwF-EC-nGI" firstAttribute="leading" secondItem="F9w-UT-nha" secondAttribute="leading" id="MJN-R4-D6D"/>
+                                <constraint firstItem="LwF-EC-nGI" firstAttribute="top" secondItem="F9w-UT-nha" secondAttribute="top" id="PzM-CJ-rMz"/>
+                            </constraints>
+                        </view>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="Rhc-X2-KCC" id="G5c-Cy-VP7"/>
@@ -506,7 +520,7 @@
             </objects>
             <point key="canvasLocation" x="3233" y="31"/>
         </scene>
-        <!--Lippi-->
+        <!--Specific Shade View Controller-->
         <scene sceneID="PXm-lo-1ys">
             <objects>
                 <viewController id="MFo-3v-kZm" customClass="SpecificShadeViewController" customModule="Lippi" customModuleProvider="target" sceneMemberID="viewController">
@@ -720,13 +734,24 @@
                         </variation>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Lippi" id="Xuu-Tn-Cfc">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="l7l-ZN-omX"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="bMF-XG-S5j">
-                            <connections>
-                                <action selector="shareButtonClickedWithSender:" destination="MFo-3v-kZm" id="Fpf-OJ-CZS"/>
-                            </connections>
-                        </barButtonItem>
+                    <navigationItem key="navigationItem" id="6Jn-0p-j4p">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="ATD-7d-6O3"/>
+                        <view key="titleView" contentMode="scaleToFill" id="vte-cd-tTb">
+                            <rect key="frame" x="479" y="2" width="66" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titleLogo" translatesAutoresizingMaskIntoConstraints="NO" id="4a8-3D-FsI">
+                                    <rect key="frame" x="0.0" y="0.0" width="66" height="40"/>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="4a8-3D-FsI" secondAttribute="bottom" id="K7c-N4-QzM"/>
+                                <constraint firstItem="4a8-3D-FsI" firstAttribute="top" secondItem="vte-cd-tTb" secondAttribute="top" id="Kd4-fL-1BW"/>
+                                <constraint firstAttribute="trailing" secondItem="4a8-3D-FsI" secondAttribute="trailing" id="Lc7-b6-YLP"/>
+                                <constraint firstItem="4a8-3D-FsI" firstAttribute="leading" secondItem="vte-cd-tTb" secondAttribute="leading" id="Xe0-vZ-hvD"/>
+                            </constraints>
+                        </view>
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -762,7 +787,7 @@
         <image name="titleLogo" width="88" height="52"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mFr-hg-Qx5"/>
+        <segue reference="zP7-81-Xpg"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

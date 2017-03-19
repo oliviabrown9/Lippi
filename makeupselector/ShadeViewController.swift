@@ -20,6 +20,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
+    // Query products again if priceValue changes
     @IBAction func sliderValueChanged(_ sender: UISlider) {
         let selectedValue = Int(sender.value)
         
@@ -38,7 +39,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
                     self.tempDetaildata.append(item as! NSDictionary)
                 }
             }
-            
         }
         self.collectionView.reloadData()
     }

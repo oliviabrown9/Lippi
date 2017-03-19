@@ -43,7 +43,6 @@ class SelectProductViewController: UIViewController {
         performSegue(withIdentifier: "lipCareSegue", sender: sender)
     }
     @IBAction func allButtonClicked(_ sender: AnyObject) {
-        productButton = 7
         performSegue(withIdentifier: "toSelectShade", sender: sender)
     }
 }
