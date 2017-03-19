@@ -48,17 +48,17 @@
                                 <rect key="frame" x="5" y="69" width="1014" height="1292"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uAJ-GZ-Mi0">
-                                        <rect key="frame" x="0.0" y="0.0" width="1014" height="357.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1014" height="358"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDd-AQ-1vr">
-                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="357.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="358"/>
                                                 <state key="normal" backgroundImage="lipstick_button"/>
                                                 <connections>
                                                     <action selector="lipstickButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4CM-uM-HSG"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-eK-kAZ">
-                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="357.5"/>
+                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="358"/>
                                                 <state key="normal" backgroundImage="liquid_lipstic_button"/>
                                                 <connections>
                                                     <action selector="liquidLipstickButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cKu-rf-nhC"/>
@@ -71,7 +71,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pTU-LU-jLa">
-                                        <rect key="frame" x="0.0" y="362.5" width="1014" height="358.5"/>
+                                        <rect key="frame" x="0.0" y="363" width="1014" height="358.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oap-R2-dyy">
                                                 <rect key="frame" x="0.0" y="0.0" width="504.5" height="358.5"/>
@@ -94,17 +94,17 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VTe-GJ-WV3">
-                                        <rect key="frame" x="0.0" y="726" width="1014" height="358"/>
+                                        <rect key="frame" x="0.0" y="726.5" width="1014" height="357.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMO-0h-bvp">
-                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="358"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="357.5"/>
                                                 <state key="normal" backgroundImage="lip_liner_button"/>
                                                 <connections>
                                                     <action selector="lipLinerButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONq-e9-prW"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb3-E0-1Jc">
-                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="358"/>
+                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="357.5"/>
                                                 <state key="normal" backgroundImage="lip_care_button"/>
                                                 <connections>
                                                     <action selector="lipCareButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sgi-2R-JXl"/>
@@ -170,6 +170,7 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="UrY-7W-lzt" kind="show" identifier="toSelectShade" id="F20-qX-yK8"/>
+                        <segue destination="qMB-kT-EnU" kind="show" identifier="lipCareSegue" id="mFr-hg-Qx5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -192,17 +193,17 @@
                                 <rect key="frame" x="5" y="69" width="1014" height="1292"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Vo7-v2-r0x">
-                                        <rect key="frame" x="0.0" y="0.0" width="1014" height="357.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1014" height="358"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCA-2T-KGH">
-                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="357.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="358"/>
                                                 <state key="normal" backgroundImage="red_button"/>
                                                 <connections>
                                                     <action selector="redButtonClicked:" destination="UrY-7W-lzt" eventType="touchUpInside" id="Rf4-D6-T2C"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWW-rK-PcG">
-                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="357.5"/>
+                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="358"/>
                                                 <state key="normal" backgroundImage="pink_button"/>
                                                 <connections>
                                                     <action selector="pinkButtonClicked:" destination="UrY-7W-lzt" eventType="touchUpInside" id="Mp4-aa-XQ9"/>
@@ -215,7 +216,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qmc-DK-etL">
-                                        <rect key="frame" x="0.0" y="362.5" width="1014" height="358.5"/>
+                                        <rect key="frame" x="0.0" y="363" width="1014" height="358.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRM-oJ-ZuK">
                                                 <rect key="frame" x="0.0" y="0.0" width="504.5" height="358.5"/>
@@ -238,17 +239,17 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GwL-uG-hxm">
-                                        <rect key="frame" x="0.0" y="726" width="1014" height="358"/>
+                                        <rect key="frame" x="0.0" y="726.5" width="1014" height="357.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKh-6B-PME">
-                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="358"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="504.5" height="357.5"/>
                                                 <state key="normal" backgroundImage="brown_button"/>
                                                 <connections>
                                                     <action selector="brownButtonClicked:" destination="UrY-7W-lzt" eventType="touchUpInside" id="mq0-Qw-zGB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="301-fM-wz9">
-                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="358"/>
+                                                <rect key="frame" x="509.5" y="0.0" width="504.5" height="357.5"/>
                                                 <state key="normal" backgroundImage="nude_button"/>
                                                 <connections>
                                                     <action selector="nudeButtonClicked:" destination="UrY-7W-lzt" eventType="touchUpInside" id="Cm4-KS-LxW"/>
@@ -760,5 +761,8 @@
         <image name="red_button" width="173" height="159"/>
         <image name="titleLogo" width="88" height="52"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="mFr-hg-Qx5"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.99215686319999996" green="0.41176471110000001" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

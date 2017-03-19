@@ -11,7 +11,6 @@ import UIKit
 
 class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
-    var shadeButtonNumber:Int = Int()
     var productButtonNumber: Int = Int()
     var temp_detaildata: [NSDictionary] = [NSDictionary]()
     var detaildata: NSArray = []
@@ -33,9 +32,9 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
             let priceValue: Float? = (item as! NSDictionary).object(forKey: "price") as? Float
 
-            if productButton != 7 && self.shadeButtonNumber != 7
+            if productButton != 7 && shadeButton != 7
             {
-                if productType! == productButton && shadeType! == self.shadeButtonNumber && Float(selectedValue) >= priceValue!{
+                if productType! == productButton && shadeType! == shadeButton && Float(selectedValue) >= priceValue!{
                     self.temp_detaildata.append(item as! NSDictionary)
                 }
             }
@@ -77,9 +76,9 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let productType: Int? = (item as! NSDictionary).object(forKey: "productType") as? Int
             let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
             
-            if productButton != 7 && self.shadeButtonNumber != 7
+            if productButton != 7 && shadeButton != 7
             {
-            if productType == productButton && shadeType == self.shadeButtonNumber {
+            if productType == productButton && shadeType == shadeButton {
                 self.temp_detaildata.append(item as! NSDictionary)
                 }
             }

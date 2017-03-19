@@ -9,6 +9,7 @@
 import UIKit
 
 var productButton:Int = Int()
+var shadeButton:Int = Int()
 
 class SelectProductViewController: UIViewController {
     
@@ -38,7 +39,8 @@ class SelectProductViewController: UIViewController {
     }
     @IBAction func lipCareButtonClicked(_ sender: AnyObject) {
         productButton = 6
-        performSegue(withIdentifier: "toSelectShade", sender: sender)
+        shadeButton = 1
+        performSegue(withIdentifier: "lipCareSegue", sender: sender)
     }
     @IBAction func allButtonClicked(_ sender: AnyObject) {
         productButton = 7
