@@ -43,7 +43,7 @@ class SpecificShadeViewController: UIViewController {
     @IBAction func shareButtonClicked(sender: AnyObject)
     {
         // Set the default sharing message.
-        let message = "Check out this lipstick I found on Lippi!"
+        let message = "Check out this product I found on Lippi!"
         // Set the link to share.
         if let link = NSURL(string: "\(webLink!)")
         {
