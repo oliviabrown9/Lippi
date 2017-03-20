@@ -9,12 +9,35 @@
 import Foundation
 import UIKit
 
-class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
+class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout
 {
     var productButtonNumber: Int = Int()
     var tempDetaildata: [NSDictionary] = [NSDictionary]()
     var detaildata: NSArray = []
     var priceArray: [Float] = []
+  
+  
+  @IBOutlet weak var collectionViewWidth: NSLayoutConstraint!
+  
+  
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews();
+    if self.view.bounds.size.width / 2.0 < 182 {
+      self.collectionViewWidth.constant = self.view.bounds.size.width;
+    }
+    else {
+      self.collectionViewWidth.constant = 364;
+    }
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    if self.view.bounds.size.width / 2.0 < 182 {
+      return CGSize(width: self.view.bounds.size.width / 2.0, height: 200)
+    }
+    else {
+      return CGSize(width: 182, height: 200)
+    }
+  }
     
     @IBOutlet weak var minPrice: UILabel!
     @IBOutlet weak var slider: UISlider!
@@ -33,12 +56,51 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
             let priceValue: Float? = (item as! NSDictionary).object(forKey: "price") as? Float
 
+          if productButton != 7 && shadeButton != 7
+          {
+            if productType == productButton && shadeType == shadeButton && Float(selectedValue) >= priceValue! {
+              self.tempDetaildata.append(item as! NSDictionary)
+            }
+          }
+          else {
+            if productButton == 7 {
+              if (shadeButton == 7) {
+                if Float(selectedValue) >= priceValue! {
+                  self.tempDetaildata.append(item as! NSDictionary)
+                }
+              }
+              else {
+                if shadeType == shadeButton {
+                  if (Float(selectedValue) >= priceValue!) {
+                    self.tempDetaildata.append(item as! NSDictionary)
+                  }
+                }
+              }
+            }
+            else {
+              if (shadeButton == 7) {
+                if productButton == productType {
+                  if (Float(selectedValue) >= priceValue!) {
+                    self.tempDetaildata.append(item as! NSDictionary)
+                  }
+                }
+              }
+              else {
+                if productType == productButton && shadeType == shadeButton {
+                  if (Float(selectedValue) >= priceValue!) {
+                    self.tempDetaildata.append(item as! NSDictionary)
+                  }
+                }
+              }
+            }
+          }
+          /*
             if productButton != 7 && shadeButton != 7
             {
                 if productType! == productButton && shadeType! == shadeButton && Float(selectedValue) >= priceValue!{
                     self.tempDetaildata.append(item as! NSDictionary)
                 }
-            }
+            }*/
         }
         self.collectionView.reloadData()
     }
@@ -78,9 +140,33 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
             
             if productButton != 7 && shadeButton != 7
             {
-            if productType == productButton && shadeType == shadeButton {
-                self.tempDetaildata.append(item as! NSDictionary)
+              if productType == productButton && shadeType == shadeButton {
+                  self.tempDetaildata.append(item as! NSDictionary)
+              }
+            }
+            else {
+              if productButton == 7 {
+                if (shadeButton == 7) {
+                  self.tempDetaildata.append(item as! NSDictionary)
                 }
+                else {
+                  if shadeType == shadeButton {
+                    self.tempDetaildata.append(item as! NSDictionary)
+                  }
+                }
+              }
+              else {
+                if (shadeButton == 7) {
+                  if productButton == productType {
+                    self.tempDetaildata.append(item as! NSDictionary)
+                  }
+                }
+                else {
+                  if productType == productButton && shadeType == shadeButton {
+                    self.tempDetaildata.append(item as! NSDictionary)
+                  }
+                }
+              }
             }
         }
         
@@ -115,6 +201,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         
         return cell
     }
+  
     
     func hexStringToUIColor (hex:String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
