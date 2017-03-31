@@ -94,13 +94,6 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
               }
             }
           }
-          /*
-            if productButton != 7 && shadeButton != 7
-            {
-                if productType! == productButton && shadeType! == shadeButton && Float(selectedValue) >= priceValue!{
-                    self.tempDetaildata.append(item as! NSDictionary)
-                }
-            }*/
         }
         self.collectionView.reloadData()
     }
