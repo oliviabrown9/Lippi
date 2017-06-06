@@ -15,7 +15,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     var tempDetaildata: [NSDictionary] = [NSDictionary]()
     var detaildata: NSArray = []
     var priceArray: [Float] = []
-  
+    
   
   @IBOutlet weak var collectionViewWidth: NSLayoutConstraint!
   
@@ -101,6 +101,7 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         self.getData()
+        
         tempDetaildata.shuffle()
         self.automaticallyAdjustsScrollViewInsets = false
         
@@ -128,8 +129,8 @@ class ShadeViewController: UIViewController, UICollectionViewDelegate, UICollect
         
         for (item) in self.detaildata
         {
-            let productType: Int? = (item as! NSDictionary).object(forKey: "productType") as? Int
-            let shadeType: Int? = (item as! NSDictionary).object(forKey: "shadeType") as? Int
+            let productType: Int! = (item as! NSDictionary).object(forKey: "productType") as! Int
+            let shadeType: Int! = (item as! NSDictionary).object(forKey: "shadeType") as! Int
             
             if productButton != 7 && shadeButton != 7
             {
